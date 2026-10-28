@@ -7,6 +7,25 @@ export const MAX_ASSET_BYTES = 25 * 1024 * 1024;
 // Leave room for Next's HTML, JavaScript, CSS, and navigation payloads.
 export const MAX_DATA_FILES = 18000;
 const repositoryRoot = fileURLToPath(new URL('../', import.meta.url));
+const RUNTIME_PATH_FIELDS = new Set(['source_image_path', 'source_image', 'output_folder']);
+
+/** Redact machine paths only in runtime provenance; retain original bytes otherwise. */
+export function redactRuntimeProvenance(text, datasetId) {
+  const document = JSON.parse(text);
+  let changed = false;
+  function visit(value) {
+    if (!value || typeof value !== 'object') return;
+    for (const [key, child] of Object.entries(value)) {
+      if (RUNTIME_PATH_FIELDS.has(key) && typeof child === 'string'
+        && (path.win32.isAbsolute(child) || path.posix.isAbsolute(child))) {
+        value[key] = key === 'output_folder' ? datasetId : path.posix.basename(child.replaceAll('\\', '/')) || datasetId;
+        changed = true;
+      } else if (child && typeof child === 'object') visit(child);
+    }
+  }
+  visit(document);
+  return changed ? JSON.stringify(document) : text;
+}
 
 function safePart(value) {
   return typeof value === 'string' && Boolean(value) && !value.startsWith('.')
@@ -130,6 +149,14 @@ export async function writeExport(plan, root = repositoryRoot) {
     const destination = path.join(publicData, ...asset.relative.split('/'));
     if (!inside(publicData, destination)) throw new Error('Invalid generated asset path.');
     await fs.mkdir(path.dirname(destination), { recursive: true });
+    if (/\.json$/i.test(asset.relative)) {
+      const original = await fs.readFile(asset.source, 'utf8');
+      const published = redactRuntimeProvenance(original, asset.relative.split('/')[0]);
+      if (published !== original) {
+        await fs.writeFile(destination, published);
+        continue;
+      }
+    }
     await fs.copyFile(asset.source, destination);
   }
   await fs.writeFile(path.join(generated, 'catalog.json'), JSON.stringify(plan.datasets));

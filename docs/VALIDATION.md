@@ -3,6 +3,7 @@
 The release was checked without downloading/installing Node, npm packages, browsers or AI models. Existing development dependencies were temporarily reused, then detached from this source folder.
 
 - 65 frontend tests passed, including dataset access/export and offline Windows/macOS installer planning and path-safety tests.
+- After final publication hardening, all 9 exporter tests passed, including two additional regressions for provenance-path redaction and byte-for-byte preservation of safe JSON. The checked bundled data was unchanged, so the existing deployment artifact remains valid.
 - TypeScript passed. Full ESLint completed with no errors and 18 existing warnings.
 - Local and static production builds passed using Next's webpack builder. The temporary dependency junction cannot be used by Turbopack, so the default Turbopack build is left for normal installations and the prepared Linux CI workflow.
 - The static build includes 18 routes, covering all 11 bundled datasets. Export checks validate file inventories, safe paths, private-file exclusions and Cloudflare asset limits.
