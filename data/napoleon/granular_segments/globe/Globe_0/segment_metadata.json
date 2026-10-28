@@ -1,0 +1,24 @@
+{
+  "extracts": [
+    {
+      "name": "Shell_0",
+      "bbox": [
+        0,
+        0,
+        104,
+        107
+      ],
+      "bbox_position": [
+        52.0,
+        53.5
+      ],
+      "bbox_size": [
+        104,
+        107
+      ],
+      "group": "Shell"
+    }
+  ],
+  "parent_name": "Globe_0",
+  "parent_group": "globe"
+}

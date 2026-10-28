@@ -1,0 +1,72 @@
+.container { container: rating-visuals / inline-size; min-width: 0; }
+.layout { display: grid; grid-template-columns: minmax(220px, .8fr) minmax(0, 1.8fr); align-items: start; gap: 28px; }
+.layout[data-profile="false"] { grid-template-columns: minmax(0, 1fr); }
+.profile, .gaugesSection { min-width: 0; }
+.chartHeader { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 14px; min-height: 36px; margin-bottom: 12px; }
+.chartHeader h3 { margin: 0; font-size: 16px; font-weight: 600; color: #edf4ef; }
+.chartHeader > span { color: #91a69a; font-size: 12px; }
+.chartModes { display: flex; align-items: center; gap: 4px; }
+.chartModes button { padding: 8px 9px; border: 0; border-bottom: 1px solid transparent; background: transparent; color: #a6b8ac; font: inherit; font-size: 12px; cursor: pointer; }
+.chartModes button[aria-pressed="true"] { color: var(--color-accent); border-bottom-color: currentColor; }
+.chartModes button:disabled { opacity: .4; cursor: default; }
+.profileChart > svg { display: block; width: 100%; height: 300px; }
+.chartGrid { stroke: #405448; stroke-width: .7; fill: none; }
+.chartTick { fill: #9aad9f; font-size: 11px; }
+.profileSector { cursor: pointer; outline: none; }
+.profileSector:focus-visible .sectorTrack { stroke: #fff; stroke-width: 2; }
+.sectorTrack { fill: #18261e; stroke: #3b5042; stroke-width: .8; }
+.sectorFill { opacity: .85; stroke: #afc0b4; stroke-width: .8; pointer-events: none; }
+.profileSector[data-active="true"] .sectorTrack { stroke: var(--color-accent); stroke-width: 2; }
+.profileSector[data-active="true"] .sectorFill { opacity: 1; stroke: var(--color-accent); stroke-width: 2; }
+.sectorUnknown { fill: none; stroke: #819185; stroke-dasharray: 3 4; pointer-events: none; }
+.axisNumber { fill: #d4e2d8; font-size: 15px; text-anchor: middle; dominant-baseline: middle; font-weight: 600; }
+.radarFill { fill: #bdccc01a; stroke: none; pointer-events: none; }
+.radarLine { stroke: #bdcec2; stroke-width: 1.6; pointer-events: none; }
+.radarPoint { fill: var(--chart-color); stroke: #effff3; stroke-width: .8; }
+.radarPoint[data-unknown="true"] { fill: #18241c; stroke: #91a197; stroke-dasharray: 2 2; }
+.profileSector[data-active="true"] .radarPoint, .profileSector:focus-visible .radarPoint { stroke: var(--color-accent); stroke-width: 3; }
+.chartEmpty { color: #a2b5a8; font-size: 13px; }
+.gaugeGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 0 24px; }
+.ratingEntry { min-width: 0; border-bottom: 1px solid #34463b; }
+.gauge { display: grid; grid-template-columns: 20px 76px minmax(0, 1fr) 14px; align-items: center; gap: 10px; width: 100%; min-height: 102px; padding: 12px 4px; border: 0; background: transparent; color: #d5e6da; text-align: left; font: inherit; cursor: pointer; }
+.gauge:hover, .gauge[data-active="true"] { background: #1b271f; }
+.gauge[data-active="true"] .gaugeFill { stroke: var(--color-accent); }
+.gauge[data-active="true"] .criterionNumber { color: var(--color-accent); }
+.criterionNumber { color: #aebfb3; font-size: 13px; font-variant-numeric: tabular-nums; }
+.gaugeSvg { display: block; width: 76px; height: 76px; }
+.gaugeTrack { stroke: #32463a; stroke-width: 5; fill: none; }
+.gaugeFill { stroke: var(--chart-color); stroke-width: 5; stroke-linecap: round; fill: none; }
+.gaugeNumber { fill: #f0f6f2; font-size: 21px; font-weight: 600; text-anchor: middle; dominant-baseline: middle; font-variant-numeric: tabular-nums; }
+.gaugeText { display: flex; flex-direction: column; align-items: start; gap: 9px; min-width: 0; }
+.gaugeLabel { font-size: 13px; line-height: 1.45; color: #e0eae3; overflow-wrap: anywhere; }
+.gaugeValue { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; color: #91a79a; font-size: 12px; line-height: 1.4; }
+.gaugeValue strong { font-size: 15px; color: #dce7df; font-weight: 500; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.categoryValue { display: grid; place-items: center; width: 76px; min-height: 76px; color: var(--chart-color); }
+.categoryValue[data-unknown="true"] { color: #8a9b8e; }
+.categoryMark { font-size: 28px; }
+.chevron { color: #9cb4a4; }
+.gauge[data-selected="true"] .chevron { transform: rotate(180deg); color: var(--color-accent); }
+.evidence { padding: 12px 14px 16px; border-top: 1px dashed #3c5343; background: #17231b; }
+.evidence header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.evidence h4 { margin: 0; color: #cfddd3; font-size: 12px; font-weight: 600; }
+.evidence button { display: grid; place-items: center; width: 32px; height: 32px; padding: 0; border: 0; background: transparent; color: #b7cabe; font-size: 22px; cursor: pointer; }
+.evidence p { margin: 6px 0 0; color: #bdcfc2; font-size: 13px; line-height: 1.7; white-space: pre-line; overflow-wrap: anywhere; }
+.scaleMeaning { display: flex; flex-direction: column; gap: 8px; margin-top: 16px; color: #95ad9e; font-size: 12px; line-height: 1.5; }
+.scaleMeaning span { display: flex; align-items: baseline; gap: 10px; overflow-wrap: anywhere; }
+.scaleMeaning strong { min-width: 22px; color: #c3d3c8; font-weight: 500; }
+.container button:focus-visible { outline: 2px solid var(--color-accent); outline-offset: -2px; }
+@container rating-visuals (max-width: 1040px) {
+  .layout { grid-template-columns: minmax(220px, .85fr) minmax(0, 1.2fr); gap: 24px; }
+  .gaugeGrid { grid-template-columns: minmax(0, 1fr); }
+  .gauge { min-height: 92px; padding-block: 8px; }
+}
+@container rating-visuals (max-width: 580px) {
+  .layout { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+  .profileChart > svg { height: 260px; }
+  .gaugeGrid { grid-template-columns: minmax(0, 1fr); }
+}
+@container rating-visuals (max-width: 350px) {
+  .gauge { grid-template-columns: 16px 64px minmax(0, 1fr) 12px; gap: 8px; }
+  .gaugeSvg, .categoryValue { width: 64px; height: 64px; min-height: 64px; }
+  .chartHeader > span { font-size: 11px; }
+}

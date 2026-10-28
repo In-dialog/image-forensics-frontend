@@ -1,0 +1,96 @@
+{
+  "extracts": [
+    {
+      "name": "black balaclava_0",
+      "bbox": [
+        34,
+        5,
+        77,
+        79
+      ],
+      "bbox_position": [
+        55.5,
+        42.0
+      ],
+      "bbox_size": [
+        43,
+        74
+      ],
+      "group": "people"
+    },
+    {
+      "name": "tactical vest_0",
+      "bbox": [
+        19,
+        51,
+        78,
+        125
+      ],
+      "bbox_position": [
+        48.5,
+        88.0
+      ],
+      "bbox_size": [
+        59,
+        74
+      ],
+      "group": "people"
+    },
+    {
+      "name": "black long sleeve shirt_0",
+      "bbox": [
+        7,
+        51,
+        133,
+        125
+      ],
+      "bbox_position": [
+        70.0,
+        88.0
+      ],
+      "bbox_size": [
+        126,
+        74
+      ],
+      "group": "people"
+    },
+    {
+      "name": "black pants_0",
+      "bbox": [
+        19,
+        124,
+        98,
+        235
+      ],
+      "bbox_position": [
+        58.5,
+        179.5
+      ],
+      "bbox_size": [
+        79,
+        111
+      ],
+      "group": "people"
+    },
+    {
+      "name": "raised right arm_0",
+      "bbox": [
+        76,
+        5,
+        191,
+        79
+      ],
+      "bbox_position": [
+        133.5,
+        42.0
+      ],
+      "bbox_size": [
+        115,
+        74
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "person_2",
+  "parent_group": "people"
+}

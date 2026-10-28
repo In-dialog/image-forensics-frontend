@@ -1,0 +1,60 @@
+{
+  "extracts": [
+    {
+      "name": "Microphone Base_0",
+      "bbox": [
+        0,
+        177,
+        69,
+        188
+      ],
+      "bbox_position": [
+        34.5,
+        182.5
+      ],
+      "bbox_size": [
+        69,
+        11
+      ],
+      "group": "Microphone Base"
+    },
+    {
+      "name": "Microphone Body_0",
+      "bbox": [
+        0,
+        18,
+        69,
+        178
+      ],
+      "bbox_position": [
+        34.5,
+        98.0
+      ],
+      "bbox_size": [
+        69,
+        160
+      ],
+      "group": "Microphone Body"
+    },
+    {
+      "name": "Microphone Grille_0",
+      "bbox": [
+        0,
+        0,
+        69,
+        19
+      ],
+      "bbox_position": [
+        34.5,
+        9.5
+      ],
+      "bbox_size": [
+        69,
+        19
+      ],
+      "group": "Microphone Grille"
+    }
+  ],
+  "parent_name": "Microphone_0",
+  "parent_group": "microphone"
+}

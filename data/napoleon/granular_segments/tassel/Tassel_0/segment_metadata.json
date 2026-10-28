@@ -1,0 +1,60 @@
+{
+  "extracts": [
+    {
+      "name": "Central Figure_0",
+      "bbox": [
+        0,
+        48,
+        52,
+        110
+      ],
+      "bbox_position": [
+        26.0,
+        79.0
+      ],
+      "bbox_size": [
+        52,
+        62
+      ],
+      "group": "Central Figure"
+    },
+    {
+      "name": "Crown Top_0",
+      "bbox": [
+        0,
+        0,
+        52,
+        34
+      ],
+      "bbox_position": [
+        26.0,
+        17.0
+      ],
+      "bbox_size": [
+        52,
+        34
+      ],
+      "group": "Crown Top"
+    },
+    {
+      "name": "Ornate Base_0",
+      "bbox": [
+        0,
+        33,
+        52,
+        135
+      ],
+      "bbox_position": [
+        26.0,
+        84.0
+      ],
+      "bbox_size": [
+        52,
+        102
+      ],
+      "group": "Ornate Base"
+    }
+  ],
+  "parent_name": "Tassel_0",
+  "parent_group": "tassel"
+}

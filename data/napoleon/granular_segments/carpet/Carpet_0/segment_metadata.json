@@ -1,0 +1,132 @@
+{
+  "extracts": [
+    {
+      "name": "Curved Decorative Molding_0",
+      "bbox": [
+        0,
+        248,
+        1166,
+        510
+      ],
+      "bbox_position": [
+        583.0,
+        379.0
+      ],
+      "bbox_size": [
+        1166,
+        262
+      ],
+      "group": "Curved Decorative Molding"
+    },
+    {
+      "name": "Decorative Circular Medallion_0",
+      "bbox": [
+        532,
+        151,
+        626,
+        215
+      ],
+      "bbox_position": [
+        579.0,
+        183.0
+      ],
+      "bbox_size": [
+        94,
+        64
+      ],
+      "group": "Decorative Circular Medallion"
+    },
+    {
+      "name": "Golden Ornate Scrollwork_0",
+      "bbox": [
+        354,
+        38,
+        1046,
+        251
+      ],
+      "bbox_position": [
+        700.0,
+        144.5
+      ],
+      "bbox_size": [
+        692,
+        213
+      ],
+      "group": "Golden Ornate Scrollwork"
+    },
+    {
+      "name": "Inscription \"Anno.1800\"_0",
+      "bbox": [
+        1025,
+        363,
+        1166,
+        410
+      ],
+      "bbox_position": [
+        1095.5,
+        386.5
+      ],
+      "bbox_size": [
+        141,
+        47
+      ],
+      "group": "Inscription \"Anno.1800\""
+    },
+    {
+      "name": "Inscription \"Ingres.P.\"_0",
+      "bbox": [
+        0,
+        363,
+        146,
+        410
+      ],
+      "bbox_position": [
+        73.0,
+        386.5
+      ],
+      "bbox_size": [
+        146,
+        47
+      ],
+      "group": "Inscription \"Ingres.P.\""
+    },
+    {
+      "name": "Red And Green Patterned Border_0",
+      "bbox": [
+        0,
+        59,
+        263,
+        306
+      ],
+      "bbox_position": [
+        131.5,
+        182.5
+      ],
+      "bbox_size": [
+        263,
+        247
+      ],
+      "group": "Red And Green Patterned Border"
+    },
+    {
+      "name": "Sculpted Hand Motif_0",
+      "bbox": [
+        121,
+        168,
+        248,
+        259
+      ],
+      "bbox_position": [
+        184.5,
+        213.5
+      ],
+      "bbox_size": [
+        127,
+        91
+      ],
+      "group": "Sculpted Hand Motif"
+    }
+  ],
+  "parent_name": "Carpet_0",
+  "parent_group": "carpet"
+}

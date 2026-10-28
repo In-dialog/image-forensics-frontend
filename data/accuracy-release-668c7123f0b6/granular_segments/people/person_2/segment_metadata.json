@@ -1,0 +1,124 @@
+{
+  "extracts": [
+    {
+      "name": "black balaclava_0",
+      "label": "black balaclava",
+      "category": "people",
+      "sam_score": 0.9431696534156799,
+      "bbox": [
+        34,
+        10,
+        84,
+        80
+      ],
+      "bbox_position": [
+        59.0,
+        45.0
+      ],
+      "bbox_size": [
+        50,
+        70
+      ],
+      "group": "people",
+      "bbox_global": [
+        34,
+        246,
+        84,
+        316
+      ]
+    },
+    {
+      "name": "camouflage pants_0",
+      "label": "camouflage pants",
+      "category": "people",
+      "sam_score": 0.9302207827568054,
+      "bbox": [
+        97,
+        185,
+        174,
+        296
+      ],
+      "bbox_position": [
+        135.5,
+        240.5
+      ],
+      "bbox_size": [
+        77,
+        111
+      ],
+      "group": "people",
+      "bbox_global": [
+        97,
+        421,
+        174,
+        532
+      ]
+    },
+    {
+      "name": "tan tactical vest with straps and pockets_0",
+      "label": "tan tactical vest with straps and pockets",
+      "category": "people",
+      "sam_score": 0.9466016292572021,
+      "bbox": [
+        19,
+        49,
+        99,
+        156
+      ],
+      "bbox_position": [
+        59.0,
+        102.5
+      ],
+      "bbox_size": [
+        80,
+        107
+      ],
+      "group": "people",
+      "bbox_global": [
+        19,
+        285,
+        99,
+        392
+      ]
+    },
+    {
+      "name": "white patterned headscarf_0",
+      "label": "white patterned headscarf",
+      "category": "people",
+      "sam_score": 0.9143459796905518,
+      "bbox": [
+        124,
+        49,
+        187,
+        115
+      ],
+      "bbox_position": [
+        155.5,
+        82.0
+      ],
+      "bbox_size": [
+        63,
+        66
+      ],
+      "group": "people",
+      "bbox_global": [
+        124,
+        285,
+        187,
+        351
+      ]
+    }
+  ],
+  "parent_name": "person_2",
+  "parent_group": "people",
+  "coordinate_space": "parent_crop",
+  "source_image": "granular_segments/people/person_2/source.png",
+  "image_width": 198,
+  "image_height": 296,
+  "parent_bbox": [
+    0,
+    236,
+    198,
+    532
+  ]
+}

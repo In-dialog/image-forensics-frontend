@@ -1,0 +1,333 @@
+{
+  "schema_version": 2,
+  "style": "bullets",
+  "questions": [
+    {
+      "label": "Observations",
+      "instruction": "Describe the target's literal form, orientation, material or graphic carrier, colors and resolved parts. Describe what is visible without introducing a cause, intended use or symbolic identity.",
+      "id": "question_1"
+    },
+    {
+      "label": "Signs and readable text",
+      "instruction": "Describe separate pictures, emblems, garment graphics, marks and legible writing. State the visual form and carrier of each. Transcribe only readable characters and describe unreadable motifs without inventing their text or identity.",
+      "id": "question_2"
+    },
+    {
+      "label": "Role and relationships",
+      "instruction": "Describe visible contact, attachment, pose, placement and effects involving the target, including connections beyond its box. Then state any supported use or action as an interpretation; leave unsupported action or intent undetermined.",
+      "id": "question_3"
+    },
+    {
+      "label": "Supported associations",
+      "instruction": "What plausible functional or semiotic interpretations are supported by the observed features and relationships? Tie each reading to evidence and distinguish it from literal observation. When use or meaning is ambiguous, mention relevant alternatives without choosing an unsupported purpose.",
+      "id": "question_4"
+    },
+    {
+      "label": "Ambiguities",
+      "instruction": "Which visible details are too small, obscured or context-dependent to identify or interpret reliably? Name the uncertainty and avoid resolving it by guessing.",
+      "id": "question_5"
+    }
+  ],
+  "items": [
+    {
+      "name": "person_0",
+      "label": "person",
+      "image_path": "segments/person_0.webp",
+      "group": "people",
+      "bbox": [
+        237,
+        262,
+        385,
+        637
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a cropped image of a blonde woman with long hair. She is wearing a white t-shirt with black trim on the sleeves and neckline. The shirt features a graphic print: the word 'FRANCE' in bold, black, uppercase letters above a vertical tricolor stripe (blue, white, red) resembling the French flag. She is standing, facing slightly to her right, with her right hand raised to cover her right eye and part of her nose. Her left arm is down at her side. The background shows blurred figures in a chaotic scene with debris on the ground and flags visible in the distance.",
+        "question_2": "The t-shirt has legible text: 'FRANCE' in black uppercase letters. Below it is a graphic print of a vertical tricolor stripe (blue, white, red). No other readable text or emblems are visible on the target itself. The background contains partially visible flags — one with red, white, and green stripes, and another with black, white, and green stripes with a crescent and star — but these are not part of the target's carrier.",
+        "question_3": "The target is positioned in the foreground, centered within the crop. She is standing on ground littered with debris. Behind her, out-of-focus figures are visible, including people in tactical gear and others wearing shirts with flags. Her hand covers her face, indicating a physical interaction with her own body. There is no visible attachment or contact with objects beyond her hand covering her eye. The target's pose suggests she is reacting to something in the scene, but no specific action or cause is supported by visible evidence.",
+        "question_4": "The t-shirt’s graphic and text suggest a connection to France, as 'FRANCE' is explicitly printed alongside the national flag colors. The woman’s pose — covering her eye — may indicate distress, crying, or shielding herself from something in the scene. These interpretations are plausible based on visible features but not definitively supported by the image. No other semiotic associations (e.g., political affiliation) are supported without additional context.",
+        "question_5": "The background figures and flags are too blurred and distant to identify specific details or their relationships to the target. The exact nature of the debris or its source is not discernible. The woman’s facial expression is obscured by her hand, making it impossible to determine emotion definitively. No text or symbols on clothing beyond 'FRANCE' and the tricolor are visible in sufficient detail for reliable interpretation."
+      }
+    },
+    {
+      "name": "person_1",
+      "label": "person",
+      "image_path": "segments/person_1.webp",
+      "group": "people",
+      "bbox": [
+        70,
+        276,
+        290,
+        582
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a cropped image of a person in a dynamic pose with arms spread wide. The person wears a camouflage-patterned uniform, a tactical vest with multiple pouches, and a white-and-black patterned head covering (bandana or keffiyeh style) over the face. The person’s legs are apart, knees slightly bent, suggesting an aggressive stance. The background shows debris, other people, and two large flags: one Palestinian flag (black, white, green stripes with red triangle) and one with a crescent and star on a black, white, and green field. The Eiffel Tower is visible in the distant background.",
+        "question_2": "The person’s tactical vest has no legible text or emblems. The head covering is patterned but not clearly branded. The Palestinian flag (black, white, green stripes with red triangle) is visible behind the person. The other flag (black, white, green with crescent and star) is also visible. A woman in front of the target wears a white t-shirt with the word 'FRANCE' and the French tricolor (blue, white, red vertical stripes) printed on it. No other legible text is visible.",
+        "question_3": "The target is positioned in front of a group of people who are yelling or gesturing aggressively. The person’s arms are spread wide, facing outward, suggesting confrontation or intimidation. The person’s body is angled slightly toward the right side of the frame. Debris and discarded bottles are on the ground around the target. The person is partially obscured by other individuals in the background, including a woman in a 'FRANCE' t-shirt who is crying or shielding her face. The Eiffel Tower is visible behind the group.",
+        "question_4": "The person’s posture and clothing suggest an aggressive or militant role. The head covering obscures facial features, which may imply anonymity or concealment. The presence of flags suggests political or ideological affiliation. The stance may indicate a confrontational or performative action. However, without context, these interpretations are speculative. The scene may depict a protest or demonstration, but the exact nature and intent remain ambiguous.",
+        "question_5": "The head covering’s pattern is too small to resolve specific details. The text on the tactical vest is not legible. The flags’ designs are visible but their symbolic meaning cannot be determined from this image alone. The person’s facial expression is obscured by the head covering, making it impossible to determine emotion or intent. The exact nature of the event (protest, demonstration, staged photo) is context-dependent and cannot be determined from the image alone."
+      }
+    },
+    {
+      "name": "person_2",
+      "label": "person",
+      "image_path": "segments/person_2.webp",
+      "group": "people",
+      "bbox": [
+        0,
+        236,
+        198,
+        532
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a cropped image of two masked individuals. One wears a black balaclava and tactical vest over camouflage pants, arms raised. The other wears a white keffiyeh-style headscarf and a tactical vest over dark clothing, arms also raised. Both stand on debris-strewn ground. The background shows the Eiffel Tower and flags (Palestinian and another with crescent/moon).",
+        "question_2": "The white t-shirt worn by the individual on the right has a graphic of the French flag (tricolor) and the word 'FRANCE' printed in black capital letters across the chest. The other person's clothing is patterned or covered by gear, with no legible text visible.",
+        "question_3": "The target individuals are positioned side-by-side, facing forward with arms raised. They are visually connected to the Eiffel Tower and flags behind them. Their poses suggest active engagement with the scene, possibly as participants in an event. Debris is scattered around their feet, suggesting a chaotic or protest-like environment.",
+        "question_4": "The individuals' attire (tactical vests, balaclava, keffiyeh) and raised arms may imply participation in a protest, demonstration, or conflict-related activity. The presence of flags and the Eiffel Tower suggests an outdoor public event in Paris. However, no definitive function or intent is supported by visible evidence alone.",
+        "question_5": "The specific materials of clothing (e.g., fabric type) are not resolvable. Facial expressions and exact hand positions are obscured by masks and cropping. The context of the flags' symbolism is ambiguous without additional information. The 'FRANCE' text is legible, but its use or meaning is not supported beyond identification."
+      }
+    },
+    {
+      "name": "person_3",
+      "label": "person",
+      "image_path": "segments/person_3.webp",
+      "group": "people",
+      "bbox": [
+        358,
+        236,
+        586,
+        591
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a cropped image of a Black man with short hair, wearing a white t-shirt with a horizontal tricolor stripe (red, white, green) across the chest, blue jeans, and white sneakers. He is standing with arms outstretched, mouth open as if shouting or yelling, and his body is angled slightly forward. The background shows other people in a chaotic scene with debris on the ground and two flags visible: a Palestinian flag (black, white, green stripes with a red triangle) and a flag with a black crescent and star on a white field over green. The target is positioned centrally within the frame.",
+        "question_2": "The t-shirt has a graphic print: a horizontal tricolor stripe (red, white, green) across the chest. No other readable text or emblems are visible on the shirt or elsewhere in the target image. The flag to the left of the target is the Palestinian flag (black, white, green stripes with a red triangle). The flag to the right has a black crescent and star on a white field over green. Both flags are visible in the background.",
+        "question_3": "The man’s arms are extended outward, suggesting an aggressive or celebratory pose. He is standing on ground littered with debris, including plastic bottles and bags. His body is positioned between other people in the scene, who appear to be engaged in a chaotic activity. The target is directly adjacent to a blonde woman in a white t-shirt with a French flag design (blue, white, red vertical stripes) and the word 'FRANCE' visible on her shirt. Both individuals are part of the same group of people in front of the Eiffel Tower.",
+        "question_4": "The tricolor stripe on the t-shirt resembles the colors of the Palestinian flag (red, white, green), which is also visible in the background. The man’s pose and expression suggest he is actively participating in a public gathering or protest. The presence of multiple flags and debris implies an event with political or social significance, though no specific use or meaning can be determined without additional context.",
+        "question_5": "The exact text on the t-shirt is not fully legible due to resolution limits, but it is clearly a horizontal tricolor stripe. The woman’s shirt has readable text ('FRANCE'), but her facial expression and posture are ambiguous in terms of intent. The flags’ specific meanings or political affiliations cannot be determined solely from visual observation without external context."
+      }
+    },
+    {
+      "name": "flag_0",
+      "label": "flag",
+      "image_path": "segments/flag_0.webp",
+      "group": "flag",
+      "bbox": [
+        0,
+        35,
+        180,
+        267
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a close-up of a flag. It has three horizontal stripes: black on top, white in the middle, and green on the bottom. A red triangle is positioned at the hoist (left side). The flag appears to be made of fabric and is attached to a pole, which is partially visible. The flag is waving slightly, suggesting movement in the air.",
+        "question_2": "No legible text is visible on the target itself. The flag’s design consists of solid colors without printed or embroidered text. The carrier is a fabric flag attached to a pole.",
+        "question_3": "The flag is positioned at the left edge of the image, attached to a pole held by an individual who is partially visible. It is situated in front of the Eiffel Tower and near other people and flags. The flag’s orientation is such that the hoist (left side) faces the viewer, and the fly (right side) extends toward the background. There are no visible attachments or effects beyond its physical presence.",
+        "question_4": "The flag’s design matches the Palestinian flag, which is widely recognized as a symbol of Palestinian nationalism. However, this identification is based on common knowledge and not directly observable from the image alone. The flag’s placement in front of the Eiffel Tower suggests it is part of a public gathering or demonstration, but no specific function or action is supported by visible evidence.",
+        "question_5": "The flag’s pole is partially obscured, making its full structure and attachment point unclear. The background elements, such as the Eiffel Tower and other people, are not detailed enough to provide context for the flag’s use or significance. The resolution does not allow for a clear view of any text or symbols beyond the flag’s design."
+      }
+    },
+    {
+      "name": "flag_1",
+      "label": "flag",
+      "image_path": "segments/flag_1.webp",
+      "group": "flag",
+      "bbox": [
+        410,
+        14,
+        616,
+        203
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a flag with three horizontal stripes: black on top, white in the middle, and green on the bottom. In the center of the white stripe is a black crescent moon and a five-pointed star. The flag appears to be made of fabric and is attached to a pole, waving slightly. It is positioned against a background of trees and sky, with the Eiffel Tower partially visible behind it. The flag's orientation is upright, with the top edge near the top of the frame and the bottom edge near the bottom.",
+        "question_2": "No readable text or legible writing is present on the target flag itself. The only visible text is on a garment worn by a person in the Scene image: 'FRANCE' printed in black capital letters on a white t-shirt with blue, white, and red vertical stripes. This text is not part of the target.",
+        "question_3": "The target flag is physically attached to a pole and held upright. It is positioned within a crowd of people near the Eiffel Tower. The flag’s position partially obscures the background view of the tower. No direct physical contact or attachment is visible between the flag and any other object except its pole. Its placement suggests it is being displayed by someone in the crowd, though no specific person is interacting with it directly.",
+        "question_4": "The target flag’s design — black, white, green stripes with a crescent moon and star — is visually consistent with the flag of the State of Palestine (which has black, white, green stripes with a red triangle containing a star and crescent), but lacks the red triangle. It also resembles the flag of the unrecognized state of Western Sahara, which features similar colors and symbols. However, without additional context or markings, its specific identity cannot be confirmed from the image alone. Its use in the scene appears to be as a symbolic display within a protest or demonstration setting, but this is an interpretation based on contextual placement rather than direct evidence.",
+        "question_5": "The flag’s design is clearly visible and identifiable. However, the exact nature of its material or pole attachment cannot be confirmed beyond visual observation. The context of the crowd and the Eiffel Tower does not provide definitive information about the flag’s intended use or meaning. The identity of the flag remains ambiguous without additional cultural or historical context."
+      }
+    },
+    {
+      "name": "t-shirt with flag design_0",
+      "label": "t-shirt with flag design",
+      "image_path": "segments/t-shirt with flag design_0.webp",
+      "group": "t-shirt with flag design",
+      "bbox": [
+        240,
+        431,
+        423,
+        611
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a cropped image of a woman with long blonde hair. She is wearing a white t-shirt with black trim on the sleeves and neckline. The shirt has a graphic print: the word 'FRANCE' in bold black capital letters above a vertical tricolor stripe (blue, white, red) on the right side. Her left hand is raised to her face, covering her eye area. She is standing on ground littered with trash, including plastic bottles and bags. Behind her, other people are visible in a chaotic scene.",
+        "question_2": "The t-shirt has legible text: 'FRANCE' in black uppercase letters. The graphic includes the French national flag's colors: blue, white, and red arranged vertically as a stripe. No other readable text or emblems are visible on the target itself.",
+        "question_3": "The woman is standing upright with her left hand covering her face. She is positioned in front of a group of people who appear to be shouting or gesturing aggressively. Her body is oriented toward the viewer, and she is partially obscured by other individuals in the background. The ground beneath her has visible trash, suggesting an outdoor public space.",
+        "question_4": "The t-shirt's graphic and text suggest an association with France, likely as a national identifier or expression of support for French identity or culture. The presence of the flag colors and the word 'FRANCE' supports this interpretation. However, without additional context, it cannot be determined whether she is expressing patriotism, protest, or another intent.",
+        "question_5": "The exact nature of her facial expression is ambiguous because her hand covers her eye area, obscuring her face. The full context of the scene (e.g., the flags, the people’s actions) is not fully visible in the target crop and cannot be used to resolve ambiguity about her intent or emotional state."
+      }
+    },
+    {
+      "name": "green bottle_0",
+      "label": "green bottle",
+      "image_path": "segments/green bottle_0.webp",
+      "group": "green bottle",
+      "bbox": [
+        435,
+        544,
+        468,
+        637
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a green glass bottle with a white label wrapped around its midsection. The bottle has a rounded shoulder, a narrow neck, and a slightly tapered base. It is upright and appears to be resting on a surface covered in debris. Its surface reflects light, indicating a glossy finish.",
+        "question_2": "The white label on the bottle contains illegible text or graphics. No other readable text, emblems, or marks are visible on the bottle or its immediate surroundings.",
+        "question_3": "The bottle is placed on the ground among scattered trash and debris. It is positioned near the lower legs of people in the scene, but there are no visible attachments or direct contacts beyond its placement. The bottle’s upright orientation suggests it was not recently disturbed or knocked over.",
+        "question_4": "Plausible interpretations: The bottle may be a discarded beverage container, possibly from an event or gathering. Its presence among trash supports this functional interpretation. No specific symbolic or contextual meaning is supported by the visible features alone.",
+        "question_5": "The text on the white label is too small and blurry to read. The exact material of the bottle (glass vs. plastic) is not definitively distinguishable due to lighting and image resolution. The context of its placement does not provide enough detail to resolve its specific use or origin beyond being a discarded item."
+      }
+    },
+    {
+      "name": "tower structure_0",
+      "label": "tower structure",
+      "image_path": "segments/tower structure_0.webp",
+      "group": "tower structure",
+      "bbox": [
+        187,
+        0,
+        344,
+        345
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a cropped view of the Eiffel Tower's lower section. It shows the tower’s metal lattice structure, its archway, and part of its upper framework against a clear sky. The tower is upright and centered in the frame. Its material appears to be iron or steel, with visible rivets and beams. Colors are metallic gray and blue sky background. No motion or lighting effects are evident.",
+        "question_2": "No readable text is visible on the target itself. The Eiffel Tower’s signage or plaques are not in view. Any text on clothing or flags is outside the target's boundaries. The tower’s graphic carrier is its physical structure, not a printed motif.",
+        "question_3": "The target is visually attached to the scene and nearby images by shared composition. In the scene, it is framed by people holding flags (Palestinian and Sudanese) and wearing shirts with national symbols. In the nearby image, the same tower is visible behind a woman in a 'FRANCE' shirt. No physical contact or attachment is depicted between the target and its surroundings beyond shared visual space. The tower’s role is static architectural context.",
+        "question_4": "Plausible interpretations: The Eiffel Tower serves as a recognizable landmark indicating location (Paris, France). Its presence supports the contextual framing of the protest scene as occurring in Paris. No symbolic or functional meaning beyond geographic reference is supported by visible features. It does not indicate political affiliation, belief, or event type.",
+        "question_5": "The resolution is sufficient to identify the tower’s structure and orientation. No details are obscured by shadows or clutter. The scale of the tower relative to people is ambiguous without a known reference size, but its proportions are consistent with real-world knowledge. Uncertainty remains only about the exact viewpoint angle or camera distance, which cannot be resolved from visible evidence."
+      }
+    },
+    {
+      "name": "Eiffel Tower structure_0",
+      "label": "Eiffel Tower structure",
+      "image_path": "segments/Eiffel Tower structure_0.webp",
+      "group": "Eiffel Tower structure",
+      "bbox": [
+        289,
+        0,
+        377,
+        277
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a cropped, close-up view of the Eiffel Tower's upper structure. It shows intricate iron latticework in a metallic brownish color. The visible parts include a section of the tower’s lattice framework and a portion of its arch-like base. The tower is oriented vertically, with the top edge slightly angled due to perspective. The background is a clear blue sky.",
+        "question_2": "No legible text or readable marks are present within the target image. The visible elements are purely structural and graphical (metallic lattice).",
+        "question_3": "The target is visually detached from its surroundings in the 'Nearby' panel, but it is spatially connected to the full scene by being part of the same Eiffel Tower structure. In the 'Scene' image, the tower stands behind a crowd holding flags. The target’s edges do not show any physical contact with people or objects; it is simply a cropped section of the tower’s architecture. No visible effects (like shadows or reflections) connect it to other elements beyond its structural continuity.",
+        "question_4": "The target's literal form supports its function as an architectural landmark, but no specific functional or semiotic interpretation can be inferred from the cropped view alone. It remains a structural component of the Eiffel Tower without additional context (e.g., lighting, weather, or symbolic placement) to support a deeper meaning.",
+        "question_5": "The visible details are clear and resolvable, with no small or obscured elements that prevent interpretation. The only ambiguity is whether the target’s framing implies a specific symbolic function — but this is unsupported by visual evidence."
+      }
+    },
+    {
+      "name": "green plastic bottle_0",
+      "label": "green plastic bottle",
+      "image_path": "segments/green plastic bottle_0.webp",
+      "group": "green plastic bottle",
+      "bbox": [
+        112,
+        605,
+        164,
+        638
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a green plastic bottle with a blue label wrapped around its midsection. The bottle has a cylindrical shape with a slightly tapered neck. Its surface appears glossy, reflecting light. The blue label has white or light-colored text or graphics that are not legible at this resolution.",
+        "question_2": "The blue label on the bottle contains unreadable text or graphics due to blurriness and low resolution. No other legible text is visible on the target itself.",
+        "question_3": "The bottle lies horizontally on the ground, partially buried in debris including plastic bags and other litter. It is positioned near the feet of a person in the main scene, but no direct contact or attachment is visible between the bottle and any specific object or person. The bottle's placement suggests it was discarded or left behind.",
+        "question_4": "Plausible interpretations: The bottle is trash, indicating littering or environmental neglect. Its presence among other debris supports this. It may also be a prop or artifact in the scene, but no evidence confirms its intended use or symbolic meaning. No political, religious, or cultural identity can be inferred from its appearance.",
+        "question_5": "The text on the blue label is too small and blurred to read accurately. The bottle's orientation and context are clear, but the exact nature of its contents or origin cannot be determined without additional evidence."
+      }
+    },
+    {
+      "name": "white t-shirt with French flag and text_0",
+      "label": "white t-shirt with French flag and text",
+      "image_path": "segments/white t-shirt with French flag and text_0.webp",
+      "group": "white t-shirt with French flag and text",
+      "bbox": [
+        231,
+        426,
+        344,
+        600
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a cropped view of a person's torso wearing a white t-shirt with black trim on the collar and sleeves. The shirt features a graphic print: the word 'FRANCE' in black uppercase letters, positioned above a vertical tricolor stripe (blue, white, red). The person has blonde hair and is holding their right hand over their face, obscuring part of the shirt's graphic. The background shows scattered debris, including plastic bottles, and other people in the scene.",
+        "question_2": "The shirt displays the word 'FRANCE' in black uppercase letters. Below the text is a vertical tricolor stripe (blue, white, red). No other legible text or marks are visible on the shirt or surrounding area.",
+        "question_3": "The target is positioned within a larger scene showing a chaotic gathering with multiple people. The person wearing the shirt is standing in front of others, including individuals in tactical gear and those holding flags. Their hand covers part of their face, suggesting distress or emotion. The shirt’s graphic is visible but partially obscured by the hand's position. No direct attachments or physical interactions beyond the hand covering the face are evident.",
+        "question_4": "The shirt’s graphic with 'FRANCE' and the tricolor (blue, white, red) is a common motif associated with French national identity, often seen on merchandise or apparel. The act of covering the face may imply emotional distress, protest, or self-protection. However, these interpretations are not confirmed by the image alone and remain plausible without explicit evidence.",
+        "question_5": "The exact position of the hand over the face obscures part of the shirt’s graphic, making it difficult to fully assess the design's clarity or any potential symbolic context. The surrounding scene is too cluttered to reliably determine the relationships between the target and other elements beyond what is directly visible."
+      }
+    },
+    {
+      "name": "white t-shirt with red and green stripe_0",
+      "label": "white t-shirt with red and green stripe",
+      "image_path": "segments/white t-shirt with red and green stripe_0.webp",
+      "group": "white t-shirt with red and green stripe",
+      "bbox": [
+        375,
+        292,
+        548,
+        466
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a cropped image of a man wearing a white t-shirt with a horizontal tricolor stripe (red, white, green) across the chest. He wears blue jeans and has dark skin and facial hair. His arms are outstretched, and he appears to be shouting or gesturing. The background shows other people and flags, including the Eiffel Tower.",
+        "question_2": "The t-shirt has a graphic: a horizontal tricolor stripe (red, white, green) across the chest. No legible text is visible on the shirt. The woman in the foreground wears a t-shirt with the word 'FRANCE' and the French flag colors (blue, white, red).",
+        "question_3": "The man is standing in a crowd near the Eiffel Tower. He is positioned behind a blonde woman who is covering her face. His arms are extended outward. The target is framed to isolate him from the surrounding crowd and flags. There are no visible attachments or effects beyond his posture and clothing.",
+        "question_4": "The tricolor stripe on the t-shirt (red, white, green) may suggest a national or political affiliation, but without additional context, it cannot be definitively identified as a specific flag or symbol. The man’s pose and location near the Eiffel Tower suggest he is part of a public gathering or demonstration, but this is not confirmed by visible evidence.",
+        "question_5": "The text on the woman’s shirt is readable ('FRANCE'), but the tricolor stripe on the man’s shirt lacks contextual clues to determine its specific meaning. The exact nature of his action (shouting, gesturing) is ambiguous without audio or additional context. The relationship between the man and the woman is not visually supported beyond their proximity."
+      }
+    },
+    {
+      "name": "black-and-white graphic on white shirt_0",
+      "label": "black-and-white graphic on white shirt",
+      "image_path": "segments/black-and-white graphic on white shirt_0.webp",
+      "group": "black-and-white graphic on white shirt",
+      "bbox": [
+        289,
+        475,
+        406,
+        591
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a cropped image of a woman's white t-shirt with black trim on the sleeves and neckline. The shirt has a graphic print on the chest: the word 'RANCE' in bold, black, uppercase letters above a vertical tricolor stripe (blue, white, red). The shirt is worn by a person with blonde hair, who is covering her face with her hand. The t-shirt is made of fabric and is attached to the wearer's torso. It is oriented horizontally, facing forward.",
+        "question_2": "The graphic on the t-shirt includes the readable text 'RANCE' in black uppercase letters. Below the text is a vertical tricolor stripe (blue, white, red). The text and stripe are printed on the fabric of the t-shirt. No other legible text or emblems are visible within the target crop.",
+        "question_3": "The t-shirt is worn by a person who is standing in a crowd, partially obscured by trash and debris on the ground. The person's hand covers their face, suggesting distress or emotion. The shirt is physically attached to the wearer's body. There are no visible attachments beyond the fabric of the garment. No direct contact with other objects is visible beyond the surrounding environment.",
+        "question_4": "The graphic on the t-shirt — 'RANCE' above a tricolor stripe — is visually similar to the flag of France, which is blue, white, and red. The word 'RANCE' is the last four letters of 'FRANCE', suggesting the shirt may be referencing France or French identity. However, this interpretation is not confirmed by any visible evidence beyond the graphic's resemblance. No other supported associations are evident from the image.",
+        "question_5": "The text 'RANCE' is partially obscured by the person’s hand and does not show the full word 'FRANCE'. The tricolor stripe is clearly visible but its symbolic meaning cannot be confirmed without additional context. The orientation and placement of the shirt on the wearer are observable, but no functional or contextual purpose beyond clothing is evident from the image."
+      }
+    },
+    {
+      "name": "FRANCE_0",
+      "label": "FRANCE",
+      "image_path": "segments/FRANCE_0.webp",
+      "group": "texts",
+      "bbox": [
+        276,
+        489,
+        374,
+        524
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a cropped close-up of a white t-shirt worn by a person. The shirt has black trim on the collar and sleeve edges. It features a graphic print: a vertical tricolor stripe (blue, white, red) on the left side, and the word 'RANCE' in black capital letters on the right side. The t-shirt is made of fabric, appears to be cotton or a similar material, and has a standard crew neck cut. The person wearing it has blonde hair, and their hand is near their face.",
+        "question_2": "The visible text is 'RANCE' in black, uppercase letters on the white t-shirt. The carrier is the garment itself. The tricolor graphic (blue, white, red) is also visible but is not text. The word 'RANCE' is partially obscured by the person's hand and appears to be cut off at the left edge of the crop.",
+        "question_3": "The t-shirt is worn by a person whose face is partially covered by their hand. The shirt is positioned on the torso, centered on the chest. It is attached to the wearer’s body. The target is part of the overall scene where people are gathered in what appears to be a protest or demonstration, with debris on the ground and other individuals around. There are no visible attachments or effects beyond the garment being worn.",
+        "question_4": "The t-shirt's design is visually similar to the French flag (tricolor), suggesting a possible connection to France. The text 'RANCE' is likely intended as a partial word, possibly meant to be 'FRANCE', implying national identity or affiliation with France. However, this is an interpretation based on visual resemblance and common cultural motifs; it is not explicitly confirmed by the image. Other interpretations are possible but unsupported by visible evidence.",
+        "question_5": "The text 'RANCE' is partially obscured by the person’s hand, making the full word ambiguous. The exact context of the shirt's use (e.g., protest, fashion) is not determinable from the cropped view alone. The tricolor graphic is partially visible but its specific placement or symbolic meaning cannot be confirmed without broader context. The image does not provide sufficient detail to confirm if the shirt is a political statement or simply a design choice."
+      }
+    }
+  ]
+}

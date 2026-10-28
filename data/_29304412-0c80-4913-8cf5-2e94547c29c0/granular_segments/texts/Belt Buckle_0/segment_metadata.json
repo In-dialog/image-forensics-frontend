@@ -1,0 +1,60 @@
+{
+  "extracts": [
+    {
+      "name": "Border_0",
+      "bbox": [
+        0,
+        0,
+        136,
+        80
+      ],
+      "bbox_position": [
+        68.0,
+        40.0
+      ],
+      "bbox_size": [
+        136,
+        80
+      ],
+      "group": "texts"
+    },
+    {
+      "name": "Circle_0",
+      "bbox": [
+        13,
+        8,
+        123,
+        72
+      ],
+      "bbox_position": [
+        68.0,
+        40.0
+      ],
+      "bbox_size": [
+        110,
+        64
+      ],
+      "group": "texts"
+    },
+    {
+      "name": "Star_0",
+      "bbox": [
+        41,
+        11,
+        95,
+        60
+      ],
+      "bbox_position": [
+        68.0,
+        35.5
+      ],
+      "bbox_size": [
+        54,
+        49
+      ],
+      "group": "texts"
+    }
+  ],
+  "parent_name": "Belt Buckle_0",
+  "parent_group": "texts"
+}

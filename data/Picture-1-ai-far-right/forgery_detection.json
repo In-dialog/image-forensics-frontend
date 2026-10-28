@@ -1,0 +1,61 @@
+{
+  "trufor": {
+    "label": "TruFor (Trust the Forensics)",
+    "description": "State-of-the-art detector combining noise fingerprints and visual features for all-round forgery detection",
+    "heatmap_file": "heatmap.png",
+    "score": 0.31,
+    "range": "0.0 to 1.0",
+    "meaning_0": "authentic image",
+    "meaning_1": "forged image"
+  },
+
+  "splicebuster": {
+    "label": "Noise Residual Anomaly",
+    "description": "Detects splicing by finding inconsistencies in the image noise pattern",
+    "heatmap_file": "heatmap.png",
+    "score_derived_from": "heatmap",
+    "score": 0.7931,
+    "range": "heatmap (0.0 to 1.0)",
+    "meaning_0": "consistent noise (likely authentic)",
+    "meaning_1": "anomalous noise (likely spliced)"
+  },
+  "noisesniffer": {
+    "label": "Noise-Based Forgery",
+    "description": "Detects forgery by modelling background noise and finding local deviations",
+    "mask_file": "mask.png",
+    "score": 1.0,
+    "range": "0.0 to 1.0",
+    "meaning_0": "no forgery detected",
+    "meaning_1": "forgery detected (noise anomaly)"
+  },
+  "adaptive_cfa_net": {
+    "label": "CFA Pattern Anomaly",
+    "description": "Detects forgery by finding inconsistencies in the camera sensor color filter array pattern",
+    "heatmap_file": "heatmap.png",
+    "score_derived_from": "heatmap",
+    "score": 0.9998,
+    "range": "0.0 to 1.0",
+    "meaning_0": "consistent CFA pattern (likely authentic)",
+    "meaning_1": "CFA anomaly detected (likely forged)"
+  },
+  "exif_as_language": {
+    "label": "EXIF Metadata Consistency",
+    "description": "Detects forgery by finding mismatches between image content and expected camera metadata",
+    "heatmap_file": "heatmap.png",
+    "mask_file": "mask.png",
+    "score_derived_from": "heatmap",
+    "score": 0.3231,
+    "range": "0.0 to 1.0",
+    "meaning_0": "content matches expected metadata",
+    "meaning_1": "content inconsistent with metadata (likely manipulated)"
+  },
+  "psccnet": {
+    "label": "PSCC-Net Spatial Correlation",
+    "description": "Detects and localizes manipulation via progressive spatial-channel correlation analysis",
+    "heatmap_file": "heatmap.png",
+    "score": 0.5859,
+    "range": "0.0 to 1.0",
+    "meaning_0": "authentic image",
+    "meaning_1": "manipulated image"
+  }
+}

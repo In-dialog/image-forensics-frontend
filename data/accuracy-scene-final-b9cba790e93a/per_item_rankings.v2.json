@@ -1,0 +1,1666 @@
+{
+  "schema_version": 2,
+  "scope": "per_item",
+  "criteria": [
+    {
+      "label": "Political content",
+      "type": "score",
+      "positive": "Assess explicitly visible political or advocacy material. Cite its visible carrier and identifiable features; distinguish a depicted symbol from the image's stance toward it.",
+      "negative": "Do not infer a person's politics or assign a specific ideology to a vague resemblance.",
+      "min": 0,
+      "max": 10,
+      "low_label": "No assessable political cue",
+      "high_label": "Explicit, central political content",
+      "id": "criterion_1"
+    },
+    {
+      "label": "Cultural or religious signifiers",
+      "type": "score",
+      "positive": "Assess the visibility and centrality of identifiable cultural or religious imagery in the supplied image or item. Describe what the sign looks like and where it appears; use a generic description when a specific tradition cannot be established.",
+      "negative": "Do not attribute nationality, religion or beliefs to people, and do not over-identify an ambiguous emblem.",
+      "min": 0,
+      "max": 10,
+      "low_label": "No assessable signifier",
+      "high_label": "Clear and central signifiers",
+      "id": "criterion_2"
+    },
+    {
+      "label": "Stance toward depicted message",
+      "type": "choice",
+      "positive": "Only when explicit wording or a clear visual relation supports it, classify how the image treats its depicted message. A symbol's presence alone does not distinguish support, critique or neutral depiction. Use null if stance cannot be established.",
+      "negative": "Do not assume endorsement because a symbol, person or statement is shown.",
+      "choices": [
+        "Support",
+        "Critique",
+        "Neutral depiction",
+        "Mixed"
+      ],
+      "id": "criterion_3"
+    },
+    {
+      "label": "Explicit call to action",
+      "type": "boolean",
+      "positive": "Determine whether legible wording or an unambiguous visual invitation explicitly calls for an action. Cite that appeal; return false when the visible material is assessable and contains none, and null when crucial details are unreadable.",
+      "negative": "Do not infer a call to act merely because the image is dramatic or contains a public emblem.",
+      "id": "criterion_4"
+    }
+  ],
+  "items": [
+    {
+      "name": "person_0",
+      "label": "person",
+      "image_path": "segments/person_0.webp",
+      "group": "people",
+      "bbox": [
+        237,
+        262,
+        385,
+        637
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 9.0,
+          "reason": "The woman in the foreground wears a t-shirt with 'FRANCE' and its national flag, which are explicit political identifiers; this is centrally located within her frame."
+        },
+        "criterion_2": {
+          "value": 8.5,
+          "reason": "She displays cultural signifiers: French tricolor on clothing (national symbol) alongside the word 'FRANCE'. The surrounding scene includes flags of Palestine and Libya, which are culturally/ideologically significant but not directly worn by her."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image depicts a woman with visible political symbols (French flag) in an emotionally charged context. However, no explicit wording or visual relation indicates whether the depiction supports, critiques, or neutrally portrays its message; stance cannot be established from her alone."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There is no legible text calling for action and no unambiguous visual invitation to act. The woman's gesture (covering face) does not constitute an explicit call to action, nor do any other visible cues in her immediate vicinity."
+        }
+      }
+    },
+    {
+      "name": "person_1",
+      "label": "person",
+      "image_path": "segments/person_1.webp",
+      "group": "people",
+      "bbox": [
+        70,
+        276,
+        290,
+        582
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.5,
+          "reason": "The person in bbox_2d=[110,432,459,913] is wearing a white t-shirt with the word 'FRANCE' and its tricolor flag printed on it; this explicitly identifies national affiliation as political content."
+        },
+        "criterion_2": {
+          "value": 7.5,
+          "reason": "The person wears clothing that includes camouflage patterns, which are cultural signifiers of military or paramilitary groups in some contexts (e.g., 'militia' attire), and a keffiyeh-style head covering; these appear as central visual elements."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not contain explicit wording, gestures or symbols that clearly indicate support for the depicted message. The person's clothing is neutral in stance — it merely identifies nationality without endorsing a cause."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words calling to action and no unambiguous visual invitation (e.g., raised fist, protest sign) that explicitly calls for an immediate act. The person's posture is reactive or emotional but not a direct call."
+        }
+      }
+    },
+    {
+      "name": "person_2",
+      "label": "person",
+      "image_path": "segments/person_2.webp",
+      "group": "people",
+      "bbox": [
+        0,
+        236,
+        198,
+        532
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 9,
+          "reason": "The person in the foreground wears a t-shirt with 'FRANCE' and its national flag, which are explicit political identifiers. The background features flags of Palestine (black, white, green stripes with red triangle) and Libya (green-white-black horizontal bands with crescent moon), also explicitly visible as political symbols."
+        },
+        "criterion_2": {
+          "value": 8,
+          "reason": "The person in the foreground wears a t-shirt featuring 'FRANCE' alongside its national flag, which is culturally specific. The background includes flags of Palestine and Libya with their distinct cultural/religious emblems (Palestine's red triangle; Libya’s crescent moon). These are identifiable as central signifiers."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image depicts multiple political symbols without explicit visual or textual cues indicating support, critique, or neutral depiction of the message. The presence of flags and a national flag on clothing does not establish an overt stance toward any specific ideology."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There is no legible wording calling for action nor unambiguous visual invitations to act, such as signs or gestures. The scene depicts people with flags and emotional expressions but lacks explicit calls to action visible in the image."
+        }
+      }
+    },
+    {
+      "name": "person_3",
+      "label": "person",
+      "image_path": "segments/person_3.webp",
+      "group": "people",
+      "bbox": [
+        358,
+        236,
+        586,
+        591
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 9,
+          "reason": "The person in bbox_2d=[565,369,926,927] wears a white t-shirt with three horizontal stripes (red, green, black) that is the flag of Kurdistan. This is explicitly visible and central to his attire."
+        },
+        "criterion_2": {
+          "value": 8,
+          "reason": "The person's shirt features the Kurdish flag—a clear cultural signifier—centered on his torso. The surrounding scene includes other flags (Palestinian, Libyan) but this is the most prominent and directly associated with him."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image depicts a person wearing an emblematic shirt without explicit wording or visual cues indicating support for it. The context of protest does not establish endorsement; stance cannot be determined from the visible evidence alone."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There is no legible text calling to action, nor an unambiguous invitation (e.g., a sign or gesture). While he appears agitated and shouting in context of protest, this does not constitute explicit visual call-to-action material."
+        }
+      }
+    },
+    {
+      "name": "flag_0",
+      "label": "flag",
+      "image_path": "segments/flag_0.webp",
+      "group": "flag",
+      "bbox": [
+        0,
+        35,
+        180,
+        267
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 9,
+          "reason": "The flag in bbox_2d=[0,54,285,419] clearly displays the Palestinian national flag (black, white, green horizontal stripes with a red triangle on hoist side). This is an explicitly visible political symbol. Its prominence and central placement within the image's composition support its assessment as explicit, central political content."
+        },
+        "criterion_2": {
+          "value": 8,
+          "reason": "The Palestinian flag in bbox_2d=[0,54,285,419] contains cultural signifiers (the specific colors and design are culturally recognized). While the image also includes other flags with religious symbols like a crescent moon on another banner to its right, this criterion focuses only on the item within the specified region. The Palestinian flag's visible features constitute clear central cultural identifiers."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image depicts multiple flags and people in an expressive scene but does not contain explicit wording or a visual relation that clearly indicates whether it supports, critiques, or neutrally portrays the message of the Palestinian flag. The presence alone is insufficient to establish stance."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words calling for action and no unambiguous visual invitation (like a sign with text) that explicitly calls viewers or participants to act within the specified region. The scene's drama does not constitute an explicit call."
+        }
+      }
+    },
+    {
+      "name": "flag_1",
+      "label": "flag",
+      "image_path": "segments/flag_1.webp",
+      "group": "flag",
+      "bbox": [
+        410,
+        14,
+        616,
+        203
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 9,
+          "reason": "The flag in bbox_2d=[647, 21, 974, 319] is clearly visible and features a black crescent moon with a star on its right side. This design has been historically associated with the Palestinian national movement (specifically as part of early Arab nationalist symbolism) but more broadly represents political advocacy for liberation or resistance movements in this context."
+        },
+        "criterion_2": {
+          "value": 8,
+          "reason": "The flag displays a crescent moon and star, which are widely recognized religious symbols associated with Islam. The black color is also commonly used to signify mourning or protest within certain political contexts; however, the specific cultural context of this symbol's use in relation to its carrier cannot be definitively established from visual evidence alone."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not contain explicit wording that indicates support for or critique against any message. The presence and display of the flag are part of a larger scene, but no direct stance toward its depicted content is visible in this cropped region."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There is no legible text calling to action or an unambiguous visual invitation for specific behavior. The image depicts people with flags and expressive gestures, but these do not constitute a direct call to act as defined by the criterion."
+        }
+      }
+    },
+    {
+      "name": "t-shirt with flag design_0",
+      "label": "t-shirt with flag design",
+      "image_path": "segments/t-shirt with flag design_0.webp",
+      "group": "t-shirt with flag design",
+      "bbox": [
+        240,
+        431,
+        423,
+        611
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The t-shirt prominently displays 'FRANCE' in bold text above vertical stripes of blue, white and red — the national flag colors. This is explicit political content identifying with a nation-state."
+        },
+        "criterion_2": {
+          "value": 9,
+          "reason": "The design on the shirt clearly depicts France's tricolor (blue-white-red), which serves as both cultural identity marker for French citizens and an official national symbol. The text 'FRANCE' reinforces this association directly."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not contain explicit wording or visual cues that indicate whether the depiction is supportive, critical, or neutral toward France's flag design; it merely shows a person wearing such apparel. No stance can be inferred from this alone."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The t-shirt has no legible call to action and does not contain any visual invitation that explicitly prompts an audience or viewer toward specific behavior; it is a static representation of national identity, without interactive elements. The surrounding scene may imply protest but the shirt itself lacks such cues."
+        }
+      }
+    },
+    {
+      "name": "green bottle_0",
+      "label": "green bottle",
+      "image_path": "segments/green bottle_0.webp",
+      "group": "green bottle",
+      "bbox": [
+        435,
+        544,
+        468,
+        637
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 0,
+          "reason": "No visible political content on the green bottle itself. The label appears too blurry and indistinct to identify any explicit political message or symbol."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "The image does not show clear cultural, religious, or national symbols directly associated with the green bottle. While flags are visible in the background of the full scene, they do not relate to this specific item and cannot be attributed as signifiers on it."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "No explicit wording or visual relation can establish a stance toward any message. The bottle is merely an object in context without symbolic attribution from the image's composition to this specific item."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words on the green bottle, nor does it contain unambiguous visual invitations for action such as a logo or symbol that calls someone to act. The visible content is too indistinct and lacks any explicit call."
+        }
+      }
+    },
+    {
+      "name": "tower structure_0",
+      "label": "tower structure",
+      "image_path": "segments/tower structure_0.webp",
+      "group": "tower structure",
+      "bbox": [
+        187,
+        0,
+        344,
+        345
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 0,
+          "reason": "The tower structure itself does not contain any visible political content. It appears as an architectural landmark, and no explicit political symbols are depicted on or around it."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "No cultural or religious signifiers can be assessed directly from the tower structure alone; all such elements appear in surrounding imagery (e.g., flags) which do not belong to this specific item. The visible cues are external and cannot be attributed to the tower."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not depict a message that can be evaluated for stance toward it, as no explicit wording or visual relation directly connects to the tower structure itself. The visible cues are external and do not pertain to this item."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There is no legible text or unambiguous visual invitation that explicitly calls for action related specifically to the tower structure, as it does not contain any such elements. The visible cues are external and do not pertain to this item."
+        }
+      }
+    },
+    {
+      "name": "flag_2",
+      "label": "flag",
+      "image_path": "segments/flag_2.webp",
+      "group": "flag",
+      "bbox": [
+        408,
+        9,
+        591,
+        177
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 9,
+          "reason": "The flag in bbox_2d=[644, 14, 934, 278] clearly displays a black crescent and star on white over green stripes. This is an explicitly visible political symbol associated with the Libyan Jamahiriya or similar movements; its presence constitutes central political content."
+        },
+        "criterion_2": {
+          "value": 10,
+          "reason": "The flag in bbox_2d=[644, 14, 934, 278] features a black crescent and star on white over green stripes. This is an identifiable cultural/religious signifier commonly associated with Islamic symbolism; it appears clearly as the central visual element of this cropped region."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image depicts the flag but does not contain explicit wording or a clear visual relation that establishes whether the depiction supports, critiques, or neutrally presents its message. The presence alone is insufficient to determine stance without context of intent."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The cropped region shows only the flag and no legible wording or unambiguous visual invitation that explicitly calls for an action; therefore, there is no assessable call to action in this specific item's visible content."
+        }
+      }
+    },
+    {
+      "name": "Eiffel Tower structure_0",
+      "label": "Eiffel Tower structure",
+      "image_path": "segments/Eiffel Tower structure_0.webp",
+      "group": "Eiffel Tower structure",
+      "bbox": [
+        289,
+        0,
+        377,
+        277
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 0,
+          "reason": "The Eiffel Tower structure itself does not contain any visible political content. It is an architectural landmark, and no explicit political symbols or advocacy material are present on its surface within the marked region."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "No cultural or religious signifiers are visibly attached to or depicted as part of the Eiffel Tower structure itself. While flags with potential symbolic meanings appear in the surrounding scene, they do not belong to this specific item."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not depict any explicit stance toward a message related to the tower's own content; it is an architectural structure without inherent messaging. The visible flags and people in context are outside of its direct depiction, making no clear visual relation or symbolic treatment applicable."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There is no legible wording on the Eiffel Tower itself that calls for action; it does not contain any unambiguous invitation to act. The surrounding scene may have such elements, but they are unrelated to this specific item."
+        }
+      }
+    },
+    {
+      "name": "green plastic bottle_0",
+      "label": "green plastic bottle",
+      "image_path": "segments/green plastic bottle_0.webp",
+      "group": "green plastic bottle",
+      "bbox": [
+        112,
+        605,
+        164,
+        638
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": null,
+          "reason": "The green plastic bottle does not contain any visible political content. It lacks text, symbols, logos, or other indicators that would identify it as politically charged."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "There are no culturally specific patterns, religious emblems (like crosses, crescents), national flags, or identifiable cultural motifs on the green plastic bottle. It is a generic object without discernible signifiers."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not show any explicit wording or visual relation that indicates support for, critique of, or neutral depiction toward anything associated with this specific item (the green plastic bottle)."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There is no legible text on the bottle calling to action. The image does not contain an unambiguous invitation such as a signpost, banner slogan, or gesture that explicitly prompts behavior."
+        }
+      }
+    },
+    {
+      "name": "white t-shirt with French flag and text_0",
+      "label": "white t-shirt with French flag and text",
+      "image_path": "segments/white t-shirt with French flag and text_0.webp",
+      "group": "white t-shirt with French flag and text",
+      "bbox": [
+        231,
+        426,
+        344,
+        600
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "The white t-shirt features an explicit political message: 'FRANCE' in bold text alongside the French national flag (tricolor). This is a clear and central depiction of patriotic symbolism."
+        },
+        "criterion_2": {
+          "value": 9.5,
+          "reason": "The shirt prominently displays the tricolour design — blue, white, red vertical stripes — which is an explicit cultural signifier for France. The text 'FRANCE' further reinforces this national identity without ambiguity."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "While the t-shirt depicts a political message (nationalism), there are no visible cues to determine whether it represents support, critique or neutral depiction of that message; its presence alone does not establish stance."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The shirt contains text ('FRANCE') and an emblematic flag design but lacks any explicit call-to-action wording (e.g., 'Join us', 'Vote here'). The visible material is static representation without a direct invitation to act."
+        }
+      }
+    },
+    {
+      "name": "white t-shirt with red and green stripe_0",
+      "label": "white t-shirt with red and green stripe",
+      "image_path": "segments/white t-shirt with red and green stripe_0.webp",
+      "group": "white t-shirt with red and green stripe",
+      "bbox": [
+        375,
+        292,
+        548,
+        466
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The white t-shirt features three horizontal stripes: red, white (background), and green. This color combination matches the flag of Libya or a similar national symbol associated with political movements in some contexts; it is explicitly visible on the shirt's front."
+        },
+        "criterion_2": {
+          "value": 7,
+          "reason": "The t-shirt displays horizontal stripes that are culturally symbolic, resembling flags like those used by certain nations (e.g., Libya). While not a specific religious emblem, its design carries cultural and political connotations visible on the shirt."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not contain explicit wording or visual cues that indicate whether it supports, critiques, or neutrally depicts the message of the t-shirt's symbol. The presence alone is insufficient to establish a stance without context from other elements."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words calling for action on this specific item; it only displays static stripes, which do not constitute an explicit call to act. The surrounding scene may contain calls to action but they pertain to the broader image."
+        }
+      }
+    },
+    {
+      "name": "black-and-white graphic on white shirt_0",
+      "label": "black-and-white graphic on white shirt",
+      "image_path": "segments/black-and-white graphic on white shirt_0.webp",
+      "group": "black-and-white graphic on white shirt",
+      "bbox": [
+        289,
+        475,
+        406,
+        591
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 0,
+          "reason": "No assessable political cue visible in the marked region. The item shows only text and colors, not explicit advocacy material."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "The image contains no identifiable cultural or religious signifiers within the specified crop area; it displays a flag with French tricolor elements but lacks specific traditional symbols that can be clearly identified as culturally or religiously significant in this context."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not contain explicit wording, visual relation, or symbolic representation to establish any stance toward the depicted message. The presence of a flag and text is insufficient for determining support, critique, or neutral depiction without additional context."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The marked region contains no legible wording that calls for action nor an unambiguous visual invitation to act; it only shows the word 'FRANCE' and a tricolor design on clothing, which is not inherently actionable."
+        }
+      }
+    },
+    {
+      "name": "FRANCE_0",
+      "label": "FRANCE",
+      "image_path": "segments/FRANCE_0.webp",
+      "group": "texts",
+      "bbox": [
+        276,
+        489,
+        374,
+        524
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "The word 'FRANCE' in bold capital letters on a white t-shirt worn by a central figure constitutes explicit political content; it directly references the nation and is centrally positioned within the image's composition."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "While national symbols are present (the French flag motif), no specific cultural or religious signifiers beyond those associated with France can be identified in this cropped region. The visible text 'FRANCE' does not inherently convey a distinct culture or religion; it is purely political."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image displays the word 'FRANCE', but no explicit visual relation (e.g., an arrow pointing to it) or accompanying wording indicates whether this depiction supports, critiques, or neutrally presents its message. The context of surrounding figures and flags does not provide a clear stance toward the text itself."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The visible material consists only of static imagery: an individual wearing a t-shirt with 'FRANCE' printed on it. There is no legible wording or visual invitation that explicitly calls for any action."
+        }
+      }
+    },
+    {
+      "name": "black-and-white graphic on white shirt_0::text_0",
+      "label": "text",
+      "parent_name": "black-and-white graphic on white shirt_0",
+      "image_path": "granular_segments/black-and-white graphic on white shirt/black-and-white graphic on white shirt_0/text_0.webp",
+      "group": "text",
+      "bbox": [
+        289,
+        490,
+        370,
+        537
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "The text 'FRANCE' in bold black letters on a white shirt with French flag colors (blue, white, red) is clearly visible and centrally located within the marked region; this constitutes explicit political content as it directly references a nation."
+        },
+        "criterion_2": {
+          "value": 7.0,
+          "reason": "The text 'FRANCE' alongside national tricolor elements serves as cultural signifiers for France's identity in that context; however, no religious symbols are visible within the marked region or its immediate carrier."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "No explicit wording or visual relation indicates whether this depiction supports, critiques, or neutrally portrays 'FRANCE'; it is a literal representation without an inferred stance."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The visible text and imagery do not contain any legible call to action; the image depicts people in protest but lacks explicit wording like \"Join us\" or visual invitations that directly prompt behavior."
+        }
+      }
+    },
+    {
+      "name": "black-and-white graphic on white shirt_0::graphic_0",
+      "label": "graphic",
+      "parent_name": "black-and-white graphic on white shirt_0",
+      "image_path": "granular_segments/black-and-white graphic on white shirt/black-and-white graphic on white shirt_0/graphic_0.webp",
+      "group": "graphic",
+      "bbox": [
+        289,
+        511,
+        374,
+        591
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "The graphic on the shirt displays 'FRANCE' in bold black letters above vertical stripes of blue, white and red — colors associated with French national identity and political symbolism (tricolore). This is explicitly visible within bbox_2d=[456, 800, 591, 927]."
+        },
+        "criterion_2": {
+          "value": 9.0,
+          "reason": "The graphic clearly shows the French tricolor flag — blue, white and red vertical stripes — which is a central cultural symbol of France; it appears prominently on the shirt in bbox_2d=[456, 800, 591, 927]."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not contain explicit wording or visual cues that indicate whether this depiction is supportive of France's political message (e.g., a nationalistic slogan) or critical. The graphic itself merely displays the flag and name 'FRANCE' without context to infer stance."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words calling for action nor any unambiguous visual invitation that prompts an immediate response; this is a static depiction of national symbols on clothing."
+        }
+      }
+    },
+    {
+      "name": "flag_0::red triangle_0",
+      "label": "red triangle",
+      "parent_name": "flag_0",
+      "image_path": "granular_segments/flag/flag_0/red triangle_0.webp",
+      "group": "red triangle",
+      "bbox": [
+        87,
+        38,
+        171,
+        180
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 9.0,
+          "reason": "The red triangle is part of the Palestinian flag (black, white, green horizontal stripes with a red triangle on hoist side), which is explicitly visible in bbox_2d=[137,59,271,283]. The design's political symbolism as an advocacy emblem for Palestine is clear and central to this cropped region."
+        },
+        "criterion_2": {
+          "value": 6.0,
+          "reason": "The red triangle appears within the Palestinian flag (black-white-green stripes), which carries cultural/religious signifiers associated with Arab nationalism; however, its specific religious or ethnic identity cannot be definitively established from just this shape alone without context of other symbols."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not contain explicit wording or a clear visual relation that indicates support for the depicted message. The presence of flags and people in protest is ambiguous; it could represent critique, neutral depiction, or mixed intent — no definitive stance can be established from this cropped region alone."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words calling to action within the visible red triangle. The image does not contain an unambiguous visual invitation for a specific act; it is merely part of a flag design."
+        }
+      }
+    },
+    {
+      "name": "flag_0::black stripe_0",
+      "label": "black stripe",
+      "parent_name": "flag_0",
+      "image_path": "granular_segments/flag/flag_0/black stripe_0.webp",
+      "group": "black stripe",
+      "bbox": [
+        0,
+        38,
+        113,
+        144
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 9.0,
+          "reason": "\"black stripe\" (part of flag_0) is clearly visible as one of three horizontal stripes on an identifiable political symbol; the full context shows it's part of a Palestinian flag which carries explicit advocacy material."
+        },
+        "criterion_2": {
+          "value": 8.5,
+          "reason": "\"black stripe\" appears within a culturally specific emblem (Palestinian flag) with distinct colors and layout that are widely recognized as cultural signifiers for Palestine; its position is central to the visible symbol."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image depicts symbols without explicit wording or visual cues indicating support, critique, or neutral depiction of their message. The presence alone does not establish a stance."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "\"black stripe\" is part of an emblem and no legible text or unambiguous invitation to action appears in the visible crop."
+        }
+      }
+    },
+    {
+      "name": "flag_0::white stripe_0",
+      "label": "white stripe",
+      "parent_name": "flag_0",
+      "image_path": "granular_segments/flag/flag_0/white stripe_0.webp",
+      "group": "white stripe",
+      "bbox": [
+        0,
+        85,
+        113,
+        154
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 9.0,
+          "reason": "\"white stripe\" (part of flag_0) is clearly visible as an explicit political symbol; it's part of the Palestinian flag which carries strong advocacy material and appears centrally in context."
+        },
+        "criterion_2": {
+          "value": 8.5,
+          "reason": "\"white stripe\" forms a central element within identifiable cultural signifiers (the Palestinian flag); its presence is clear but not exclusively religious or nationalistic without broader contextual interpretation of the whole emblem."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image depicts symbols and actions that are ambiguous in intent; no explicit wording or visual relation establishes a stance toward the message. The depiction could be interpreted as neutral, but cannot be confirmed."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "\"white stripe\" is part of an emblem without any visible legible text calling for action and lacks unambiguous invitation to act; no explicit call-to-action cue exists in this specific item."
+        }
+      }
+    },
+    {
+      "name": "flag_0::green stripe_0",
+      "label": "green stripe",
+      "parent_name": "flag_0",
+      "image_path": "granular_segments/flag/flag_0/green stripe_0.webp",
+      "group": "green stripe",
+      "bbox": [
+        0,
+        145,
+        171,
+        238
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "The green stripe is part of a flag with distinct political symbolism (Palestinian flag), visible in bbox_2d=[0, 227, 271, 374]. The color and position are identifiable features contributing to its explicit political content."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "The green stripe is part of a national or regional flag. While it may carry cultural significance in context (e.g., Palestinian identity), no specific religious iconography or culturally distinct emblem beyond the color and pattern can be identified as central to this cropped region."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not contain explicit wording or visual cues that indicate a stance toward the depicted message. The green stripe is part of an object (flag) whose symbolic meaning cannot be assessed independently without context about how it's being used in this scene."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words calling for action or unambiguous visual invitations to act within the cropped region. The green stripe is a static part of an object and does not constitute an explicit call to action."
+        }
+      }
+    },
+    {
+      "name": "flag_1::black stripe_0",
+      "label": "black stripe",
+      "parent_name": "flag_1",
+      "image_path": "granular_segments/flag/flag_1/black stripe_0.webp",
+      "group": "black stripe",
+      "bbox": [
+        410,
+        39,
+        613,
+        65
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "\"black stripe\" visible as part of flag with red triangle and green-white stripes; also present in second flag (green-black-white) which is a national symbol."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "No culturally or religiously specific signifier can be identified within the marked region. The black stripe alone does not constitute such an identifier."
+        },
+        "criterion_3": {
+          "value": "Neutral depiction",
+          "reason": "\"black stripe\" is a neutral visual element; no explicit stance toward its message (e.g., support, critique) is visible or implied by surrounding context."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "No legible wording or unambiguous invitation to action appears in the marked region. The image does not contain an assessable call-to-action."
+        }
+      }
+    },
+    {
+      "name": "flag_1::white stripe_0",
+      "label": "white stripe",
+      "parent_name": "flag_1",
+      "image_path": "granular_segments/flag/flag_1/white stripe_0.webp",
+      "group": "white stripe",
+      "bbox": [
+        410,
+        64,
+        613,
+        103
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "The white stripe on flag_1 (bbox [647, 100, 969, 162]) is a visible political symbol; it's part of the Libyan national flag which has clear political connotations and appears centrally in this cropped view."
+        },
+        "criterion_2": {
+          "value": 8.5,
+          "reason": "The white stripe on flag_1 (bbox [647, 100, 969, 162]) is part of the Libyan national flag; it's a clear cultural signifier as its design and color scheme are identifiable within this region."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not contain explicit wording or visual relation that establishes whether the depiction supports, critiques, or neutrally presents the message of the white stripe; it is merely a visible part of an emblem without contextualized stance."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words calling for action and no unambiguous visual invitation in this cropped region. The image shows only static symbols (the flag's stripes) with no interactive or directive cues visible here."
+        }
+      }
+    },
+    {
+      "name": "flag_1::green stripe_0",
+      "label": "green stripe",
+      "parent_name": "flag_1",
+      "image_path": "granular_segments/flag/flag_1/green stripe_0.webp",
+      "group": "green stripe",
+      "bbox": [
+        410,
+        102,
+        613,
+        139
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "The green stripe is part of an identifiable flag (flag_1) with clear political symbolism: it's the lower third of a tricolor featuring black, white and green horizontal stripes with a crescent moon and star emblem in its center; this design corresponds to known national flags such as that of Libya or Sudan. The visible portion includes these distinct features."
+        },
+        "criterion_2": {
+          "value": 9.0,
+          "reason": "The flag contains clear cultural/religious signifiers: the green stripe is part of a tricolor with black and white stripes; it also displays an emblem consisting of a crescent moon (black) superimposed on a five-pointed star (white), which are widely recognized symbols in Islamic contexts. These elements appear centrally within the marked region."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not contain explicit wording or visual cues that indicate whether it supports, critiques, or neutrally depicts this flag's message; its presence is merely depicted as part of a larger scene without an overt stance toward it being visible in the marked region."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words calling for action and no unambiguous visual invitation to act within or related specifically to this green stripe; its presence is purely as part of a flag design without an explicit call-to-action element visible in the marked region."
+        }
+      }
+    },
+    {
+      "name": "flag_1::crescent moon symbol_0",
+      "label": "crescent moon symbol",
+      "parent_name": "flag_1",
+      "image_path": "granular_segments/flag/flag_1/crescent moon symbol_0.webp",
+      "group": "crescent moon symbol",
+      "bbox": [
+        487,
+        77,
+        526,
+        103
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 9.0,
+          "reason": "The crescent moon symbol within the flag (bbox_2d=[769, 120, 831, 162]) is clearly visible and identifiable as part of a political or advocacy banner; it appears centrally on an active protest item."
+        },
+        "criterion_2": {
+          "value": 8.5,
+          "reason": "The crescent moon symbol (bbox_2d=[769, 120, 831, 162]) is a distinct cultural/religious signifier; it appears within the flag's design and contributes to its overall visual identity as an emblem."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image depicts symbols without explicit wording or clear relational cues that establish whether they are supported, critiqued, or neutrally shown. The symbol’s presence alone does not indicate a stance."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There is no legible text calling for action and the visual elements do not constitute an unambiguous invitation to act; thus it fails this criterion based on visible evidence only."
+        }
+      }
+    },
+    {
+      "name": "flag_1::star symbol_0",
+      "label": "star symbol",
+      "parent_name": "flag_1",
+      "image_path": "granular_segments/flag/flag_1/star symbol_0.webp",
+      "group": "star symbol",
+      "bbox": [
+        506,
+        84,
+        526,
+        103
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 9.0,
+          "reason": "The star symbol within the flag (bbox_2d=[799, 131, 831, 162]) is clearly visible as part of a distinct emblem on a national or regional flag; its presence constitutes explicit political content."
+        },
+        "criterion_2": {
+          "value": 8.0,
+          "reason": "The star symbol appears within the crescent and star motif common to Islamic flags (e.g., Libyan), which are cultural/religious signifiers visible in this region of a national emblem on flag_1; its centrality is clear."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "No explicit wording or visual relation indicates the image's stance toward the star symbol. Its presence alone does not establish support, critique, or neutral depiction without context that isn't visible here."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The region contains no legible text calling for action and lacks an unambiguous visual invitation to act; it is a static emblem on a flag with no interactive cue in this crop."
+        }
+      }
+    },
+    {
+      "name": "flag_2::black stripe_0",
+      "label": "black stripe",
+      "parent_name": "flag_2",
+      "image_path": "granular_segments/flag/flag_2/black stripe_0.webp",
+      "group": "black stripe",
+      "bbox": [
+        408,
+        30,
+        589,
+        83
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "The black stripe on flag_2 (bbox [644, 47, 931, 131]) is a visible political symbol; it's part of the Libyan national flag which has explicit political meaning and context in this scene."
+        },
+        "criterion_2": {
+          "value": 8.0,
+          "reason": "The black stripe on flag_2 (bbox [644, 47, 931, 131]) is part of the Libyan national flag; it's a clear cultural signifier associated with Libya and its political identity."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image depicts symbols without explicit visual or textual cues indicating support, critique, or neutral depiction toward them. The presence alone does not establish stance."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There is no legible wording or unambiguous visual invitation calling for action in the marked region; it's a static flag element without an explicit call to act visible here."
+        }
+      }
+    },
+    {
+      "name": "flag_2::white stripe_0",
+      "label": "white stripe",
+      "parent_name": "flag_2",
+      "image_path": "granular_segments/flag/flag_2/white stripe_0.webp",
+      "group": "white stripe",
+      "bbox": [
+        408,
+        82,
+        589,
+        135
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "The white stripe in bbox_2d=[644, 128, 931, 212] is part of a flag with black and green stripes plus a crescent moon and star emblem — visible political symbols (specifically the Libyan national flag). The presence of these elements constitutes explicit political content."
+        },
+        "criterion_2": {
+          "value": 7.0,
+          "reason": "The white stripe in bbox_2d=[644, 128, 931, 212] is part of a Libyan national flag (black-white-green stripes with crescent and star). This constitutes clear cultural signifiers — the colors are traditional for Libya. The emblem's specific design also identifies it as culturally significant."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image depicts symbols without explicit visual or textual cues indicating support (e.g., a person holding up an item with positive intent) or critique of them — the stance toward depicted message cannot be established from this visible part alone. The presence does not imply endorsement."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The white stripe in bbox_2d=[644, 128, 931, 212] is a static visual element of the flag; it contains no legible wording or unambiguous invitation to action. The image does not contain any explicit call-to-action elements within this region."
+        }
+      }
+    },
+    {
+      "name": "flag_2::green stripe_0",
+      "label": "green stripe",
+      "parent_name": "flag_2",
+      "image_path": "granular_segments/flag/flag_2/green stripe_0.webp",
+      "group": "green stripe",
+      "bbox": [
+        408,
+        134,
+        589,
+        177
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "The green stripe is part of an identifiable flag (flag_2) with distinct horizontal stripes and symbols visible in the crop; this constitutes explicit political content as it represents a national or regional symbol."
+        },
+        "criterion_2": {
+          "value": 7.5,
+          "reason": "The green stripe appears within a tricolor design featuring black, white, and green bands along with an emblem (a crescent moon), which are culturally specific visual signifiers; the context suggests it is part of a national flag."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "No explicit wording or clear visual relation in this cropped region indicates support, critique, or neutral depiction toward any message. The presence alone does not establish stance without broader contextual cues that are absent here."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The green stripe is a static part of the flag design and contains no legible wording or visual invitation to action; it cannot be assessed as an explicit call to act based on visible evidence alone."
+        }
+      }
+    },
+    {
+      "name": "flag_2::black crescent moon and star emblem_0",
+      "label": "black crescent moon and star emblem",
+      "parent_name": "flag_2",
+      "image_path": "granular_segments/flag/flag_2/black crescent moon and star emblem_0.webp",
+      "group": "black crescent moon and star emblem",
+      "bbox": [
+        460,
+        82,
+        523,
+        135
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "The black crescent moon and star emblem is clearly visible within the flag in bbox_2d=[726, 128, 827, 212]. It appears as a distinct symbol on fabric with no ambiguity about its form or location."
+        },
+        "criterion_2": {
+          "value": 9.0,
+          "reason": "The emblem is clearly identifiable and centrally located within the flag in bbox_2d=[726, 128, 827, 212]. It consists of a black crescent moon with an eight-pointed star inside it on white background; this combination has strong cultural/religious associations."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not contain explicit wording or visual cues that indicate whether the emblem is being supported, critiqued, or depicted neutrally. Its presence alone cannot establish a stance without context of intent."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words calling for action and no unambiguous visual invitation to act in this cropped region; the emblem is static imagery with no interactive or directive element visible here."
+        }
+      }
+    },
+    {
+      "name": "person_0::graphic_0",
+      "label": "graphic",
+      "parent_name": "person_0",
+      "image_path": "granular_segments/people/person_0/graphic_0.webp",
+      "group": "people",
+      "bbox": [
+        252,
+        478,
+        374,
+        614
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The shirt worn by person_0 clearly displays 'FRANCE' in bold black letters above vertical stripes of blue, white and red — the national flag colors. This is explicit political content as it directly references a nation-state through its name and emblem."
+        },
+        "criterion_2": {
+          "value": 7,
+          "reason": "The shirt features French tricolor (blue-white-red) which carries strong cultural signifiers of France, but no religious symbols are visible. The presence is central to the item's design; however, it lacks specific identifiable religious imagery."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not contain explicit wording or visual relations that indicate whether this depiction supports, critiques, or neutrally portrays its message. The shirt’s presence is literal but the stance of the item itself cannot be determined from visible cues alone."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words calling for action and no unambiguous visual invitation to act in this cropped region; it only shows a static garment with national symbols. No explicit call is present or implied by the visible material."
+        }
+      }
+    },
+    {
+      "name": "person_0::text_0",
+      "label": "text",
+      "parent_name": "person_0",
+      "image_path": "granular_segments/people/person_0/text_0.webp",
+      "group": "people",
+      "bbox": [
+        272,
+        487,
+        356,
+        534
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "\"FRANCE\" text with French tricolor on shirt visible in crop; political content via national symbol and word."
+        },
+        "criterion_2": {
+          "value": 7.5,
+          "reason": "French flag colors (blue-white-red) as cultural signifier on t-shirt; no other clear religious or specific cultural symbols identifiable."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "No explicit visual relation to the message beyond depiction of a national symbol and text; stance cannot be established from this item alone."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "Visible crop shows no legible call-to-action wording or unambiguous invitation for action."
+        }
+      }
+    },
+    {
+      "name": "person_1::camouflage pants_0",
+      "label": "camouflage pants",
+      "parent_name": "person_1",
+      "image_path": "granular_segments/people/person_1/camouflage pants_0.webp",
+      "group": "people",
+      "bbox": [
+        70,
+        371,
+        213,
+        575
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 0,
+          "reason": "No visible political content on the camouflage pants themselves. The item does not display any explicit symbols, text, or markings that convey political advocacy."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "The camouflage pattern is a generic military-style design and lacks specific cultural or religious signifiers identifiable as central to the image's message. No emblematic features are visible on this item itself, nor does it clearly represent any particular culture."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The camouflage pants do not contain explicit wording or visual cues that indicate a stance toward depicted political content; they lack the necessary information to classify their depiction as support, critique, neutral, or mixed. The item is merely an article of clothing."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words on the camouflage pants that call for action, nor any unambiguous visual invitation to act associated with this specific garment in its visible state."
+        }
+      }
+    },
+    {
+      "name": "person_1::tactical vest_0",
+      "label": "tactical vest",
+      "parent_name": "person_1",
+      "image_path": "granular_segments/people/person_1/tactical vest_0.webp",
+      "group": "people",
+      "bbox": [
+        106,
+        348,
+        213,
+        426
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 0,
+          "reason": "No visible political content on the tactical vest itself; it lacks any explicit symbols, text, or markings that convey political advocacy."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "The tactical vest does not contain identifiable cultural or religious signifiers. It is a standard military-style utility item with no discernible emblematic features related to culture or religion."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "No explicit wording, visual relation, or symbolic context on the vest allows for an assessment of stance toward any depicted message. The image does not show a clear depiction that would support 'Support', 'Critique' or 'Neutral depiction'."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The tactical vest has no legible wording and contains no unambiguous visual invitation to action; it is merely an object of equipment without a call-to-action element."
+        }
+      }
+    },
+    {
+      "name": "person_1::bandana_0",
+      "label": "bandana",
+      "parent_name": "person_1",
+      "image_path": "granular_segments/people/person_1/bandana_0.webp",
+      "group": "people",
+      "bbox": [
+        122,
+        279,
+        178,
+        349
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 0,
+          "reason": "No visible political content on the bandana itself; it appears as an opaque, patterned covering without discernible symbols, text or explicit advocacy material."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "The item is a plain white and grey knitted headscarf with no identifiable cultural or religious signifiers visible. The context of the full image does not establish its specific tradition due to ambiguity in design, which prevents attribution."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "No explicit wording or visual relation supports a stance toward any message; it is merely an object worn by a person without symbolic context that indicates support, critique or neutrality relative to the image's overall theme."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words or unambiguous visual invitations for action on this item; it is simply an accessory worn by a person without any call-to-action elements visible in its design, pattern or context within the image."
+        }
+      }
+    },
+    {
+      "name": "person_1::blue plastic bottle_0",
+      "label": "blue plastic bottle",
+      "parent_name": "person_1",
+      "image_path": "granular_segments/people/person_1/blue plastic bottle_0.webp",
+      "group": "people",
+      "bbox": [
+        106,
+        552,
+        139,
+        575
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 0.5,
+          "reason": "The blue plastic bottle itself does not contain any visible political content; it's an inanimate object without explicit advocacy material."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "No cultural or religious signifiers are visibly present on the blue plastic bottle as a distinct carrier. The surrounding scene contains flags and symbols but these do not belong to this specific item."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not explicitly show any stance toward the message of the depicted content related specifically to the blue plastic bottle, as it is an inanimate object without a direct visual or textual relation."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words on the blue plastic bottle nor does its appearance constitute any unambiguous call to action. It's merely part of debris."
+        }
+      }
+    },
+    {
+      "name": "person_2::black balaclava_0",
+      "label": "black balaclava",
+      "parent_name": "person_2",
+      "image_path": "granular_segments/people/person_2/black balaclava_0.webp",
+      "group": "people",
+      "bbox": [
+        34,
+        246,
+        84,
+        316
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 0,
+          "reason": "No visible political content on the black balaclava itself; it lacks any explicit symbols, text, or markings that convey political advocacy."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "The item is a plain black balaclava with no discernible cultural or religious signifiers. The visible red oval detail appears to be an eyehole and not a specific emblem, making any attribution ambiguous without context."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "No explicit wording or visual relation in the balaclava itself indicates support, critique, or neutral depiction of its message. The item is merely an object with no inherent stance visible on it."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The black balaclava does not contain any legible wording or visual invitation that explicitly calls for action; the image's context shows a protest scene, but this is unrelated to the item itself."
+        }
+      }
+    },
+    {
+      "name": "person_2::camouflage pants_0",
+      "label": "camouflage pants",
+      "parent_name": "person_2",
+      "image_path": "granular_segments/people/person_2/camouflage pants_0.webp",
+      "group": "people",
+      "bbox": [
+        97,
+        421,
+        174,
+        532
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 0,
+          "reason": "No visible political content on the camouflage pants. The item itself does not display any explicit symbols, text, or markings that convey political advocacy."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "The cropped image shows only a portion of person's lower body wearing camouflage pants; no cultural or religious signifiers are visible on this item. The surrounding scene contains flags and other symbols, but none appear directly related to the marked region."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not provide explicit visual cues that indicate a stance toward any message associated with the camouflage pants; no text or symbolic relation is visible on this item itself. The surrounding scene's context cannot be transferred to assess an individual part."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words, explicit visual invitations, or actionable prompts directly associated with the camouflage pants in any form within the visible image region."
+        }
+      }
+    },
+    {
+      "name": "person_2::tan tactical vest with straps and pockets_0",
+      "label": "tan tactical vest with straps and pockets",
+      "parent_name": "person_2",
+      "image_path": "granular_segments/people/person_2/tan tactical vest with straps and pockets_0.webp",
+      "group": "people",
+      "bbox": [
+        19,
+        285,
+        99,
+        392
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 0,
+          "reason": "No visible political content on the tan tactical vest itself; it lacks any explicit symbols, text, or markings that convey political advocacy."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "The item is a standard military-style tactical vest with no discernible cultural or religious signifiers. No emblem, flag, or iconographic detail related to culture or religion is visible on the vest itself."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "No explicit wording or visual relation in this cropped region indicates a stance toward any message; it's an object without contextualized meaning for its own part, and no symbolic interpretation can be established from just the item alone."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There is no legible wording or unambiguous visual invitation to action on this specific tactical vest. It does not contain any call-to-action elements visible in its design, text, or markings."
+        }
+      }
+    },
+    {
+      "name": "person_2::white patterned headscarf_0",
+      "label": "white patterned headscarf",
+      "parent_name": "person_2",
+      "image_path": "granular_segments/people/person_2/white patterned headscarf_0.webp",
+      "group": "people",
+      "bbox": [
+        124,
+        285,
+        187,
+        351
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 0,
+          "reason": "No visible political content on the white patterned headscarf itself; it lacks any explicit text, symbol, or design that conveys a specific political message."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "The item is ambiguous as to cultural or religious signification. While patterns like this can be associated with certain traditions (e.g., keffiyehs), the visible pattern does not clearly identify a specific culture, religion, or tradition without additional context that isn't present."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "No explicit visual relation to support, critique, or neutral depiction of any message is established by this item alone. The headscarf's presence does not convey a stance toward the depicted scene in its immediate context without additional symbolic cues."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There are no legible words, symbols or visual invitations that explicitly call for an action on this item. The headscarf is merely part of a person's attire and does not contain any actionable prompt visible in the image."
+        }
+      }
+    },
+    {
+      "name": "person_3::white t-shirt_0",
+      "label": "white t-shirt",
+      "parent_name": "person_3",
+      "image_path": "granular_segments/people/person_3/white t-shirt_0.webp",
+      "group": "people",
+      "bbox": [
+        382,
+        319,
+        554,
+        447
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "The white t-shirt has an explicit political design: three horizontal stripes (red, green) with a central black stripe forming the flag of Hungary; this is visible on person_3's torso in bbox_2d=[603,500,876,701]."
+        },
+        "criterion_2": {
+          "value": 9.0,
+          "reason": "The t-shirt displays a clear cultural signifier: the Hungarian national flag (red-white-green horizontal tricolor) centered on its chest; this is visible in both full image and crop."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "No explicit wording or visual relation indicates support, critique, or neutral depiction of the message. The presence alone does not establish a stance for person_3's action."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The t-shirt has no legible text calling to act and contains only static imagery; there is no unambiguous visual invitation in this cropped region or elsewhere visible on the shirt itself."
+        }
+      }
+    },
+    {
+      "name": "person_3::horizontal stripe graphic on shirt_0",
+      "label": "horizontal stripe graphic on shirt",
+      "parent_name": "person_3",
+      "image_path": "granular_segments/people/person_3/horizontal stripe graphic on shirt_0.webp",
+      "group": "people",
+      "bbox": [
+        418,
+        346,
+        518,
+        388
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 5.0,
+          "reason": "The horizontal green stripe on the shirt is visible and appears as part of an identifiable flag design (Libyan), which carries political symbolism; however, it's not central to a larger explicit political message or action in this specific cropped view."
+        },
+        "criterion_2": {
+          "value": 7.0,
+          "reason": "The green stripe on the shirt is clearly visible and forms part of an identifiable flag design (Libyan), which serves as a cultural signifier; its centrality within the crop makes it prominent but not overwhelming in context."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "No explicit wording or visual relation supports any stance toward this specific graphic. The presence alone does not indicate support, critique, or neutral depiction."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The cropped image shows only a horizontal green stripe on fabric; there is no legible text calling for action and no unambiguous visual invitation to act."
+        }
+      }
+    },
+    {
+      "name": "t-shirt with flag design_0::text_0",
+      "label": "text",
+      "parent_name": "t-shirt with flag design_0",
+      "image_path": "granular_segments/t-shirt with flag design/t-shirt with flag design_0/text_0.webp",
+      "group": "text",
+      "bbox": [
+        279,
+        496,
+        389,
+        520
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "\"RANCE\" text on t-shirt (bbox [440,777,615,816]) is explicitly visible and politically charged as part of a nationalistic message; the Eiffel Tower background reinforces location-based political context."
+        },
+        "criterion_2": {
+          "value": 9.0,
+          "reason": "\"RANCE\" text on t-shirt (bbox [440,777,615,816]) is culturally specific as it references France; the French flag design and Eiffel Tower background are central cultural signifiers."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "\"RANCE\" text on t-shirt (bbox [440,777,615,816]) is a depiction of national identity without visible explicit stance toward the message; no clear visual relation or wording indicates support, critique or neutral treatment."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "\"RANCE\" text on t-shirt (bbox [440,777,615,816]) is not an explicit call to action. No legible wording or visual invitation for a specific behavior appears in this cropped region."
+        }
+      }
+    },
+    {
+      "name": "t-shirt with flag design_0::blue rectangle_0",
+      "label": "blue rectangle",
+      "parent_name": "t-shirt with flag design_0",
+      "image_path": "granular_segments/t-shirt with flag design/t-shirt with flag design_0/blue rectangle_0.webp",
+      "group": "blue rectangle",
+      "bbox": [
+        272,
+        521,
+        309,
+        575
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 0.5,
+          "reason": "The blue rectangle appears as part of an abstract design on clothing; no explicit political message can be assessed from this isolated element."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "No culturally or religiously specific signifier is visible within the marked region to assess its centrality or identity."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not contain explicit wording or visual relation that establishes a stance toward any message; no clear depiction of support, critique or neutrality can be determined for this small element."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "There is no legible text or unambiguous invitation to action visible within the marked region."
+        }
+      }
+    },
+    {
+      "name": "t-shirt with flag design_0::red rectangle_0",
+      "label": "red rectangle",
+      "parent_name": "t-shirt with flag design_0",
+      "image_path": "granular_segments/t-shirt with flag design/t-shirt with flag design_0/red rectangle_0.webp",
+      "group": "red rectangle",
+      "bbox": [
+        331,
+        519,
+        378,
+        575
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 2.0,
+          "reason": "The red rectangle in bbox_2d=[522,813,598,902] is part of a flag design on the t-shirt worn by the central figure; it's visible but not explicitly political content as no text or emblem directly advocates for an ideology. The context shows protest imagery with flags and emotional expressions."
+        },
+        "criterion_2": {
+          "value": 3.5,
+          "reason": "The red rectangle is part of a flag design on clothing (t-shirt), which may be interpreted culturally; however, the specific cultural affiliation cannot be determined from this isolated element alone without context or explicit symbols like text or emblems."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "No visible wording or visual relation in the marked region supports a stance toward any message. The red rectangle is part of an abstract design on clothing; no clear support, critique or neutral depiction can be established for this specific item alone."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The cropped image shows only a portion of a t-shirt with flag colors and does not contain any legible wording or unambiguous visual invitation that explicitly calls for an action. The surrounding scene has no visible call to act in this specific region."
+        }
+      }
+    },
+    {
+      "name": "FRANCE_0::RANCE_0",
+      "label": "RANCE",
+      "parent_name": "FRANCE_0",
+      "image_path": "granular_segments/texts/FRANCE_0/RANCE_0.webp",
+      "group": "texts",
+      "bbox": [
+        276,
+        493,
+        373,
+        523
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 5.0,
+          "reason": "\"RANCE\" (part of \"FRANCE\") appears as text on clothing; it's not inherently political but is associated with a national identity and can be used in advocacy contexts."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "The visible cue 'RANCE' lacks cultural or religious signifiers. It’s part of the word \"FRANCE,\" which may imply nationality rather than specific culture/religion; no explicit emblem is present."
+        },
+        "criterion_3": {
+          "value": "Neutral depiction",
+          "reason": "\"RANCE\" as text on a shirt does not convey support or critique—it's presented neutrally within an image that depicts multiple symbols and actions."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The visible cue 'RANCE' is static text; it doesn't contain any explicit call to action. The surrounding scene has no legible wording calling for a specific act."
+        }
+      }
+    },
+    {
+      "name": "white t-shirt with French flag and text_0::text_0",
+      "label": "text",
+      "parent_name": "white t-shirt with French flag and text_0",
+      "image_path": "granular_segments/white t-shirt with french flag and text/white t-shirt with French flag and text_0/text_0.webp",
+      "group": "text",
+      "bbox": [
+        285,
+        495,
+        339,
+        517
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "The text 'FRANCE' on the white t-shirt in bbox_2d=[450,775,536,811] is explicitly visible and directly references a political entity (France). The shirt's design with national colors further reinforces its explicit political content."
+        },
+        "criterion_2": {
+          "value": 9.0,
+          "reason": "The text 'FRANCE' on the t-shirt clearly indicates cultural identity; additionally, flags of Palestine and Libya are visible in the scene as culturally specific symbols (though not directly part of this cropped region)."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "No explicit visual relation or wording within the marked text 'FRANCE' establishes a stance toward its message. The image depicts it neutrally without overt support or critique."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The visible region contains only static lettering ('RAN') and no legible call to action; there is no unambiguous visual invitation for an audience to perform a specific act."
+        }
+      }
+    },
+    {
+      "name": "white t-shirt with French flag and text_0::graphic_0",
+      "label": "graphic",
+      "parent_name": "white t-shirt with French flag and text_0",
+      "image_path": "granular_segments/white t-shirt with french flag and text/white t-shirt with French flag and text_0/graphic_0.webp",
+      "group": "graphic",
+      "bbox": [
+        274,
+        516,
+        303,
+        583
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "The white t-shirt with French flag and text 'FRANCE' visible in bbox_2d=[432, 808, 479, 914] is explicitly political content; it displays a national symbol (French tricolor) alongside the country's name. The carrier is clearly identifiable as clothing worn by an individual."
+        },
+        "criterion_2": {
+          "value": null,
+          "reason": "The visible region of the t-shirt shows only text ('FRANCE') and colors from the French flag; no specific cultural or religious signifiers are present in this cropped area that can be identified beyond national symbolism. The context suggests a broader scene with other flags (Palestinian, Libyan), but these do not appear within the specified crop."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "The image does not contain explicit wording or visual relations to indicate whether it supports, critiques, or neutrally depicts its message. The presence of a national flag and text is neutral in isolation; no stance can be inferred from this specific cropped region alone."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The visible crop does not contain any legible wording that calls for action nor an unambiguous visual invitation to act. It shows only static imagery of a t-shirt with text and colors."
+        }
+      }
+    },
+    {
+      "name": "white t-shirt with French flag and text_0::graphic_1",
+      "label": "graphic",
+      "parent_name": "white t-shirt with French flag and text_0",
+      "image_path": "granular_segments/white t-shirt with french flag and text/white t-shirt with French flag and text_0/graphic_1.webp",
+      "group": "graphic",
+      "bbox": [
+        319,
+        516,
+        344,
+        600
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 0,
+          "reason": "No assessable political cue visible in this cropped region. The crop shows only part of a white t-shirt with the word 'FRANCE' and its flag, which is national symbolism but not explicitly political advocacy material."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No assessable cultural or religious signifier visible in this cropped region. The crop shows only part of a white t-shirt with the word 'FRANCE' and its flag, which is national symbolism but not identifiable as specific culture or religion."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "Stance toward depicted message cannot be established from this cropped region. The visible content (part of a t-shirt with 'FRANCE' and its flag) does not provide explicit wording, visual relation to critique or support beyond national identity."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "No legible call-to-action is present in this cropped region. The visible text ('RANCE') lacks an actionable verb and the image context does not contain any unambiguous visual invitation for action within this specific crop area."
+        }
+      }
+    },
+    {
+      "name": "white t-shirt with red and green stripe_0::graphic_0",
+      "label": "graphic",
+      "parent_name": "white t-shirt with red and green stripe_0",
+      "image_path": "granular_segments/white t-shirt with red and green stripe/white t-shirt with red and green stripe_0/graphic_0.webp",
+      "group": "graphic",
+      "bbox": [
+        422,
+        325,
+        493,
+        361
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8.0,
+          "reason": "The marked region shows three horizontal stripes: red, white and green — visible as distinct bands on the t-shirt's fabric in this crop. This is a clear political symbol (the flag of Hungary), centrally located within its carrier object."
+        },
+        "criterion_2": {
+          "value": 9.0,
+          "reason": "The three horizontal stripes are culturally specific, representing national identity and thus serving as cultural signifiers for the wearer's affiliation with Hungarian culture or statehood — visible on a t-shirt in this crop region."
+        },
+        "criterion_3": {
+          "value": null,
+          "reason": "No explicit wording or visual relation within the marked item indicates support, critique or neutrality toward its depicted message. The symbol is present but no stance can be established from it alone without context of intent which isn't visible."
+        },
+        "criterion_4": {
+          "value": false,
+          "reason": "The crop shows only a t-shirt with stripes; there are no legible words or unambiguous visual invitations to act. The image does not contain an explicit call to action within this region, and the surrounding scene is irrelevant for assessing this specific item."
+        }
+      }
+    }
+  ]
+}

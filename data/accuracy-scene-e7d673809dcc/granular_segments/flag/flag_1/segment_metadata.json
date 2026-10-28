@@ -1,0 +1,96 @@
+{
+  "extracts": [
+    {
+      "name": "black horizontal stripe_0",
+      "bbox": [
+        0,
+        0,
+        208,
+        43
+      ],
+      "bbox_position": [
+        104.0,
+        21.5
+      ],
+      "bbox_size": [
+        208,
+        43
+      ],
+      "group": "black horizontal stripe"
+    },
+    {
+      "name": "white central section_0",
+      "bbox": [
+        0,
+        42,
+        208,
+        113
+      ],
+      "bbox_position": [
+        104.0,
+        77.5
+      ],
+      "bbox_size": [
+        208,
+        71
+      ],
+      "group": "white central section"
+    },
+    {
+      "name": "green bottom stripe_0",
+      "bbox": [
+        0,
+        112,
+        208,
+        169
+      ],
+      "bbox_position": [
+        104.0,
+        140.5
+      ],
+      "bbox_size": [
+        208,
+        57
+      ],
+      "group": "green bottom stripe"
+    },
+    {
+      "name": "crescent moon symbol_0",
+      "bbox": [
+        72,
+        67,
+        115,
+        102
+      ],
+      "bbox_position": [
+        93.5,
+        84.5
+      ],
+      "bbox_size": [
+        43,
+        35
+      ],
+      "group": "crescent moon symbol"
+    },
+    {
+      "name": "star within crescent_0",
+      "bbox": [
+        88,
+        80,
+        100,
+        90
+      ],
+      "bbox_position": [
+        94.0,
+        85.0
+      ],
+      "bbox_size": [
+        12,
+        10
+      ],
+      "group": "star within crescent"
+    }
+  ],
+  "parent_name": "flag_1",
+  "parent_group": "flag"
+}

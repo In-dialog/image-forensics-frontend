@@ -1,0 +1,3974 @@
+{
+  "extracts": [
+    {
+      "name": "Blonde Woman_0",
+      "bbox": [
+        231,
+        341,
+        424,
+        638
+      ],
+      "bbox_position": [
+        327.5,
+        489.5,
+        1.0
+      ],
+      "bbox_size": [
+        193,
+        297
+      ],
+      "group": "people",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            231.0,
+            489.5
+          ],
+          "end": [
+            0,
+            489.5
+          ],
+          "distance_px": 231.0
+        },
+        "right": {
+          "start": [
+            424.0,
+            489.5
+          ],
+          "end": [
+            633,
+            489.5
+          ],
+          "distance_px": 209.0
+        },
+        "top": {
+          "start": [
+            327.5,
+            341.0
+          ],
+          "end": [
+            327.5,
+            0
+          ],
+          "distance_px": 341.0
+        },
+        "bottom": {
+          "start": [
+            327.5,
+            638.0
+          ],
+          "end": [
+            327.5,
+            638
+          ],
+          "distance_px": 0.0
+        }
+      }
+    },
+    {
+      "name": "Man In Black Hoodie_0",
+      "bbox": [
+        0,
+        246,
+        192,
+        531
+      ],
+      "bbox_position": [
+        96.0,
+        388.5,
+        0.894118
+      ],
+      "bbox_size": [
+        192,
+        285
+      ],
+      "group": "people",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            0.0,
+            388.5
+          ],
+          "end": [
+            0,
+            388.5
+          ],
+          "distance_px": 0.0
+        },
+        "right": {
+          "start": [
+            192.0,
+            388.5
+          ],
+          "end": [
+            633,
+            388.5
+          ],
+          "distance_px": 441.0
+        },
+        "top": {
+          "start": [
+            96.0,
+            246.0
+          ],
+          "end": [
+            96.0,
+            0
+          ],
+          "distance_px": 246.0
+        },
+        "bottom": {
+          "start": [
+            96.0,
+            531.0
+          ],
+          "end": [
+            96.0,
+            638
+          ],
+          "distance_px": 107.0
+        }
+      }
+    },
+    {
+      "name": "Man In Black Hoodie_1",
+      "bbox": [
+        189,
+        265,
+        262,
+        337
+      ],
+      "bbox_position": [
+        225.5,
+        301.0,
+        0.831373
+      ],
+      "bbox_size": [
+        73,
+        72
+      ],
+      "group": "people",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            189.0,
+            301.0
+          ],
+          "end": [
+            0,
+            301.0
+          ],
+          "distance_px": 189.0
+        },
+        "right": {
+          "start": [
+            262.0,
+            301.0
+          ],
+          "end": [
+            633,
+            301.0
+          ],
+          "distance_px": 371.0
+        },
+        "top": {
+          "start": [
+            225.5,
+            265.0
+          ],
+          "end": [
+            225.5,
+            0
+          ],
+          "distance_px": 265.0
+        },
+        "bottom": {
+          "start": [
+            225.5,
+            337.0
+          ],
+          "end": [
+            225.5,
+            638
+          ],
+          "distance_px": 301.0
+        }
+      }
+    },
+    {
+      "name": "Man In Black Hoodie_2",
+      "bbox": [
+        251,
+        265,
+        341,
+        373
+      ],
+      "bbox_position": [
+        296.0,
+        319.0,
+        0.894118
+      ],
+      "bbox_size": [
+        90,
+        108
+      ],
+      "group": "people",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            251.0,
+            319.0
+          ],
+          "end": [
+            0,
+            319.0
+          ],
+          "distance_px": 251.0
+        },
+        "right": {
+          "start": [
+            341.0,
+            319.0
+          ],
+          "end": [
+            633,
+            319.0
+          ],
+          "distance_px": 292.0
+        },
+        "top": {
+          "start": [
+            296.0,
+            265.0
+          ],
+          "end": [
+            296.0,
+            0
+          ],
+          "distance_px": 265.0
+        },
+        "bottom": {
+          "start": [
+            296.0,
+            373.0
+          ],
+          "end": [
+            296.0,
+            638
+          ],
+          "distance_px": 265.0
+        }
+      }
+    },
+    {
+      "name": "Man In Black Hoodie_3",
+      "bbox": [
+        363,
+        254,
+        420,
+        337
+      ],
+      "bbox_position": [
+        391.5,
+        295.5,
+        0.858824
+      ],
+      "bbox_size": [
+        57,
+        83
+      ],
+      "group": "people",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            363.0,
+            295.5
+          ],
+          "end": [
+            0,
+            295.5
+          ],
+          "distance_px": 363.0
+        },
+        "right": {
+          "start": [
+            420.0,
+            295.5
+          ],
+          "end": [
+            633,
+            295.5
+          ],
+          "distance_px": 213.0
+        },
+        "top": {
+          "start": [
+            391.5,
+            254.0
+          ],
+          "end": [
+            391.5,
+            0
+          ],
+          "distance_px": 254.0
+        },
+        "bottom": {
+          "start": [
+            391.5,
+            337.0
+          ],
+          "end": [
+            391.5,
+            638
+          ],
+          "distance_px": 301.0
+        }
+      }
+    },
+    {
+      "name": "Man In Black Hoodie_4",
+      "bbox": [
+        503,
+        199,
+        633,
+        537
+      ],
+      "bbox_position": [
+        568.0,
+        368.0,
+        0.890196
+      ],
+      "bbox_size": [
+        130,
+        338
+      ],
+      "group": "people",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            503.0,
+            368.0
+          ],
+          "end": [
+            0,
+            368.0
+          ],
+          "distance_px": 503.0
+        },
+        "right": {
+          "start": [
+            633.0,
+            368.0
+          ],
+          "end": [
+            633,
+            368.0
+          ],
+          "distance_px": 0.0
+        },
+        "top": {
+          "start": [
+            568.0,
+            199.0
+          ],
+          "end": [
+            568.0,
+            0
+          ],
+          "distance_px": 199.0
+        },
+        "bottom": {
+          "start": [
+            568.0,
+            537.0
+          ],
+          "end": [
+            568.0,
+            638
+          ],
+          "distance_px": 101.0
+        }
+      }
+    },
+    {
+      "name": "Man In Camouflage_0",
+      "bbox": [
+        15,
+        278,
+        290,
+        576
+      ],
+      "bbox_position": [
+        152.5,
+        427.0,
+        0.921569
+      ],
+      "bbox_size": [
+        275,
+        298
+      ],
+      "group": "people",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            15.0,
+            427.0
+          ],
+          "end": [
+            0,
+            427.0
+          ],
+          "distance_px": 15.0
+        },
+        "right": {
+          "start": [
+            290.0,
+            427.0
+          ],
+          "end": [
+            633,
+            427.0
+          ],
+          "distance_px": 343.0
+        },
+        "top": {
+          "start": [
+            152.5,
+            278.0
+          ],
+          "end": [
+            152.5,
+            0
+          ],
+          "distance_px": 278.0
+        },
+        "bottom": {
+          "start": [
+            152.5,
+            576.0
+          ],
+          "end": [
+            152.5,
+            638
+          ],
+          "distance_px": 62.0
+        }
+      }
+    },
+    {
+      "name": "Man In White Shirt_0",
+      "bbox": [
+        347,
+        238,
+        590,
+        573
+      ],
+      "bbox_position": [
+        468.5,
+        405.5,
+        0.933333
+      ],
+      "bbox_size": [
+        243,
+        335
+      ],
+      "group": "people",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            347.0,
+            405.5
+          ],
+          "end": [
+            0,
+            405.5
+          ],
+          "distance_px": 347.0
+        },
+        "right": {
+          "start": [
+            590.0,
+            405.5
+          ],
+          "end": [
+            633,
+            405.5
+          ],
+          "distance_px": 43.0
+        },
+        "top": {
+          "start": [
+            468.5,
+            238.0
+          ],
+          "end": [
+            468.5,
+            0
+          ],
+          "distance_px": 238.0
+        },
+        "bottom": {
+          "start": [
+            468.5,
+            573.0
+          ],
+          "end": [
+            468.5,
+            638
+          ],
+          "distance_px": 65.0
+        }
+      }
+    },
+    {
+      "name": "Eiffel Tower_0",
+      "bbox": [
+        192,
+        0,
+        390,
+        276
+      ],
+      "bbox_position": [
+        291.0,
+        138.0,
+        0.494118
+      ],
+      "bbox_size": [
+        198,
+        276
+      ],
+      "group": "Eiffel Tower",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            192.0,
+            138.0
+          ],
+          "end": [
+            0,
+            138.0
+          ],
+          "distance_px": 192.0
+        },
+        "right": {
+          "start": [
+            390.0,
+            138.0
+          ],
+          "end": [
+            633,
+            138.0
+          ],
+          "distance_px": 243.0
+        },
+        "top": {
+          "start": [
+            291.0,
+            0.0
+          ],
+          "end": [
+            291.0,
+            0
+          ],
+          "distance_px": 0.0
+        },
+        "bottom": {
+          "start": [
+            291.0,
+            276.0
+          ],
+          "end": [
+            291.0,
+            638
+          ],
+          "distance_px": 362.0
+        }
+      }
+    },
+    {
+      "name": "Flags_0",
+      "bbox": [
+        0,
+        39,
+        172,
+        228
+      ],
+      "bbox_position": [
+        86.0,
+        133.5,
+        0.913725
+      ],
+      "bbox_size": [
+        172,
+        189
+      ],
+      "group": "Flags",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            0.0,
+            133.5
+          ],
+          "end": [
+            0,
+            133.5
+          ],
+          "distance_px": 0.0
+        },
+        "right": {
+          "start": [
+            172.0,
+            133.5
+          ],
+          "end": [
+            633,
+            133.5
+          ],
+          "distance_px": 461.0
+        },
+        "top": {
+          "start": [
+            86.0,
+            39.0
+          ],
+          "end": [
+            86.0,
+            0
+          ],
+          "distance_px": 39.0
+        },
+        "bottom": {
+          "start": [
+            86.0,
+            228.0
+          ],
+          "end": [
+            86.0,
+            638
+          ],
+          "distance_px": 410.0
+        }
+      }
+    },
+    {
+      "name": "Flags_1",
+      "bbox": [
+        407,
+        17,
+        608,
+        200
+      ],
+      "bbox_position": [
+        507.5,
+        108.5,
+        0.894118
+      ],
+      "bbox_size": [
+        201,
+        183
+      ],
+      "group": "Flags",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            407.0,
+            108.5
+          ],
+          "end": [
+            0,
+            108.5
+          ],
+          "distance_px": 407.0
+        },
+        "right": {
+          "start": [
+            608.0,
+            108.5
+          ],
+          "end": [
+            633,
+            108.5
+          ],
+          "distance_px": 25.0
+        },
+        "top": {
+          "start": [
+            507.5,
+            17.0
+          ],
+          "end": [
+            507.5,
+            0
+          ],
+          "distance_px": 17.0
+        },
+        "bottom": {
+          "start": [
+            507.5,
+            200.0
+          ],
+          "end": [
+            507.5,
+            638
+          ],
+          "distance_px": 438.0
+        }
+      }
+    },
+    {
+      "name": "Flags_2",
+      "bbox": [
+        271,
+        516,
+        366,
+        595
+      ],
+      "bbox_position": [
+        318.5,
+        555.5,
+        1.0
+      ],
+      "bbox_size": [
+        95,
+        79
+      ],
+      "group": "Flags",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            271.0,
+            555.5
+          ],
+          "end": [
+            0,
+            555.5
+          ],
+          "distance_px": 271.0
+        },
+        "right": {
+          "start": [
+            366.0,
+            555.5
+          ],
+          "end": [
+            633,
+            555.5
+          ],
+          "distance_px": 267.0
+        },
+        "top": {
+          "start": [
+            318.5,
+            516.0
+          ],
+          "end": [
+            318.5,
+            0
+          ],
+          "distance_px": 516.0
+        },
+        "bottom": {
+          "start": [
+            318.5,
+            595.0
+          ],
+          "end": [
+            318.5,
+            638
+          ],
+          "distance_px": 43.0
+        }
+      }
+    },
+    {
+      "name": "Trash_0",
+      "bbox": [
+        110,
+        603,
+        170,
+        636
+      ],
+      "bbox_position": [
+        140.0,
+        619.5,
+        0.909804
+      ],
+      "bbox_size": [
+        60,
+        33
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            110.0,
+            619.5
+          ],
+          "end": [
+            0,
+            619.5
+          ],
+          "distance_px": 110.0
+        },
+        "right": {
+          "start": [
+            170.0,
+            619.5
+          ],
+          "end": [
+            633,
+            619.5
+          ],
+          "distance_px": 463.0
+        },
+        "top": {
+          "start": [
+            140.0,
+            603.0
+          ],
+          "end": [
+            140.0,
+            0
+          ],
+          "distance_px": 603.0
+        },
+        "bottom": {
+          "start": [
+            140.0,
+            636.0
+          ],
+          "end": [
+            140.0,
+            638
+          ],
+          "distance_px": 2.0
+        }
+      }
+    },
+    {
+      "name": "Trash_1",
+      "bbox": [
+        463,
+        477,
+        486,
+        492
+      ],
+      "bbox_position": [
+        474.5,
+        484.5,
+        0.760784
+      ],
+      "bbox_size": [
+        23,
+        15
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            463.0,
+            484.5
+          ],
+          "end": [
+            0,
+            484.5
+          ],
+          "distance_px": 463.0
+        },
+        "right": {
+          "start": [
+            486.0,
+            484.5
+          ],
+          "end": [
+            633,
+            484.5
+          ],
+          "distance_px": 147.0
+        },
+        "top": {
+          "start": [
+            474.5,
+            477.0
+          ],
+          "end": [
+            474.5,
+            0
+          ],
+          "distance_px": 477.0
+        },
+        "bottom": {
+          "start": [
+            474.5,
+            492.0
+          ],
+          "end": [
+            474.5,
+            638
+          ],
+          "distance_px": 146.0
+        }
+      }
+    },
+    {
+      "name": "Trash_2",
+      "bbox": [
+        217,
+        417,
+        231,
+        435
+      ],
+      "bbox_position": [
+        224.0,
+        426.0,
+        0.784314
+      ],
+      "bbox_size": [
+        14,
+        18
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            217.0,
+            426.0
+          ],
+          "end": [
+            0,
+            426.0
+          ],
+          "distance_px": 217.0
+        },
+        "right": {
+          "start": [
+            231.0,
+            426.0
+          ],
+          "end": [
+            633,
+            426.0
+          ],
+          "distance_px": 402.0
+        },
+        "top": {
+          "start": [
+            224.0,
+            417.0
+          ],
+          "end": [
+            224.0,
+            0
+          ],
+          "distance_px": 417.0
+        },
+        "bottom": {
+          "start": [
+            224.0,
+            435.0
+          ],
+          "end": [
+            224.0,
+            638
+          ],
+          "distance_px": 203.0
+        }
+      }
+    },
+    {
+      "name": "Trash_3",
+      "bbox": [
+        544,
+        442,
+        566,
+        466
+      ],
+      "bbox_position": [
+        555.0,
+        454.0,
+        0.780392
+      ],
+      "bbox_size": [
+        22,
+        24
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            544.0,
+            454.0
+          ],
+          "end": [
+            0,
+            454.0
+          ],
+          "distance_px": 544.0
+        },
+        "right": {
+          "start": [
+            566.0,
+            454.0
+          ],
+          "end": [
+            633,
+            454.0
+          ],
+          "distance_px": 67.0
+        },
+        "top": {
+          "start": [
+            555.0,
+            442.0
+          ],
+          "end": [
+            555.0,
+            0
+          ],
+          "distance_px": 442.0
+        },
+        "bottom": {
+          "start": [
+            555.0,
+            466.0
+          ],
+          "end": [
+            555.0,
+            638
+          ],
+          "distance_px": 172.0
+        }
+      }
+    },
+    {
+      "name": "Trash_4",
+      "bbox": [
+        494,
+        558,
+        570,
+        599
+      ],
+      "bbox_position": [
+        532.0,
+        578.5,
+        0.894118
+      ],
+      "bbox_size": [
+        76,
+        41
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            494.0,
+            578.5
+          ],
+          "end": [
+            0,
+            578.5
+          ],
+          "distance_px": 494.0
+        },
+        "right": {
+          "start": [
+            570.0,
+            578.5
+          ],
+          "end": [
+            633,
+            578.5
+          ],
+          "distance_px": 63.0
+        },
+        "top": {
+          "start": [
+            532.0,
+            558.0
+          ],
+          "end": [
+            532.0,
+            0
+          ],
+          "distance_px": 558.0
+        },
+        "bottom": {
+          "start": [
+            532.0,
+            599.0
+          ],
+          "end": [
+            532.0,
+            638
+          ],
+          "distance_px": 39.0
+        }
+      }
+    },
+    {
+      "name": "Trash_5",
+      "bbox": [
+        397,
+        555,
+        435,
+        583
+      ],
+      "bbox_position": [
+        416.0,
+        569.0,
+        0.992157
+      ],
+      "bbox_size": [
+        38,
+        28
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            397.0,
+            569.0
+          ],
+          "end": [
+            0,
+            569.0
+          ],
+          "distance_px": 397.0
+        },
+        "right": {
+          "start": [
+            435.0,
+            569.0
+          ],
+          "end": [
+            633,
+            569.0
+          ],
+          "distance_px": 198.0
+        },
+        "top": {
+          "start": [
+            416.0,
+            555.0
+          ],
+          "end": [
+            416.0,
+            0
+          ],
+          "distance_px": 555.0
+        },
+        "bottom": {
+          "start": [
+            416.0,
+            583.0
+          ],
+          "end": [
+            416.0,
+            638
+          ],
+          "distance_px": 55.0
+        }
+      }
+    },
+    {
+      "name": "Trash_6",
+      "bbox": [
+        458,
+        611,
+        478,
+        636
+      ],
+      "bbox_position": [
+        468.0,
+        623.5,
+        0.913725
+      ],
+      "bbox_size": [
+        20,
+        25
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            458.0,
+            623.5
+          ],
+          "end": [
+            0,
+            623.5
+          ],
+          "distance_px": 458.0
+        },
+        "right": {
+          "start": [
+            478.0,
+            623.5
+          ],
+          "end": [
+            633,
+            623.5
+          ],
+          "distance_px": 155.0
+        },
+        "top": {
+          "start": [
+            468.0,
+            611.0
+          ],
+          "end": [
+            468.0,
+            0
+          ],
+          "distance_px": 611.0
+        },
+        "bottom": {
+          "start": [
+            468.0,
+            636.0
+          ],
+          "end": [
+            468.0,
+            638
+          ],
+          "distance_px": 2.0
+        }
+      }
+    },
+    {
+      "name": "Trash_7",
+      "bbox": [
+        31,
+        530,
+        45,
+        543
+      ],
+      "bbox_position": [
+        38.0,
+        536.5,
+        0.835294
+      ],
+      "bbox_size": [
+        14,
+        13
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            31.0,
+            536.5
+          ],
+          "end": [
+            0,
+            536.5
+          ],
+          "distance_px": 31.0
+        },
+        "right": {
+          "start": [
+            45.0,
+            536.5
+          ],
+          "end": [
+            633,
+            536.5
+          ],
+          "distance_px": 588.0
+        },
+        "top": {
+          "start": [
+            38.0,
+            530.0
+          ],
+          "end": [
+            38.0,
+            0
+          ],
+          "distance_px": 530.0
+        },
+        "bottom": {
+          "start": [
+            38.0,
+            543.0
+          ],
+          "end": [
+            38.0,
+            638
+          ],
+          "distance_px": 95.0
+        }
+      }
+    },
+    {
+      "name": "Trash_8",
+      "bbox": [
+        31,
+        560,
+        59,
+        577
+      ],
+      "bbox_position": [
+        45.0,
+        568.5,
+        0.870588
+      ],
+      "bbox_size": [
+        28,
+        17
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            31.0,
+            568.5
+          ],
+          "end": [
+            0,
+            568.5
+          ],
+          "distance_px": 31.0
+        },
+        "right": {
+          "start": [
+            59.0,
+            568.5
+          ],
+          "end": [
+            633,
+            568.5
+          ],
+          "distance_px": 574.0
+        },
+        "top": {
+          "start": [
+            45.0,
+            560.0
+          ],
+          "end": [
+            45.0,
+            0
+          ],
+          "distance_px": 560.0
+        },
+        "bottom": {
+          "start": [
+            45.0,
+            577.0
+          ],
+          "end": [
+            45.0,
+            638
+          ],
+          "distance_px": 61.0
+        }
+      }
+    },
+    {
+      "name": "Trash_9",
+      "bbox": [
+        401,
+        576,
+        436,
+        601
+      ],
+      "bbox_position": [
+        418.5,
+        588.5,
+        0.952941
+      ],
+      "bbox_size": [
+        35,
+        25
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            401.0,
+            588.5
+          ],
+          "end": [
+            0,
+            588.5
+          ],
+          "distance_px": 401.0
+        },
+        "right": {
+          "start": [
+            436.0,
+            588.5
+          ],
+          "end": [
+            633,
+            588.5
+          ],
+          "distance_px": 197.0
+        },
+        "top": {
+          "start": [
+            418.5,
+            576.0
+          ],
+          "end": [
+            418.5,
+            0
+          ],
+          "distance_px": 576.0
+        },
+        "bottom": {
+          "start": [
+            418.5,
+            601.0
+          ],
+          "end": [
+            418.5,
+            638
+          ],
+          "distance_px": 37.0
+        }
+      }
+    },
+    {
+      "name": "Trash_10",
+      "bbox": [
+        150,
+        449,
+        177,
+        465
+      ],
+      "bbox_position": [
+        163.5,
+        457.0,
+        0.854902
+      ],
+      "bbox_size": [
+        27,
+        16
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            150.0,
+            457.0
+          ],
+          "end": [
+            0,
+            457.0
+          ],
+          "distance_px": 150.0
+        },
+        "right": {
+          "start": [
+            177.0,
+            457.0
+          ],
+          "end": [
+            633,
+            457.0
+          ],
+          "distance_px": 456.0
+        },
+        "top": {
+          "start": [
+            163.5,
+            449.0
+          ],
+          "end": [
+            163.5,
+            0
+          ],
+          "distance_px": 449.0
+        },
+        "bottom": {
+          "start": [
+            163.5,
+            465.0
+          ],
+          "end": [
+            163.5,
+            638
+          ],
+          "distance_px": 173.0
+        }
+      }
+    },
+    {
+      "name": "Trash_11",
+      "bbox": [
+        558,
+        430,
+        588,
+        445
+      ],
+      "bbox_position": [
+        573.0,
+        437.5,
+        0.760784
+      ],
+      "bbox_size": [
+        30,
+        15
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            558.0,
+            437.5
+          ],
+          "end": [
+            0,
+            437.5
+          ],
+          "distance_px": 558.0
+        },
+        "right": {
+          "start": [
+            588.0,
+            437.5
+          ],
+          "end": [
+            633,
+            437.5
+          ],
+          "distance_px": 45.0
+        },
+        "top": {
+          "start": [
+            573.0,
+            430.0
+          ],
+          "end": [
+            573.0,
+            0
+          ],
+          "distance_px": 430.0
+        },
+        "bottom": {
+          "start": [
+            573.0,
+            445.0
+          ],
+          "end": [
+            573.0,
+            638
+          ],
+          "distance_px": 193.0
+        }
+      }
+    },
+    {
+      "name": "Trash_12",
+      "bbox": [
+        72,
+        532,
+        88,
+        547
+      ],
+      "bbox_position": [
+        80.0,
+        539.5,
+        0.843137
+      ],
+      "bbox_size": [
+        16,
+        15
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            72.0,
+            539.5
+          ],
+          "end": [
+            0,
+            539.5
+          ],
+          "distance_px": 72.0
+        },
+        "right": {
+          "start": [
+            88.0,
+            539.5
+          ],
+          "end": [
+            633,
+            539.5
+          ],
+          "distance_px": 545.0
+        },
+        "top": {
+          "start": [
+            80.0,
+            532.0
+          ],
+          "end": [
+            80.0,
+            0
+          ],
+          "distance_px": 532.0
+        },
+        "bottom": {
+          "start": [
+            80.0,
+            547.0
+          ],
+          "end": [
+            80.0,
+            638
+          ],
+          "distance_px": 91.0
+        }
+      }
+    },
+    {
+      "name": "Trash_13",
+      "bbox": [
+        22,
+        493,
+        39,
+        506
+      ],
+      "bbox_position": [
+        30.5,
+        499.5,
+        0.811765
+      ],
+      "bbox_size": [
+        17,
+        13
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            22.0,
+            499.5
+          ],
+          "end": [
+            0,
+            499.5
+          ],
+          "distance_px": 22.0
+        },
+        "right": {
+          "start": [
+            39.0,
+            499.5
+          ],
+          "end": [
+            633,
+            499.5
+          ],
+          "distance_px": 594.0
+        },
+        "top": {
+          "start": [
+            30.5,
+            493.0
+          ],
+          "end": [
+            30.5,
+            0
+          ],
+          "distance_px": 493.0
+        },
+        "bottom": {
+          "start": [
+            30.5,
+            506.0
+          ],
+          "end": [
+            30.5,
+            638
+          ],
+          "distance_px": 132.0
+        }
+      }
+    },
+    {
+      "name": "Trash_14",
+      "bbox": [
+        595,
+        561,
+        633,
+        591
+      ],
+      "bbox_position": [
+        614.0,
+        576.0,
+        0.882353
+      ],
+      "bbox_size": [
+        38,
+        30
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            595.0,
+            576.0
+          ],
+          "end": [
+            0,
+            576.0
+          ],
+          "distance_px": 595.0
+        },
+        "right": {
+          "start": [
+            633.0,
+            576.0
+          ],
+          "end": [
+            633,
+            576.0
+          ],
+          "distance_px": 0.0
+        },
+        "top": {
+          "start": [
+            614.0,
+            561.0
+          ],
+          "end": [
+            614.0,
+            0
+          ],
+          "distance_px": 561.0
+        },
+        "bottom": {
+          "start": [
+            614.0,
+            591.0
+          ],
+          "end": [
+            614.0,
+            638
+          ],
+          "distance_px": 47.0
+        }
+      }
+    },
+    {
+      "name": "Trash_15",
+      "bbox": [
+        112,
+        593,
+        144,
+        614
+      ],
+      "bbox_position": [
+        128.0,
+        603.5,
+        0.905882
+      ],
+      "bbox_size": [
+        32,
+        21
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            112.0,
+            603.5
+          ],
+          "end": [
+            0,
+            603.5
+          ],
+          "distance_px": 112.0
+        },
+        "right": {
+          "start": [
+            144.0,
+            603.5
+          ],
+          "end": [
+            633,
+            603.5
+          ],
+          "distance_px": 489.0
+        },
+        "top": {
+          "start": [
+            128.0,
+            593.0
+          ],
+          "end": [
+            128.0,
+            0
+          ],
+          "distance_px": 593.0
+        },
+        "bottom": {
+          "start": [
+            128.0,
+            614.0
+          ],
+          "end": [
+            128.0,
+            638
+          ],
+          "distance_px": 24.0
+        }
+      }
+    },
+    {
+      "name": "Trash_16",
+      "bbox": [
+        607,
+        588,
+        633,
+        602
+      ],
+      "bbox_position": [
+        620.0,
+        595.0,
+        0.894118
+      ],
+      "bbox_size": [
+        26,
+        14
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            607.0,
+            595.0
+          ],
+          "end": [
+            0,
+            595.0
+          ],
+          "distance_px": 607.0
+        },
+        "right": {
+          "start": [
+            633.0,
+            595.0
+          ],
+          "end": [
+            633,
+            595.0
+          ],
+          "distance_px": 0.0
+        },
+        "top": {
+          "start": [
+            620.0,
+            588.0
+          ],
+          "end": [
+            620.0,
+            0
+          ],
+          "distance_px": 588.0
+        },
+        "bottom": {
+          "start": [
+            620.0,
+            602.0
+          ],
+          "end": [
+            620.0,
+            638
+          ],
+          "distance_px": 36.0
+        }
+      }
+    },
+    {
+      "name": "Trash_17",
+      "bbox": [
+        116,
+        557,
+        155,
+        582
+      ],
+      "bbox_position": [
+        135.5,
+        569.5,
+        0.878431
+      ],
+      "bbox_size": [
+        39,
+        25
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            116.0,
+            569.5
+          ],
+          "end": [
+            0,
+            569.5
+          ],
+          "distance_px": 116.0
+        },
+        "right": {
+          "start": [
+            155.0,
+            569.5
+          ],
+          "end": [
+            633,
+            569.5
+          ],
+          "distance_px": 478.0
+        },
+        "top": {
+          "start": [
+            135.5,
+            557.0
+          ],
+          "end": [
+            135.5,
+            0
+          ],
+          "distance_px": 557.0
+        },
+        "bottom": {
+          "start": [
+            135.5,
+            582.0
+          ],
+          "end": [
+            135.5,
+            638
+          ],
+          "distance_px": 56.0
+        }
+      }
+    },
+    {
+      "name": "Trash_18",
+      "bbox": [
+        150,
+        543,
+        164,
+        553
+      ],
+      "bbox_position": [
+        157.0,
+        548.0,
+        0.835294
+      ],
+      "bbox_size": [
+        14,
+        10
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            150.0,
+            548.0
+          ],
+          "end": [
+            0,
+            548.0
+          ],
+          "distance_px": 150.0
+        },
+        "right": {
+          "start": [
+            164.0,
+            548.0
+          ],
+          "end": [
+            633,
+            548.0
+          ],
+          "distance_px": 469.0
+        },
+        "top": {
+          "start": [
+            157.0,
+            543.0
+          ],
+          "end": [
+            157.0,
+            0
+          ],
+          "distance_px": 543.0
+        },
+        "bottom": {
+          "start": [
+            157.0,
+            553.0
+          ],
+          "end": [
+            157.0,
+            638
+          ],
+          "distance_px": 85.0
+        }
+      }
+    },
+    {
+      "name": "Trash_19",
+      "bbox": [
+        28,
+        454,
+        43,
+        471
+      ],
+      "bbox_position": [
+        35.5,
+        462.5,
+        0.776471
+      ],
+      "bbox_size": [
+        15,
+        17
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            28.0,
+            462.5
+          ],
+          "end": [
+            0,
+            462.5
+          ],
+          "distance_px": 28.0
+        },
+        "right": {
+          "start": [
+            43.0,
+            462.5
+          ],
+          "end": [
+            633,
+            462.5
+          ],
+          "distance_px": 590.0
+        },
+        "top": {
+          "start": [
+            35.5,
+            454.0
+          ],
+          "end": [
+            35.5,
+            0
+          ],
+          "distance_px": 454.0
+        },
+        "bottom": {
+          "start": [
+            35.5,
+            471.0
+          ],
+          "end": [
+            35.5,
+            638
+          ],
+          "distance_px": 167.0
+        }
+      }
+    },
+    {
+      "name": "Trash_20",
+      "bbox": [
+        59,
+        504,
+        82,
+        513
+      ],
+      "bbox_position": [
+        70.5,
+        508.5,
+        0.788235
+      ],
+      "bbox_size": [
+        23,
+        9
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            59.0,
+            508.5
+          ],
+          "end": [
+            0,
+            508.5
+          ],
+          "distance_px": 59.0
+        },
+        "right": {
+          "start": [
+            82.0,
+            508.5
+          ],
+          "end": [
+            633,
+            508.5
+          ],
+          "distance_px": 551.0
+        },
+        "top": {
+          "start": [
+            70.5,
+            504.0
+          ],
+          "end": [
+            70.5,
+            0
+          ],
+          "distance_px": 504.0
+        },
+        "bottom": {
+          "start": [
+            70.5,
+            513.0
+          ],
+          "end": [
+            70.5,
+            638
+          ],
+          "distance_px": 125.0
+        }
+      }
+    },
+    {
+      "name": "Trash_21",
+      "bbox": [
+        75,
+        574,
+        106,
+        588
+      ],
+      "bbox_position": [
+        90.5,
+        581.0,
+        0.878431
+      ],
+      "bbox_size": [
+        31,
+        14
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            75.0,
+            581.0
+          ],
+          "end": [
+            0,
+            581.0
+          ],
+          "distance_px": 75.0
+        },
+        "right": {
+          "start": [
+            106.0,
+            581.0
+          ],
+          "end": [
+            633,
+            581.0
+          ],
+          "distance_px": 527.0
+        },
+        "top": {
+          "start": [
+            90.5,
+            574.0
+          ],
+          "end": [
+            90.5,
+            0
+          ],
+          "distance_px": 574.0
+        },
+        "bottom": {
+          "start": [
+            90.5,
+            588.0
+          ],
+          "end": [
+            90.5,
+            638
+          ],
+          "distance_px": 50.0
+        }
+      }
+    },
+    {
+      "name": "Trash_22",
+      "bbox": [
+        478,
+        611,
+        530,
+        636
+      ],
+      "bbox_position": [
+        504.0,
+        623.5,
+        0.909804
+      ],
+      "bbox_size": [
+        52,
+        25
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            478.0,
+            623.5
+          ],
+          "end": [
+            0,
+            623.5
+          ],
+          "distance_px": 478.0
+        },
+        "right": {
+          "start": [
+            530.0,
+            623.5
+          ],
+          "end": [
+            633,
+            623.5
+          ],
+          "distance_px": 103.0
+        },
+        "top": {
+          "start": [
+            504.0,
+            611.0
+          ],
+          "end": [
+            504.0,
+            0
+          ],
+          "distance_px": 611.0
+        },
+        "bottom": {
+          "start": [
+            504.0,
+            636.0
+          ],
+          "end": [
+            504.0,
+            638
+          ],
+          "distance_px": 2.0
+        }
+      }
+    },
+    {
+      "name": "Trash_23",
+      "bbox": [
+        552,
+        473,
+        584,
+        489
+      ],
+      "bbox_position": [
+        568.0,
+        481.0,
+        0.745098
+      ],
+      "bbox_size": [
+        32,
+        16
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            552.0,
+            481.0
+          ],
+          "end": [
+            0,
+            481.0
+          ],
+          "distance_px": 552.0
+        },
+        "right": {
+          "start": [
+            584.0,
+            481.0
+          ],
+          "end": [
+            633,
+            481.0
+          ],
+          "distance_px": 49.0
+        },
+        "top": {
+          "start": [
+            568.0,
+            473.0
+          ],
+          "end": [
+            568.0,
+            0
+          ],
+          "distance_px": 473.0
+        },
+        "bottom": {
+          "start": [
+            568.0,
+            489.0
+          ],
+          "end": [
+            568.0,
+            638
+          ],
+          "distance_px": 149.0
+        }
+      }
+    },
+    {
+      "name": "Trash_24",
+      "bbox": [
+        522,
+        538,
+        547,
+        565
+      ],
+      "bbox_position": [
+        534.5,
+        551.5,
+        0.878431
+      ],
+      "bbox_size": [
+        25,
+        27
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            522.0,
+            551.5
+          ],
+          "end": [
+            0,
+            551.5
+          ],
+          "distance_px": 522.0
+        },
+        "right": {
+          "start": [
+            547.0,
+            551.5
+          ],
+          "end": [
+            633,
+            551.5
+          ],
+          "distance_px": 86.0
+        },
+        "top": {
+          "start": [
+            534.5,
+            538.0
+          ],
+          "end": [
+            534.5,
+            0
+          ],
+          "distance_px": 538.0
+        },
+        "bottom": {
+          "start": [
+            534.5,
+            565.0
+          ],
+          "end": [
+            534.5,
+            638
+          ],
+          "distance_px": 73.0
+        }
+      }
+    },
+    {
+      "name": "Trash_25",
+      "bbox": [
+        0,
+        551,
+        14,
+        564
+      ],
+      "bbox_position": [
+        7.0,
+        557.5,
+        0.858824
+      ],
+      "bbox_size": [
+        14,
+        13
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            0.0,
+            557.5
+          ],
+          "end": [
+            0,
+            557.5
+          ],
+          "distance_px": 0.0
+        },
+        "right": {
+          "start": [
+            14.0,
+            557.5
+          ],
+          "end": [
+            633,
+            557.5
+          ],
+          "distance_px": 619.0
+        },
+        "top": {
+          "start": [
+            7.0,
+            551.0
+          ],
+          "end": [
+            7.0,
+            0
+          ],
+          "distance_px": 551.0
+        },
+        "bottom": {
+          "start": [
+            7.0,
+            564.0
+          ],
+          "end": [
+            7.0,
+            638
+          ],
+          "distance_px": 74.0
+        }
+      }
+    },
+    {
+      "name": "Trash_26",
+      "bbox": [
+        110,
+        580,
+        144,
+        591
+      ],
+      "bbox_position": [
+        127.0,
+        585.5,
+        0.882353
+      ],
+      "bbox_size": [
+        34,
+        11
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            110.0,
+            585.5
+          ],
+          "end": [
+            0,
+            585.5
+          ],
+          "distance_px": 110.0
+        },
+        "right": {
+          "start": [
+            144.0,
+            585.5
+          ],
+          "end": [
+            633,
+            585.5
+          ],
+          "distance_px": 489.0
+        },
+        "top": {
+          "start": [
+            127.0,
+            580.0
+          ],
+          "end": [
+            127.0,
+            0
+          ],
+          "distance_px": 580.0
+        },
+        "bottom": {
+          "start": [
+            127.0,
+            591.0
+          ],
+          "end": [
+            127.0,
+            638
+          ],
+          "distance_px": 47.0
+        }
+      }
+    },
+    {
+      "name": "Trash_27",
+      "bbox": [
+        469,
+        490,
+        507,
+        521
+      ],
+      "bbox_position": [
+        488.0,
+        505.5,
+        0.807843
+      ],
+      "bbox_size": [
+        38,
+        31
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            469.0,
+            505.5
+          ],
+          "end": [
+            0,
+            505.5
+          ],
+          "distance_px": 469.0
+        },
+        "right": {
+          "start": [
+            507.0,
+            505.5
+          ],
+          "end": [
+            633,
+            505.5
+          ],
+          "distance_px": 126.0
+        },
+        "top": {
+          "start": [
+            488.0,
+            490.0
+          ],
+          "end": [
+            488.0,
+            0
+          ],
+          "distance_px": 490.0
+        },
+        "bottom": {
+          "start": [
+            488.0,
+            521.0
+          ],
+          "end": [
+            488.0,
+            638
+          ],
+          "distance_px": 117.0
+        }
+      }
+    },
+    {
+      "name": "Trash_28",
+      "bbox": [
+        149,
+        584,
+        172,
+        599
+      ],
+      "bbox_position": [
+        160.5,
+        591.5,
+        0.886275
+      ],
+      "bbox_size": [
+        23,
+        15
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            149.0,
+            591.5
+          ],
+          "end": [
+            0,
+            591.5
+          ],
+          "distance_px": 149.0
+        },
+        "right": {
+          "start": [
+            172.0,
+            591.5
+          ],
+          "end": [
+            633,
+            591.5
+          ],
+          "distance_px": 461.0
+        },
+        "top": {
+          "start": [
+            160.5,
+            584.0
+          ],
+          "end": [
+            160.5,
+            0
+          ],
+          "distance_px": 584.0
+        },
+        "bottom": {
+          "start": [
+            160.5,
+            599.0
+          ],
+          "end": [
+            160.5,
+            638
+          ],
+          "distance_px": 39.0
+        }
+      }
+    },
+    {
+      "name": "Trash_29",
+      "bbox": [
+        0,
+        568,
+        14,
+        582
+      ],
+      "bbox_position": [
+        7.0,
+        575.0,
+        0.878431
+      ],
+      "bbox_size": [
+        14,
+        14
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            0.0,
+            575.0
+          ],
+          "end": [
+            0,
+            575.0
+          ],
+          "distance_px": 0.0
+        },
+        "right": {
+          "start": [
+            14.0,
+            575.0
+          ],
+          "end": [
+            633,
+            575.0
+          ],
+          "distance_px": 619.0
+        },
+        "top": {
+          "start": [
+            7.0,
+            568.0
+          ],
+          "end": [
+            7.0,
+            0
+          ],
+          "distance_px": 568.0
+        },
+        "bottom": {
+          "start": [
+            7.0,
+            582.0
+          ],
+          "end": [
+            7.0,
+            638
+          ],
+          "distance_px": 56.0
+        }
+      }
+    },
+    {
+      "name": "Trash_30",
+      "bbox": [
+        43,
+        617,
+        59,
+        633
+      ],
+      "bbox_position": [
+        51.0,
+        625.0,
+        0.909804
+      ],
+      "bbox_size": [
+        16,
+        16
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            43.0,
+            625.0
+          ],
+          "end": [
+            0,
+            625.0
+          ],
+          "distance_px": 43.0
+        },
+        "right": {
+          "start": [
+            59.0,
+            625.0
+          ],
+          "end": [
+            633,
+            625.0
+          ],
+          "distance_px": 574.0
+        },
+        "top": {
+          "start": [
+            51.0,
+            617.0
+          ],
+          "end": [
+            51.0,
+            0
+          ],
+          "distance_px": 617.0
+        },
+        "bottom": {
+          "start": [
+            51.0,
+            633.0
+          ],
+          "end": [
+            51.0,
+            638
+          ],
+          "distance_px": 5.0
+        }
+      }
+    },
+    {
+      "name": "Trash_31",
+      "bbox": [
+        585,
+        466,
+        605,
+        481
+      ],
+      "bbox_position": [
+        595.0,
+        473.5,
+        0.811765
+      ],
+      "bbox_size": [
+        20,
+        15
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            585.0,
+            473.5
+          ],
+          "end": [
+            0,
+            473.5
+          ],
+          "distance_px": 585.0
+        },
+        "right": {
+          "start": [
+            605.0,
+            473.5
+          ],
+          "end": [
+            633,
+            473.5
+          ],
+          "distance_px": 28.0
+        },
+        "top": {
+          "start": [
+            595.0,
+            466.0
+          ],
+          "end": [
+            595.0,
+            0
+          ],
+          "distance_px": 466.0
+        },
+        "bottom": {
+          "start": [
+            595.0,
+            481.0
+          ],
+          "end": [
+            595.0,
+            638
+          ],
+          "distance_px": 157.0
+        }
+      }
+    },
+    {
+      "name": "Trash_32",
+      "bbox": [
+        231,
+        577,
+        252,
+        594
+      ],
+      "bbox_position": [
+        241.5,
+        585.5,
+        0.882353
+      ],
+      "bbox_size": [
+        21,
+        17
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            231.0,
+            585.5
+          ],
+          "end": [
+            0,
+            585.5
+          ],
+          "distance_px": 231.0
+        },
+        "right": {
+          "start": [
+            252.0,
+            585.5
+          ],
+          "end": [
+            633,
+            585.5
+          ],
+          "distance_px": 381.0
+        },
+        "top": {
+          "start": [
+            241.5,
+            577.0
+          ],
+          "end": [
+            241.5,
+            0
+          ],
+          "distance_px": 577.0
+        },
+        "bottom": {
+          "start": [
+            241.5,
+            594.0
+          ],
+          "end": [
+            241.5,
+            638
+          ],
+          "distance_px": 44.0
+        }
+      }
+    },
+    {
+      "name": "Trash_33",
+      "bbox": [
+        574,
+        495,
+        608,
+        520
+      ],
+      "bbox_position": [
+        591.0,
+        507.5,
+        0.839216
+      ],
+      "bbox_size": [
+        34,
+        25
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            574.0,
+            507.5
+          ],
+          "end": [
+            0,
+            507.5
+          ],
+          "distance_px": 574.0
+        },
+        "right": {
+          "start": [
+            608.0,
+            507.5
+          ],
+          "end": [
+            633,
+            507.5
+          ],
+          "distance_px": 25.0
+        },
+        "top": {
+          "start": [
+            591.0,
+            495.0
+          ],
+          "end": [
+            591.0,
+            0
+          ],
+          "distance_px": 495.0
+        },
+        "bottom": {
+          "start": [
+            591.0,
+            520.0
+          ],
+          "end": [
+            591.0,
+            638
+          ],
+          "distance_px": 118.0
+        }
+      }
+    },
+    {
+      "name": "Trash_34",
+      "bbox": [
+        455,
+        548,
+        500,
+        590
+      ],
+      "bbox_position": [
+        477.5,
+        569.0,
+        0.890196
+      ],
+      "bbox_size": [
+        45,
+        42
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            455.0,
+            569.0
+          ],
+          "end": [
+            0,
+            569.0
+          ],
+          "distance_px": 455.0
+        },
+        "right": {
+          "start": [
+            500.0,
+            569.0
+          ],
+          "end": [
+            633,
+            569.0
+          ],
+          "distance_px": 133.0
+        },
+        "top": {
+          "start": [
+            477.5,
+            548.0
+          ],
+          "end": [
+            477.5,
+            0
+          ],
+          "distance_px": 548.0
+        },
+        "bottom": {
+          "start": [
+            477.5,
+            590.0
+          ],
+          "end": [
+            477.5,
+            638
+          ],
+          "distance_px": 48.0
+        }
+      }
+    },
+    {
+      "name": "Trash_35",
+      "bbox": [
+        419,
+        599,
+        434,
+        616
+      ],
+      "bbox_position": [
+        426.5,
+        607.5,
+        0.898039
+      ],
+      "bbox_size": [
+        15,
+        17
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            419.0,
+            607.5
+          ],
+          "end": [
+            0,
+            607.5
+          ],
+          "distance_px": 419.0
+        },
+        "right": {
+          "start": [
+            434.0,
+            607.5
+          ],
+          "end": [
+            633,
+            607.5
+          ],
+          "distance_px": 199.0
+        },
+        "top": {
+          "start": [
+            426.5,
+            599.0
+          ],
+          "end": [
+            426.5,
+            0
+          ],
+          "distance_px": 599.0
+        },
+        "bottom": {
+          "start": [
+            426.5,
+            616.0
+          ],
+          "end": [
+            426.5,
+            638
+          ],
+          "distance_px": 22.0
+        }
+      }
+    },
+    {
+      "name": "Trash_36",
+      "bbox": [
+        137,
+        475,
+        187,
+        496
+      ],
+      "bbox_position": [
+        162.0,
+        485.5,
+        0.745098
+      ],
+      "bbox_size": [
+        50,
+        21
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            137.0,
+            485.5
+          ],
+          "end": [
+            0,
+            485.5
+          ],
+          "distance_px": 137.0
+        },
+        "right": {
+          "start": [
+            187.0,
+            485.5
+          ],
+          "end": [
+            633,
+            485.5
+          ],
+          "distance_px": 446.0
+        },
+        "top": {
+          "start": [
+            162.0,
+            475.0
+          ],
+          "end": [
+            162.0,
+            0
+          ],
+          "distance_px": 475.0
+        },
+        "bottom": {
+          "start": [
+            162.0,
+            496.0
+          ],
+          "end": [
+            162.0,
+            638
+          ],
+          "distance_px": 142.0
+        }
+      }
+    },
+    {
+      "name": "Trash_37",
+      "bbox": [
+        555,
+        607,
+        582,
+        626
+      ],
+      "bbox_position": [
+        568.5,
+        616.5,
+        0.905882
+      ],
+      "bbox_size": [
+        27,
+        19
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            555.0,
+            616.5
+          ],
+          "end": [
+            0,
+            616.5
+          ],
+          "distance_px": 555.0
+        },
+        "right": {
+          "start": [
+            582.0,
+            616.5
+          ],
+          "end": [
+            633,
+            616.5
+          ],
+          "distance_px": 51.0
+        },
+        "top": {
+          "start": [
+            568.5,
+            607.0
+          ],
+          "end": [
+            568.5,
+            0
+          ],
+          "distance_px": 607.0
+        },
+        "bottom": {
+          "start": [
+            568.5,
+            626.0
+          ],
+          "end": [
+            568.5,
+            638
+          ],
+          "distance_px": 12.0
+        }
+      }
+    },
+    {
+      "name": "Trash_38",
+      "bbox": [
+        608,
+        610,
+        633,
+        633
+      ],
+      "bbox_position": [
+        620.5,
+        621.5,
+        0.905882
+      ],
+      "bbox_size": [
+        25,
+        23
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            608.0,
+            621.5
+          ],
+          "end": [
+            0,
+            621.5
+          ],
+          "distance_px": 608.0
+        },
+        "right": {
+          "start": [
+            633.0,
+            621.5
+          ],
+          "end": [
+            633,
+            621.5
+          ],
+          "distance_px": 0.0
+        },
+        "top": {
+          "start": [
+            620.5,
+            610.0
+          ],
+          "end": [
+            620.5,
+            0
+          ],
+          "distance_px": 610.0
+        },
+        "bottom": {
+          "start": [
+            620.5,
+            633.0
+          ],
+          "end": [
+            620.5,
+            638
+          ],
+          "distance_px": 5.0
+        }
+      }
+    },
+    {
+      "name": "Trash_39",
+      "bbox": [
+        136,
+        505,
+        205,
+        541
+      ],
+      "bbox_position": [
+        170.5,
+        523.0,
+        0.823529
+      ],
+      "bbox_size": [
+        69,
+        36
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            136.0,
+            523.0
+          ],
+          "end": [
+            0,
+            523.0
+          ],
+          "distance_px": 136.0
+        },
+        "right": {
+          "start": [
+            205.0,
+            523.0
+          ],
+          "end": [
+            633,
+            523.0
+          ],
+          "distance_px": 428.0
+        },
+        "top": {
+          "start": [
+            170.5,
+            505.0
+          ],
+          "end": [
+            170.5,
+            0
+          ],
+          "distance_px": 505.0
+        },
+        "bottom": {
+          "start": [
+            170.5,
+            541.0
+          ],
+          "end": [
+            170.5,
+            638
+          ],
+          "distance_px": 97.0
+        }
+      }
+    },
+    {
+      "name": "Trash_40",
+      "bbox": [
+        169,
+        577,
+        231,
+        637
+      ],
+      "bbox_position": [
+        200.0,
+        607.0,
+        0.909804
+      ],
+      "bbox_size": [
+        62,
+        60
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            169.0,
+            607.0
+          ],
+          "end": [
+            0,
+            607.0
+          ],
+          "distance_px": 169.0
+        },
+        "right": {
+          "start": [
+            231.0,
+            607.0
+          ],
+          "end": [
+            633,
+            607.0
+          ],
+          "distance_px": 402.0
+        },
+        "top": {
+          "start": [
+            200.0,
+            577.0
+          ],
+          "end": [
+            200.0,
+            0
+          ],
+          "distance_px": 577.0
+        },
+        "bottom": {
+          "start": [
+            200.0,
+            637.0
+          ],
+          "end": [
+            200.0,
+            638
+          ],
+          "distance_px": 1.0
+        }
+      }
+    },
+    {
+      "name": "Trash_41",
+      "bbox": [
+        163,
+        540,
+        250,
+        597
+      ],
+      "bbox_position": [
+        206.5,
+        568.5,
+        0.890196
+      ],
+      "bbox_size": [
+        87,
+        57
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            163.0,
+            568.5
+          ],
+          "end": [
+            0,
+            568.5
+          ],
+          "distance_px": 163.0
+        },
+        "right": {
+          "start": [
+            250.0,
+            568.5
+          ],
+          "end": [
+            633,
+            568.5
+          ],
+          "distance_px": 383.0
+        },
+        "top": {
+          "start": [
+            206.5,
+            540.0
+          ],
+          "end": [
+            206.5,
+            0
+          ],
+          "distance_px": 540.0
+        },
+        "bottom": {
+          "start": [
+            206.5,
+            597.0
+          ],
+          "end": [
+            206.5,
+            638
+          ],
+          "distance_px": 41.0
+        }
+      }
+    },
+    {
+      "name": "Trash_42",
+      "bbox": [
+        468,
+        445,
+        488,
+        467
+      ],
+      "bbox_position": [
+        478.0,
+        456.0,
+        0.803922
+      ],
+      "bbox_size": [
+        20,
+        22
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            468.0,
+            456.0
+          ],
+          "end": [
+            0,
+            456.0
+          ],
+          "distance_px": 468.0
+        },
+        "right": {
+          "start": [
+            488.0,
+            456.0
+          ],
+          "end": [
+            633,
+            456.0
+          ],
+          "distance_px": 145.0
+        },
+        "top": {
+          "start": [
+            478.0,
+            445.0
+          ],
+          "end": [
+            478.0,
+            0
+          ],
+          "distance_px": 445.0
+        },
+        "bottom": {
+          "start": [
+            478.0,
+            467.0
+          ],
+          "end": [
+            478.0,
+            638
+          ],
+          "distance_px": 171.0
+        }
+      }
+    },
+    {
+      "name": "Trash_43",
+      "bbox": [
+        593,
+        541,
+        633,
+        562
+      ],
+      "bbox_position": [
+        613.0,
+        551.5,
+        0.862745
+      ],
+      "bbox_size": [
+        40,
+        21
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            593.0,
+            551.5
+          ],
+          "end": [
+            0,
+            551.5
+          ],
+          "distance_px": 593.0
+        },
+        "right": {
+          "start": [
+            633.0,
+            551.5
+          ],
+          "end": [
+            633,
+            551.5
+          ],
+          "distance_px": 0.0
+        },
+        "top": {
+          "start": [
+            613.0,
+            541.0
+          ],
+          "end": [
+            613.0,
+            0
+          ],
+          "distance_px": 541.0
+        },
+        "bottom": {
+          "start": [
+            613.0,
+            562.0
+          ],
+          "end": [
+            613.0,
+            638
+          ],
+          "distance_px": 76.0
+        }
+      }
+    },
+    {
+      "name": "Trash_44",
+      "bbox": [
+        561,
+        510,
+        605,
+        528
+      ],
+      "bbox_position": [
+        583.0,
+        519.0,
+        0.823529
+      ],
+      "bbox_size": [
+        44,
+        18
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            561.0,
+            519.0
+          ],
+          "end": [
+            0,
+            519.0
+          ],
+          "distance_px": 561.0
+        },
+        "right": {
+          "start": [
+            605.0,
+            519.0
+          ],
+          "end": [
+            633,
+            519.0
+          ],
+          "distance_px": 28.0
+        },
+        "top": {
+          "start": [
+            583.0,
+            510.0
+          ],
+          "end": [
+            583.0,
+            0
+          ],
+          "distance_px": 510.0
+        },
+        "bottom": {
+          "start": [
+            583.0,
+            528.0
+          ],
+          "end": [
+            583.0,
+            638
+          ],
+          "distance_px": 110.0
+        }
+      }
+    },
+    {
+      "name": "Trash_45",
+      "bbox": [
+        491,
+        603,
+        520,
+        625
+      ],
+      "bbox_position": [
+        505.5,
+        614.0,
+        0.909804
+      ],
+      "bbox_size": [
+        29,
+        22
+      ],
+      "group": "Trash",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            491.0,
+            614.0
+          ],
+          "end": [
+            0,
+            614.0
+          ],
+          "distance_px": 491.0
+        },
+        "right": {
+          "start": [
+            520.0,
+            614.0
+          ],
+          "end": [
+            633,
+            614.0
+          ],
+          "distance_px": 113.0
+        },
+        "top": {
+          "start": [
+            505.5,
+            603.0
+          ],
+          "end": [
+            505.5,
+            0
+          ],
+          "distance_px": 603.0
+        },
+        "bottom": {
+          "start": [
+            505.5,
+            625.0
+          ],
+          "end": [
+            505.5,
+            638
+          ],
+          "distance_px": 13.0
+        }
+      }
+    },
+    {
+      "name": "Trees_0",
+      "bbox": [
+        0,
+        197,
+        115,
+        284
+      ],
+      "bbox_position": [
+        57.5,
+        240.5,
+        0.517647
+      ],
+      "bbox_size": [
+        115,
+        87
+      ],
+      "group": "Trees",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            0.0,
+            240.5
+          ],
+          "end": [
+            0,
+            240.5
+          ],
+          "distance_px": 0.0
+        },
+        "right": {
+          "start": [
+            115.0,
+            240.5
+          ],
+          "end": [
+            633,
+            240.5
+          ],
+          "distance_px": 518.0
+        },
+        "top": {
+          "start": [
+            57.5,
+            197.0
+          ],
+          "end": [
+            57.5,
+            0
+          ],
+          "distance_px": 197.0
+        },
+        "bottom": {
+          "start": [
+            57.5,
+            284.0
+          ],
+          "end": [
+            57.5,
+            638
+          ],
+          "distance_px": 354.0
+        }
+      }
+    },
+    {
+      "name": "Trees_1",
+      "bbox": [
+        380,
+        5,
+        632,
+        282
+      ],
+      "bbox_position": [
+        506.0,
+        143.5,
+        0.647059
+      ],
+      "bbox_size": [
+        252,
+        277
+      ],
+      "group": "Trees",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            380.0,
+            143.5
+          ],
+          "end": [
+            0,
+            143.5
+          ],
+          "distance_px": 380.0
+        },
+        "right": {
+          "start": [
+            632.0,
+            143.5
+          ],
+          "end": [
+            633,
+            143.5
+          ],
+          "distance_px": 1.0
+        },
+        "top": {
+          "start": [
+            506.0,
+            5.0
+          ],
+          "end": [
+            506.0,
+            0
+          ],
+          "distance_px": 5.0
+        },
+        "bottom": {
+          "start": [
+            506.0,
+            282.0
+          ],
+          "end": [
+            506.0,
+            638
+          ],
+          "distance_px": 356.0
+        }
+      }
+    },
+    {
+      "name": "Ei_0",
+      "bbox": [
+        0,
+        593,
+        52,
+        638
+      ],
+      "bbox_position": [
+        26.0,
+        615.5,
+        0.909804
+      ],
+      "bbox_size": [
+        52,
+        45
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            0.0,
+            615.5
+          ],
+          "end": [
+            0,
+            615.5
+          ],
+          "distance_px": 0.0
+        },
+        "right": {
+          "start": [
+            52.0,
+            615.5
+          ],
+          "end": [
+            633,
+            615.5
+          ],
+          "distance_px": 581.0
+        },
+        "top": {
+          "start": [
+            26.0,
+            593.0
+          ],
+          "end": [
+            26.0,
+            0
+          ],
+          "distance_px": 593.0
+        },
+        "bottom": {
+          "start": [
+            26.0,
+            638.0
+          ],
+          "end": [
+            26.0,
+            638
+          ],
+          "distance_px": 0.0
+        }
+      }
+    }
+  ],
+  "source_image": "Picture-1-ai-far-right",
+  "source_image_path": "Picture-1-ai-far-right.png",
+  "image_width": 633,
+  "image_height": 638,
+  "output_folder": "Picture-1-ai-far-right"
+}

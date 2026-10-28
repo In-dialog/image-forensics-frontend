@@ -1,0 +1,24 @@
+{
+  "extracts": [
+    {
+      "name": "Item_0",
+      "bbox": [
+        0,
+        0,
+        61,
+        111
+      ],
+      "bbox_position": [
+        30.5,
+        55.5
+      ],
+      "bbox_size": [
+        61,
+        111
+      ],
+      "group": "Item"
+    }
+  ],
+  "parent_name": "Book_1",
+  "parent_group": "book"
+}

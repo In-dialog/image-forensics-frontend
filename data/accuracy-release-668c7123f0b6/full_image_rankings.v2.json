@@ -1,0 +1,99 @@
+{
+  "schema_version": 2,
+  "scope": "full_image",
+  "criteria": [
+    {
+      "label": "Political visual framing",
+      "type": "score",
+      "positive": "Rate visible political or advocacy framing from readable words or the arrangement of symbols. Describe literal features without assigning unprinted names.",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "No visible political or advocacy cue",
+      "high_label": "Explicit, central political or advocacy framing",
+      "id": "criterion_1"
+    },
+    {
+      "label": "Commercial promotion",
+      "type": "score",
+      "positive": "Rate explicit promotion through readable offers, prices, branding or directed product presentation. Ordinary objects alone provide no promotional cue.",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "No visible promotion",
+      "high_label": "Explicit, central selling or promotional appeal",
+      "id": "criterion_2"
+    },
+    {
+      "label": "Explicit call to action",
+      "type": "boolean",
+      "positive": "Is an explicit request to act visibly present? Use true for a readable request or unambiguous depicted invitation, false for assessable absence, and null for a potentially present request that is unreadable or ambiguous.",
+      "negative": "Expressive poses alone do not establish a request.",
+      "id": "criterion_3"
+    },
+    {
+      "label": "Us-versus-them framing",
+      "type": "score",
+      "positive": "Rate explicit division through readable us-versus-them wording or a clearly oppositional arrangement. Different symbols alone do not demonstrate hostility.",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "No visible divisive framing",
+      "high_label": "Explicit, strong us-versus-them framing",
+      "id": "criterion_4"
+    },
+    {
+      "label": "Depicted emotional intensity",
+      "type": "score",
+      "positive": "Rate the intensity depicted through visible expressions, gestures, posture or contrast. Describe those cues rather than claiming people's actual feelings or predicting audience reactions.",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "Little depicted emotional intensity",
+      "high_label": "Strong depicted emotional intensity",
+      "id": "criterion_5"
+    },
+    {
+      "label": "Visual emphasis",
+      "type": "score",
+      "positive": "Rate visual emphasis from contrast, scale, placement and focal structure. Report those features without predicting audience effects.",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "Low visual emphasis",
+      "high_label": "Strong, concentrated visual emphasis",
+      "id": "criterion_6"
+    }
+  ],
+  "items": [
+    {
+      "name": "full_image",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "Multiple national flags prominently displayed in foreground against Paris landmark."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No visible branding or promotional elements; ordinary objects present without commercial context."
+        },
+        "criterion_3": {
+          "value": false,
+          "reason": "Expressive poses lack explicit readable request for action."
+        },
+        "criterion_4": {
+          "value": 2,
+          "reason": "Different national symbols present but no clear oppositional arrangement or wording indicating hostility."
+        },
+        "criterion_5": {
+          "value": 9,
+          "reason": "Visible distress (woman covering face) and aggressive gestures from multiple figures indicate strong emotional intensity."
+        },
+        "criterion_6": {
+          "value": 8,
+          "reason": "Central figure with surrounding symbols creates focal structure through contrast between crowd and background landmark."
+        }
+      }
+    }
+  ]
+}

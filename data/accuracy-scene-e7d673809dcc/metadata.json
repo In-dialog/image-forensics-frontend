@@ -1,0 +1,207 @@
+{
+  "extracts": [
+    {
+      "name": "person_0",
+      "bbox": [
+        237,
+        345,
+        431,
+        638
+      ],
+      "bbox_position": [
+        334.0,
+        491.5
+      ],
+      "bbox_size": [
+        194,
+        293
+      ],
+      "group": "people"
+    },
+    {
+      "name": "person_1",
+      "bbox": [
+        62,
+        278,
+        289,
+        582
+      ],
+      "bbox_position": [
+        175.5,
+        430.0
+      ],
+      "bbox_size": [
+        227,
+        304
+      ],
+      "group": "people"
+    },
+    {
+      "name": "person_2",
+      "bbox": [
+        0,
+        239,
+        195,
+        532
+      ],
+      "bbox_position": [
+        97.5,
+        385.5
+      ],
+      "bbox_size": [
+        195,
+        293
+      ],
+      "group": "people"
+    },
+    {
+      "name": "person_3",
+      "bbox": [
+        359,
+        238,
+        583,
+        582
+      ],
+      "bbox_position": [
+        471.0,
+        410.0
+      ],
+      "bbox_size": [
+        224,
+        344
+      ],
+      "group": "people"
+    },
+    {
+      "name": "person_4",
+      "bbox": [
+        505,
+        254,
+        632,
+        532
+      ],
+      "bbox_position": [
+        568.5,
+        393.0
+      ],
+      "bbox_size": [
+        127,
+        278
+      ],
+      "group": "people"
+    },
+    {
+      "name": "person_5",
+      "bbox": [
+        359,
+        255,
+        413,
+        319
+      ],
+      "bbox_position": [
+        386.0,
+        287.0
+      ],
+      "bbox_size": [
+        54,
+        64
+      ],
+      "group": "people"
+    },
+    {
+      "name": "person_6",
+      "bbox": [
+        237,
+        267,
+        330,
+        434
+      ],
+      "bbox_position": [
+        283.5,
+        350.5
+      ],
+      "bbox_size": [
+        93,
+        167
+      ],
+      "group": "people"
+    },
+    {
+      "name": "flag_0",
+      "bbox": [
+        0,
+        36,
+        180,
+        236
+      ],
+      "bbox_position": [
+        90.0,
+        136.0
+      ],
+      "bbox_size": [
+        180,
+        200
+      ],
+      "group": "flag"
+    },
+    {
+      "name": "flag_1",
+      "bbox": [
+        405,
+        15,
+        613,
+        184
+      ],
+      "bbox_position": [
+        509.0,
+        99.5
+      ],
+      "bbox_size": [
+        208,
+        169
+      ],
+      "group": "flag"
+    },
+    {
+      "name": "FRANCE_0",
+      "bbox": [
+        276,
+        489,
+        375,
+        517
+      ],
+      "bbox_position": [
+        325.5,
+        503.0
+      ],
+      "bbox_size": [
+        99,
+        28
+      ],
+      "group": "texts"
+    },
+    {
+      "name": "EI_0",
+      "bbox": [
+        7,
+        600,
+        44,
+        626
+      ],
+      "bbox_position": [
+        25.5,
+        613.0
+      ],
+      "bbox_size": [
+        37,
+        26
+      ],
+      "group": "texts"
+    }
+  ],
+  "source_image": "accuracy-scene-e7d673809dcc",
+  "source_image_path": "accuracy-scene-e7d673809dcc.webp",
+  "image_width": 633,
+  "image_height": 638,
+  "output_folder": "accuracy-scene-e7d673809dcc"
+}

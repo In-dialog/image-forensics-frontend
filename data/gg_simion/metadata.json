@@ -1,0 +1,2349 @@
+{
+  "extracts": [
+    {
+      "name": "Person_0",
+      "bbox": [
+        360,
+        159,
+        817,
+        640
+      ],
+      "bbox_position": [
+        588.5,
+        399.5,
+        0.945098
+      ],
+      "bbox_size": [
+        457,
+        481
+      ],
+      "group": "people",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            360.0,
+            399.5
+          ],
+          "end": [
+            0,
+            399.5
+          ],
+          "distance_px": 360.0
+        },
+        "right": {
+          "start": [
+            817.0,
+            399.5
+          ],
+          "end": [
+            1200,
+            399.5
+          ],
+          "distance_px": 383.0
+        },
+        "top": {
+          "start": [
+            588.5,
+            159.0
+          ],
+          "end": [
+            588.5,
+            0
+          ],
+          "distance_px": 159.0
+        },
+        "bottom": {
+          "start": [
+            588.5,
+            640.0
+          ],
+          "end": [
+            588.5,
+            675
+          ],
+          "distance_px": 35.0
+        }
+      }
+    },
+    {
+      "name": "Book_0",
+      "bbox": [
+        348,
+        138,
+        366,
+        254
+      ],
+      "bbox_position": [
+        357.0,
+        196.0,
+        0.196078
+      ],
+      "bbox_size": [
+        18,
+        116
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            348.0,
+            196.0
+          ],
+          "end": [
+            0,
+            196.0
+          ],
+          "distance_px": 348.0
+        },
+        "right": {
+          "start": [
+            366.0,
+            196.0
+          ],
+          "end": [
+            1200,
+            196.0
+          ],
+          "distance_px": 834.0
+        },
+        "top": {
+          "start": [
+            357.0,
+            138.0
+          ],
+          "end": [
+            357.0,
+            0
+          ],
+          "distance_px": 138.0
+        },
+        "bottom": {
+          "start": [
+            357.0,
+            254.0
+          ],
+          "end": [
+            357.0,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_1",
+      "bbox": [
+        348,
+        346,
+        409,
+        457
+      ],
+      "bbox_position": [
+        378.5,
+        401.5,
+        0.639216
+      ],
+      "bbox_size": [
+        61,
+        111
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            348.0,
+            401.5
+          ],
+          "end": [
+            0,
+            401.5
+          ],
+          "distance_px": 348.0
+        },
+        "right": {
+          "start": [
+            409.0,
+            401.5
+          ],
+          "end": [
+            1200,
+            401.5
+          ],
+          "distance_px": 791.0
+        },
+        "top": {
+          "start": [
+            378.5,
+            346.0
+          ],
+          "end": [
+            378.5,
+            0
+          ],
+          "distance_px": 346.0
+        },
+        "bottom": {
+          "start": [
+            378.5,
+            457.0
+          ],
+          "end": [
+            378.5,
+            675
+          ],
+          "distance_px": 218.0
+        }
+      }
+    },
+    {
+      "name": "Book_2",
+      "bbox": [
+        448,
+        138,
+        478,
+        254
+      ],
+      "bbox_position": [
+        463.0,
+        196.0,
+        0.105882
+      ],
+      "bbox_size": [
+        30,
+        116
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            448.0,
+            196.0
+          ],
+          "end": [
+            0,
+            196.0
+          ],
+          "distance_px": 448.0
+        },
+        "right": {
+          "start": [
+            478.0,
+            196.0
+          ],
+          "end": [
+            1200,
+            196.0
+          ],
+          "distance_px": 722.0
+        },
+        "top": {
+          "start": [
+            463.0,
+            138.0
+          ],
+          "end": [
+            463.0,
+            0
+          ],
+          "distance_px": 138.0
+        },
+        "bottom": {
+          "start": [
+            463.0,
+            254.0
+          ],
+          "end": [
+            463.0,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_3",
+      "bbox": [
+        477,
+        138,
+        507,
+        254
+      ],
+      "bbox_position": [
+        492.0,
+        196.0,
+        0.094118
+      ],
+      "bbox_size": [
+        30,
+        116
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            477.0,
+            196.0
+          ],
+          "end": [
+            0,
+            196.0
+          ],
+          "distance_px": 477.0
+        },
+        "right": {
+          "start": [
+            507.0,
+            196.0
+          ],
+          "end": [
+            1200,
+            196.0
+          ],
+          "distance_px": 693.0
+        },
+        "top": {
+          "start": [
+            492.0,
+            138.0
+          ],
+          "end": [
+            492.0,
+            0
+          ],
+          "distance_px": 138.0
+        },
+        "bottom": {
+          "start": [
+            492.0,
+            254.0
+          ],
+          "end": [
+            492.0,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_4",
+      "bbox": [
+        506,
+        138,
+        536,
+        254
+      ],
+      "bbox_position": [
+        521.0,
+        196.0,
+        0.694118
+      ],
+      "bbox_size": [
+        30,
+        116
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            506.0,
+            196.0
+          ],
+          "end": [
+            0,
+            196.0
+          ],
+          "distance_px": 506.0
+        },
+        "right": {
+          "start": [
+            536.0,
+            196.0
+          ],
+          "end": [
+            1200,
+            196.0
+          ],
+          "distance_px": 664.0
+        },
+        "top": {
+          "start": [
+            521.0,
+            138.0
+          ],
+          "end": [
+            521.0,
+            0
+          ],
+          "distance_px": 138.0
+        },
+        "bottom": {
+          "start": [
+            521.0,
+            254.0
+          ],
+          "end": [
+            521.0,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_5",
+      "bbox": [
+        535,
+        138,
+        566,
+        254
+      ],
+      "bbox_position": [
+        550.5,
+        196.0,
+        0.752941
+      ],
+      "bbox_size": [
+        31,
+        116
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            535.0,
+            196.0
+          ],
+          "end": [
+            0,
+            196.0
+          ],
+          "distance_px": 535.0
+        },
+        "right": {
+          "start": [
+            566.0,
+            196.0
+          ],
+          "end": [
+            1200,
+            196.0
+          ],
+          "distance_px": 634.0
+        },
+        "top": {
+          "start": [
+            550.5,
+            138.0
+          ],
+          "end": [
+            550.5,
+            0
+          ],
+          "distance_px": 138.0
+        },
+        "bottom": {
+          "start": [
+            550.5,
+            254.0
+          ],
+          "end": [
+            550.5,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_6",
+      "bbox": [
+        565,
+        138,
+        594,
+        254
+      ],
+      "bbox_position": [
+        579.5,
+        196.0,
+        0.768627
+      ],
+      "bbox_size": [
+        29,
+        116
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            565.0,
+            196.0
+          ],
+          "end": [
+            0,
+            196.0
+          ],
+          "distance_px": 565.0
+        },
+        "right": {
+          "start": [
+            594.0,
+            196.0
+          ],
+          "end": [
+            1200,
+            196.0
+          ],
+          "distance_px": 606.0
+        },
+        "top": {
+          "start": [
+            579.5,
+            138.0
+          ],
+          "end": [
+            579.5,
+            0
+          ],
+          "distance_px": 138.0
+        },
+        "bottom": {
+          "start": [
+            579.5,
+            254.0
+          ],
+          "end": [
+            579.5,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_7",
+      "bbox": [
+        594,
+        138,
+        623,
+        254
+      ],
+      "bbox_position": [
+        608.5,
+        196.0,
+        0.741176
+      ],
+      "bbox_size": [
+        29,
+        116
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            594.0,
+            196.0
+          ],
+          "end": [
+            0,
+            196.0
+          ],
+          "distance_px": 594.0
+        },
+        "right": {
+          "start": [
+            623.0,
+            196.0
+          ],
+          "end": [
+            1200,
+            196.0
+          ],
+          "distance_px": 577.0
+        },
+        "top": {
+          "start": [
+            608.5,
+            138.0
+          ],
+          "end": [
+            608.5,
+            0
+          ],
+          "distance_px": 138.0
+        },
+        "bottom": {
+          "start": [
+            608.5,
+            254.0
+          ],
+          "end": [
+            608.5,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_8",
+      "bbox": [
+        622,
+        138,
+        652,
+        254
+      ],
+      "bbox_position": [
+        637.0,
+        196.0,
+        0.74902
+      ],
+      "bbox_size": [
+        30,
+        116
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            622.0,
+            196.0
+          ],
+          "end": [
+            0,
+            196.0
+          ],
+          "distance_px": 622.0
+        },
+        "right": {
+          "start": [
+            652.0,
+            196.0
+          ],
+          "end": [
+            1200,
+            196.0
+          ],
+          "distance_px": 548.0
+        },
+        "top": {
+          "start": [
+            637.0,
+            138.0
+          ],
+          "end": [
+            637.0,
+            0
+          ],
+          "distance_px": 138.0
+        },
+        "bottom": {
+          "start": [
+            637.0,
+            254.0
+          ],
+          "end": [
+            637.0,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_9",
+      "bbox": [
+        651,
+        138,
+        682,
+        254
+      ],
+      "bbox_position": [
+        666.5,
+        196.0,
+        0.588235
+      ],
+      "bbox_size": [
+        31,
+        116
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            651.0,
+            196.0
+          ],
+          "end": [
+            0,
+            196.0
+          ],
+          "distance_px": 651.0
+        },
+        "right": {
+          "start": [
+            682.0,
+            196.0
+          ],
+          "end": [
+            1200,
+            196.0
+          ],
+          "distance_px": 518.0
+        },
+        "top": {
+          "start": [
+            666.5,
+            138.0
+          ],
+          "end": [
+            666.5,
+            0
+          ],
+          "distance_px": 138.0
+        },
+        "bottom": {
+          "start": [
+            666.5,
+            254.0
+          ],
+          "end": [
+            666.5,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_10",
+      "bbox": [
+        681,
+        138,
+        711,
+        254
+      ],
+      "bbox_position": [
+        696.0,
+        196.0,
+        0.090196
+      ],
+      "bbox_size": [
+        30,
+        116
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            681.0,
+            196.0
+          ],
+          "end": [
+            0,
+            196.0
+          ],
+          "distance_px": 681.0
+        },
+        "right": {
+          "start": [
+            711.0,
+            196.0
+          ],
+          "end": [
+            1200,
+            196.0
+          ],
+          "distance_px": 489.0
+        },
+        "top": {
+          "start": [
+            696.0,
+            138.0
+          ],
+          "end": [
+            696.0,
+            0
+          ],
+          "distance_px": 138.0
+        },
+        "bottom": {
+          "start": [
+            696.0,
+            254.0
+          ],
+          "end": [
+            696.0,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_11",
+      "bbox": [
+        710,
+        138,
+        741,
+        254
+      ],
+      "bbox_position": [
+        725.5,
+        196.0,
+        0.094118
+      ],
+      "bbox_size": [
+        31,
+        116
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            710.0,
+            196.0
+          ],
+          "end": [
+            0,
+            196.0
+          ],
+          "distance_px": 710.0
+        },
+        "right": {
+          "start": [
+            741.0,
+            196.0
+          ],
+          "end": [
+            1200,
+            196.0
+          ],
+          "distance_px": 459.0
+        },
+        "top": {
+          "start": [
+            725.5,
+            138.0
+          ],
+          "end": [
+            725.5,
+            0
+          ],
+          "distance_px": 138.0
+        },
+        "bottom": {
+          "start": [
+            725.5,
+            254.0
+          ],
+          "end": [
+            725.5,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_12",
+      "bbox": [
+        740,
+        138,
+        770,
+        254
+      ],
+      "bbox_position": [
+        755.0,
+        196.0,
+        0.113725
+      ],
+      "bbox_size": [
+        30,
+        116
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            740.0,
+            196.0
+          ],
+          "end": [
+            0,
+            196.0
+          ],
+          "distance_px": 740.0
+        },
+        "right": {
+          "start": [
+            770.0,
+            196.0
+          ],
+          "end": [
+            1200,
+            196.0
+          ],
+          "distance_px": 430.0
+        },
+        "top": {
+          "start": [
+            755.0,
+            138.0
+          ],
+          "end": [
+            755.0,
+            0
+          ],
+          "distance_px": 138.0
+        },
+        "bottom": {
+          "start": [
+            755.0,
+            254.0
+          ],
+          "end": [
+            755.0,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_13",
+      "bbox": [
+        756,
+        314,
+        827,
+        457
+      ],
+      "bbox_position": [
+        791.5,
+        385.5,
+        0.67451
+      ],
+      "bbox_size": [
+        71,
+        143
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            756.0,
+            385.5
+          ],
+          "end": [
+            0,
+            385.5
+          ],
+          "distance_px": 756.0
+        },
+        "right": {
+          "start": [
+            827.0,
+            385.5
+          ],
+          "end": [
+            1200,
+            385.5
+          ],
+          "distance_px": 373.0
+        },
+        "top": {
+          "start": [
+            791.5,
+            314.0
+          ],
+          "end": [
+            791.5,
+            0
+          ],
+          "distance_px": 314.0
+        },
+        "bottom": {
+          "start": [
+            791.5,
+            457.0
+          ],
+          "end": [
+            791.5,
+            675
+          ],
+          "distance_px": 218.0
+        }
+      }
+    },
+    {
+      "name": "Book_14",
+      "bbox": [
+        769,
+        138,
+        798,
+        254
+      ],
+      "bbox_position": [
+        783.5,
+        196.0,
+        0.105882
+      ],
+      "bbox_size": [
+        29,
+        116
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            769.0,
+            196.0
+          ],
+          "end": [
+            0,
+            196.0
+          ],
+          "distance_px": 769.0
+        },
+        "right": {
+          "start": [
+            798.0,
+            196.0
+          ],
+          "end": [
+            1200,
+            196.0
+          ],
+          "distance_px": 402.0
+        },
+        "top": {
+          "start": [
+            783.5,
+            138.0
+          ],
+          "end": [
+            783.5,
+            0
+          ],
+          "distance_px": 138.0
+        },
+        "bottom": {
+          "start": [
+            783.5,
+            254.0
+          ],
+          "end": [
+            783.5,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_15",
+      "bbox": [
+        798,
+        138,
+        827,
+        254
+      ],
+      "bbox_position": [
+        812.5,
+        196.0,
+        0.109804
+      ],
+      "bbox_size": [
+        29,
+        116
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            798.0,
+            196.0
+          ],
+          "end": [
+            0,
+            196.0
+          ],
+          "distance_px": 798.0
+        },
+        "right": {
+          "start": [
+            827.0,
+            196.0
+          ],
+          "end": [
+            1200,
+            196.0
+          ],
+          "distance_px": 373.0
+        },
+        "top": {
+          "start": [
+            812.5,
+            138.0
+          ],
+          "end": [
+            812.5,
+            0
+          ],
+          "distance_px": 138.0
+        },
+        "bottom": {
+          "start": [
+            812.5,
+            254.0
+          ],
+          "end": [
+            812.5,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Bookshelf_0",
+      "bbox": [
+        346,
+        0,
+        844,
+        469
+      ],
+      "bbox_position": [
+        595.0,
+        234.5,
+        0.717647
+      ],
+      "bbox_size": [
+        498,
+        469
+      ],
+      "group": "Bookshelf",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            346.0,
+            234.5
+          ],
+          "end": [
+            0,
+            234.5
+          ],
+          "distance_px": 346.0
+        },
+        "right": {
+          "start": [
+            844.0,
+            234.5
+          ],
+          "end": [
+            1200,
+            234.5
+          ],
+          "distance_px": 356.0
+        },
+        "top": {
+          "start": [
+            595.0,
+            0.0
+          ],
+          "end": [
+            595.0,
+            0
+          ],
+          "distance_px": 0.0
+        },
+        "bottom": {
+          "start": [
+            595.0,
+            469.0
+          ],
+          "end": [
+            595.0,
+            675
+          ],
+          "distance_px": 206.0
+        }
+      }
+    },
+    {
+      "name": "Desk_0",
+      "bbox": [
+        0,
+        615,
+        1200,
+        675
+      ],
+      "bbox_position": [
+        600.0,
+        645.0,
+        1.0
+      ],
+      "bbox_size": [
+        1200,
+        60
+      ],
+      "group": "Desk",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            0.0,
+            645.0
+          ],
+          "end": [
+            0,
+            645.0
+          ],
+          "distance_px": 0.0
+        },
+        "right": {
+          "start": [
+            1200.0,
+            645.0
+          ],
+          "end": [
+            1200,
+            645.0
+          ],
+          "distance_px": 0.0
+        },
+        "top": {
+          "start": [
+            600.0,
+            615.0
+          ],
+          "end": [
+            600.0,
+            0
+          ],
+          "distance_px": 615.0
+        },
+        "bottom": {
+          "start": [
+            600.0,
+            675.0
+          ],
+          "end": [
+            600.0,
+            675
+          ],
+          "distance_px": 0.0
+        }
+      }
+    },
+    {
+      "name": "Icon_0",
+      "bbox": [
+        366,
+        128,
+        454,
+        254
+      ],
+      "bbox_position": [
+        410.0,
+        191.0,
+        0.129412
+      ],
+      "bbox_size": [
+        88,
+        126
+      ],
+      "group": "Icon",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            366.0,
+            191.0
+          ],
+          "end": [
+            0,
+            191.0
+          ],
+          "distance_px": 366.0
+        },
+        "right": {
+          "start": [
+            454.0,
+            191.0
+          ],
+          "end": [
+            1200,
+            191.0
+          ],
+          "distance_px": 746.0
+        },
+        "top": {
+          "start": [
+            410.0,
+            128.0
+          ],
+          "end": [
+            410.0,
+            0
+          ],
+          "distance_px": 128.0
+        },
+        "bottom": {
+          "start": [
+            410.0,
+            254.0
+          ],
+          "end": [
+            410.0,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Icon_1",
+      "bbox": [
+        740,
+        145,
+        825,
+        254
+      ],
+      "bbox_position": [
+        782.5,
+        199.5,
+        0.113725
+      ],
+      "bbox_size": [
+        85,
+        109
+      ],
+      "group": "Icon",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            740.0,
+            199.5
+          ],
+          "end": [
+            0,
+            199.5
+          ],
+          "distance_px": 740.0
+        },
+        "right": {
+          "start": [
+            825.0,
+            199.5
+          ],
+          "end": [
+            1200,
+            199.5
+          ],
+          "distance_px": 375.0
+        },
+        "top": {
+          "start": [
+            782.5,
+            145.0
+          ],
+          "end": [
+            782.5,
+            0
+          ],
+          "distance_px": 145.0
+        },
+        "bottom": {
+          "start": [
+            782.5,
+            254.0
+          ],
+          "end": [
+            782.5,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Wooden Paneling_0",
+      "bbox": [
+        0,
+        0,
+        1200,
+        625
+      ],
+      "bbox_position": [
+        600.0,
+        312.5,
+        0.768627
+      ],
+      "bbox_size": [
+        1200,
+        625
+      ],
+      "group": "Wooden Paneling",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            0.0,
+            312.5
+          ],
+          "end": [
+            0,
+            312.5
+          ],
+          "distance_px": 0.0
+        },
+        "right": {
+          "start": [
+            1200.0,
+            312.5
+          ],
+          "end": [
+            1200,
+            312.5
+          ],
+          "distance_px": 0.0
+        },
+        "top": {
+          "start": [
+            600.0,
+            0.0
+          ],
+          "end": [
+            600.0,
+            0
+          ],
+          "distance_px": 0.0
+        },
+        "bottom": {
+          "start": [
+            600.0,
+            625.0
+          ],
+          "end": [
+            600.0,
+            675
+          ],
+          "distance_px": 50.0
+        }
+      }
+    },
+    {
+      "name": "Book_16",
+      "bbox": [
+        352,
+        12,
+        394,
+        48
+      ],
+      "bbox_position": [
+        373.0,
+        30.0,
+        0.188235
+      ],
+      "bbox_size": [
+        42,
+        36
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            352.0,
+            30.0
+          ],
+          "end": [
+            0,
+            30.0
+          ],
+          "distance_px": 352.0
+        },
+        "right": {
+          "start": [
+            394.0,
+            30.0
+          ],
+          "end": [
+            1200,
+            30.0
+          ],
+          "distance_px": 806.0
+        },
+        "top": {
+          "start": [
+            373.0,
+            12.0
+          ],
+          "end": [
+            373.0,
+            0
+          ],
+          "distance_px": 12.0
+        },
+        "bottom": {
+          "start": [
+            373.0,
+            48.0
+          ],
+          "end": [
+            373.0,
+            675
+          ],
+          "distance_px": 627.0
+        }
+      }
+    },
+    {
+      "name": "Book_17",
+      "bbox": [
+        352,
+        135,
+        394,
+        254
+      ],
+      "bbox_position": [
+        373.0,
+        194.5,
+        0.121569
+      ],
+      "bbox_size": [
+        42,
+        119
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            352.0,
+            194.5
+          ],
+          "end": [
+            0,
+            194.5
+          ],
+          "distance_px": 352.0
+        },
+        "right": {
+          "start": [
+            394.0,
+            194.5
+          ],
+          "end": [
+            1200,
+            194.5
+          ],
+          "distance_px": 806.0
+        },
+        "top": {
+          "start": [
+            373.0,
+            135.0
+          ],
+          "end": [
+            373.0,
+            0
+          ],
+          "distance_px": 135.0
+        },
+        "bottom": {
+          "start": [
+            373.0,
+            254.0
+          ],
+          "end": [
+            373.0,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_18",
+      "bbox": [
+        352,
+        246,
+        406,
+        270
+      ],
+      "bbox_position": [
+        379.0,
+        258.0,
+        0.172549
+      ],
+      "bbox_size": [
+        54,
+        24
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            352.0,
+            258.0
+          ],
+          "end": [
+            0,
+            258.0
+          ],
+          "distance_px": 352.0
+        },
+        "right": {
+          "start": [
+            406.0,
+            258.0
+          ],
+          "end": [
+            1200,
+            258.0
+          ],
+          "distance_px": 794.0
+        },
+        "top": {
+          "start": [
+            379.0,
+            246.0
+          ],
+          "end": [
+            379.0,
+            0
+          ],
+          "distance_px": 246.0
+        },
+        "bottom": {
+          "start": [
+            379.0,
+            270.0
+          ],
+          "end": [
+            379.0,
+            675
+          ],
+          "distance_px": 405.0
+        }
+      }
+    },
+    {
+      "name": "Book_19",
+      "bbox": [
+        352,
+        270,
+        406,
+        294
+      ],
+      "bbox_position": [
+        379.0,
+        282.0,
+        0.14902
+      ],
+      "bbox_size": [
+        54,
+        24
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            352.0,
+            282.0
+          ],
+          "end": [
+            0,
+            282.0
+          ],
+          "distance_px": 352.0
+        },
+        "right": {
+          "start": [
+            406.0,
+            282.0
+          ],
+          "end": [
+            1200,
+            282.0
+          ],
+          "distance_px": 794.0
+        },
+        "top": {
+          "start": [
+            379.0,
+            270.0
+          ],
+          "end": [
+            379.0,
+            0
+          ],
+          "distance_px": 270.0
+        },
+        "bottom": {
+          "start": [
+            379.0,
+            294.0
+          ],
+          "end": [
+            379.0,
+            675
+          ],
+          "distance_px": 381.0
+        }
+      }
+    },
+    {
+      "name": "Book_20",
+      "bbox": [
+        393,
+        12,
+        435,
+        48
+      ],
+      "bbox_position": [
+        414.0,
+        30.0,
+        0.172549
+      ],
+      "bbox_size": [
+        42,
+        36
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            393.0,
+            30.0
+          ],
+          "end": [
+            0,
+            30.0
+          ],
+          "distance_px": 393.0
+        },
+        "right": {
+          "start": [
+            435.0,
+            30.0
+          ],
+          "end": [
+            1200,
+            30.0
+          ],
+          "distance_px": 765.0
+        },
+        "top": {
+          "start": [
+            414.0,
+            12.0
+          ],
+          "end": [
+            414.0,
+            0
+          ],
+          "distance_px": 12.0
+        },
+        "bottom": {
+          "start": [
+            414.0,
+            48.0
+          ],
+          "end": [
+            414.0,
+            675
+          ],
+          "distance_px": 627.0
+        }
+      }
+    },
+    {
+      "name": "Book_21",
+      "bbox": [
+        393,
+        135,
+        429,
+        254
+      ],
+      "bbox_position": [
+        411.0,
+        194.5,
+        0.121569
+      ],
+      "bbox_size": [
+        36,
+        119
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            393.0,
+            194.5
+          ],
+          "end": [
+            0,
+            194.5
+          ],
+          "distance_px": 393.0
+        },
+        "right": {
+          "start": [
+            429.0,
+            194.5
+          ],
+          "end": [
+            1200,
+            194.5
+          ],
+          "distance_px": 771.0
+        },
+        "top": {
+          "start": [
+            411.0,
+            135.0
+          ],
+          "end": [
+            411.0,
+            0
+          ],
+          "distance_px": 135.0
+        },
+        "bottom": {
+          "start": [
+            411.0,
+            254.0
+          ],
+          "end": [
+            411.0,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_22",
+      "bbox": [
+        405,
+        135,
+        454,
+        254
+      ],
+      "bbox_position": [
+        429.5,
+        194.5,
+        0.121569
+      ],
+      "bbox_size": [
+        49,
+        119
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            405.0,
+            194.5
+          ],
+          "end": [
+            0,
+            194.5
+          ],
+          "distance_px": 405.0
+        },
+        "right": {
+          "start": [
+            454.0,
+            194.5
+          ],
+          "end": [
+            1200,
+            194.5
+          ],
+          "distance_px": 746.0
+        },
+        "top": {
+          "start": [
+            429.5,
+            135.0
+          ],
+          "end": [
+            429.5,
+            0
+          ],
+          "distance_px": 135.0
+        },
+        "bottom": {
+          "start": [
+            429.5,
+            254.0
+          ],
+          "end": [
+            429.5,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_23",
+      "bbox": [
+        405,
+        246,
+        454,
+        270
+      ],
+      "bbox_position": [
+        429.5,
+        258.0,
+        0.121569
+      ],
+      "bbox_size": [
+        49,
+        24
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            405.0,
+            258.0
+          ],
+          "end": [
+            0,
+            258.0
+          ],
+          "distance_px": 405.0
+        },
+        "right": {
+          "start": [
+            454.0,
+            258.0
+          ],
+          "end": [
+            1200,
+            258.0
+          ],
+          "distance_px": 746.0
+        },
+        "top": {
+          "start": [
+            429.5,
+            246.0
+          ],
+          "end": [
+            429.5,
+            0
+          ],
+          "distance_px": 246.0
+        },
+        "bottom": {
+          "start": [
+            429.5,
+            270.0
+          ],
+          "end": [
+            429.5,
+            675
+          ],
+          "distance_px": 405.0
+        }
+      }
+    },
+    {
+      "name": "Book_24",
+      "bbox": [
+        405,
+        270,
+        454,
+        294
+      ],
+      "bbox_position": [
+        429.5,
+        282.0,
+        0.470588
+      ],
+      "bbox_size": [
+        49,
+        24
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            405.0,
+            282.0
+          ],
+          "end": [
+            0,
+            282.0
+          ],
+          "distance_px": 405.0
+        },
+        "right": {
+          "start": [
+            454.0,
+            282.0
+          ],
+          "end": [
+            1200,
+            282.0
+          ],
+          "distance_px": 746.0
+        },
+        "top": {
+          "start": [
+            429.5,
+            270.0
+          ],
+          "end": [
+            429.5,
+            0
+          ],
+          "distance_px": 270.0
+        },
+        "bottom": {
+          "start": [
+            429.5,
+            294.0
+          ],
+          "end": [
+            429.5,
+            675
+          ],
+          "distance_px": 381.0
+        }
+      }
+    },
+    {
+      "name": "Book_25",
+      "bbox": [
+        428,
+        135,
+        464,
+        254
+      ],
+      "bbox_position": [
+        446.0,
+        194.5,
+        0.117647
+      ],
+      "bbox_size": [
+        36,
+        119
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            428.0,
+            194.5
+          ],
+          "end": [
+            0,
+            194.5
+          ],
+          "distance_px": 428.0
+        },
+        "right": {
+          "start": [
+            464.0,
+            194.5
+          ],
+          "end": [
+            1200,
+            194.5
+          ],
+          "distance_px": 736.0
+        },
+        "top": {
+          "start": [
+            446.0,
+            135.0
+          ],
+          "end": [
+            446.0,
+            0
+          ],
+          "distance_px": 135.0
+        },
+        "bottom": {
+          "start": [
+            446.0,
+            254.0
+          ],
+          "end": [
+            446.0,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_26",
+      "bbox": [
+        434,
+        12,
+        476,
+        48
+      ],
+      "bbox_position": [
+        455.0,
+        30.0,
+        0.172549
+      ],
+      "bbox_size": [
+        42,
+        36
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            434.0,
+            30.0
+          ],
+          "end": [
+            0,
+            30.0
+          ],
+          "distance_px": 434.0
+        },
+        "right": {
+          "start": [
+            476.0,
+            30.0
+          ],
+          "end": [
+            1200,
+            30.0
+          ],
+          "distance_px": 724.0
+        },
+        "top": {
+          "start": [
+            455.0,
+            12.0
+          ],
+          "end": [
+            455.0,
+            0
+          ],
+          "distance_px": 12.0
+        },
+        "bottom": {
+          "start": [
+            455.0,
+            48.0
+          ],
+          "end": [
+            455.0,
+            675
+          ],
+          "distance_px": 627.0
+        }
+      }
+    },
+    {
+      "name": "Book_27",
+      "bbox": [
+        453,
+        135,
+        480,
+        254
+      ],
+      "bbox_position": [
+        466.5,
+        194.5,
+        0.105882
+      ],
+      "bbox_size": [
+        27,
+        119
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            453.0,
+            194.5
+          ],
+          "end": [
+            0,
+            194.5
+          ],
+          "distance_px": 453.0
+        },
+        "right": {
+          "start": [
+            480.0,
+            194.5
+          ],
+          "end": [
+            1200,
+            194.5
+          ],
+          "distance_px": 720.0
+        },
+        "top": {
+          "start": [
+            466.5,
+            135.0
+          ],
+          "end": [
+            466.5,
+            0
+          ],
+          "distance_px": 135.0
+        },
+        "bottom": {
+          "start": [
+            466.5,
+            254.0
+          ],
+          "end": [
+            466.5,
+            675
+          ],
+          "distance_px": 421.0
+        }
+      }
+    },
+    {
+      "name": "Book_28",
+      "bbox": [
+        453,
+        246,
+        480,
+        270
+      ],
+      "bbox_position": [
+        466.5,
+        258.0,
+        0.109804
+      ],
+      "bbox_size": [
+        27,
+        24
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            453.0,
+            258.0
+          ],
+          "end": [
+            0,
+            258.0
+          ],
+          "distance_px": 453.0
+        },
+        "right": {
+          "start": [
+            480.0,
+            258.0
+          ],
+          "end": [
+            1200,
+            258.0
+          ],
+          "distance_px": 720.0
+        },
+        "top": {
+          "start": [
+            466.5,
+            246.0
+          ],
+          "end": [
+            466.5,
+            0
+          ],
+          "distance_px": 246.0
+        },
+        "bottom": {
+          "start": [
+            466.5,
+            270.0
+          ],
+          "end": [
+            466.5,
+            675
+          ],
+          "distance_px": 405.0
+        }
+      }
+    },
+    {
+      "name": "Book_29",
+      "bbox": [
+        453,
+        270,
+        480,
+        294
+      ],
+      "bbox_position": [
+        466.5,
+        282.0,
+        0.466667
+      ],
+      "bbox_size": [
+        27,
+        24
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            453.0,
+            282.0
+          ],
+          "end": [
+            0,
+            282.0
+          ],
+          "distance_px": 453.0
+        },
+        "right": {
+          "start": [
+            480.0,
+            282.0
+          ],
+          "end": [
+            1200,
+            282.0
+          ],
+          "distance_px": 720.0
+        },
+        "top": {
+          "start": [
+            466.5,
+            270.0
+          ],
+          "end": [
+            466.5,
+            0
+          ],
+          "distance_px": 270.0
+        },
+        "bottom": {
+          "start": [
+            466.5,
+            294.0
+          ],
+          "end": [
+            466.5,
+            675
+          ],
+          "distance_px": 381.0
+        }
+      }
+    }
+  ],
+  "source_image": "gg_simion",
+  "source_image_path": "gg_simion.webp",
+  "image_width": 1200,
+  "image_height": 675,
+  "output_folder": "gg_simion"
+}

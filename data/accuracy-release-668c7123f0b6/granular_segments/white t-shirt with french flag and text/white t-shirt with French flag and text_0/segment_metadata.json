@@ -1,0 +1,97 @@
+{
+  "extracts": [
+    {
+      "name": "text_0",
+      "label": "text",
+      "category": "objects",
+      "sam_score": 0.9271385669708252,
+      "bbox": [
+        54,
+        69,
+        108,
+        91
+      ],
+      "bbox_position": [
+        81.0,
+        80.0
+      ],
+      "bbox_size": [
+        54,
+        22
+      ],
+      "group": "text",
+      "bbox_global": [
+        285,
+        495,
+        339,
+        517
+      ]
+    },
+    {
+      "name": "graphic_0",
+      "label": "graphic",
+      "category": "objects",
+      "sam_score": 0.9771639108657837,
+      "bbox": [
+        43,
+        90,
+        72,
+        157
+      ],
+      "bbox_position": [
+        57.5,
+        123.5
+      ],
+      "bbox_size": [
+        29,
+        67
+      ],
+      "group": "graphic",
+      "bbox_global": [
+        274,
+        516,
+        303,
+        583
+      ]
+    },
+    {
+      "name": "graphic_1",
+      "label": "graphic",
+      "category": "objects",
+      "sam_score": 0.8964315056800842,
+      "bbox": [
+        88,
+        90,
+        113,
+        174
+      ],
+      "bbox_position": [
+        100.5,
+        132.0
+      ],
+      "bbox_size": [
+        25,
+        84
+      ],
+      "group": "graphic",
+      "bbox_global": [
+        319,
+        516,
+        344,
+        600
+      ]
+    }
+  ],
+  "parent_name": "white t-shirt with French flag and text_0",
+  "parent_group": "white t-shirt with french flag and text",
+  "coordinate_space": "parent_crop",
+  "source_image": "granular_segments/white t-shirt with french flag and text/white t-shirt with French flag and text_0/source.png",
+  "image_width": 113,
+  "image_height": 174,
+  "parent_bbox": [
+    231,
+    426,
+    344,
+    600
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "schema_version": 2,
+  "style": "detailed",
+  "questions": [
+    {
+      "id": "question_1",
+      "label": "Description",
+      "instruction": ""
+    },
+    {
+      "id": "question_2",
+      "label": "Semantics",
+      "instruction": ""
+    },
+    {
+      "id": "question_3",
+      "label": "Valence",
+      "instruction": ""
+    }
+  ],
+  "items": [
+    {
+      "name": "Blonde Woman_0",
+      "label": "Blonde Woman 0",
+      "image_path": "segments/Blonde Woman_0.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        231,
+        341,
+        424,
+        638
+      ],
+      "answers": {
+        "question_1": "- Subject: Person\n- General Description: The person is wearing a white T-shirt with the word \"FRANCE\" and the French flag colors (blue, white, red) on it. The person has long blonde hair and is covering their face with their hand.",
+        "question_2": "- Taxonomy: People\n- Cultural Anchor: France",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Man In Black Hoodie_0",
+      "label": "Man In Black Hoodie 0",
+      "image_path": "segments/Man In Black Hoodie_0.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        0,
+        246,
+        192,
+        531
+      ],
+      "answers": {
+        "question_1": "- Subject: Person\n- General Description: The subject is wearing a black balaclava, a tactical vest, and dark pants. The subject's right arm is raised.",
+        "question_2": "- Taxonomy: Military Personnel\n- Cultural Anchor: Special Forces",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Man In Black Hoodie_1",
+      "label": "Man In Black Hoodie 1",
+      "image_path": "segments/Man In Black Hoodie_1.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        189,
+        265,
+        262,
+        337
+      ],
+      "answers": {
+        "question_1": "- Subject: Foot\n- General Description: Dark, textured, and appears to be a foot with a textured surface, possibly indicating a sock or footwear.",
+        "question_2": "- Taxonomy: Footwear\n- Cultural Anchor: Boot",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Man In Black Hoodie_2",
+      "label": "Man In Black Hoodie 2",
+      "image_path": "segments/Man In Black Hoodie_2.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        251,
+        265,
+        341,
+        373
+      ],
+      "answers": {
+        "question_1": "- Subject: Person\n- General Description: The image shows a person wearing a dark hood and a tactical vest.",
+        "question_2": "- Taxonomy: Human figure\n- Cultural Anchor: Military personnel",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Man In Black Hoodie_3",
+      "label": "Man In Black Hoodie 3",
+      "image_path": "segments/Man In Black Hoodie_3.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        363,
+        254,
+        420,
+        337
+      ],
+      "answers": {
+        "question_1": "- Subject: Person\n- General Description: The subject is wearing a dark-colored hooded garment and appears to be in a state of distress or alarm, with their mouth open and eyes wide.",
+        "question_2": "- Taxonomy: Person\n- Cultural Anchor: Human",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Man In Black Hoodie_4",
+      "label": "Man In Black Hoodie 4",
+      "image_path": "segments/Man In Black Hoodie_4.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        503,
+        199,
+        633,
+        537
+      ],
+      "answers": {
+        "question_1": "- Subject: Person\n- General Description: The person is wearing a dark hoodie and jeans, with one arm raised and the other bent at the elbow. The person appears to be in a dynamic pose, possibly in motion or expressing an emotion.",
+        "question_2": "- Taxonomy: Person in Action\n- Cultural Anchor: Aggressive Expression",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Man In Camouflage_0",
+      "label": "Man In Camouflage 0",
+      "image_path": "segments/Man In Camouflage_0.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        15,
+        278,
+        290,
+        576
+      ],
+      "answers": {
+        "question_1": "- Subject: Person\n- General Description: The subject is wearing a camouflage uniform, a tactical vest, and a head covering. The subject's arms are extended outward, and the image appears to be a cut-out or isolated figure.",
+        "question_2": "- Taxonomy: Military Personnel\n- Cultural Anchor: Combat Uniform",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Man In White Shirt_0",
+      "label": "Man In White Shirt 0",
+      "image_path": "segments/Man In White Shirt_0.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        347,
+        238,
+        590,
+        573
+      ],
+      "answers": {
+        "question_1": "- Subject: Person\n- General Description: The individual is wearing a white T-shirt with horizontal stripes and blue jeans. The person is in a dynamic pose, with one arm extended forward and the other bent at the elbow, suggesting movement or action. The person's mouth is open, possibly indicating shouting or speaking.",
+        "question_2": "- Taxonomy: Human\n- Cultural Anchor: Casual attire",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Eiffel Tower_0",
+      "label": "Eiffel Tower 0",
+      "image_path": "segments/Eiffel Tower_0.webp",
+      "source": "item",
+      "group": "Eiffel Tower",
+      "bbox": [
+        192,
+        0,
+        390,
+        276
+      ],
+      "answers": {
+        "question_1": "- Subject: Eiffel Tower\n- General Description: Metal lattice structure with four main legs converging at the top, with a platform and observation deck at the second level.",
+        "question_2": "- Taxonomy: Eiffel Tower\n- Cultural Anchor: Paris",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Flags_0",
+      "label": "Flags 0",
+      "image_path": "segments/Flags_0.webp",
+      "source": "item",
+      "group": "Flags",
+      "bbox": [
+        0,
+        39,
+        172,
+        228
+      ],
+      "answers": {
+        "question_1": "- Subject: Flag\n- General Description: Triangular flag with three horizontal stripes: black on top, white in the middle, and green at the bottom. A red triangle is positioned in the upper right corner.",
+        "question_2": "- Taxonomy: Flags\n- Cultural Anchor: Palestine",
+        "question_3": "Polarity: Neutral"
+      }
+    },
+    {
+      "name": "Flags_1",
+      "label": "Flags 1",
+      "image_path": "segments/Flags_1.webp",
+      "source": "item",
+      "group": "Flags",
+      "bbox": [
+        407,
+        17,
+        608,
+        200
+      ],
+      "answers": {
+        "question_1": "- Subject: Flag\n- General Description: The flag features a horizontal tricolor design with the top stripe in black, the middle stripe in white, and the bottom stripe in green. A white crescent moon and a five-pointed star are centered on the white stripe. The flag appears to be slightly wrinkled and is not fully extended.",
+        "question_2": "- Taxonomy: Flags\n- Cultural Anchor: Western Sahara",
+        "question_3": "Polarity: Neutral"
+      }
+    },
+    {
+      "name": "Flags_2",
+      "label": "Flags 2",
+      "image_path": "segments/Flags_2.webp",
+      "source": "item",
+      "group": "Flags",
+      "bbox": [
+        271,
+        516,
+        366,
+        595
+      ],
+      "answers": {
+        "question_1": "- Subject: Flag\n- General Description: The image displays a tricolor flag with horizontal stripes of blue, white, and red. The blue stripe is at the top, followed by a white stripe, and then a red stripe at the bottom. The flag is depicted in a cut-out style, with the edges of the flag not fully visible.",
+        "question_2": "- Taxonomy: Flags\n- Cultural Anchor: France",
+        "question_3": "- Polarity: Positive"
+      }
+    },
+    {
+      "name": "Trash_0",
+      "label": "Trash 0",
+      "image_path": "segments/Trash_0.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        110,
+        603,
+        170,
+        636
+      ],
+      "answers": {
+        "question_1": "- Subject: Trash\n- General Description: A green and blue cylindrical object with a textured surface.",
+        "question_2": "- Taxonomy: Trash\n- Cultural Anchor: Unknown",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Trash_4",
+      "label": "Trash 4",
+      "image_path": "segments/Trash_4.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        494,
+        558,
+        570,
+        599
+      ],
+      "answers": {
+        "question_1": "- Subject: Trash\n- General Description: A piece of white, crumpled material with a textured surface.",
+        "question_2": "- Taxonomy: Trash\n- Cultural Anchor: Waste",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Trash_5",
+      "label": "Trash 5",
+      "image_path": "segments/Trash_5.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        397,
+        555,
+        435,
+        583
+      ],
+      "answers": {
+        "question_1": "- Subject: Trash\n- General Description: A crumpled, discolored piece of paper with visible creases and folds.",
+        "question_2": "- Taxonomy: Trash\n- Cultural Anchor: Unknown",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Trash_9",
+      "label": "Trash 9",
+      "image_path": "segments/Trash_9.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        401,
+        576,
+        436,
+        601
+      ],
+      "answers": {
+        "question_1": "",
+        "question_2": "",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Trash_14",
+      "label": "Trash 14",
+      "image_path": "segments/Trash_14.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        595,
+        561,
+        633,
+        591
+      ],
+      "answers": {
+        "question_1": "- Subject: Trash\n- General Description: A dark, irregularly shaped object with a rough texture and a glossy surface.",
+        "question_2": "- Taxonomy: Trash\n- Cultural Anchor: Waste",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Trash_17",
+      "label": "Trash 17",
+      "image_path": "segments/Trash_17.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        116,
+        557,
+        155,
+        582
+      ],
+      "answers": {
+        "question_1": "",
+        "question_2": "",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Trash_22",
+      "label": "Trash 22",
+      "image_path": "segments/Trash_22.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        478,
+        611,
+        530,
+        636
+      ],
+      "answers": {
+        "question_1": "",
+        "question_2": "",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Trash_24",
+      "label": "Trash 24",
+      "image_path": "segments/Trash_24.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        522,
+        538,
+        547,
+        565
+      ],
+      "answers": {
+        "question_1": "",
+        "question_2": "",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Trash_27",
+      "label": "Trash 27",
+      "image_path": "segments/Trash_27.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        469,
+        490,
+        507,
+        521
+      ],
+      "answers": {
+        "question_1": "- Subject: Trash\n- General Description: A crumpled, translucent plastic bag with a light blue tint.",
+        "question_2": "- Taxonomy: Trash\n- Cultural Anchor: Waste",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Trash_33",
+      "label": "Trash 33",
+      "image_path": "segments/Trash_33.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        574,
+        495,
+        608,
+        520
+      ],
+      "answers": {
+        "question_1": "",
+        "question_2": "",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Trash_34",
+      "label": "Trash 34",
+      "image_path": "segments/Trash_34.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        455,
+        548,
+        500,
+        590
+      ],
+      "answers": {
+        "question_1": "- Subject: Trash\n- General Description: A crumpled, light-colored piece of paper with visible creases and folds.",
+        "question_2": "- Taxonomy: Trash\n- Cultural Anchor: Waste",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Trash_39",
+      "label": "Trash 39",
+      "image_path": "segments/Trash_39.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        136,
+        505,
+        205,
+        541
+      ],
+      "answers": {
+        "question_1": "- Subject: Trash\n- General Description: A piece of paper with a red and green pattern, possibly a map or a flag, is visible.",
+        "question_2": "- Taxonomy: Trash\n- Cultural Anchor: Waste",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Trash_40",
+      "label": "Trash 40",
+      "image_path": "segments/Trash_40.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        169,
+        577,
+        231,
+        637
+      ],
+      "answers": {
+        "question_1": "- Subject: Trash\n- General Description: A white, fluffy object with a textured surface, possibly synthetic or organic in nature.",
+        "question_2": "- Taxonomy: Trash\n- Cultural Anchor: Waste",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Trash_41",
+      "label": "Trash 41",
+      "image_path": "segments/Trash_41.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        163,
+        540,
+        250,
+        597
+      ],
+      "answers": {
+        "question_1": "- Subject: Trash\n- General Description: A dark, irregularly shaped object with a rough, uneven surface.",
+        "question_2": "- Taxonomy: Trash\n- Cultural Anchor: Waste",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Trees_0",
+      "label": "Trees 0",
+      "image_path": "segments/Trees_0.webp",
+      "source": "item",
+      "group": "Trees",
+      "bbox": [
+        0,
+        197,
+        115,
+        284
+      ],
+      "answers": {
+        "question_1": "- Subject: Tree\n- General Description: Dark, irregularly shaped, with a rough texture and a distinct silhouette.",
+        "question_2": "- Taxonomy: Tree\n- Cultural Anchor: None",
+        "question_3": "- Polarity: Negative"
+      }
+    },
+    {
+      "name": "Trees_1",
+      "label": "Trees 1",
+      "image_path": "segments/Trees_1.webp",
+      "source": "item",
+      "group": "Trees",
+      "bbox": [
+        380,
+        5,
+        632,
+        282
+      ],
+      "answers": {
+        "question_1": "- Subject: Trees\n- General Description: A cluster of trees with varying shades of green, some with visible branches and leaves, arranged in a dense formation.",
+        "question_2": "- Taxonomy: Trees\n- Cultural Anchor: None",
+        "question_3": "- Polarity: Positive"
+      }
+    },
+    {
+      "name": "Ei_0",
+      "label": "Ei 0",
+      "image_path": "segments/Ei_0.webp",
+      "source": "item",
+      "group": "texts",
+      "bbox": [
+        0,
+        593,
+        52,
+        638
+      ],
+      "answers": {
+        "question_1": "- Subject: Text\n- General Description: \"Ei\"",
+        "question_2": "- Taxonomy: Text\n- Cultural Anchor: Medical Identifier",
+        "question_3": "Polarity: Neutral"
+      }
+    }
+  ]
+}

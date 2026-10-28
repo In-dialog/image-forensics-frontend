@@ -1,0 +1,186 @@
+{
+  "extracts": [
+    {
+      "name": "Flag_0",
+      "bbox": [
+        0,
+        0,
+        171,
+        185
+      ],
+      "bbox_position": [
+        85.5,
+        92.5
+      ],
+      "bbox_size": [
+        171,
+        185
+      ],
+      "group": "Flag"
+    },
+    {
+      "name": "Green Stripe_0",
+      "bbox": [
+        49,
+        168,
+        167,
+        176
+      ],
+      "bbox_position": [
+        108.0,
+        172.0
+      ],
+      "bbox_size": [
+        118,
+        8
+      ],
+      "group": "Green Stripe"
+    },
+    {
+      "name": "Green Stripe_1",
+      "bbox": [
+        0,
+        102,
+        167,
+        185
+      ],
+      "bbox_position": [
+        83.5,
+        143.5
+      ],
+      "bbox_size": [
+        167,
+        83
+      ],
+      "group": "Green Stripe"
+    },
+    {
+      "name": "Green Stripe_2",
+      "bbox": [
+        136,
+        136,
+        168,
+        144
+      ],
+      "bbox_position": [
+        152.0,
+        140.0
+      ],
+      "bbox_size": [
+        32,
+        8
+      ],
+      "group": "Green Stripe"
+    },
+    {
+      "name": "Green Stripe_3",
+      "bbox": [
+        38,
+        176,
+        168,
+        184
+      ],
+      "bbox_position": [
+        103.0,
+        180.0
+      ],
+      "bbox_size": [
+        130,
+        8
+      ],
+      "group": "Green Stripe"
+    },
+    {
+      "name": "Green Stripe_4",
+      "bbox": [
+        65,
+        160,
+        168,
+        168
+      ],
+      "bbox_position": [
+        116.5,
+        164.0
+      ],
+      "bbox_size": [
+        103,
+        8
+      ],
+      "group": "Green Stripe"
+    },
+    {
+      "name": "Green Stripe_5",
+      "bbox": [
+        104,
+        144,
+        168,
+        152
+      ],
+      "bbox_position": [
+        136.0,
+        148.0
+      ],
+      "bbox_size": [
+        64,
+        8
+      ],
+      "group": "Green Stripe"
+    },
+    {
+      "name": "Red Triangle_0",
+      "bbox": [
+        89,
+        0,
+        171,
+        127
+      ],
+      "bbox_position": [
+        130.0,
+        63.5
+      ],
+      "bbox_size": [
+        82,
+        127
+      ],
+      "group": "Red Triangle"
+    },
+    {
+      "name": "White Stripe_0",
+      "bbox": [
+        96,
+        152,
+        169,
+        160
+      ],
+      "bbox_position": [
+        132.5,
+        156.0
+      ],
+      "bbox_size": [
+        73,
+        8
+      ],
+      "group": "White Stripe"
+    },
+    {
+      "name": "White Stripe_1",
+      "bbox": [
+        0,
+        59,
+        114,
+        156
+      ],
+      "bbox_position": [
+        57.0,
+        107.5
+      ],
+      "bbox_size": [
+        114,
+        97
+      ],
+      "group": "White Stripe"
+    }
+  ],
+  "parent_name": "Flags_0",
+  "parent_group": "flags"
+}

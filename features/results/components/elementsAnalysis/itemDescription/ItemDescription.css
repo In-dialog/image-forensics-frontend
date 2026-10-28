@@ -1,0 +1,77 @@
+.item-description {
+  --item-desc-pad-y: clamp(0.35rem, 1.1cqh, 0.75rem);
+  --item-desc-pad-x: clamp(0.5rem, 1.4cqw, 0.875rem);
+  container-type: size;
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  background: #111;
+  font-family: "consolas", monospace;
+}
+
+.item-description__placeholder {
+  margin: 0;
+  padding: 16px 14px;
+  font-size: 0.74rem;
+  color: #8f8f8f;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* ── Category block ── */
+.item-description__category {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ── Section title bar ── */
+.item-description__section-title {
+  margin: 0;
+  padding: var(--item-desc-pad-y) var(--item-desc-pad-x);
+  display: grid;
+  place-items: center;
+  justify-items: start;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: var(--font-consolas-uppercase-line-height);
+  font-size: var(--font-consolas-uppercase-size);
+  font-weight: var(--font-consolas-uppercase-weight);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #d0d0d0;
+  font-family: var(--font-consolas-uppercase-family);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: #151515;
+}
+
+/* Compensate for Consolas font metrics (uppercase sits high) */
+.item-description__section-title span {
+  display: block;
+  transform: translateY(0.06em);
+}
+
+/* ── Fields grid ── */
+.item-description__selector { display: flex; flex-direction: column; flex-shrink: 0; gap: .4rem; padding: .75rem; font-size: .75rem; color: #9db0a9; border-bottom: 1px solid #333; }
+.item-description__selector select { min-width: 0; width: 100%; padding: .4rem; color: #dce5e2; background: #101719; border: 1px solid #335849; border-radius: 0; font: inherit; }
+.item-description--structured .item-description__category { flex-shrink: 0; }
+.item-description--structured .item-description__section-title { white-space: normal; overflow-wrap: anywhere; font-size: .75rem; line-height: 1.5; color: #c5eadc; background: transparent; border: 0; padding: .8rem .85rem .25rem; }
+.item-description__answer { padding: .25rem .85rem .85rem; color: #dce5e2; font-size: .8rem; line-height: 1.55; overflow-wrap: anywhere; white-space: pre-wrap; }
+.item-description__answer p { margin: 0; }
+.item-description__answer p + p { margin-top: .6rem; }
+.item-description__answer ul { margin: 0; padding-left: 1.1rem; }
+.item-description__answer li + li { margin-top: .35rem; }
+.item-description__part { display: flex; align-items: center; gap: .75rem; padding: .75rem; color: #9db0a9; font-size: .7rem; flex-shrink: 0; }
+.item-description__part img { width: 80px; height: 65px; object-fit: contain; }
+
+@container (max-height: 28rem) {
+  .item-description__section-title {
+    letter-spacing: 0.08em;
+  }
+
+    }

@@ -1,0 +1,293 @@
+{
+  "schema_version": 2,
+  "style": "detailed",
+  "questions": [
+    {
+      "id": "question_1",
+      "label": "Description",
+      "instruction": ""
+    },
+    {
+      "id": "question_2",
+      "label": "Semantics",
+      "instruction": ""
+    },
+    {
+      "id": "question_3",
+      "label": "Valence",
+      "instruction": ""
+    }
+  ],
+  "items": [
+    {
+      "name": "Person_0",
+      "label": "Person 0",
+      "image_path": "segments/Person_0.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        360,
+        159,
+        817,
+        640
+      ],
+      "answers": {
+        "question_1": "- Subject: man\n- General Description: dark blue suit jacket, white dress shirt, maroon tie with small dots pattern, black wristwatch on left wrist, microphone clipped to lapel collar",
+        "question_2": "Taxonomy: executive  \nCultural Anchor: businessman",
+        "question_3": "Neutral\npeople\nsuit (dark blue)\ntie (red patterned)\nwatch (black strap)"
+      }
+    },
+    {
+      "name": "Book_1",
+      "label": "Book 1",
+      "image_path": "segments/Book_1.webp",
+      "source": "item",
+      "group": "Book",
+      "bbox": [
+        348,
+        346,
+        409,
+        457
+      ],
+      "answers": {
+        "question_1": "Subject: Book\nGeneral Description: Blurred vertical elements with indistinct patterns on a dark surface",
+        "question_2": "",
+        "question_3": "Book\nPOSITIVE"
+      }
+    },
+    {
+      "name": "Book_13",
+      "label": "Book 13",
+      "image_path": "segments/Book_13.webp",
+      "source": "item",
+      "group": "Book",
+      "bbox": [
+        756,
+        314,
+        827,
+        457
+      ],
+      "answers": {
+        "question_1": "Subject: Book  \nGeneral Description: Blurred vertical linear patterns with faint textual impressions along a curved edge",
+        "question_2": "NOT SURE\nNOT SURE",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Bookshelf_0",
+      "label": "Bookshelf 0",
+      "image_path": "segments/Bookshelf_0.webp",
+      "source": "item",
+      "group": "Bookshelf",
+      "bbox": [
+        346,
+        0,
+        844,
+        469
+      ],
+      "answers": {
+        "question_1": "- Subject: Volume\n- General Description: Rectangular object with bright yellow front cover featuring illustration of two figures in traditional attire, including a haloed figure holding an orb.",
+        "question_2": "Taxonomy: printed information carrier  \nCultural Anchor: book",
+        "question_3": "Bookshelf\nNOT SURE\nNeutral"
+      }
+    },
+    {
+      "name": "Desk_0",
+      "label": "Desk 0",
+      "image_path": "segments/Desk_0.webp",
+      "source": "item",
+      "group": "Desk",
+      "bbox": [
+        0,
+        615,
+        1200,
+        675
+      ],
+      "answers": {
+        "question_1": "- Subject: White Rectangular Object\n- General Description: Flat, smooth white rectangular object with multiple small dark circular marks and one longer linear mark on its surface",
+        "question_2": "Taxonomy: horizontal structural element  \nCultural Anchor: worktop",
+        "question_3": "Category: Desk  \nVALENCE Polarity: Neutral  \nDescription of item: Upper surface exhibiting minor superficial markings"
+      }
+    },
+    {
+      "name": "Icon_0",
+      "label": "Icon 0",
+      "image_path": "segments/Icon_0.webp",
+      "source": "item",
+      "group": "Icon",
+      "bbox": [
+        366,
+        128,
+        454,
+        254
+      ],
+      "answers": {
+        "question_1": "Subject: Religious figure\nGeneral Description: Head with circular halo, torso wearing red garment with patterns, hands clasped over chest",
+        "question_2": "Taxonomy: Religious Devotional Icon  \nCultural Anchor: Holy Card",
+        "question_3": "Icon\nPositive"
+      }
+    },
+    {
+      "name": "Icon_1",
+      "label": "Icon 1",
+      "image_path": "segments/Icon_1.webp",
+      "source": "item",
+      "group": "Icon",
+      "bbox": [
+        740,
+        145,
+        825,
+        254
+      ],
+      "answers": {
+        "question_1": "- Subject: Icon\n- General Description: Blurred rectangular image element with non-distinguishable internal features",
+        "question_2": "Taxonomy: photographic display device\nCultural Anchor: picture frame",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Wooden Paneling_0",
+      "label": "Wooden Paneling 0",
+      "image_path": "segments/Wooden Paneling_0.webp",
+      "source": "item",
+      "group": "Wooden Paneling",
+      "bbox": [
+        0,
+        0,
+        1200,
+        625
+      ],
+      "answers": {
+        "question_1": "- Subject: Wooden Paneling  \n- General Description: Vertical wooden panels with raised moldings, dark brown finish",
+        "question_2": "",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Book_16",
+      "label": "Book 16",
+      "image_path": "segments/Book_16.webp",
+      "source": "item",
+      "group": "texts",
+      "bbox": [
+        352,
+        12,
+        394,
+        48
+      ],
+      "answers": {
+        "question_1": "- Subject: Text block  \n- General Description: Blurred dark blue and brown rectangular shapes with white highlights, no clear textual content visible due to blurring.",
+        "question_2": "Taxonomy: NOT SURE  \nCultural Anchor: NOT SURE",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Book_17",
+      "label": "Book 17",
+      "image_path": "segments/Book_17.webp",
+      "source": "item",
+      "group": "texts",
+      "bbox": [
+        352,
+        135,
+        394,
+        254
+      ],
+      "answers": {
+        "question_1": "- Subject: Text\n- General Description: Partially visible vertical text element with indistinct characters on a light brown surface; red and yellow coloration present",
+        "question_2": "NOT SURE,label",
+        "question_3": "NOT SURE"
+      }
+    },
+    {
+      "name": "Book_20",
+      "label": "Book 20",
+      "image_path": "segments/Book_20.webp",
+      "source": "item",
+      "group": "texts",
+      "bbox": [
+        393,
+        12,
+        435,
+        48
+      ],
+      "answers": {
+        "question_1": "- Subject: Text block  \n- General Description: Blurred dark characters on light surface, indistinct shapes with no clear textual content visible due to blurring.",
+        "question_2": "Taxonomy: NOT SURE\nCultural Anchor: NOT SURE",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Book_21",
+      "label": "Book 21",
+      "image_path": "segments/Book_21.webp",
+      "source": "item",
+      "group": "texts",
+      "bbox": [
+        393,
+        135,
+        429,
+        254
+      ],
+      "answers": {
+        "question_1": "Subject: Text block\nGeneral Description: Blurred red and white characters with indistinct shapes",
+        "question_2": "NOT SURE\nNOT SURE",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Book_22",
+      "label": "Book 22",
+      "image_path": "segments/Book_22.webp",
+      "source": "item",
+      "group": "texts",
+      "bbox": [
+        405,
+        135,
+        454,
+        254
+      ],
+      "answers": {
+        "question_1": "- Subject: text\n- General Description: red printed characters on yellow surface",
+        "question_2": "NOT SURE  \nNOT SURE",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Book_25",
+      "label": "Book 25",
+      "image_path": "segments/Book_25.webp",
+      "source": "item",
+      "group": "texts",
+      "bbox": [
+        428,
+        135,
+        464,
+        254
+      ],
+      "answers": {
+        "question_1": "Subject: Text block\nGeneral Description: Blurred red and white characters with indistinct edges, no clear legibility due to blurring",
+        "question_2": "Taxonomy: NOT SURE\nCultural Anchor: NOT SURE",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Book_26",
+      "label": "Book 26",
+      "image_path": "segments/Book_26.webp",
+      "source": "item",
+      "group": "texts",
+      "bbox": [
+        434,
+        12,
+        476,
+        48
+      ],
+      "answers": {
+        "question_1": "- Subject: Text block  \n- General Description: Blurred dark and light areas with indistinct shapes, no discernible characters or symbols visible due to blurring.",
+        "question_2": "Taxonomy: text-based interaction element  \nCultural Anchor: messaging icon",
+        "question_3": "NOT SURE"
+      }
+    }
+  ]
+}

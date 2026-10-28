@@ -1,0 +1,24 @@
+{
+  "extracts": [
+    {
+      "name": "Anno 1806_0",
+      "bbox": [
+        0,
+        0,
+        136,
+        43
+      ],
+      "bbox_position": [
+        68.0,
+        21.5
+      ],
+      "bbox_size": [
+        136,
+        43
+      ],
+      "group": "texts"
+    }
+  ],
+  "parent_name": "Anno. 1806_0",
+  "parent_group": "texts"
+}

@@ -1,0 +1,60 @@
+{
+  "extracts": [
+    {
+      "name": "Figure_0",
+      "bbox": [
+        17,
+        18,
+        58,
+        94
+      ],
+      "bbox_position": [
+        37.5,
+        56.0
+      ],
+      "bbox_size": [
+        41,
+        76
+      ],
+      "group": "Figure"
+    },
+    {
+      "name": "Halo_0",
+      "bbox": [
+        17,
+        4,
+        58,
+        39
+      ],
+      "bbox_position": [
+        37.5,
+        21.5
+      ],
+      "bbox_size": [
+        41,
+        35
+      ],
+      "group": "Halo"
+    },
+    {
+      "name": "Red Garment_0",
+      "bbox": [
+        17,
+        38,
+        58,
+        94
+      ],
+      "bbox_position": [
+        37.5,
+        66.0
+      ],
+      "bbox_size": [
+        41,
+        56
+      ],
+      "group": "Red Garment"
+    }
+  ],
+  "parent_name": "Icon_0",
+  "parent_group": "icon"
+}

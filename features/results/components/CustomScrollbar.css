@@ -1,0 +1,27 @@
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(64, 240, 181, 0.48) rgba(8, 12, 14, 0.86);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(8, 12, 14, 0.86);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(64, 240, 181, 0.38);
+  border: 1px solid rgba(8, 12, 14, 0.92);
+  border-radius: 999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(64, 240, 181, 0.6);
+}
+
+.custom-scrollbar::-webkit-scrollbar-corner {
+  background: rgba(8, 12, 14, 0.86);
+}

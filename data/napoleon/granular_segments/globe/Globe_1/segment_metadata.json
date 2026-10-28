@@ -1,0 +1,24 @@
+{
+  "extracts": [
+    {
+      "name": "Item_0",
+      "bbox": [
+        0,
+        0,
+        107,
+        110
+      ],
+      "bbox_position": [
+        53.5,
+        55.0
+      ],
+      "bbox_size": [
+        107,
+        110
+      ],
+      "group": "Item"
+    }
+  ],
+  "parent_name": "Globe_1",
+  "parent_group": "globe"
+}

@@ -1,0 +1,24 @@
+{
+  "extracts": [
+    {
+      "name": "Hat_0",
+      "bbox": [
+        0,
+        4,
+        52,
+        70
+      ],
+      "bbox_position": [
+        26.0,
+        37.0
+      ],
+      "bbox_size": [
+        52,
+        66
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "Man In Black Hoodie_1",
+  "parent_group": "people"
+}

@@ -1,0 +1,139 @@
+/**
+ * Shared column card base: title + content.
+ * Use .column-card, .column-card__title, .column-card__content in any sidebar card.
+ * Modifiers: .column-card--loading, .column-card--error for content message styling.
+ */
+
+/* Shared column styles for left and right sidebars */
+.column {
+  max-width: 26rem; /* wider left/right columns */
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0); /* zinc-900/80 */
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: stretch; /* cards full width so overlay card centers like others */
+  justify-content: flex-start;
+  min-height: 0;
+  padding-inline: 2.5rem;
+  padding-block: 3.5rem;
+}
+
+.column-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  min-height: 0;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid rgb(54, 54, 54);
+}
+
+.column-card__title {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: #a2a2a2;
+  border-bottom: 1px solid #3f3f46;
+
+  flex-shrink: 0;
+  text-transform: uppercase;
+  font-family: "consolas", sans-serif;
+  letter-spacing: 0.05em;
+  padding-left: 1rem;
+}
+
+.column-card__content {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  padding: 0.5rem;
+  /* background: #1a1a1a; */
+}
+
+.column-card__content img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Wrapper so only the image is filtered, never the card */
+.image-from-folder__img-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  isolation: isolate;
+  contain: layout paint;
+}
+
+.column-card--loading .column-card__content,
+.column-card--error .column-card__content,
+.column-card--empty .column-card__content {
+  color: #71717a;
+  font-size: 0.875rem;
+}
+
+.column-card--error .column-card__content {
+  color: #a1a1aa;
+}
+
+/* Original-as-background overlay (ImageFromFolder) */
+.image-from-folder-overlay {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  /* Fill content area so overlay is centered like other cards (flex child would otherwise get 0 size) */
+  align-self: stretch;
+  flex: 1 1 0;
+}
+
+/* Background image centered in overlay (vertical + horizontal) */
+.image-from-folder-overlay__bg {
+  position: static;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  z-index: 0;
+}
+
+
+.image-from-folder-overlay .image-from-folder__img-wrap {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Foreground image centered in overlay (vertical + horizontal) */
+.image-from-folder-overlay__fg {
+  position: static;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.image-from-folder-overlay__bg--grayscale {
+  filter: grayscale(100%);
+}

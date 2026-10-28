@@ -1,0 +1,78 @@
+{
+  "extracts": [
+    {
+      "name": "black horizontal stripe_0",
+      "bbox": [
+        0,
+        25,
+        180,
+        75
+      ],
+      "bbox_position": [
+        90.0,
+        50.0
+      ],
+      "bbox_size": [
+        180,
+        50
+      ],
+      "group": "black horizontal stripe"
+    },
+    {
+      "name": "white horizontal stripe_0",
+      "bbox": [
+        0,
+        75,
+        180,
+        125
+      ],
+      "bbox_position": [
+        90.0,
+        100.0
+      ],
+      "bbox_size": [
+        180,
+        50
+      ],
+      "group": "white horizontal stripe"
+    },
+    {
+      "name": "green horizontal stripe_0",
+      "bbox": [
+        0,
+        125,
+        180,
+        175
+      ],
+      "bbox_position": [
+        90.0,
+        150.0
+      ],
+      "bbox_size": [
+        180,
+        50
+      ],
+      "group": "green horizontal stripe"
+    },
+    {
+      "name": "red triangle_0",
+      "bbox": [
+        74,
+        0,
+        180,
+        125
+      ],
+      "bbox_position": [
+        127.0,
+        62.5
+      ],
+      "bbox_size": [
+        106,
+        125
+      ],
+      "group": "red triangle"
+    }
+  ],
+  "parent_name": "flag_0",
+  "parent_group": "flag"
+}

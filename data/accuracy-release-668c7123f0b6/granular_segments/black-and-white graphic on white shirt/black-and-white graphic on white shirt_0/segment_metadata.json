@@ -1,0 +1,70 @@
+{
+  "extracts": [
+    {
+      "name": "text_0",
+      "label": "text",
+      "category": "objects",
+      "sam_score": 0.9455898404121399,
+      "bbox": [
+        0,
+        15,
+        81,
+        62
+      ],
+      "bbox_position": [
+        40.5,
+        38.5
+      ],
+      "bbox_size": [
+        81,
+        47
+      ],
+      "group": "text",
+      "bbox_global": [
+        289,
+        490,
+        370,
+        537
+      ]
+    },
+    {
+      "name": "graphic_0",
+      "label": "graphic",
+      "category": "objects",
+      "sam_score": 0.9788141846656799,
+      "bbox": [
+        0,
+        36,
+        85,
+        116
+      ],
+      "bbox_position": [
+        42.5,
+        76.0
+      ],
+      "bbox_size": [
+        85,
+        80
+      ],
+      "group": "graphic",
+      "bbox_global": [
+        289,
+        511,
+        374,
+        591
+      ]
+    }
+  ],
+  "parent_name": "black-and-white graphic on white shirt_0",
+  "parent_group": "black-and-white graphic on white shirt",
+  "coordinate_space": "parent_crop",
+  "source_image": "granular_segments/black-and-white graphic on white shirt/black-and-white graphic on white shirt_0/source.png",
+  "image_width": 117,
+  "image_height": 116,
+  "parent_bbox": [
+    289,
+    475,
+    406,
+    591
+  ]
+}

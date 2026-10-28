@@ -1,0 +1,60 @@
+{
+  "extracts": [
+    {
+      "name": "Bottom Finial_0",
+      "bbox": [
+        289,
+        1622,
+        322,
+        1689
+      ],
+      "bbox_position": [
+        305.5,
+        1655.5
+      ],
+      "bbox_size": [
+        33,
+        67
+      ],
+      "group": "Bottom Finial"
+    },
+    {
+      "name": "Staff Shaft_0",
+      "bbox": [
+        66,
+        246,
+        315,
+        1689
+      ],
+      "bbox_position": [
+        190.5,
+        967.5
+      ],
+      "bbox_size": [
+        249,
+        1443
+      ],
+      "group": "Staff Shaft"
+    },
+    {
+      "name": "Top Ornament_0",
+      "bbox": [
+        0,
+        0,
+        98,
+        195
+      ],
+      "bbox_position": [
+        49.0,
+        97.5
+      ],
+      "bbox_size": [
+        98,
+        195
+      ],
+      "group": "Top Ornament"
+    }
+  ],
+  "parent_name": "Staff_0",
+  "parent_group": "staff"
+}

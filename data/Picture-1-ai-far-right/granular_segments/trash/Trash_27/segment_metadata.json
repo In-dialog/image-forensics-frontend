@@ -1,0 +1,24 @@
+{
+  "extracts": [
+    {
+      "name": "White Fabric_0",
+      "bbox": [
+        2,
+        1,
+        38,
+        31
+      ],
+      "bbox_position": [
+        20.0,
+        16.0
+      ],
+      "bbox_size": [
+        36,
+        30
+      ],
+      "group": "White Fabric"
+    }
+  ],
+  "parent_name": "Trash_27",
+  "parent_group": "trash"
+}

@@ -1,0 +1,96 @@
+{
+  "extracts": [
+    {
+      "name": "Blue Stripe_0",
+      "bbox": [
+        1,
+        1,
+        31,
+        69
+      ],
+      "bbox_position": [
+        16.0,
+        35.0
+      ],
+      "bbox_size": [
+        30,
+        68
+      ],
+      "group": "Blue Stripe"
+    },
+    {
+      "name": "Flag_0",
+      "bbox": [
+        1,
+        1,
+        94,
+        79
+      ],
+      "bbox_position": [
+        47.5,
+        40.0
+      ],
+      "bbox_size": [
+        93,
+        78
+      ],
+      "group": "Flag"
+    },
+    {
+      "name": "Red Stripe_0",
+      "bbox": [
+        58,
+        11,
+        94,
+        78
+      ],
+      "bbox_position": [
+        76.0,
+        44.5
+      ],
+      "bbox_size": [
+        36,
+        67
+      ],
+      "group": "Red Stripe"
+    },
+    {
+      "name": "White Stripe_0",
+      "bbox": [
+        25,
+        4,
+        64,
+        79
+      ],
+      "bbox_position": [
+        44.5,
+        41.5
+      ],
+      "bbox_size": [
+        39,
+        75
+      ],
+      "group": "White Stripe"
+    },
+    {
+      "name": "White Stripe_1",
+      "bbox": [
+        32,
+        0,
+        64,
+        9
+      ],
+      "bbox_position": [
+        48.0,
+        4.5
+      ],
+      "bbox_size": [
+        32,
+        9
+      ],
+      "group": "White Stripe"
+    }
+  ],
+  "parent_name": "Flags_2",
+  "parent_group": "flags"
+}

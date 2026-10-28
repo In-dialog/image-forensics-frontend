@@ -1,0 +1,24 @@
+{
+  "extracts": [
+    {
+      "name": "Vertical Cylindrical Structure_0",
+      "bbox": [
+        0,
+        0,
+        71,
+        143
+      ],
+      "bbox_position": [
+        35.5,
+        71.5
+      ],
+      "bbox_size": [
+        71,
+        143
+      ],
+      "group": "Vertical Cylindrical Structure"
+    }
+  ],
+  "parent_name": "Book_13",
+  "parent_group": "book"
+}

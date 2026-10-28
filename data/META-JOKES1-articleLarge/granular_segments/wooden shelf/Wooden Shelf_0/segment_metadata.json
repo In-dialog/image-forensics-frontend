@@ -1,0 +1,150 @@
+{
+  "extracts": [
+    {
+      "name": "Horizontal Cross Brace_0",
+      "bbox": [
+        33,
+        52,
+        117,
+        65
+      ],
+      "bbox_position": [
+        75.0,
+        58.5
+      ],
+      "bbox_size": [
+        84,
+        13
+      ],
+      "group": "Horizontal Cross Brace"
+    },
+    {
+      "name": "Horizontal Cross Brace_1",
+      "bbox": [
+        33,
+        90,
+        117,
+        103
+      ],
+      "bbox_position": [
+        75.0,
+        96.5
+      ],
+      "bbox_size": [
+        84,
+        13
+      ],
+      "group": "Horizontal Cross Brace"
+    },
+    {
+      "name": "Horizontal Cross Brace_2",
+      "bbox": [
+        33,
+        12,
+        117,
+        25
+      ],
+      "bbox_position": [
+        75.0,
+        18.5
+      ],
+      "bbox_size": [
+        84,
+        13
+      ],
+      "group": "Horizontal Cross Brace"
+    },
+    {
+      "name": "Horizontal Cross Brace_3",
+      "bbox": [
+        33,
+        172,
+        117,
+        185
+      ],
+      "bbox_position": [
+        75.0,
+        178.5
+      ],
+      "bbox_size": [
+        84,
+        13
+      ],
+      "group": "Horizontal Cross Brace"
+    },
+    {
+      "name": "Horizontal Cross Brace_4",
+      "bbox": [
+        33,
+        203,
+        117,
+        216
+      ],
+      "bbox_position": [
+        75.0,
+        209.5
+      ],
+      "bbox_size": [
+        84,
+        13
+      ],
+      "group": "Horizontal Cross Brace"
+    },
+    {
+      "name": "Horizontal Cross Brace_5",
+      "bbox": [
+        33,
+        248,
+        117,
+        261
+      ],
+      "bbox_position": [
+        75.0,
+        254.5
+      ],
+      "bbox_size": [
+        84,
+        13
+      ],
+      "group": "Horizontal Cross Brace"
+    },
+    {
+      "name": "Vertical Support Post_0",
+      "bbox": [
+        0,
+        0,
+        21,
+        337
+      ],
+      "bbox_position": [
+        10.5,
+        168.5
+      ],
+      "bbox_size": [
+        21,
+        337
+      ],
+      "group": "Vertical Support Post"
+    },
+    {
+      "name": "Vertical Support Post_1",
+      "bbox": [
+        460,
+        0,
+        483,
+        337
+      ],
+      "bbox_position": [
+        471.5,
+        168.5
+      ],
+      "bbox_size": [
+        23,
+        337
+      ],
+      "group": "Vertical Support Post"
+    }
+  ],
+  "parent_name": "Wooden Shelf_0",
+  "parent_group": "wooden shelf"
+}

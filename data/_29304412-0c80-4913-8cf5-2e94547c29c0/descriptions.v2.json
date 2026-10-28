@@ -1,0 +1,131 @@
+{
+  "schema_version": 2,
+  "style": "detailed",
+  "questions": [
+    {
+      "id": "question_1",
+      "label": "Description",
+      "instruction": ""
+    },
+    {
+      "id": "question_2",
+      "label": "Semantics",
+      "instruction": ""
+    },
+    {
+      "id": "question_3",
+      "label": "Valence",
+      "instruction": ""
+    }
+  ],
+  "items": [
+    {
+      "name": "Person_0",
+      "label": "Person 0",
+      "image_path": "segments/Person_0.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        316,
+        412,
+        1370,
+        2183
+      ],
+      "answers": {
+        "question_1": "- Subject: Person  \n- General Description: Blue jacket with \"MUSK\" name tag on left chest and circular emblem on right chest, brown shirt underneath, black belt with large buckle, dark pants, holding microphone in right hand, yellow cheese-shaped headpiece above head",
+        "question_2": "Taxonomy: Novelty costume accessory for theatrical or humorous display  \nCultural Anchor: Cheese-shaped helmet",
+        "question_3": "Neutral"
+      }
+    },
+    {
+      "name": "Cheese Hat_0",
+      "label": "Cheese Hat 0",
+      "image_path": "segments/Cheese Hat_0.webp",
+      "source": "item",
+      "group": "Cheese Hat",
+      "bbox": [
+        460,
+        412,
+        940,
+        693
+      ],
+      "answers": {
+        "question_1": "Subject: Cheese Hat\nGeneral Description: Triangular-shaped object with yellow upper section and brown lower section featuring numerous small round perforations",
+        "question_2": "Taxonomy: food product accessory  \nCultural Anchor: decorative food display object",
+        "question_3": "Cheese Hat\nPOSITIVE"
+      }
+    },
+    {
+      "name": "Flag_0",
+      "label": "Flag 0",
+      "image_path": "segments/Flag_0.webp",
+      "source": "item",
+      "group": "Flag",
+      "bbox": [
+        0,
+        0,
+        1457,
+        2183
+      ],
+      "answers": {
+        "question_1": "",
+        "question_2": "Taxonomy: Horizontal band component  \nCultural Anchor: National symbol",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Microphone_0",
+      "label": "Microphone 0",
+      "image_path": "segments/Microphone_0.webp",
+      "source": "item",
+      "group": "Microphone",
+      "bbox": [
+        660,
+        900,
+        729,
+        1250
+      ],
+      "answers": {
+        "question_1": "Subject: Microphone\nGeneral Description: Cylindrical component with textured outer surface, dark brown coloration, metallic finish on upper section, and tapered lower end",
+        "question_2": "Taxonomy: dynamic  \nCultural Anchor: handheld vocal microphone",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Belt Buckle_0",
+      "label": "Belt Buckle 0",
+      "image_path": "segments/Belt Buckle_0.webp",
+      "source": "item",
+      "group": "texts",
+      "bbox": [
+        651,
+        1605,
+        787,
+        1685
+      ],
+      "answers": {
+        "question_1": "- Subject: coin\n- General Description: Circular metallic object with central five-pointed star having internal horizontal stripes and peripheral ornamental motifs",
+        "question_2": "",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Patch_0",
+      "label": "Patch 0",
+      "image_path": "segments/Patch_0.webp",
+      "source": "item",
+      "group": "texts",
+      "bbox": [
+        875,
+        987,
+        974,
+        1091
+      ],
+      "answers": {
+        "question_1": "Subject: Starship emblem\nGeneral Description: Circular insignia featuring \"STARSHIP 49\" arched top; central rocket illustration emitting white exhaust plume against dark background, surrounded by red yellow blue stars and multicolored geometric shapes (green/blue/yellow), with partial text visible on lower curved border.",
+        "question_2": "spacecraft mission emblem\nmission patch",
+        "question_3": "POSITIVE"
+      }
+    }
+  ]
+}

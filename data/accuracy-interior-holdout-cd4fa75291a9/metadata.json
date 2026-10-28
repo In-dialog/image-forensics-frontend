@@ -1,0 +1,219 @@
+{
+  "extracts": [
+    {
+      "name": "person_0",
+      "label": "person",
+      "category": "people",
+      "sam_score": 0.987088680267334,
+      "bbox": [
+        130,
+        18,
+        342,
+        336
+      ],
+      "bbox_position": [
+        236.0,
+        177.0
+      ],
+      "bbox_size": [
+        212,
+        318
+      ],
+      "group": "people"
+    },
+    {
+      "name": "wooden shelf_0",
+      "label": "wooden shelf",
+      "category": "objects",
+      "sam_score": 0.10113326460123062,
+      "bbox": [
+        7,
+        11,
+        485,
+        327
+      ],
+      "bbox_position": [
+        246.0,
+        169.0
+      ],
+      "bbox_size": [
+        478,
+        316
+      ],
+      "group": "wooden shelf"
+    },
+    {
+      "name": "picture frame_0",
+      "label": "picture frame",
+      "category": "objects",
+      "sam_score": 0.9744256138801575,
+      "bbox": [
+        40,
+        24,
+        96,
+        85
+      ],
+      "bbox_position": [
+        68.0,
+        54.5
+      ],
+      "bbox_size": [
+        56,
+        61
+      ],
+      "group": "picture frame"
+    },
+    {
+      "name": "book_0",
+      "label": "book",
+      "category": "objects",
+      "sam_score": 0.9445146322250366,
+      "bbox": [
+        360,
+        5,
+        378,
+        68
+      ],
+      "bbox_position": [
+        369.0,
+        36.5
+      ],
+      "bbox_size": [
+        18,
+        63
+      ],
+      "group": "book"
+    },
+    {
+      "name": "vase_0",
+      "label": "vase",
+      "category": "objects",
+      "sam_score": 0.14249658584594727,
+      "bbox": [
+        444,
+        3,
+        478,
+        64
+      ],
+      "bbox_position": [
+        461.0,
+        33.5
+      ],
+      "bbox_size": [
+        34,
+        61
+      ],
+      "group": "vase"
+    },
+    {
+      "name": "picture frame_1",
+      "label": "picture frame",
+      "category": "objects",
+      "sam_score": 0.9171724319458008,
+      "bbox": [
+        288,
+        77,
+        337,
+        127
+      ],
+      "bbox_position": [
+        312.5,
+        102.0
+      ],
+      "bbox_size": [
+        49,
+        50
+      ],
+      "group": "picture frame"
+    },
+    {
+      "name": "book stack_0",
+      "label": "book stack",
+      "category": "objects",
+      "sam_score": 0.9681873321533203,
+      "bbox": [
+        405,
+        253,
+        478,
+        322
+      ],
+      "bbox_position": [
+        441.5,
+        287.5
+      ],
+      "bbox_size": [
+        73,
+        69
+      ],
+      "group": "book stack"
+    },
+    {
+      "name": "vase_1",
+      "label": "vase",
+      "category": "objects",
+      "sam_score": 0.1162014976143837,
+      "bbox": [
+        82,
+        243,
+        118,
+        318
+      ],
+      "bbox_position": [
+        100.0,
+        280.5
+      ],
+      "bbox_size": [
+        36,
+        75
+      ],
+      "group": "vase"
+    },
+    {
+      "name": "picture frame_2",
+      "label": "picture frame",
+      "category": "objects",
+      "sam_score": 0.9456502199172974,
+      "bbox": [
+        288,
+        123,
+        402,
+        220
+      ],
+      "bbox_position": [
+        345.0,
+        171.5
+      ],
+      "bbox_size": [
+        114,
+        97
+      ],
+      "group": "picture frame"
+    },
+    {
+      "name": "book stack_1",
+      "label": "book stack",
+      "category": "objects",
+      "sam_score": 0.11116382479667664,
+      "bbox": [
+        31,
+        278,
+        130,
+        328
+      ],
+      "bbox_position": [
+        80.5,
+        303.0
+      ],
+      "bbox_size": [
+        99,
+        50
+      ],
+      "group": "book stack"
+    }
+  ],
+  "source_image": "accuracy-interior-holdout-cd4fa75291a9",
+  "source_image_path": "accuracy-interior-holdout-cd4fa75291a9.webp",
+  "image_width": 600,
+  "image_height": 338,
+  "output_folder": "accuracy-interior-holdout-cd4fa75291a9"
+}

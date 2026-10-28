@@ -1,0 +1,78 @@
+{
+  "extracts": [
+    {
+      "name": "Face_0",
+      "bbox": [
+        78,
+        0,
+        139,
+        125
+      ],
+      "bbox_position": [
+        108.5,
+        62.5
+      ],
+      "bbox_size": [
+        61,
+        125
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Gestures_0",
+      "bbox": [
+        0,
+        155,
+        210,
+        230
+      ],
+      "bbox_position": [
+        105.0,
+        192.5
+      ],
+      "bbox_size": [
+        210,
+        75
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Hair_0",
+      "bbox": [
+        78,
+        0,
+        139,
+        36
+      ],
+      "bbox_position": [
+        108.5,
+        18.0
+      ],
+      "bbox_size": [
+        61,
+        36
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Sweatshirt_0",
+      "bbox": [
+        0,
+        75,
+        210,
+        319
+      ],
+      "bbox_position": [
+        105.0,
+        197.0
+      ],
+      "bbox_size": [
+        210,
+        244
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "Man Wearing Black Sweater_0",
+  "parent_group": "people"
+}

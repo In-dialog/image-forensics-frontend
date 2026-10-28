@@ -1,0 +1,222 @@
+{
+  "extracts": [
+    {
+      "name": "Decorative Band_0",
+      "bbox": [
+        237,
+        0,
+        322,
+        146
+      ],
+      "bbox_position": [
+        279.5,
+        73.0
+      ],
+      "bbox_size": [
+        85,
+        146
+      ],
+      "group": "Decorative Band"
+    },
+    {
+      "name": "Gemstone_0",
+      "bbox": [
+        124,
+        605,
+        138,
+        625
+      ],
+      "bbox_position": [
+        131.0,
+        615.0
+      ],
+      "bbox_size": [
+        14,
+        20
+      ],
+      "group": "Gemstone"
+    },
+    {
+      "name": "Gemstone_1",
+      "bbox": [
+        50,
+        611,
+        63,
+        625
+      ],
+      "bbox_position": [
+        56.5,
+        618.0
+      ],
+      "bbox_size": [
+        13,
+        14
+      ],
+      "group": "Gemstone"
+    },
+    {
+      "name": "Gemstone_2",
+      "bbox": [
+        128,
+        529,
+        145,
+        553
+      ],
+      "bbox_position": [
+        136.5,
+        541.0
+      ],
+      "bbox_size": [
+        17,
+        24
+      ],
+      "group": "Gemstone"
+    },
+    {
+      "name": "Gemstone_3",
+      "bbox": [
+        116,
+        476,
+        127,
+        490
+      ],
+      "bbox_position": [
+        121.5,
+        483.0
+      ],
+      "bbox_size": [
+        11,
+        14
+      ],
+      "group": "Gemstone"
+    },
+    {
+      "name": "Gemstone_4",
+      "bbox": [
+        75,
+        582,
+        94,
+        607
+      ],
+      "bbox_position": [
+        84.5,
+        594.5
+      ],
+      "bbox_size": [
+        19,
+        25
+      ],
+      "group": "Gemstone"
+    },
+    {
+      "name": "Gemstone_5",
+      "bbox": [
+        125,
+        466,
+        140,
+        486
+      ],
+      "bbox_position": [
+        132.5,
+        476.0
+      ],
+      "bbox_size": [
+        15,
+        20
+      ],
+      "group": "Gemstone"
+    },
+    {
+      "name": "Gemstone_6",
+      "bbox": [
+        127,
+        503,
+        142,
+        526
+      ],
+      "bbox_position": [
+        134.5,
+        514.5
+      ],
+      "bbox_size": [
+        15,
+        23
+      ],
+      "group": "Gemstone"
+    },
+    {
+      "name": "Gemstone_7",
+      "bbox": [
+        132,
+        557,
+        146,
+        585
+      ],
+      "bbox_position": [
+        139.0,
+        571.0
+      ],
+      "bbox_size": [
+        14,
+        28
+      ],
+      "group": "Gemstone"
+    },
+    {
+      "name": "Gemstone_8",
+      "bbox": [
+        159,
+        973,
+        173,
+        998
+      ],
+      "bbox_position": [
+        166.0,
+        985.5
+      ],
+      "bbox_size": [
+        14,
+        25
+      ],
+      "group": "Gemstone"
+    },
+    {
+      "name": "Gemstone_9",
+      "bbox": [
+        138,
+        479,
+        146,
+        491
+      ],
+      "bbox_position": [
+        142.0,
+        485.0
+      ],
+      "bbox_size": [
+        8,
+        12
+      ],
+      "group": "Gemstone"
+    },
+    {
+      "name": "Gemstone_10",
+      "bbox": [
+        0,
+        208,
+        8,
+        239
+      ],
+      "bbox_position": [
+        4.0,
+        223.5
+      ],
+      "bbox_size": [
+        8,
+        31
+      ],
+      "group": "Gemstone"
+    }
+  ],
+  "parent_name": "Scepter_0",
+  "parent_group": "scepter"
+}

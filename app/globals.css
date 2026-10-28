@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* ─── Global color palette (non-grey/black/white) ───────────────────────────────────────── */
+:root {
+  /* Gauges, highlights, selected states */
+  --color-accent: #40f0b5;
+  --color-accent-alpha: #40f0b584;
+
+  /* Annotation strokes – composition lines, bounding box, segmentation overlays */
+  --color-annotation-stroke: #40f0b5;
+  --color-annotation-stroke-muted: #40f0b589;
+  --color-annotation-fill: #40f0b5;
+  --color-annotation-stroke-bright: #40f0b5;
+
+  /* Selected cell outline (e.g. metadata gallery) */
+  --color-selection-outline: #40f0b5;
+
+  /* 3D canvas – container box lines, mesh */
+  --color-canvas-3d-line: #159b6e;
+  --color-canvas-3d-depth: rgb(11, 52, 39);
+  --color-canvas-3d-mesh: #13c187;
+  --color-canvas-3d-lines-to-original: rgb(182, 180, 180);
+
+  /* Error / negative states */
+  --color-error: #c44;
+  --color-error-muted: #c06060;
+
+  /* Text colors */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #787878;
+  --color-text-background: rgb(40, 40, 40);
+  --color-text-background-secondary: rgba(122, 121, 121, 0.08);
+
+  /* padding */
+  /* Consolas uppercase label (section titles, headers) */
+  --font-consolas-uppercase-line-height: 1.25;
+  --font-consolas-uppercase-size: 1rem;
+  --font-consolas-uppercase-weight: 600;
+  --font-consolas-uppercase-spacing: 0.06em;
+  --font-consolas-uppercase-family: "consolas", monospace;
+
+  /* layout box margin */
+  --layout-box-margin: 22px;
+}
+
+/* ─── Global styles ─────────────────────────────────────────────────────────────────────── */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: system-ui, sans-serif;
+  background-color: rgb(17, 17, 17);
+}

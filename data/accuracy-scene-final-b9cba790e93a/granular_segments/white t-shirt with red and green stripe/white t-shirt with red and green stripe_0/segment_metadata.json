@@ -1,0 +1,43 @@
+{
+  "extracts": [
+    {
+      "name": "graphic_0",
+      "label": "graphic",
+      "category": "objects",
+      "sam_score": 0.9276617169380188,
+      "bbox": [
+        47,
+        33,
+        118,
+        69
+      ],
+      "bbox_position": [
+        82.5,
+        51.0
+      ],
+      "bbox_size": [
+        71,
+        36
+      ],
+      "group": "graphic",
+      "bbox_global": [
+        422,
+        325,
+        493,
+        361
+      ]
+    }
+  ],
+  "parent_name": "white t-shirt with red and green stripe_0",
+  "parent_group": "white t-shirt with red and green stripe",
+  "coordinate_space": "parent_crop",
+  "source_image": "granular_segments/white t-shirt with red and green stripe/white t-shirt with red and green stripe_0/source.png",
+  "image_width": 173,
+  "image_height": 174,
+  "parent_bbox": [
+    375,
+    292,
+    548,
+    466
+  ]
+}

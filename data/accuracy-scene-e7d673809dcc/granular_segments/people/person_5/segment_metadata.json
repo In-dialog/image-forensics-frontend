@@ -1,0 +1,78 @@
+{
+  "extracts": [
+    {
+      "name": "hair_0",
+      "bbox": [
+        9,
+        0,
+        45,
+        16
+      ],
+      "bbox_position": [
+        27.0,
+        8.0
+      ],
+      "bbox_size": [
+        36,
+        16
+      ],
+      "group": "people"
+    },
+    {
+      "name": "face_0",
+      "bbox": [
+        13,
+        8,
+        41,
+        40
+      ],
+      "bbox_position": [
+        27.0,
+        24.0
+      ],
+      "bbox_size": [
+        28,
+        32
+      ],
+      "group": "people"
+    },
+    {
+      "name": "beard_0",
+      "bbox": [
+        13,
+        24,
+        41,
+        40
+      ],
+      "bbox_position": [
+        27.0,
+        32.0
+      ],
+      "bbox_size": [
+        28,
+        16
+      ],
+      "group": "people"
+    },
+    {
+      "name": "clothes_0",
+      "bbox": [
+        0,
+        26,
+        54,
+        64
+      ],
+      "bbox_position": [
+        27.0,
+        45.0
+      ],
+      "bbox_size": [
+        54,
+        38
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "person_5",
+  "parent_group": "people"
+}

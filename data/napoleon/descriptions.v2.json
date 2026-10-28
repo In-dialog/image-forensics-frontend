@@ -1,0 +1,239 @@
+{
+  "schema_version": 2,
+  "style": "detailed",
+  "questions": [
+    {
+      "id": "question_1",
+      "label": "Description",
+      "instruction": ""
+    },
+    {
+      "id": "question_2",
+      "label": "Semantics",
+      "instruction": ""
+    },
+    {
+      "id": "question_3",
+      "label": "Valence",
+      "instruction": ""
+    }
+  ],
+  "items": [
+    {
+      "name": "Person_0",
+      "label": "Person 0",
+      "image_path": "segments/Person_0.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        74,
+        186,
+        993,
+        1594
+      ],
+      "answers": {
+        "question_1": "- Subject: Person\n- General Description: Red velvet robe with gold embroidery, white fur collar, jeweled neck chain featuring star-shaped pendant, raised right hand holding scepter-like object, left arm resting on staff; ornate headpiece and gloves visible",
+        "question_2": "",
+        "question_3": "Red velvet ceremonial gown adorned with intricate gold-thread embroidery; white fur collar with dark spot details | POSITIVE"
+      }
+    },
+    {
+      "name": "Carpet_0",
+      "label": "Carpet 0",
+      "image_path": "segments/Carpet_0.webp",
+      "source": "item",
+      "group": "Carpet",
+      "bbox": [
+        0,
+        1409,
+        1167,
+        1919
+      ],
+      "answers": {
+        "question_1": "- Subject: Carpet Fragment  \n- General Description: Decorative textile with gold and red motifs including scales of justice symbols on left side; central section features ornate golden scrollwork over beige field bordered by green lines.",
+        "question_2": "Taxonomy: decorative textile fragment  \nCultural Anchor: traditional ornamental rug",
+        "question_3": "Carpet\nPOSITIVE"
+      }
+    },
+    {
+      "name": "Crown_0",
+      "label": "Crown 0",
+      "image_path": "segments/Crown_0.webp",
+      "source": "item",
+      "group": "Crown",
+      "bbox": [
+        490,
+        274,
+        678,
+        398
+      ],
+      "answers": {
+        "question_1": "Subject: Crown\nGeneral Description: Ornate metallic crown with interlocking segments featuring raised decorative motifs in a golden hue",
+        "question_2": "Taxonomy: regal crown\nCultural Anchor: royal headdress",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Globe_0",
+      "label": "Globe 0",
+      "image_path": "segments/Globe_0.webp",
+      "source": "item",
+      "group": "Globe",
+      "bbox": [
+        94,
+        727,
+        198,
+        834
+      ],
+      "answers": {
+        "question_1": "- Subject: Globe  \n- General Description: Smooth, rounded surface exhibiting a pale yellowish coloration and subtle texture variations on the outer shell.",
+        "question_2": "Taxonomy: NOT SURE\nCultural Anchor: NOT SURE",
+        "question_3": "Globe\nPOSITIVE"
+      }
+    },
+    {
+      "name": "Globe_1",
+      "label": "Globe 1",
+      "image_path": "segments/Globe_1.webp",
+      "source": "item",
+      "group": "Globe",
+      "bbox": [
+        947,
+        720,
+        1054,
+        830
+      ],
+      "answers": {
+        "question_1": "- Subject: Globe\n- General Description: Spherical object with textured surface exhibiting mottled speckles and color gradient from dark to light brownish-green",
+        "question_2": "",
+        "question_3": "Globe\nNeutral"
+      }
+    },
+    {
+      "name": "Scepter_0",
+      "label": "Scepter 0",
+      "image_path": "segments/Scepter_0.webp",
+      "source": "item",
+      "group": "Scepter",
+      "bbox": [
+        665,
+        257,
+        987,
+        1498
+      ],
+      "answers": {
+        "question_1": "- Subject: Scepter\n- General Description: Gold-colored shaft with white hand at top featuring gemstone band, decorative motifs including floral/scrollwork near upper section base and lace-like detail around lower grip area; separate vertical component below has ornate detailing and embedded elements",
+        "question_2": "Taxonomy: Ceremonial staff  \nCultural Anchor: Royal symbol",
+        "question_3": "Scepter  \nElongated vertical object made from gilded metal; features sculpted white terminal resembling human hand at upper end; shaft adorned with engraved patterns and gemstone inlays.  \n\nPOSITIVE"
+      }
+    },
+    {
+      "name": "Shield_0",
+      "label": "Shield 0",
+      "image_path": "segments/Shield_0.webp",
+      "source": "item",
+      "group": "Shield",
+      "bbox": [
+        1060,
+        113,
+        1168,
+        408
+      ],
+      "answers": {
+        "question_1": "- Subject: Shield  \n- General Description: Two crossed green tools with circular ends positioned horizontally over a solid red field, adjacent to an indistinct black lower section.",
+        "question_2": "Taxonomy: heraldic charge\nCultural Anchor: coat of arms symbol",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Staff_0",
+      "label": "Staff 0",
+      "image_path": "segments/Staff_0.webp",
+      "source": "item",
+      "group": "Staff",
+      "bbox": [
+        43,
+        0,
+        365,
+        1690
+      ],
+      "answers": {
+        "question_1": "- Subject: Staff\n- General Description: Golden metallic elongated object; upper end features intricate design including a rounded section with embedded elements and surrounding scrollwork, lower end has detailed terminal ornamentation",
+        "question_2": "",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Tassel_0",
+      "label": "Tassel 0",
+      "image_path": "segments/Tassel_0.webp",
+      "source": "item",
+      "group": "Tassel",
+      "bbox": [
+        26,
+        864,
+        78,
+        999
+      ],
+      "answers": {
+        "question_1": "Subject: Tassel  \nGeneral Description: Circular upper element with raised decorative motif, tapered lower section adorned with dense intricate patterned details, uniform golden hue",
+        "question_2": "Taxonomy: ceremonial pendant  \nCultural Anchor: religious ornament",
+        "question_3": ""
+      }
+    },
+    {
+      "name": "Throne Backrest_0",
+      "label": "Throne Backrest 0",
+      "image_path": "segments/Throne Backrest_0.webp",
+      "source": "item",
+      "group": "Throne Backrest",
+      "bbox": [
+        228,
+        165,
+        1001,
+        628
+      ],
+      "answers": {
+        "question_1": "- Subject: Throne Backrest Fragment\n- General Description: Arched metal fragment featuring embossed geometric star motifs within circular frames, segmented radial patterns on lower sections, and a textured quilted surface along the upper curve",
+        "question_2": "",
+        "question_3": "Throne Backrest  \nMaterial: Metal with gilded surface  \nDesign Elements: Curved form, geometric patterns including star motifs and circular medallions, segmented panels  \n\nPOSITIVE"
+      }
+    },
+    {
+      "name": "Anno. 1806_0",
+      "label": "Anno. 1806 0",
+      "image_path": "segments/Anno. 1806_0.webp",
+      "source": "item",
+      "group": "texts",
+      "bbox": [
+        1031,
+        1772,
+        1167,
+        1815
+      ],
+      "answers": {
+        "question_1": "- Subject: text fragment\n- General Description: partial inscription with discernible letters A N N O B C",
+        "question_2": "Taxonomy: Historical date inscriptions  \nCultural Anchor: Year designation text",
+        "question_3": "Neutral"
+      }
+    },
+    {
+      "name": "Ingres P_0",
+      "label": "Ingres P 0",
+      "image_path": "segments/Ingres P_0.webp",
+      "source": "item",
+      "group": "texts",
+      "bbox": [
+        8,
+        1772,
+        122,
+        1815
+      ],
+      "answers": {
+        "question_1": "",
+        "question_2": "",
+        "question_3": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "extracts": [
+    {
+      "name": "person_0",
+      "label": "person",
+      "category": "people",
+      "sam_score": 0.9241883158683777,
+      "bbox": [
+        237,
+        262,
+        385,
+        637
+      ],
+      "bbox_position": [
+        311.0,
+        449.5
+      ],
+      "bbox_size": [
+        148,
+        375
+      ],
+      "group": "people"
+    },
+    {
+      "name": "person_1",
+      "label": "person",
+      "category": "people",
+      "sam_score": 0.9260079264640808,
+      "bbox": [
+        70,
+        276,
+        290,
+        582
+      ],
+      "bbox_position": [
+        180.0,
+        429.0
+      ],
+      "bbox_size": [
+        220,
+        306
+      ],
+      "group": "people"
+    },
+    {
+      "name": "person_2",
+      "label": "person",
+      "category": "people",
+      "sam_score": 0.10698805004358292,
+      "bbox": [
+        0,
+        236,
+        198,
+        532
+      ],
+      "bbox_position": [
+        99.0,
+        384.0
+      ],
+      "bbox_size": [
+        198,
+        296
+      ],
+      "group": "people"
+    },
+    {
+      "name": "person_3",
+      "label": "person",
+      "category": "people",
+      "sam_score": 0.9842151999473572,
+      "bbox": [
+        358,
+        236,
+        586,
+        591
+      ],
+      "bbox_position": [
+        472.0,
+        413.5
+      ],
+      "bbox_size": [
+        228,
+        355
+      ],
+      "group": "people"
+    },
+    {
+      "name": "flag_0",
+      "label": "flag",
+      "category": "objects",
+      "sam_score": 0.9526066184043884,
+      "bbox": [
+        0,
+        35,
+        180,
+        267
+      ],
+      "bbox_position": [
+        90.0,
+        151.0
+      ],
+      "bbox_size": [
+        180,
+        232
+      ],
+      "group": "flag"
+    },
+    {
+      "name": "flag_1",
+      "label": "flag",
+      "category": "objects",
+      "sam_score": 0.975253701210022,
+      "bbox": [
+        410,
+        14,
+        616,
+        203
+      ],
+      "bbox_position": [
+        513.0,
+        108.5
+      ],
+      "bbox_size": [
+        206,
+        189
+      ],
+      "group": "flag"
+    },
+    {
+      "name": "t-shirt with flag design_0",
+      "label": "t-shirt with flag design",
+      "category": "objects",
+      "sam_score": 0.9683620929718018,
+      "bbox": [
+        240,
+        431,
+        423,
+        611
+      ],
+      "bbox_position": [
+        331.5,
+        521.0
+      ],
+      "bbox_size": [
+        183,
+        180
+      ],
+      "group": "t-shirt with flag design"
+    },
+    {
+      "name": "green bottle_0",
+      "label": "green bottle",
+      "category": "objects",
+      "sam_score": 0.9387593865394592,
+      "bbox": [
+        435,
+        544,
+        468,
+        637
+      ],
+      "bbox_position": [
+        451.5,
+        590.5
+      ],
+      "bbox_size": [
+        33,
+        93
+      ],
+      "group": "green bottle"
+    },
+    {
+      "name": "tower structure_0",
+      "label": "tower structure",
+      "category": "objects",
+      "sam_score": 0.8840417861938477,
+      "bbox": [
+        187,
+        0,
+        344,
+        345
+      ],
+      "bbox_position": [
+        265.5,
+        172.5
+      ],
+      "bbox_size": [
+        157,
+        345
+      ],
+      "group": "tower structure"
+    },
+    {
+      "name": "flag_2",
+      "label": "flag",
+      "category": "objects",
+      "sam_score": 0.3980226218700409,
+      "bbox": [
+        408,
+        9,
+        591,
+        177
+      ],
+      "bbox_position": [
+        499.5,
+        93.0
+      ],
+      "bbox_size": [
+        183,
+        168
+      ],
+      "group": "flag"
+    },
+    {
+      "name": "Eiffel Tower structure_0",
+      "label": "Eiffel Tower structure",
+      "category": "objects",
+      "sam_score": 0.1422046720981598,
+      "bbox": [
+        289,
+        0,
+        377,
+        277
+      ],
+      "bbox_position": [
+        333.0,
+        138.5
+      ],
+      "bbox_size": [
+        88,
+        277
+      ],
+      "group": "Eiffel Tower structure"
+    },
+    {
+      "name": "green plastic bottle_0",
+      "label": "green plastic bottle",
+      "category": "objects",
+      "sam_score": 0.13334068655967712,
+      "bbox": [
+        112,
+        605,
+        164,
+        638
+      ],
+      "bbox_position": [
+        138.0,
+        621.5
+      ],
+      "bbox_size": [
+        52,
+        33
+      ],
+      "group": "green plastic bottle"
+    },
+    {
+      "name": "white t-shirt with French flag and text_0",
+      "label": "white t-shirt with French flag and text",
+      "category": "objects",
+      "sam_score": 0.15206265449523926,
+      "bbox": [
+        231,
+        426,
+        344,
+        600
+      ],
+      "bbox_position": [
+        287.5,
+        513.0
+      ],
+      "bbox_size": [
+        113,
+        174
+      ],
+      "group": "white t-shirt with French flag and text"
+    },
+    {
+      "name": "white t-shirt with red and green stripe_0",
+      "label": "white t-shirt with red and green stripe",
+      "category": "objects",
+      "sam_score": 0.9591836333274841,
+      "bbox": [
+        375,
+        292,
+        548,
+        466
+      ],
+      "bbox_position": [
+        461.5,
+        379.0
+      ],
+      "bbox_size": [
+        173,
+        174
+      ],
+      "group": "white t-shirt with red and green stripe"
+    },
+    {
+      "name": "black-and-white graphic on white shirt_0",
+      "label": "black-and-white graphic on white shirt",
+      "category": "objects",
+      "sam_score": 0.1586744636297226,
+      "bbox": [
+        289,
+        475,
+        406,
+        591
+      ],
+      "bbox_position": [
+        347.5,
+        533.0
+      ],
+      "bbox_size": [
+        117,
+        116
+      ],
+      "group": "black-and-white graphic on white shirt"
+    },
+    {
+      "name": "FRANCE_0",
+      "label": "FRANCE",
+      "category": "texts",
+      "sam_score": 0.938845157623291,
+      "bbox": [
+        276,
+        489,
+        374,
+        524
+      ],
+      "bbox_position": [
+        325.0,
+        506.5
+      ],
+      "bbox_size": [
+        98,
+        35
+      ],
+      "group": "texts"
+    }
+  ],
+  "source_image": "accuracy-scene-final-b9cba790e93a",
+  "source_image_path": "accuracy-scene-final-b9cba790e93a.webp",
+  "image_width": 633,
+  "image_height": 638,
+  "output_folder": "accuracy-scene-final-b9cba790e93a"
+}

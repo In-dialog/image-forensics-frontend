@@ -1,0 +1,150 @@
+{
+  "extracts": [
+    {
+      "name": "Black Stripe_0",
+      "bbox": [
+        1,
+        1,
+        181,
+        109
+      ],
+      "bbox_position": [
+        91.0,
+        55.0
+      ],
+      "bbox_size": [
+        180,
+        108
+      ],
+      "group": "Black Stripe"
+    },
+    {
+      "name": "Crescent Moon_0",
+      "bbox": [
+        67,
+        83,
+        109,
+        129
+      ],
+      "bbox_position": [
+        88.0,
+        106.0
+      ],
+      "bbox_size": [
+        42,
+        46
+      ],
+      "group": "Crescent Moon"
+    },
+    {
+      "name": "Flag_0",
+      "bbox": [
+        1,
+        1,
+        200,
+        180
+      ],
+      "bbox_position": [
+        100.5,
+        90.5
+      ],
+      "bbox_size": [
+        199,
+        179
+      ],
+      "group": "Flag"
+    },
+    {
+      "name": "Green Stripe_0",
+      "bbox": [
+        160,
+        152,
+        200,
+        160
+      ],
+      "bbox_position": [
+        180.0,
+        156.0
+      ],
+      "bbox_size": [
+        40,
+        8
+      ],
+      "group": "Green Stripe"
+    },
+    {
+      "name": "Green Stripe_1",
+      "bbox": [
+        16,
+        99,
+        199,
+        180
+      ],
+      "bbox_position": [
+        107.5,
+        139.5
+      ],
+      "bbox_size": [
+        183,
+        81
+      ],
+      "group": "Green Stripe"
+    },
+    {
+      "name": "Green Stripe_2",
+      "bbox": [
+        136,
+        160,
+        200,
+        168
+      ],
+      "bbox_position": [
+        168.0,
+        164.0
+      ],
+      "bbox_size": [
+        64,
+        8
+      ],
+      "group": "Green Stripe"
+    },
+    {
+      "name": "Star_0",
+      "bbox": [
+        87,
+        88,
+        106,
+        107
+      ],
+      "bbox_position": [
+        96.5,
+        97.5
+      ],
+      "bbox_size": [
+        19,
+        19
+      ],
+      "group": "Star"
+    },
+    {
+      "name": "White Stripe_0",
+      "bbox": [
+        2,
+        40,
+        193,
+        162
+      ],
+      "bbox_position": [
+        97.5,
+        101.0
+      ],
+      "bbox_size": [
+        191,
+        122
+      ],
+      "group": "White Stripe"
+    }
+  ],
+  "parent_name": "Flags_1",
+  "parent_group": "flags"
+}

@@ -1,0 +1,132 @@
+{
+  "extracts": [
+    {
+      "name": "Arms_0",
+      "bbox": [
+        177,
+        92,
+        223,
+        142
+      ],
+      "bbox_position": [
+        200.0,
+        117.0
+      ],
+      "bbox_size": [
+        46,
+        50
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Arms_1",
+      "bbox": [
+        8,
+        96,
+        50,
+        139
+      ],
+      "bbox_position": [
+        29.0,
+        117.5
+      ],
+      "bbox_size": [
+        42,
+        43
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Head_0",
+      "bbox": [
+        70,
+        1,
+        113,
+        71
+      ],
+      "bbox_position": [
+        91.5,
+        36.0
+      ],
+      "bbox_size": [
+        43,
+        70
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Jeans_0",
+      "bbox": [
+        66,
+        156,
+        221,
+        321
+      ],
+      "bbox_position": [
+        143.5,
+        238.5
+      ],
+      "bbox_size": [
+        155,
+        165
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Legs_0",
+      "bbox": [
+        126,
+        173,
+        221,
+        312
+      ],
+      "bbox_position": [
+        173.5,
+        242.5
+      ],
+      "bbox_size": [
+        95,
+        139
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Legs_1",
+      "bbox": [
+        66,
+        157,
+        125,
+        321
+      ],
+      "bbox_position": [
+        95.5,
+        239.0
+      ],
+      "bbox_size": [
+        59,
+        164
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Legs_2",
+      "bbox": [
+        22,
+        330,
+        51,
+        335
+      ],
+      "bbox_position": [
+        36.5,
+        332.5
+      ],
+      "bbox_size": [
+        29,
+        5
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "Man In White Shirt_0",
+  "parent_group": "people"
+}

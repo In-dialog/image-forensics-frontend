@@ -1,0 +1,96 @@
+{
+  "extracts": [
+    {
+      "name": "Silhouette Arm Right_0",
+      "bbox": [
+        1000,
+        971,
+        1370,
+        1428
+      ],
+      "bbox_position": [
+        1185.0,
+        1199.5
+      ],
+      "bbox_size": [
+        370,
+        457
+      ],
+      "group": "Silhouette Arm Right"
+    },
+    {
+      "name": "Silhouette Head_0",
+      "bbox": [
+        460,
+        412,
+        940,
+        693
+      ],
+      "bbox_position": [
+        700.0,
+        552.5
+      ],
+      "bbox_size": [
+        480,
+        281
+      ],
+      "group": "Silhouette Head"
+    },
+    {
+      "name": "Silhouette Leg Left_0",
+      "bbox": [
+        748,
+        1958,
+        1093,
+        2181
+      ],
+      "bbox_position": [
+        920.5,
+        2069.5
+      ],
+      "bbox_size": [
+        345,
+        223
+      ],
+      "group": "Silhouette Leg Left"
+    },
+    {
+      "name": "Silhouette Leg Right_0",
+      "bbox": [
+        476,
+        1958,
+        758,
+        2181
+      ],
+      "bbox_position": [
+        617.0,
+        2069.5
+      ],
+      "bbox_size": [
+        282,
+        223
+      ],
+      "group": "Silhouette Leg Right"
+    },
+    {
+      "name": "Silhouette Torso_0",
+      "bbox": [
+        314,
+        692,
+        1079,
+        1478
+      ],
+      "bbox_position": [
+        696.5,
+        1085.0
+      ],
+      "bbox_size": [
+        765,
+        786
+      ],
+      "group": "Silhouette Torso"
+    }
+  ],
+  "parent_name": "Flag_0",
+  "parent_group": "flag"
+}

@@ -1,0 +1,222 @@
+{
+  "extracts": [
+    {
+      "name": "Arm_0",
+      "bbox": [
+        1,
+        31,
+        42,
+        119
+      ],
+      "bbox_position": [
+        21.5,
+        75.0
+      ],
+      "bbox_size": [
+        41,
+        88
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Arm_1",
+      "bbox": [
+        0,
+        3,
+        39,
+        119
+      ],
+      "bbox_position": [
+        19.5,
+        61.0
+      ],
+      "bbox_size": [
+        39,
+        116
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Arm_2",
+      "bbox": [
+        79,
+        108,
+        112,
+        164
+      ],
+      "bbox_position": [
+        95.5,
+        136.0
+      ],
+      "bbox_size": [
+        33,
+        56
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Hair_0",
+      "bbox": [
+        44,
+        54,
+        77,
+        77
+      ],
+      "bbox_position": [
+        60.5,
+        65.5
+      ],
+      "bbox_size": [
+        33,
+        23
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Hand_0",
+      "bbox": [
+        64,
+        137,
+        82,
+        156
+      ],
+      "bbox_position": [
+        73.0,
+        146.5
+      ],
+      "bbox_size": [
+        18,
+        19
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Hand_1",
+      "bbox": [
+        9,
+        3,
+        35,
+        35
+      ],
+      "bbox_position": [
+        22.0,
+        19.0
+      ],
+      "bbox_size": [
+        26,
+        32
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Head_0",
+      "bbox": [
+        42,
+        54,
+        77,
+        110
+      ],
+      "bbox_position": [
+        59.5,
+        82.0
+      ],
+      "bbox_size": [
+        35,
+        56
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Leg_0",
+      "bbox": [
+        72,
+        192,
+        124,
+        316
+      ],
+      "bbox_position": [
+        98.0,
+        254.0
+      ],
+      "bbox_size": [
+        52,
+        124
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Leg_1",
+      "bbox": [
+        24,
+        178,
+        62,
+        288
+      ],
+      "bbox_position": [
+        43.0,
+        233.0
+      ],
+      "bbox_size": [
+        38,
+        110
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Mouth_0",
+      "bbox": [
+        46,
+        84,
+        58,
+        101
+      ],
+      "bbox_position": [
+        52.0,
+        92.5
+      ],
+      "bbox_size": [
+        12,
+        17
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Pants_0",
+      "bbox": [
+        24,
+        178,
+        124,
+        316
+      ],
+      "bbox_position": [
+        74.0,
+        247.0
+      ],
+      "bbox_size": [
+        100,
+        138
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Sweatshirt_0",
+      "bbox": [
+        0,
+        61,
+        111,
+        191
+      ],
+      "bbox_position": [
+        55.5,
+        126.0
+      ],
+      "bbox_size": [
+        111,
+        130
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "Man In Black Hoodie_4",
+  "parent_group": "people"
+}

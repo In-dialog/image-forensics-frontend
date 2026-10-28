@@ -1,0 +1,103 @@
+{
+  "schema_version": 2,
+  "scope": "full_image",
+  "criteria": [
+    {
+      "id": "criterion_1",
+      "label": "Political Intent Signal",
+      "type": "score",
+      "positive": "",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "apolitical",
+      "high_label": "political"
+    },
+    {
+      "id": "criterion_2",
+      "label": "Commercial Intent Signal",
+      "type": "score",
+      "positive": "",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "non-commercial",
+      "high_label": "commercial"
+    },
+    {
+      "id": "criterion_3",
+      "label": "Persuasive Pressure",
+      "type": "score",
+      "positive": "",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "informational",
+      "high_label": "persuasive"
+    },
+    {
+      "id": "criterion_4",
+      "label": "Polarization Cue",
+      "type": "score",
+      "positive": "",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "inclusive",
+      "high_label": "divisive"
+    },
+    {
+      "id": "criterion_5",
+      "label": "Outrage Activation",
+      "type": "score",
+      "positive": "",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "calm",
+      "high_label": "outrage"
+    },
+    {
+      "id": "criterion_6",
+      "label": "Visual Impact Strength",
+      "type": "score",
+      "positive": "",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "weak",
+      "high_label": "striking"
+    }
+  ],
+  "items": [
+    {
+      "name": "full_image",
+      "ratings": {
+        "criterion_1": {
+          "value": 10,
+          "reason": "Score: 10"
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "Score: 0"
+        },
+        "criterion_3": {
+          "value": 8,
+          "reason": "Score: 8"
+        },
+        "criterion_4": {
+          "value": 10,
+          "reason": "Score: 10"
+        },
+        "criterion_5": {
+          "value": 8,
+          "reason": "Score: 8"
+        },
+        "criterion_6": {
+          "value": 8,
+          "reason": "Score: 8"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "extracts": [
+    {
+      "name": "Blue Books_0",
+      "bbox": [
+        107,
+        133,
+        485,
+        252
+      ],
+      "bbox_position": [
+        296.0,
+        192.5
+      ],
+      "bbox_size": [
+        378,
+        119
+      ],
+      "group": "Blue Books"
+    },
+    {
+      "name": "Bookshelf_0",
+      "bbox": [
+        0,
+        0,
+        498,
+        469
+      ],
+      "bbox_position": [
+        249.0,
+        234.5
+      ],
+      "bbox_size": [
+        498,
+        469
+      ],
+      "group": "Bookshelf"
+    },
+    {
+      "name": "Bookshelf Bottom Shelf_0",
+      "bbox": [
+        0,
+        251,
+        498,
+        469
+      ],
+      "bbox_position": [
+        249.0,
+        360.0
+      ],
+      "bbox_size": [
+        498,
+        218
+      ],
+      "group": "Bookshelf Bottom Shelf"
+    },
+    {
+      "name": "Bookshelf Middle Shelf_0",
+      "bbox": [
+        0,
+        62,
+        498,
+        252
+      ],
+      "bbox_position": [
+        249.0,
+        157.0
+      ],
+      "bbox_size": [
+        498,
+        190
+      ],
+      "group": "Bookshelf Middle Shelf"
+    },
+    {
+      "name": "Bookshelf Top Shelf_0",
+      "bbox": [
+        0,
+        0,
+        498,
+        63
+      ],
+      "bbox_position": [
+        249.0,
+        31.5
+      ],
+      "bbox_size": [
+        498,
+        63
+      ],
+      "group": "Bookshelf Top Shelf"
+    },
+    {
+      "name": "Iconic Book_0",
+      "bbox": [
+        17,
+        130,
+        108,
+        252
+      ],
+      "bbox_position": [
+        62.5,
+        191.0
+      ],
+      "bbox_size": [
+        91,
+        122
+      ],
+      "group": "Iconic Book"
+    },
+    {
+      "name": "Silhouette_0",
+      "bbox": [
+        0,
+        161,
+        498,
+        469
+      ],
+      "bbox_position": [
+        249.0,
+        315.0
+      ],
+      "bbox_size": [
+        498,
+        308
+      ],
+      "group": "Silhouette"
+    }
+  ],
+  "parent_name": "Bookshelf_0",
+  "parent_group": "bookshelf"
+}

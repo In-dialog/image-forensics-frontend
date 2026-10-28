@@ -1,0 +1,150 @@
+{
+  "extracts": [
+    {
+      "name": "Item_0",
+      "bbox": [
+        13,
+        285,
+        136,
+        658
+      ],
+      "bbox_position": [
+        74.5,
+        471.5
+      ],
+      "bbox_size": [
+        123,
+        373
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Item_1",
+      "bbox": [
+        17,
+        0,
+        80,
+        147
+      ],
+      "bbox_position": [
+        48.5,
+        73.5
+      ],
+      "bbox_size": [
+        63,
+        147
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Item_2",
+      "bbox": [
+        328,
+        277,
+        722,
+        588
+      ],
+      "bbox_position": [
+        525.0,
+        432.5
+      ],
+      "bbox_size": [
+        394,
+        311
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Item_3",
+      "bbox": [
+        403,
+        70,
+        613,
+        257
+      ],
+      "bbox_position": [
+        508.0,
+        163.5
+      ],
+      "bbox_size": [
+        210,
+        187
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Item_4",
+      "bbox": [
+        404,
+        146,
+        622,
+        334
+      ],
+      "bbox_position": [
+        513.0,
+        240.0
+      ],
+      "bbox_size": [
+        218,
+        188
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Item_5",
+      "bbox": [
+        462,
+        497,
+        554,
+        588
+      ],
+      "bbox_position": [
+        508.0,
+        542.5
+      ],
+      "bbox_size": [
+        92,
+        91
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Item_6",
+      "bbox": [
+        826,
+        147,
+        885,
+        215
+      ],
+      "bbox_position": [
+        855.5,
+        181.0
+      ],
+      "bbox_size": [
+        59,
+        68
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Item_7",
+      "bbox": [
+        826,
+        61,
+        919,
+        175
+      ],
+      "bbox_position": [
+        872.5,
+        118.0
+      ],
+      "bbox_size": [
+        93,
+        114
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "Person_0",
+  "parent_group": "people"
+}

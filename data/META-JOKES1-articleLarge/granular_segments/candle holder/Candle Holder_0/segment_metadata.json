@@ -1,0 +1,60 @@
+{
+  "extracts": [
+    {
+      "name": "Central Vertical Post_0",
+      "bbox": [
+        9,
+        8,
+        29,
+        85
+      ],
+      "bbox_position": [
+        19.0,
+        46.5
+      ],
+      "bbox_size": [
+        20,
+        77
+      ],
+      "group": "Central Vertical Post"
+    },
+    {
+      "name": "Horizontal Crossbar_0",
+      "bbox": [
+        0,
+        58,
+        38,
+        64
+      ],
+      "bbox_position": [
+        19.0,
+        61.0
+      ],
+      "bbox_size": [
+        38,
+        6
+      ],
+      "group": "Horizontal Crossbar"
+    },
+    {
+      "name": "Vertical Support Beam_0",
+      "bbox": [
+        0,
+        0,
+        14,
+        85
+      ],
+      "bbox_position": [
+        7.0,
+        42.5
+      ],
+      "bbox_size": [
+        14,
+        85
+      ],
+      "group": "Vertical Support Beam"
+    }
+  ],
+  "parent_name": "Candle Holder_0",
+  "parent_group": "candle holder"
+}

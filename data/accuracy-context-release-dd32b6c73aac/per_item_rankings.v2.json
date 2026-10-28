@@ -1,0 +1,586 @@
+{
+  "schema_version": 2,
+  "scope": "per_item",
+  "criteria": [
+    {
+      "label": "Contextual importance",
+      "type": "score",
+      "positive": "Rate how much the target helps explain the depicted activity, interaction, composition or tone through its visible use, contact, placement or effects. Consider connected evidence outside the box. A target can be important without political meaning or readable marks.",
+      "negative": "Do not equate mere proximity or physical size with an active role.",
+      "min": 0,
+      "max": 10,
+      "low_label": "Incidental, with little visible contribution",
+      "high_label": "Central to the depicted activity or meaning",
+      "id": "criterion_1"
+    },
+    {
+      "label": "Political role in the scene",
+      "type": "score",
+      "positive": "Rate political or advocacy relevance supported by the target's visible role, use, interactions, placement or marks in this scene. An unmarked target can have political relevance; when political context is unclear, leave that interpretation undetermined.",
+      "negative": "Leave uncertain use or intent undetermined rather than treating it as a visible fact.",
+      "min": 0,
+      "max": 10,
+      "low_label": "No supported political role",
+      "high_label": "Clear, central role in political framing",
+      "id": "criterion_2"
+    },
+    {
+      "label": "Cultural or symbolic role",
+      "type": "score",
+      "positive": "Rate cultural, religious or symbolic meaning supported by the target's visible form or its role in this scene. Name the literal cue or relationship and distinguish a contextual reading from a definite identification.",
+      "negative": "Do not attribute identity or beliefs to a wearer, holder or nearby person.",
+      "min": 0,
+      "max": 10,
+      "low_label": "No supported cultural or symbolic role",
+      "high_label": "Clear, central cultural or symbolic role",
+      "id": "criterion_3"
+    },
+    {
+      "label": "Depicted role",
+      "type": "choice",
+      "positive": "Choose the most specific observed role: sign display or worn/attached design when clear, otherwise active use/handling or background/incidental presence. Use null when the role cannot be determined.",
+      "negative": "Do not substitute a person's beliefs or an imagined intended use for a visible role.",
+      "choices": [
+        "Used/handled",
+        "Displayed as sign",
+        "Worn/attached design",
+        "Background/incidental"
+      ],
+      "id": "criterion_4"
+    },
+    {
+      "label": "Explicit call to action",
+      "type": "boolean",
+      "positive": "Does the target convey an explicit request to act through readable wording or a directly depicted invitation involving it? Use false for assessable absence and null for ambiguous or unreadable evidence.",
+      "negative": "Expressive poses or dramatic composition alone do not establish a request.",
+      "id": "criterion_5"
+    }
+  ],
+  "items": [
+    {
+      "name": "person_0",
+      "label": "person",
+      "image_path": "segments/person_0.webp",
+      "group": "people",
+      "bbox": [
+        237,
+        262,
+        385,
+        637
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 9,
+          "reason": "The target is centrally framed and visually anchors the emotional core of the scene through her distressed pose and symbolic shirt."
+        },
+        "criterion_2": {
+          "value": 8,
+          "reason": "Her shirt with 'FRANCE' and the tricolor flag directly references national identity, placing her within a politically charged context of protest or resistance."
+        },
+        "criterion_3": {
+          "value": 9,
+          "reason": "The shirt's design is a clear cultural symbol of French national identity, and her tearful expression amplifies its symbolic weight in the scene."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The shirt is visibly worn on her torso, not held or displayed as a separate object."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "No readable text or depicted action explicitly requests a specific response from viewers."
+        }
+      }
+    },
+    {
+      "name": "person_1",
+      "label": "person",
+      "image_path": "segments/person_1.webp",
+      "group": "people",
+      "bbox": [
+        70,
+        276,
+        290,
+        582
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The target is centrally positioned and visually dominant, with clear physical contact to the ground and other figures, indicating active participation in the scene's dynamic composition."
+        },
+        "criterion_2": {
+          "value": 7,
+          "reason": "The target wears a tactical vest and carries a flag associated with political movements, placing them within a context of protest or demonstration, though no explicit political messaging is visible on their attire."
+        },
+        "criterion_3": {
+          "value": 6,
+          "reason": "The target's head covering and tactical gear suggest a role in a collective action, but no specific cultural or symbolic markings are clearly identifiable on them."
+        },
+        "criterion_4": {
+          "value": "Used/handled",
+          "reason": "The target is actively engaged with the environment, arms outstretched and positioned among debris and other participants, indicating active use rather than passive display or wear."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or direct depiction of an explicit call to action on or around the target."
+        }
+      }
+    },
+    {
+      "name": "person_2",
+      "label": "person",
+      "image_path": "segments/person_2.webp",
+      "group": "people",
+      "bbox": [
+        0,
+        236,
+        198,
+        532
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 9,
+          "reason": "The target group is centrally positioned and visually dominant, interacting with the scene's emotional tone through their gestures and presence."
+        },
+        "criterion_2": {
+          "value": 7,
+          "reason": "The target wears flags and a tactical vest, suggesting political affiliation; however, no explicit political messaging is visible on their attire or actions."
+        },
+        "criterion_3": {
+          "value": 8,
+          "reason": "The target’s clothing features national symbols (France, Palestine), indicating cultural or symbolic representation, though the context is ambiguous."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The target is wearing a tactical vest and head covering, which are attached designs rather than displayed signs or handled objects."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "No readable text or direct invitation to act is visible on the target or in their immediate surroundings."
+        }
+      }
+    },
+    {
+      "name": "person_3",
+      "label": "person",
+      "image_path": "segments/person_3.webp",
+      "group": "people",
+      "bbox": [
+        358,
+        236,
+        586,
+        591
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 9,
+          "reason": "The target is centrally positioned and visually dominant, with his expressive pose and flag-themed shirt drawing attention and anchoring the scene's emotional intensity."
+        },
+        "criterion_2": {
+          "value": 8,
+          "reason": "The target wears a shirt with horizontal stripes matching a flag, and stands amid protest imagery and flags, suggesting political advocacy through visible symbols and context."
+        },
+        "criterion_3": {
+          "value": 7,
+          "reason": "The shirt's stripes resemble a national or regional flag, implying cultural symbolism, though the specific identity is not explicitly legible or confirmed."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The target is wearing a t-shirt with a printed design, not holding or displaying it as a sign or object."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or direct visual invitation for action; the pose is expressive but does not constitute an explicit call to action."
+        }
+      }
+    },
+    {
+      "name": "flag_0",
+      "label": "flag",
+      "image_path": "segments/flag_0.webp",
+      "group": "flag",
+      "bbox": [
+        0,
+        35,
+        180,
+        267
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The Palestinian flag is prominently held and visually anchors the protest's identity, with clear connections to other flags and participants."
+        },
+        "criterion_2": {
+          "value": 9,
+          "reason": "The flag’s presence in a protest scene near the Eiffel Tower strongly implies political advocacy, supported by its active display among demonstrators."
+        },
+        "criterion_3": {
+          "value": 9,
+          "reason": "The flag’s design is clearly identifiable as the Palestinian flag, which carries well-known cultural and symbolic meaning globally."
+        },
+        "criterion_4": {
+          "value": "Used/handled",
+          "reason": "The flag is visibly held by a person, indicating active handling rather than passive display or wear."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "No readable text or direct invitation to act is visible on or near the flag; its role is symbolic, not explicitly call-to-action."
+        }
+      }
+    },
+    {
+      "name": "flag_1",
+      "label": "flag",
+      "image_path": "segments/flag_1.webp",
+      "group": "flag",
+      "bbox": [
+        410,
+        14,
+        616,
+        203
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The flag is prominently displayed among protesters, visually anchoring the scene's political context and drawing attention to its symbolic presence."
+        },
+        "criterion_2": {
+          "value": 9,
+          "reason": "The flag's design and placement within a protest scene strongly suggest a political role, as it is actively held by participants in a public demonstration."
+        },
+        "criterion_3": {
+          "value": 10,
+          "reason": "The flag’s crescent and star symbol are culturally and religiously significant, clearly indicating its symbolic role within the depicted scene."
+        },
+        "criterion_4": {
+          "value": "Used/handled",
+          "reason": "The flag is being physically held by a person in the scene, indicating active use rather than passive display or wear."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or direct depiction of an explicit call to action on or around the flag."
+        }
+      }
+    },
+    {
+      "name": "t-shirt with flag design_0",
+      "label": "t-shirt with flag design",
+      "image_path": "segments/t-shirt with flag design_0.webp",
+      "group": "t-shirt with flag design",
+      "bbox": [
+        240,
+        431,
+        423,
+        611
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The target's shirt with 'FRANCE' and national colors is visually prominent and positioned centrally in the scene, drawing attention to the cultural identity theme."
+        },
+        "criterion_2": {
+          "value": 7,
+          "reason": "The shirt's design implies political alignment with France, and its placement among protesters suggests a symbolic role in framing the scene's political context."
+        },
+        "criterion_3": {
+          "value": 9,
+          "reason": "The shirt clearly displays 'FRANCE' with the national tricolor, which is a strong cultural and national symbol, making its role central to the scene's symbolism."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The shirt is visibly worn by the person, not held or displayed as a sign, and is attached to their body."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or depicted action that constitutes an explicit call to action; the pose is emotional, not directive."
+        }
+      }
+    },
+    {
+      "name": "green bottle_0",
+      "label": "green bottle",
+      "image_path": "segments/green bottle_0.webp",
+      "group": "green bottle",
+      "bbox": [
+        435,
+        544,
+        468,
+        637
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 2,
+          "reason": "The green bottle is incidental debris among trash and does not contribute to the scene's activity or composition."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "The bottle has no visible political markings or context to indicate a political role."
+        },
+        "criterion_3": {
+          "value": 0,
+          "reason": "The bottle lacks any cultural, religious or symbolic markings or associations visible in the scene."
+        },
+        "criterion_4": {
+          "value": "Background/incidental",
+          "reason": "The bottle is on the ground among trash and not being used, worn, or displayed."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or depicted invitation on or around the bottle."
+        }
+      }
+    },
+    {
+      "name": "tower structure_0",
+      "label": "tower structure",
+      "image_path": "segments/tower structure_0.webp",
+      "group": "tower structure",
+      "bbox": [
+        187,
+        0,
+        344,
+        345
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 9,
+          "reason": "The Eiffel Tower is central to the scene's composition and framing, anchoring the protest activity visually."
+        },
+        "criterion_2": {
+          "value": 8,
+          "reason": "The tower’s presence in a politically charged protest context implies symbolic use, though its own political role is neutral."
+        },
+        "criterion_3": {
+          "value": 10,
+          "reason": "The Eiffel Tower is a globally recognized cultural and symbolic icon of Paris, clearly visible and central to the scene's identity."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The tower is not worn or handled; it is a static structure visually attached to the scene as background context."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "No readable text or depicted invitation is visible on or near the tower that constitutes an explicit call to action."
+        }
+      }
+    },
+    {
+      "name": "Eiffel Tower structure_0",
+      "label": "Eiffel Tower structure",
+      "image_path": "segments/Eiffel Tower structure_0.webp",
+      "group": "Eiffel Tower structure",
+      "bbox": [
+        289,
+        0,
+        377,
+        277
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 7,
+          "reason": "The Eiffel Tower’s structure is central to framing the scene and provides context for the location and scale of the activity."
+        },
+        "criterion_2": {
+          "value": 8,
+          "reason": "The tower’s presence alongside flags with political symbolism suggests a site of protest or demonstration, implying political framing."
+        },
+        "criterion_3": {
+          "value": 9,
+          "reason": "The Eiffel Tower is a globally recognized cultural and architectural symbol, clearly visible and central to the scene's composition."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The tower is a fixed structure, not handled or displayed as a sign; its role is passive but contextual."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "No readable text or direct depiction of an invitation to act is visible on or near the target."
+        }
+      }
+    },
+    {
+      "name": "green plastic bottle_0",
+      "label": "green plastic bottle",
+      "image_path": "segments/green plastic bottle_0.webp",
+      "group": "green plastic bottle",
+      "bbox": [
+        112,
+        605,
+        164,
+        638
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 2,
+          "reason": "The green bottle is incidental debris among trash and does not contribute to the scene's activity or composition."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No visible political markings or context on the bottle support a political role."
+        },
+        "criterion_3": {
+          "value": 0,
+          "reason": "The bottle has no culturally or symbolically recognizable markings or associations."
+        },
+        "criterion_4": {
+          "value": "Background/incidental",
+          "reason": "The bottle lies discarded among other trash, not handled or displayed."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "The bottle lacks readable text or depicted invitation to action."
+        }
+      }
+    },
+    {
+      "name": "white t-shirt with French flag and text_0",
+      "label": "white t-shirt with French flag and text",
+      "image_path": "segments/white t-shirt with French flag and text_0.webp",
+      "group": "white t-shirt with French flag and text",
+      "bbox": [
+        231,
+        426,
+        344,
+        600
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The target is centrally positioned and visually anchors the scene's emotional core through her expressive pose and national-themed shirt."
+        },
+        "criterion_2": {
+          "value": 7,
+          "reason": "The shirt’s French tricolor and partial text suggest political affiliation, aligning with the scene’s apparent protest context."
+        },
+        "criterion_3": {
+          "value": 9,
+          "reason": "The shirt’s design is a clear national symbol; its presence directly references French identity and cultural expression in the scene."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The shirt is visibly worn by the person, not held or displayed as a separate object."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "No readable text or depicted invitation on the target indicates an explicit call to action."
+        }
+      }
+    },
+    {
+      "name": "white t-shirt with red and green stripe_0",
+      "label": "white t-shirt with red and green stripe",
+      "image_path": "segments/white t-shirt with red and green stripe_0.webp",
+      "group": "white t-shirt with red and green stripe",
+      "bbox": [
+        375,
+        292,
+        548,
+        466
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The target is centrally positioned and visually anchors the scene's chaotic interaction, drawing attention to his expressive pose and clothing."
+        },
+        "criterion_2": {
+          "value": 7,
+          "reason": "The target wears a shirt with horizontal stripes resembling a national flag, which in context suggests political affiliation or advocacy, though no explicit text confirms it."
+        },
+        "criterion_3": {
+          "value": 9,
+          "reason": "The shirt’s design is a clear cultural symbol—horizontal red, white, and green stripes—which is widely recognized as the flag of Palestine, indicating symbolic meaning."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The target is wearing a t-shirt with a printed design, not holding or displaying it as a sign or object."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or depicted invitation that explicitly calls for action; the pose is expressive but not directive."
+        }
+      }
+    },
+    {
+      "name": "black-and-white graphic on white shirt_0",
+      "label": "black-and-white graphic on white shirt",
+      "image_path": "segments/black-and-white graphic on white shirt_0.webp",
+      "group": "black-and-white graphic on white shirt",
+      "bbox": [
+        289,
+        475,
+        406,
+        591
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The shirt's design directly relates to the scene's national context and is worn by a central figure in an emotionally charged moment."
+        },
+        "criterion_2": {
+          "value": 7,
+          "reason": "The shirt features a national flag and partial word 'FRANCE', indicating political affiliation or support within the scene's context."
+        },
+        "criterion_3": {
+          "value": 9,
+          "reason": "The shirt displays the French national flag and partial text, clearly identifying it as a cultural symbol of France."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The shirt is visibly worn by a person in the scene, not displayed or handled."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "No readable text or depicted action on the target conveys an explicit call to action."
+        }
+      }
+    },
+    {
+      "name": "FRANCE_0",
+      "label": "FRANCE",
+      "image_path": "segments/FRANCE_0.webp",
+      "group": "texts",
+      "bbox": [
+        276,
+        489,
+        374,
+        524
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The target's shirt with 'RANCE' is visually central and directly connects to the scene's theme of French identity through its tricolor design."
+        },
+        "criterion_2": {
+          "value": 7,
+          "reason": "The shirt’s partial text 'RANCE' combined with the French flag suggests political commentary on national identity, though the full message is incomplete."
+        },
+        "criterion_3": {
+          "value": 9,
+          "reason": "The French tricolor design is a clear cultural symbol, and its presence on the shirt directly references national identity in the scene."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The shirt is visibly worn by the person, not held or displayed as a sign."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "The text 'RANCE' is incomplete and does not form an explicit call to action; no direct invitation or command is visible."
+        }
+      }
+    }
+  ]
+}

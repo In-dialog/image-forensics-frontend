@@ -1,0 +1,150 @@
+{
+  "extracts": [
+    {
+      "name": "Bracelet_0",
+      "bbox": [
+        110,
+        409,
+        141,
+        462
+      ],
+      "bbox_position": [
+        125.5,
+        435.5
+      ],
+      "bbox_size": [
+        31,
+        53
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Face_0",
+      "bbox": [
+        155,
+        2,
+        309,
+        216
+      ],
+      "bbox_position": [
+        232.0,
+        109.0
+      ],
+      "bbox_size": [
+        154,
+        214
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Hair_0",
+      "bbox": [
+        155,
+        2,
+        309,
+        111
+      ],
+      "bbox_position": [
+        232.0,
+        56.5
+      ],
+      "bbox_size": [
+        154,
+        109
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Microphone_0",
+      "bbox": [
+        265,
+        324,
+        289,
+        349
+      ],
+      "bbox_position": [
+        277.0,
+        336.5
+      ],
+      "bbox_size": [
+        24,
+        25
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Suit Jacket_0",
+      "bbox": [
+        0,
+        154,
+        457,
+        467
+      ],
+      "bbox_position": [
+        228.5,
+        310.5
+      ],
+      "bbox_size": [
+        457,
+        313
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Tie_0",
+      "bbox": [
+        218,
+        215,
+        261,
+        458
+      ],
+      "bbox_position": [
+        239.5,
+        336.5
+      ],
+      "bbox_size": [
+        43,
+        243
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Watch_0",
+      "bbox": [
+        339,
+        409,
+        370,
+        467
+      ],
+      "bbox_position": [
+        354.5,
+        438.0
+      ],
+      "bbox_size": [
+        31,
+        58
+      ],
+      "group": "people"
+    },
+    {
+      "name": "White Shirt_0",
+      "bbox": [
+        197,
+        160,
+        289,
+        462
+      ],
+      "bbox_position": [
+        243.0,
+        311.0
+      ],
+      "bbox_size": [
+        92,
+        302
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "Person_0",
+  "parent_group": "people"
+}

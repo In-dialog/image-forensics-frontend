@@ -1,0 +1,132 @@
+{
+  "extracts": [
+    {
+      "name": "face_0",
+      "bbox": [
+        37,
+        0,
+        96,
+        81
+      ],
+      "bbox_position": [
+        66.5,
+        40.5
+      ],
+      "bbox_size": [
+        59,
+        81
+      ],
+      "group": "people"
+    },
+    {
+      "name": "hair_0",
+      "bbox": [
+        42,
+        0,
+        96,
+        43
+      ],
+      "bbox_position": [
+        69.0,
+        21.5
+      ],
+      "bbox_size": [
+        54,
+        43
+      ],
+      "group": "people"
+    },
+    {
+      "name": "t-shirt_0",
+      "bbox": [
+        37,
+        44,
+        150,
+        181
+      ],
+      "bbox_position": [
+        93.5,
+        112.5
+      ],
+      "bbox_size": [
+        113,
+        137
+      ],
+      "group": "people"
+    },
+    {
+      "name": "jeans_0",
+      "bbox": [
+        42,
+        165,
+        157,
+        301
+      ],
+      "bbox_position": [
+        99.5,
+        233.0
+      ],
+      "bbox_size": [
+        115,
+        136
+      ],
+      "group": "people"
+    },
+    {
+      "name": "shoes_0",
+      "bbox": [
+        42,
+        296,
+        63,
+        323
+      ],
+      "bbox_position": [
+        52.5,
+        309.5
+      ],
+      "bbox_size": [
+        21,
+        27
+      ],
+      "group": "people"
+    },
+    {
+      "name": "gestures_0",
+      "bbox": [
+        0,
+        0,
+        224,
+        344
+      ],
+      "bbox_position": [
+        112.0,
+        172.0
+      ],
+      "bbox_size": [
+        224,
+        344
+      ],
+      "group": "people"
+    },
+    {
+      "name": "text_0",
+      "bbox": [
+        56,
+        89,
+        131,
+        129
+      ],
+      "bbox_position": [
+        93.5,
+        109.0
+      ],
+      "bbox_size": [
+        75,
+        40
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "person_3",
+  "parent_group": "people"
+}

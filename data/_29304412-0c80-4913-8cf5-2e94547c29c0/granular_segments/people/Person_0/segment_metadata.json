@@ -1,0 +1,204 @@
+{
+  "extracts": [
+    {
+      "name": "Belt Buckle_0",
+      "bbox": [
+        335,
+        1191,
+        473,
+        1274
+      ],
+      "bbox_position": [
+        404.0,
+        1232.5
+      ],
+      "bbox_size": [
+        138,
+        83
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Cheese Hat_0",
+      "bbox": [
+        142,
+        0,
+        627,
+        296
+      ],
+      "bbox_position": [
+        384.5,
+        148.0
+      ],
+      "bbox_size": [
+        485,
+        296
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Face_0",
+      "bbox": [
+        261,
+        198,
+        514,
+        465
+      ],
+      "bbox_position": [
+        387.5,
+        331.5
+      ],
+      "bbox_size": [
+        253,
+        267
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Hair_0",
+      "bbox": [
+        261,
+        198,
+        514,
+        279
+      ],
+      "bbox_position": [
+        387.5,
+        238.5
+      ],
+      "bbox_size": [
+        253,
+        81
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Hand Gesture_0",
+      "bbox": [
+        836,
+        561,
+        1053,
+        739
+      ],
+      "bbox_position": [
+        944.5,
+        650.0
+      ],
+      "bbox_size": [
+        217,
+        178
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Jacket_0",
+      "bbox": [
+        0,
+        419,
+        943,
+        1332
+      ],
+      "bbox_position": [
+        471.5,
+        875.5
+      ],
+      "bbox_size": [
+        943,
+        913
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Microphone_0",
+      "bbox": [
+        345,
+        488,
+        412,
+        650
+      ],
+      "bbox_position": [
+        378.5,
+        569.0
+      ],
+      "bbox_size": [
+        67,
+        162
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Name Tag_0",
+      "bbox": [
+        168,
+        632,
+        285,
+        673
+      ],
+      "bbox_position": [
+        226.5,
+        652.5
+      ],
+      "bbox_size": [
+        117,
+        41
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Pants_0",
+      "bbox": [
+        151,
+        1260,
+        777,
+        1770
+      ],
+      "bbox_position": [
+        464.0,
+        1515.0
+      ],
+      "bbox_size": [
+        626,
+        510
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Patch_0",
+      "bbox": [
+        558,
+        572,
+        660,
+        677
+      ],
+      "bbox_position": [
+        609.0,
+        624.5
+      ],
+      "bbox_size": [
+        102,
+        105
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Shirt_0",
+      "bbox": [
+        284,
+        437,
+        601,
+        1189
+      ],
+      "bbox_position": [
+        442.5,
+        813.0
+      ],
+      "bbox_size": [
+        317,
+        752
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "Person_0",
+  "parent_group": "people"
+}

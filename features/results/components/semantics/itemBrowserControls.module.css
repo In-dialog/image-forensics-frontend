@@ -1,0 +1,46 @@
+.toolbar { container: browser-controls / inline-size; min-width: 0; flex-shrink: 0; padding-bottom: 12px; margin-bottom: 12px; border-bottom: 1px solid #35483d; }
+.viewSettings { display: grid; grid-template-columns: 230px minmax(220px, 360px) minmax(180px, 240px); gap: 16px 24px; align-items: end; }
+.viewPicker { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.viewPicker > div { min-height: 44px; }
+.narrowing { display: flex; align-items: end; flex-wrap: wrap; gap: 16px 24px; max-width: 1080px; margin-top: 24px; }
+.searchActions { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 12px; flex: 0 1 480px; width: 100%; min-width: 0; }
+.filters { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1fr); gap: 16px; flex: 1 1 440px; max-width: 536px; min-width: 0; }
+.field { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.field label, .label { color: #bed0c3; font-size: 13px; line-height: 1.4; font-weight: 500; }
+.field input, .field select { display: block; width: 100%; min-width: 0; height: 44px; border: 1px solid #42594b; border-radius: 2px; padding: 10px 12px; background: #141d17; color: #edf3ee; font: inherit; font-size: 14px; text-overflow: ellipsis; }
+.field input::placeholder { color: #84998c; }
+.search { position: relative; min-width: 0; }
+.search > svg { position: absolute; left: 13px; top: 13px; color: #9caf9f; pointer-events: none; }
+.search input { padding-left: 40px; padding-right: 38px; }
+.search input::-webkit-search-cancel-button { display: none; }
+.search button { position: absolute; inset: 4px 4px 4px auto; display: grid; place-items: center; width: 34px; border: 0; background: transparent; color: #b9ccbf; cursor: pointer; }
+.filterToggle, .clearFilters { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; border: 1px solid #516b5b; border-radius: 2px; padding: 10px 14px; background: #1c2a21; color: #dfebe3; font: inherit; font-size: 13px; cursor: pointer; white-space: nowrap; }
+.filterToggle { min-width: 152px; }
+.filterToggle:hover, .clearFilters:hover, .search button:hover { background: #253a2c; color: #fff; }
+.filterToggle[aria-expanded="true"] { color: var(--color-accent); border-color: #83ac94; }
+.filterToggle[aria-expanded="true"] .chevron { transform: rotate(180deg); }
+.badge { min-width: 18px; padding: 1px 5px; background: #405d4b; color: #f0f7f2; font-size: 11px; text-align: center; }
+.resultsSummary { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 16px; margin-top: 18px; min-height: 36px; }
+.resultCount { display: flex; align-items: baseline; flex-shrink: 0; gap: 7px; margin: 0; font-size: 12px; color: #98ad9f; }
+.resultCount strong { font-size: 16px; font-weight: 600; color: #edf4ef; }
+.clearFilters { background: transparent; min-height: 36px; padding: 7px 10px; font-size: 12px; }
+.activeFilters { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; min-width: 0; }
+.activeFilters button { display: inline-flex; align-items: center; gap: 10px; min-height: 36px; max-width: 100%; padding: 7px 10px; border: 1px solid #516b59; background: transparent; color: #c8ddce; font: inherit; font-size: 12px; text-align: left; cursor: pointer; }
+.activeFilters button span { overflow-wrap: anywhere; min-width: 0; }
+.activeFilters button svg { width: 14px; height: 14px; flex-shrink: 0; }
+.activeFilters button:hover { border-color: var(--color-accent); color: #e8f9ed; }
+.toolbar button:focus-visible, .toolbar input:focus-visible, .toolbar select:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+@container browser-controls (max-width: 900px) {
+  .viewSettings { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 16px; }
+  .viewPicker { grid-column: 1 / -1; }
+  .viewSettings[data-extra="false"] > .field { grid-column: 1 / -1; }
+  .narrowing { margin-top: 20px; }
+  .searchActions, .filters { flex-basis: 100%; max-width: none; }
+}
+@container browser-controls (max-width: 520px) {
+  .viewSettings, .filters { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .filterToggle { min-width: 128px; padding-inline: 10px; }
+  .filterToggle .chevron { display: none; }
+  .resultsSummary { gap: 10px 12px; }
+  .resultCount { flex-basis: 100%; }
+}

@@ -1,0 +1,114 @@
+{
+  "extracts": [
+    {
+      "name": "camouflage pants_0",
+      "bbox": [
+        13,
+        148,
+        134,
+        251
+      ],
+      "bbox_position": [
+        73.5,
+        199.5
+      ],
+      "bbox_size": [
+        121,
+        103
+      ],
+      "group": "people"
+    },
+    {
+      "name": "camouflage shirt_0",
+      "bbox": [
+        22,
+        56,
+        123,
+        149
+      ],
+      "bbox_position": [
+        72.5,
+        102.5
+      ],
+      "bbox_size": [
+        101,
+        93
+      ],
+      "group": "people"
+    },
+    {
+      "name": "tactical vest_0",
+      "bbox": [
+        38,
+        72,
+        111,
+        149
+      ],
+      "bbox_position": [
+        74.5,
+        110.5
+      ],
+      "bbox_size": [
+        73,
+        77
+      ],
+      "group": "people"
+    },
+    {
+      "name": "head covering_0",
+      "bbox": [
+        38,
+        0,
+        103,
+        73
+      ],
+      "bbox_position": [
+        70.5,
+        36.5
+      ],
+      "bbox_size": [
+        65,
+        73
+      ],
+      "group": "people"
+    },
+    {
+      "name": "boots_0",
+      "bbox": [
+        13,
+        250,
+        46,
+        304
+      ],
+      "bbox_position": [
+        29.5,
+        277.0
+      ],
+      "bbox_size": [
+        33,
+        54
+      ],
+      "group": "people"
+    },
+    {
+      "name": "arms extended_0",
+      "bbox": [
+        0,
+        56,
+        227,
+        149
+      ],
+      "bbox_position": [
+        113.5,
+        102.5
+      ],
+      "bbox_size": [
+        227,
+        93
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "person_1",
+  "parent_group": "people"
+}

@@ -1,0 +1,240 @@
+{
+  "extracts": [
+    {
+      "name": "Cheese Wedge_0",
+      "bbox": [
+        0,
+        1,
+        479,
+        277
+      ],
+      "bbox_position": [
+        239.5,
+        139.0
+      ],
+      "bbox_size": [
+        479,
+        276
+      ],
+      "group": "Cheese Wedge"
+    },
+    {
+      "name": "Hole_0",
+      "bbox": [
+        49,
+        96,
+        93,
+        130
+      ],
+      "bbox_position": [
+        71.0,
+        113.0
+      ],
+      "bbox_size": [
+        44,
+        34
+      ],
+      "group": "Hole"
+    },
+    {
+      "name": "Hole_1",
+      "bbox": [
+        101,
+        68,
+        136,
+        97
+      ],
+      "bbox_position": [
+        118.5,
+        82.5
+      ],
+      "bbox_size": [
+        35,
+        29
+      ],
+      "group": "Hole"
+    },
+    {
+      "name": "Hole_2",
+      "bbox": [
+        16,
+        171,
+        69,
+        209
+      ],
+      "bbox_position": [
+        42.5,
+        190.0
+      ],
+      "bbox_size": [
+        53,
+        38
+      ],
+      "group": "Hole"
+    },
+    {
+      "name": "Hole_3",
+      "bbox": [
+        168,
+        118,
+        198,
+        147
+      ],
+      "bbox_position": [
+        183.0,
+        132.5
+      ],
+      "bbox_size": [
+        30,
+        29
+      ],
+      "group": "Hole"
+    },
+    {
+      "name": "Hole_4",
+      "bbox": [
+        192,
+        48,
+        217,
+        74
+      ],
+      "bbox_position": [
+        204.5,
+        61.0
+      ],
+      "bbox_size": [
+        25,
+        26
+      ],
+      "group": "Hole"
+    },
+    {
+      "name": "Hole_5",
+      "bbox": [
+        250,
+        110,
+        280,
+        139
+      ],
+      "bbox_position": [
+        265.0,
+        124.5
+      ],
+      "bbox_size": [
+        30,
+        29
+      ],
+      "group": "Hole"
+    },
+    {
+      "name": "Hole_6",
+      "bbox": [
+        274,
+        39,
+        299,
+        66
+      ],
+      "bbox_position": [
+        286.5,
+        52.5
+      ],
+      "bbox_size": [
+        25,
+        27
+      ],
+      "group": "Hole"
+    },
+    {
+      "name": "Hole_7",
+      "bbox": [
+        317,
+        56,
+        342,
+        83
+      ],
+      "bbox_position": [
+        329.5,
+        69.5
+      ],
+      "bbox_size": [
+        25,
+        27
+      ],
+      "group": "Hole"
+    },
+    {
+      "name": "Hole_8",
+      "bbox": [
+        336,
+        84,
+        361,
+        111
+      ],
+      "bbox_position": [
+        348.5,
+        97.5
+      ],
+      "bbox_size": [
+        25,
+        27
+      ],
+      "group": "Hole"
+    },
+    {
+      "name": "Hole_9",
+      "bbox": [
+        389,
+        135,
+        414,
+        161
+      ],
+      "bbox_position": [
+        401.5,
+        148.0
+      ],
+      "bbox_size": [
+        25,
+        26
+      ],
+      "group": "Hole"
+    },
+    {
+      "name": "Hole_10",
+      "bbox": [
+        408,
+        101,
+        433,
+        128
+      ],
+      "bbox_position": [
+        420.5,
+        114.5
+      ],
+      "bbox_size": [
+        25,
+        27
+      ],
+      "group": "Hole"
+    },
+    {
+      "name": "Hole_11",
+      "bbox": [
+        442,
+        174,
+        467,
+        201
+      ],
+      "bbox_position": [
+        454.5,
+        187.5
+      ],
+      "bbox_size": [
+        25,
+        27
+      ],
+      "group": "Hole"
+    }
+  ],
+  "parent_name": "Cheese Hat_0",
+  "parent_group": "cheese hat"
+}

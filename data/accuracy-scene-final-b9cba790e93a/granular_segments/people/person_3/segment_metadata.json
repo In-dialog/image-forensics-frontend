@@ -1,0 +1,70 @@
+{
+  "extracts": [
+    {
+      "name": "white t-shirt_0",
+      "label": "white t-shirt",
+      "category": "people",
+      "sam_score": 0.8863112926483154,
+      "bbox": [
+        24,
+        83,
+        196,
+        211
+      ],
+      "bbox_position": [
+        110.0,
+        147.0
+      ],
+      "bbox_size": [
+        172,
+        128
+      ],
+      "group": "people",
+      "bbox_global": [
+        382,
+        319,
+        554,
+        447
+      ]
+    },
+    {
+      "name": "horizontal stripe graphic on shirt_0",
+      "label": "horizontal stripe graphic on shirt",
+      "category": "people",
+      "sam_score": 0.8622488975524902,
+      "bbox": [
+        60,
+        110,
+        160,
+        152
+      ],
+      "bbox_position": [
+        110.0,
+        131.0
+      ],
+      "bbox_size": [
+        100,
+        42
+      ],
+      "group": "people",
+      "bbox_global": [
+        418,
+        346,
+        518,
+        388
+      ]
+    }
+  ],
+  "parent_name": "person_3",
+  "parent_group": "people",
+  "coordinate_space": "parent_crop",
+  "source_image": "granular_segments/people/person_3/source.png",
+  "image_width": 228,
+  "image_height": 355,
+  "parent_bbox": [
+    358,
+    236,
+    586,
+    591
+  ]
+}

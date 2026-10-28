@@ -1,0 +1,31 @@
+node_modules/
+.runtime/
+.install/
+.next/
+cloudflare/.next/
+cloudflare/out/
+cloudflare/public/data/
+cloudflare/generated/
+out/
+coverage/
+test-results/
+*.tsbuildinfo
+next-env.d.ts
+cloudflare/next-env.d.ts
+*.log
+.env
+.env.*
+!.env.example
+.wrangler/
+.vercel/
+.DS_Store
+Thumbs.db
+*.pem
+*.key
+.vscode/
+.idea/
+# The initial database is intentionally versioned. Private future imports can
+# use ANALYSIS_DATA_DIR outside this checkout instead of the bundled data/.
+data/.imports/
+data/.jobs/
+data/.inputs/

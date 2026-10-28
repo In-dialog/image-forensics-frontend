@@ -1,0 +1,78 @@
+{
+  "extracts": [
+    {
+      "name": "Frame_0",
+      "bbox": [
+        0,
+        0,
+        75,
+        92
+      ],
+      "bbox_position": [
+        37.5,
+        46.0
+      ],
+      "bbox_size": [
+        75,
+        92
+      ],
+      "group": "Frame"
+    },
+    {
+      "name": "Green Leafy Stem_0",
+      "bbox": [
+        15,
+        25,
+        38,
+        72
+      ],
+      "bbox_position": [
+        26.5,
+        48.5
+      ],
+      "bbox_size": [
+        23,
+        47
+      ],
+      "group": "Green Leafy Stem"
+    },
+    {
+      "name": "Green Leafy Stem_1",
+      "bbox": [
+        35,
+        19,
+        57,
+        72
+      ],
+      "bbox_position": [
+        46.0,
+        45.5
+      ],
+      "bbox_size": [
+        22,
+        53
+      ],
+      "group": "Green Leafy Stem"
+    },
+    {
+      "name": "Orange Carrot_0",
+      "bbox": [
+        26,
+        14,
+        52,
+        72
+      ],
+      "bbox_position": [
+        39.0,
+        43.0
+      ],
+      "bbox_size": [
+        26,
+        58
+      ],
+      "group": "Orange Carrot"
+    }
+  ],
+  "parent_name": "Frame_1",
+  "parent_group": "frame"
+}

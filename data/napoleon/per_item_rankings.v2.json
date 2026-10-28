@@ -1,0 +1,365 @@
+{
+  "schema_version": 2,
+  "scope": "per_item",
+  "criteria": [
+    {
+      "id": "criterion_1",
+      "label": "Emotional Rating",
+      "type": "score",
+      "positive": "",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "",
+      "high_label": ""
+    },
+    {
+      "id": "criterion_2",
+      "label": "Affective Analyst",
+      "type": "score",
+      "positive": "",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "",
+      "high_label": ""
+    },
+    {
+      "id": "criterion_3",
+      "label": "Valence",
+      "type": "score",
+      "positive": "",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "",
+      "high_label": ""
+    }
+  ],
+  "items": [
+    {
+      "name": "Person_0",
+      "label": "Person 0",
+      "image_path": "segments/Person_0.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        74,
+        186,
+        993,
+        1594
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 8.5,
+          "reason": "Direct gaze and authoritative pose with scepter/royal robes create strong visual engagement."
+        },
+        "criterion_2": {
+          "value": 8.5,
+          "reason": "The figure’s seated posture, rich red/gold textures of royal attire, and serene facial expression convey authoritative calm without tension."
+        },
+        "criterion_3": {
+          "value": 3.5,
+          "reason": "The subject's stern facial expression contrasts with opulent regalia but conveys formal authority rather than warmth, leaning slightly negative in valence due to the serious demeanor without overtly positive cues like smiles or relaxed posture."
+        }
+      }
+    },
+    {
+      "name": "Carpet_0",
+      "label": "Carpet 0",
+      "image_path": "segments/Carpet_0.webp",
+      "source": "item",
+      "group": "Carpet",
+      "bbox": [
+        0,
+        1409,
+        1167,
+        1919
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2,
+          "reason": "The carpet features intricate geometric designs with muted colors but lacks expressive or emotionally charged visual cues like faces, gestures, or dramatic contrasts."
+        },
+        "criterion_2": {
+          "value": 8.5,
+          "reason": "The rich red/gold patterns on \"Carpet_0\" provide a textured, warm base that harmonizes with royal attire while anchoring the composition’s calm opulence."
+        },
+        "criterion_3": {
+          "value": 8.5,
+          "reason": "The region shows a richly patterned carpet with harmonious red, green, and brown tones that complement the regal attire above it without harshness."
+        }
+      }
+    },
+    {
+      "name": "Crown_0",
+      "label": "Crown 0",
+      "image_path": "segments/Crown_0.webp",
+      "source": "item",
+      "group": "Crown",
+      "bbox": [
+        490,
+        274,
+        678,
+        398
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2,
+          "reason": "The crown is ornate but lacks facial/expressive cues; its formal design contributes minimally to emotional salience as a static regal symbol in portraiture."
+        },
+        "criterion_2": {
+          "value": 8.5,
+          "reason": "Gold filigree details of the crown convey solemn dignity through intricate craftsmanship, anchoring the subject’s authoritative presence in a formal portrait setting."
+        },
+        "criterion_3": {
+          "value": 9,
+          "reason": "Gold filigree details and ornate design convey luxury and royal prestige, contributing positively to the subject's authoritative presence."
+        }
+      }
+    },
+    {
+      "name": "Globe_0",
+      "label": "Globe 0",
+      "image_path": "segments/Globe_0.webp",
+      "source": "item",
+      "group": "Globe",
+      "bbox": [
+        94,
+        727,
+        198,
+        834
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2,
+          "reason": "The region shows a spherical object with smooth texture and muted coloration, positioned passively within royal regalia; no emotional cues like expression or gesture are present."
+        },
+        "criterion_2": {
+          "value": 3.5,
+          "reason": "The Globe_0 sits quietly amid ornate golden supports, contributing muted grandeur without overt emotional weight; it reinforces the scene's formal serenity via understated placement within rich textures."
+        },
+        "criterion_3": {
+          "value": 8.5,
+          "reason": "The globe has a smooth, polished gold finish that harmonizes with royal regalia, contributing positively within the ceremonial composition."
+        }
+      }
+    },
+    {
+      "name": "Globe_1",
+      "label": "Globe 1",
+      "image_path": "segments/Globe_1.webp",
+      "source": "item",
+      "group": "Globe",
+      "bbox": [
+        947,
+        720,
+        1054,
+        830
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2,
+          "reason": "Globe_1 appears as a static spherical object on a stand with no facial expression or dynamic gesture that would evoke strong emotional intensity directly from it."
+        },
+        "criterion_2": {
+          "value": 6.5,
+          "reason": "The small golden sphere’s polished texture and warm glow subtly reinforce opulence without overwhelming tension or warmth; it anchors the composition's authoritative tone via symmetrical positioning with another globe near the throne base, contributing to serene regality."
+        },
+        "criterion_3": {
+          "value": 8.5,
+          "reason": "The globe has a polished golden surface reflecting light softly, positioned symmetrically with another sphere to create regal harmony without harshness."
+        }
+      }
+    },
+    {
+      "name": "Scepter_0",
+      "label": "Scepter 0",
+      "image_path": "segments/Scepter_0.webp",
+      "source": "item",
+      "group": "Scepter",
+      "bbox": [
+        665,
+        257,
+        987,
+        1498
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2,
+          "reason": "The region shows a golden scepter with intricate detailing and orb-like top; it is purely regal ornamentation without expressive or emotionally charged cues like faces/gestures."
+        },
+        "criterion_2": {
+          "value": 8,
+          "reason": "Golden surface with detailed engravings creates a sense of formal weight, while upward positioning adds regal tension through its reflective texture and vertical emphasis."
+        },
+        "criterion_3": {
+          "value": 8.5,
+          "reason": "The scepter's polished gold surface and ornate crown-like top convey warmth and refined authority within the opulent setting, avoiding harshness."
+        }
+      }
+    },
+    {
+      "name": "Shield_0",
+      "label": "Shield 0",
+      "image_path": "segments/Shield_0.webp",
+      "source": "item",
+      "group": "Shield",
+      "bbox": [
+        1060,
+        113,
+        1168,
+        408
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2,
+          "reason": "The shield is an ornamental emblem without expressive features or dynamic gestures; it serves purely decorative symbolism within the formal composition."
+        },
+        "criterion_2": {
+          "value": 3.5,
+          "reason": "The shield's muted red/purple tones against a dark background add subtle heraldic authority without overwhelming the scene, reinforcing formal dignity through symbolic tradition."
+        },
+        "criterion_3": {
+          "value": 3.8,
+          "reason": "The shield displays a stark red field with black crossed swords, appearing rigid rather than inviting in the regal context. Score: 3.8"
+        }
+      }
+    },
+    {
+      "name": "Staff_0",
+      "label": "Staff 0",
+      "image_path": "segments/Staff_0.webp",
+      "source": "item",
+      "group": "Staff",
+      "bbox": [
+        43,
+        0,
+        365,
+        1690
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2.5,
+          "reason": "Inanimate, ornate golden staff held upright with no facial expression or gestural cue directly tied to emotion."
+        },
+        "criterion_2": {
+          "value": 7.5,
+          "reason": "The golden scepter’s intricate detailing and warm metallic sheen convey regal authority while contrasting against the dark backdrop, adding calm confidence through symbolic weight."
+        },
+        "criterion_3": {
+          "value": 8.5,
+          "reason": "The golden staff features intricate detailing and harmonizes with surrounding royal symbols like the crown and orb, creating a cohesive display of authority without visual conflict or discomfort."
+        }
+      }
+    },
+    {
+      "name": "Tassel_0",
+      "label": "Tassel 0",
+      "image_path": "segments/Tassel_0.webp",
+      "source": "item",
+      "group": "Tassel",
+      "bbox": [
+        26,
+        864,
+        78,
+        999
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 1,
+          "reason": "The region shows a small decorative tassel on furniture; it lacks expressive features or dynamic cues that would evoke emotion, being merely an inert ornament within rich regalia context."
+        },
+        "criterion_2": {
+          "value": 3,
+          "reason": "The golden tassel's fine texture and warm hue add subtle regal elegance, contrasting softly against the dark backdrop while enhancing the scene’s serene grandeur through delicate detail."
+        },
+        "criterion_3": {
+          "value": 9.5,
+          "reason": "The golden tassel's rich hue complements the royal attire’s luxurious textures, enhancing the image's opulent harmony without harsh elements."
+        }
+      }
+    },
+    {
+      "name": "Throne Backrest_0",
+      "label": "Throne Backrest 0",
+      "image_path": "segments/Throne Backrest_0.webp",
+      "source": "item",
+      "group": "Throne Backrest",
+      "bbox": [
+        228,
+        165,
+        1001,
+        628
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2,
+          "reason": "The throne backrest features intricate gold patterns and a circular motif, but lacks expressive elements or emotional triggers like faces/gestures."
+        },
+        "criterion_2": {
+          "value": 8.5,
+          "reason": "The intricate gold filigree against a deep backdrop creates regal solemnity through rich texture and spatial pressure from the circular form."
+        },
+        "criterion_3": {
+          "value": 9,
+          "reason": "The throne backrest features intricate golden filigree with symmetrical patterns, conveying luxury and stability within royal portraiture context."
+        }
+      }
+    },
+    {
+      "name": "Anno. 1806_0",
+      "label": "Anno. 1806 0",
+      "image_path": "segments/Anno. 1806_0.webp",
+      "source": "item",
+      "group": "texts",
+      "bbox": [
+        1031,
+        1772,
+        1167,
+        1815
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2,
+          "reason": "The text \"Anno. 1806_0\" is a small, neutral inscription without expressive elements like faces or gestures; its minimal visual presence lacks emotional triggers in the portrait context."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "This small textual element provides minimal visual impact with its tiny size and neutral coloration; it lacks texture or expressive cues that would shape affective tone in any meaningful way within the grand regal composition."
+        },
+        "criterion_3": {
+          "value": 5,
+          "reason": "The text \"Anno. 1806_0\" is a plain, unemotive historical notation in the image's corner; it provides factual context but lacks visual cues of pleasantness or aversiveness."
+        }
+      }
+    },
+    {
+      "name": "Ingres P_0",
+      "label": "Ingres P 0",
+      "image_path": "segments/Ingres P_0.webp",
+      "source": "item",
+      "group": "texts",
+      "bbox": [
+        8,
+        1772,
+        122,
+        1815
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 0,
+          "reason": "The region contains only small, non-visual text (\"Ingres P\") without any expressive features or emotional cues."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "Visible as a small artist’s signature at the bottom left with minimal visual weight; it lacks color or texture cues affecting mood directly in this regal portrait context."
+        },
+        "criterion_3": {
+          "value": 4,
+          "reason": "The text \"Ingres P\" appears as a subtle artist's signature at the bottom left, visually minimal and functional without emotional weight."
+        }
+      }
+    }
+  ]
+}

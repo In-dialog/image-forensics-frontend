@@ -1,0 +1,42 @@
+{
+  "extracts": [
+    {
+      "name": "Frame_0",
+      "bbox": [
+        0,
+        0,
+        52,
+        61
+      ],
+      "bbox_position": [
+        26.0,
+        30.5
+      ],
+      "bbox_size": [
+        52,
+        61
+      ],
+      "group": "Frame"
+    },
+    {
+      "name": "Photo_0",
+      "bbox": [
+        2,
+        2,
+        50,
+        59
+      ],
+      "bbox_position": [
+        26.0,
+        30.5
+      ],
+      "bbox_size": [
+        48,
+        57
+      ],
+      "group": "Photo"
+    }
+  ],
+  "parent_name": "Frame_3",
+  "parent_group": "frame"
+}

@@ -1,0 +1,42 @@
+{
+  "extracts": [
+    {
+      "name": "Crossed Keys Symbol_0",
+      "bbox": [
+        16,
+        51,
+        66,
+        118
+      ],
+      "bbox_position": [
+        41.0,
+        84.5
+      ],
+      "bbox_size": [
+        50,
+        67
+      ],
+      "group": "Crossed Keys Symbol"
+    },
+    {
+      "name": "Shield Shape Outline_0",
+      "bbox": [
+        0,
+        0,
+        108,
+        295
+      ],
+      "bbox_position": [
+        54.0,
+        147.5
+      ],
+      "bbox_size": [
+        108,
+        295
+      ],
+      "group": "Shield Shape Outline"
+    }
+  ],
+  "parent_name": "Shield_0",
+  "parent_group": "shield"
+}

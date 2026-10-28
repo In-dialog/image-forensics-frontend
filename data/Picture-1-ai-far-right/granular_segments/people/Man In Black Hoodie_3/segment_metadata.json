@@ -1,0 +1,96 @@
+{
+  "extracts": [
+    {
+      "name": "Eyes_0",
+      "bbox": [
+        7,
+        15,
+        26,
+        20
+      ],
+      "bbox_position": [
+        16.5,
+        17.5
+      ],
+      "bbox_size": [
+        19,
+        5
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Hair_0",
+      "bbox": [
+        3,
+        0,
+        35,
+        27
+      ],
+      "bbox_position": [
+        19.0,
+        13.5
+      ],
+      "bbox_size": [
+        32,
+        27
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Head_0",
+      "bbox": [
+        3,
+        0,
+        35,
+        47
+      ],
+      "bbox_position": [
+        19.0,
+        23.5
+      ],
+      "bbox_size": [
+        32,
+        47
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Mouth_0",
+      "bbox": [
+        12,
+        26,
+        23,
+        45
+      ],
+      "bbox_position": [
+        17.5,
+        35.5
+      ],
+      "bbox_size": [
+        11,
+        19
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Mouth_1",
+      "bbox": [
+        12,
+        27,
+        23,
+        37
+      ],
+      "bbox_position": [
+        17.5,
+        32.0
+      ],
+      "bbox_size": [
+        11,
+        10
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "Man In Black Hoodie_3",
+  "parent_group": "people"
+}

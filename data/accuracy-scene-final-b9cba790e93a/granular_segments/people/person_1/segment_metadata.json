@@ -1,0 +1,124 @@
+{
+  "extracts": [
+    {
+      "name": "camouflage pants_0",
+      "label": "camouflage pants",
+      "category": "people",
+      "sam_score": 0.9087687134742737,
+      "bbox": [
+        0,
+        95,
+        143,
+        299
+      ],
+      "bbox_position": [
+        71.5,
+        197.0
+      ],
+      "bbox_size": [
+        143,
+        204
+      ],
+      "group": "people",
+      "bbox_global": [
+        70,
+        371,
+        213,
+        575
+      ]
+    },
+    {
+      "name": "tactical vest_0",
+      "label": "tactical vest",
+      "category": "people",
+      "sam_score": 0.9390258193016052,
+      "bbox": [
+        36,
+        72,
+        143,
+        150
+      ],
+      "bbox_position": [
+        89.5,
+        111.0
+      ],
+      "bbox_size": [
+        107,
+        78
+      ],
+      "group": "people",
+      "bbox_global": [
+        106,
+        348,
+        213,
+        426
+      ]
+    },
+    {
+      "name": "bandana_0",
+      "label": "bandana",
+      "category": "people",
+      "sam_score": 0.8181127905845642,
+      "bbox": [
+        52,
+        3,
+        108,
+        73
+      ],
+      "bbox_position": [
+        80.0,
+        38.0
+      ],
+      "bbox_size": [
+        56,
+        70
+      ],
+      "group": "people",
+      "bbox_global": [
+        122,
+        279,
+        178,
+        349
+      ]
+    },
+    {
+      "name": "blue plastic bottle_0",
+      "label": "blue plastic bottle",
+      "category": "people",
+      "sam_score": 0.779096245765686,
+      "bbox": [
+        36,
+        276,
+        69,
+        299
+      ],
+      "bbox_position": [
+        52.5,
+        287.5
+      ],
+      "bbox_size": [
+        33,
+        23
+      ],
+      "group": "people",
+      "bbox_global": [
+        106,
+        552,
+        139,
+        575
+      ]
+    }
+  ],
+  "parent_name": "person_1",
+  "parent_group": "people",
+  "coordinate_space": "parent_crop",
+  "source_image": "granular_segments/people/person_1/source.png",
+  "image_width": 220,
+  "image_height": 306,
+  "parent_bbox": [
+    70,
+    276,
+    290,
+    582
+  ]
+}

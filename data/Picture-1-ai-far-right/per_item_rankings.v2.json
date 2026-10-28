@@ -1,0 +1,689 @@
+{
+  "schema_version": 2,
+  "scope": "per_item",
+  "criteria": [
+    {
+      "id": "criterion_1",
+      "label": "Emotional Rating",
+      "type": "score",
+      "positive": "",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "",
+      "high_label": ""
+    },
+    {
+      "id": "criterion_2",
+      "label": "Affective Analyst",
+      "type": "score",
+      "positive": "",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "",
+      "high_label": ""
+    },
+    {
+      "id": "criterion_3",
+      "label": "Valence",
+      "type": "score",
+      "positive": "",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "",
+      "high_label": ""
+    }
+  ],
+  "items": [
+    {
+      "name": "Blonde Woman_0",
+      "label": "Blonde Woman 0",
+      "image_path": "segments/Blonde Woman_0.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        231,
+        341,
+        424,
+        638
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 8.5,
+          "reason": "The blonde woman in the foreground, wearing a \"France\" t-shirt, is the focal point of the image due to her central position and the contrast between her calm demeanor and the chaotic scene behind her. Her expression, with one hand covering her face, conveys a sense of distress or fear, which is emotionally charged and draws the viewer's attention."
+        },
+        "criterion_2": {
+          "value": 7.3,
+          "reason": "The blonde woman in the foreground, wearing a \"France\" t-shirt, stands out with a distressed expression and hand covering her face, which contrasts sharply with the energetic and chaotic crowd behind her. Her posture and facial expression convey a sense of unease and discomfort, which contributes significantly to the overall affective tone of tension and unease in the image."
+        },
+        "criterion_3": {
+          "value": 1.5,
+          "reason": "The woman's expression of distress and the surrounding chaos contribute to a highly aversive valence."
+        }
+      }
+    },
+    {
+      "name": "Man In Black Hoodie_0",
+      "label": "Man In Black Hoodie 0",
+      "image_path": "segments/Man In Black Hoodie_0.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        0,
+        246,
+        192,
+        531
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 8.5,
+          "reason": "The man in the black hoodie is positioned prominently in the foreground, with a tense and aggressive expression, which draws immediate attention and emotional intensity. His body language and the presence of flags in the background suggest a charged political or social context, amplifying the emotional impact."
+        },
+        "criterion_2": {
+          "value": 7.5,
+          "reason": "The man in black hoodie is positioned prominently in the foreground, wearing a tactical vest and holding a flag, which adds a sense of tension and conflict to the image. His stance and the flags he holds contribute significantly to the overall mood of aggression and unrest."
+        },
+        "criterion_3": {
+          "value": 2.5,
+          "reason": "The individual in the black hoodie is in a tense and aggressive stance, contributing to a sense of conflict and unrest. The overall scene is chaotic, with debris and flags, which amplifies the aversive valence."
+        }
+      }
+    },
+    {
+      "name": "Man In Black Hoodie_1",
+      "label": "Man In Black Hoodie 1",
+      "image_path": "segments/Man In Black Hoodie_1.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        189,
+        265,
+        262,
+        337
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 7.5,
+          "reason": "The person in the black hoodie is positioned prominently in the foreground, wearing a tactical vest and a black mask, which conveys a sense of intensity and potential threat. The overall scene is chaotic, with debris and flags in the background, further amplifying the emotional impact."
+        },
+        "criterion_2": {
+          "value": 7.5,
+          "reason": "The region of \"Man In Black Hoodie_1\" contributes significantly to the overall affective tone of the image due to the tense facial expression and the aggressive posture, which align with the chaotic and hostile environment depicted. The presence of armed individuals and the flags of Palestine and Libya further amplify the sense of unrest and conflict."
+        },
+        "criterion_3": {
+          "value": 2.5,
+          "reason": "The region shows individuals in a state of distress and chaos, with flags and debris suggesting a protest or conflict. The overall tone is one of tension and negativity."
+        }
+      }
+    },
+    {
+      "name": "Man In Black Hoodie_2",
+      "label": "Man In Black Hoodie 2",
+      "image_path": "segments/Man In Black Hoodie_2.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        251,
+        265,
+        341,
+        373
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 8.5,
+          "reason": "The man in the black hoodie is positioned prominently in the foreground, with a tense and aggressive posture, which draws immediate attention and conveys a high level of emotional intensity. His expression and stance suggest a sense of urgency or defiance, contributing significantly to the overall emotional salience of the image."
+        },
+        "criterion_2": {
+          "value": 7.3,
+          "reason": "The man in black hoodie is positioned prominently in the foreground, wearing a tactical vest and holding a flag, which adds a sense of tension and conflict to the overall image. His stance and the flags he holds contribute to a feeling of unrest and aggression."
+        },
+        "criterion_3": {
+          "value": 2.5,
+          "reason": "The individual in the black hoodie is surrounded by a group of people in a chaotic and tense environment, with flags and debris suggesting a protest or demonstration. The overall scene conveys a sense of unrest and potential conflict, which is aversive."
+        }
+      }
+    },
+    {
+      "name": "Man In Black Hoodie_3",
+      "label": "Man In Black Hoodie 3",
+      "image_path": "segments/Man In Black Hoodie_3.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        363,
+        254,
+        420,
+        337
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 7.8,
+          "reason": "The person in the black hoodie is positioned prominently in the foreground, with a tense and aggressive posture, contributing to a sense of immediate threat and emotional intensity. The surrounding crowd and flags further amplify the chaotic and emotionally charged atmosphere."
+        },
+        "criterion_2": {
+          "value": 7.5,
+          "reason": "The region \"Man In Black Hoodie_3\" contributes significantly to the overall tone of tension and unrest due to the aggressive posture and the presence of flags, which suggest a protest or demonstration. The chaotic environment and the crowd's expressions further amplify this sense of unease."
+        },
+        "criterion_3": {
+          "value": 3.5,
+          "reason": "The individual in the black hoodie is part of a group with raised fists and flags, suggesting a protest or demonstration. The overall scene is chaotic and appears to be in a public space, which can be associated with tension and unrest. The presence of flags and the Eiffel Tower in the background adds to the sense of a significant public event."
+        }
+      }
+    },
+    {
+      "name": "Man In Black Hoodie_4",
+      "label": "Man In Black Hoodie 4",
+      "image_path": "segments/Man In Black Hoodie_4.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        503,
+        199,
+        633,
+        537
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 8.5,
+          "reason": "The man in black hoodie is positioned prominently in the foreground, with a tense and angry expression, contributing significantly to the emotional intensity of the scene. His body language and the context of the image, with flags and debris, amplify the sense of conflict and urgency."
+        },
+        "criterion_2": {
+          "value": 7.3,
+          "reason": "The man in black hoodie is positioned in the foreground, wearing a black hoodie and a tactical vest, which conveys a sense of aggression and tension. His stance and the presence of flags in the background suggest a protest or demonstration, adding to the overall sense of unease and conflict in the image."
+        },
+        "criterion_3": {
+          "value": 2.5,
+          "reason": "The individual in the black hoodie appears to be in a state of distress, with a tense facial expression and raised hands, contributing to a sense of chaos and conflict. The surrounding environment, filled with debris and flags, further emphasizes a negative and aversive atmosphere."
+        }
+      }
+    },
+    {
+      "name": "Man In Camouflage_0",
+      "label": "Man In Camouflage 0",
+      "image_path": "segments/Man In Camouflage_0.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        15,
+        278,
+        290,
+        576
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 8.5,
+          "reason": "The man in camouflage is positioned prominently in the foreground, wearing tactical gear and a determined expression, which, combined with the chaotic scene and the presence of flags, contributes significantly to the emotional intensity of the image."
+        },
+        "criterion_2": {
+          "value": 7.8,
+          "reason": "The man in camouflage is positioned prominently in the foreground, wearing tactical gear and a determined expression, which contributes significantly to the overall sense of tension and conflict in the image."
+        },
+        "criterion_3": {
+          "value": 2.5,
+          "reason": "The man in camouflage is positioned in a dynamic pose, suggesting movement and intensity. The presence of flags and the chaotic scene in the background contribute to a sense of unrest and conflict. The overall composition evokes a feeling of tension and aversion."
+        }
+      }
+    },
+    {
+      "name": "Man In White Shirt_0",
+      "label": "Man In White Shirt 0",
+      "image_path": "segments/Man In White Shirt_0.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        347,
+        238,
+        590,
+        573
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 8.5,
+          "reason": "The man in the white shirt is the focal point of the image, with a distressed expression and his hand covering his face, drawing immediate attention. The chaotic background with people shouting and flags adds to the emotional intensity."
+        },
+        "criterion_2": {
+          "value": 7.3,
+          "reason": "The man in the white shirt is positioned prominently in the foreground, wearing a shirt with the French flag, which contrasts with the aggressive and chaotic scene behind him. His expression and posture suggest a sense of unease or fear, adding to the overall tension and unease of the image."
+        },
+        "criterion_3": {
+          "value": 2.5,
+          "reason": "The individual in the white shirt is surrounded by a chaotic scene with flags and debris, which suggests a tense and possibly violent atmosphere. The person's expression and the overall context indicate a high level of distress or fear."
+        }
+      }
+    },
+    {
+      "name": "Eiffel Tower_0",
+      "label": "Eiffel Tower 0",
+      "image_path": "segments/Eiffel Tower_0.webp",
+      "source": "item",
+      "group": "Eiffel Tower",
+      "bbox": [
+        192,
+        0,
+        390,
+        276
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 7.5,
+          "reason": "The Eiffel Tower stands as a neutral, iconic landmark, but its presence in the image contrasts sharply with the chaotic and emotionally charged scene of people with flags and debris in the foreground. The tower's stillness and grandeur highlight the turmoil and emotional intensity of the crowd."
+        },
+        "criterion_2": {
+          "value": 7.5,
+          "reason": "The Eiffel Tower in the background provides a stark contrast to the chaotic and tense scene in the foreground, contributing to a sense of unease and tension. The tower's iconic presence adds a layer of irony to the image, as it symbolizes a peaceful and iconic landmark, while the foreground depicts a violent and chaotic protest."
+        },
+        "criterion_3": {
+          "value": 3.5,
+          "reason": "The Eiffel Tower stands as a neutral landmark, but the context of the image, with its chaotic scene and flags, suggests a tense and possibly violent situation. The tower's presence contrasts with the turmoil, making it a focal point of the image's overall aversive valence."
+        }
+      }
+    },
+    {
+      "name": "Flags_0",
+      "label": "Flags 0",
+      "image_path": "segments/Flags_0.webp",
+      "source": "item",
+      "group": "Flags",
+      "bbox": [
+        0,
+        39,
+        172,
+        228
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 7.5,
+          "reason": "The flags and the crowd in the background create a sense of tension and conflict, while the person in the foreground with their hand over their face conveys distress and vulnerability. The Eiffel Tower in the background adds a sense of normalcy and contrast to the chaotic scene in the foreground."
+        },
+        "criterion_2": {
+          "value": 7.5,
+          "reason": "The flags and the presence of armed individuals contribute to a sense of tension and unease, which is a strong driver of the image's overall affective tone."
+        },
+        "criterion_3": {
+          "value": 2.5,
+          "reason": "The flags and the crowd in the image suggest a protest or demonstration, which can be associated with political tension and unrest. The presence of flags and the chaotic scene contribute to an aversive valence."
+        }
+      }
+    },
+    {
+      "name": "Flags_1",
+      "label": "Flags 1",
+      "image_path": "segments/Flags_1.webp",
+      "source": "item",
+      "group": "Flags",
+      "bbox": [
+        407,
+        17,
+        608,
+        200
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2.5,
+          "reason": "The flags in this region are static and do not convey strong emotional cues. The absence of human faces or expressive gestures in this area contributes to a lower emotional salience compared to other parts of the image."
+        },
+        "criterion_2": {
+          "value": 7.3,
+          "reason": "The flags in this region, particularly the Palestinian and Sahrawi flags, contribute to a sense of political activism and solidarity, which, combined with the chaotic scene and the Eiffel Tower in the background, creates a strong sense of tension and unease. The flags' presence adds a layer of symbolic meaning that enhances the overall affective tone of the image."
+        },
+        "criterion_3": {
+          "value": 4.7,
+          "reason": "The flags and the crowd's dynamic pose suggest a sense of protest or activism, which can be emotionally charged and potentially aversive. The presence of flags and the crowd's intensity contribute to a sense of urgency or conflict."
+        }
+      }
+    },
+    {
+      "name": "Flags_2",
+      "label": "Flags 2",
+      "image_path": "segments/Flags_2.webp",
+      "source": "item",
+      "group": "Flags",
+      "bbox": [
+        271,
+        516,
+        366,
+        595
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 7.5,
+          "reason": "The region contains a person with a distressed expression, covering their face, which is a strong indicator of emotional intensity. The presence of flags and the Eiffel Tower in the background adds to the overall chaotic and emotionally charged atmosphere of the scene."
+        },
+        "criterion_2": {
+          "value": 7.5,
+          "reason": "The region containing the \"Flags_2\" shows a tense and chaotic scene with people shouting and flags waving, contributing significantly to the overall sense of unrest and aggression in the image."
+        },
+        "criterion_3": {
+          "value": 2,
+          "reason": "The region contains a person in distress, with a French flag, amidst a chaotic scene with flags and debris. The overall context suggests a negative and unsettling atmosphere."
+        }
+      }
+    },
+    {
+      "name": "Trash_0",
+      "label": "Trash 0",
+      "image_path": "segments/Trash_0.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        110,
+        603,
+        170,
+        636
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 4.2,
+          "reason": "The trash can is in the foreground, surrounded by debris, which adds to the chaotic and tense atmosphere of the scene. The presence of people in the background, some of whom appear to be in distress, further emphasizes the emotional intensity of the image."
+        },
+        "criterion_2": {
+          "value": 6.2,
+          "reason": "The trash in the region appears disorganized and adds to the overall sense of chaos and disorder in the image, contributing to a feeling of unease and tension."
+        },
+        "criterion_3": {
+          "value": 2.5,
+          "reason": "Trash_0 is a small, static object amidst a chaotic scene. Its presence adds to the overall sense of disorder and conflict, contributing to the aversive valence of the image."
+        }
+      }
+    },
+    {
+      "name": "Trash_4",
+      "label": "Trash 4",
+      "image_path": "segments/Trash_4.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        494,
+        558,
+        570,
+        599
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 6.5,
+          "reason": "The trash in the image is in the foreground, drawing attention due to its size and placement. It contrasts with the chaotic scene in the background, which includes people with flags and intense expressions. The presence of trash adds to the overall sense of disorder and conflict, contributing to the emotional intensity of the image."
+        },
+        "criterion_2": {
+          "value": 6.8,
+          "reason": "The trash in the image contributes to a sense of disorder and unease, which aligns with the overall chaotic and tense atmosphere of the scene. The scattered debris and the disorganized setting add to the image's affective tone of unrest and conflict."
+        },
+        "criterion_3": {
+          "value": 2.5,
+          "reason": "Trash_4 is a small, cluttered area with various discarded items, contributing to a sense of disorder and negativity in the overall image. The presence of trash suggests a lack of care and order, which can be associated with a more negative valence."
+        }
+      }
+    },
+    {
+      "name": "Trash_5",
+      "label": "Trash 5",
+      "image_path": "segments/Trash_5.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        397,
+        555,
+        435,
+        583
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 6.5,
+          "reason": "The trash in the region is scattered and appears to be part of a chaotic scene, which contributes to the overall emotional intensity of the image. The presence of people in the background, some of whom are wearing military-style clothing and flags, adds to the sense of unrest and conflict, making the trash a significant element in the emotional composition."
+        },
+        "criterion_2": {
+          "value": 7.3,
+          "reason": "The trash in the image contributes to a sense of disarray and chaos, which aligns with the overall tone of the scene. The scattered litter and debris add to the feeling of unrest and disorder, enhancing the image's overall affective tone of tension and unease."
+        },
+        "criterion_3": {
+          "value": 2.5,
+          "reason": "Trash_5 is a small, static object amidst a chaotic scene, contributing to the overall negative and aversive valence of the image. The presence of trash suggests neglect and disorder, which contrasts with the violent and tense atmosphere surrounding the protest."
+        }
+      }
+    },
+    {
+      "name": "Trash_14",
+      "label": "Trash 14",
+      "image_path": "segments/Trash_14.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        595,
+        561,
+        633,
+        591
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 6.2,
+          "reason": "The trash can in this region is in the foreground and is surrounded by other elements that contribute to a chaotic and emotionally charged scene. The presence of people in the background, some of whom appear to be in distress, adds to the emotional intensity of the image."
+        },
+        "criterion_2": {
+          "value": 4.2,
+          "reason": "The region \"Trash_14\" contributes to the overall tone of the image by adding to the sense of disarray and chaos, which is already present in the scene. The scattered trash and debris enhance the feeling of disorder and unease."
+        },
+        "criterion_3": {
+          "value": 1.5,
+          "reason": "Trash_14 is a small, static object amidst a chaotic scene, contributing little to the overall emotional tone of the image."
+        }
+      }
+    },
+    {
+      "name": "Trash_27",
+      "label": "Trash 27",
+      "image_path": "segments/Trash_27.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        469,
+        490,
+        507,
+        521
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2,
+          "reason": "The trash in this region is inanimate and does not carry strong emotional cues. It is part of the chaotic scene but does not draw attention as emotionally charged as the faces and expressions of the people in the image."
+        },
+        "criterion_2": {
+          "value": 7.3,
+          "reason": "The image contains a mix of aggressive and chaotic elements, with people shouting and flags being waved, which contributes to a sense of tension and unease. The presence of trash and debris further enhances the feeling of disorder and chaos."
+        },
+        "criterion_3": {
+          "value": 2.7,
+          "reason": "Trash_27 is a small, scattered pile of debris, contributing to the overall chaotic and unpleasant atmosphere of the scene. The presence of trash suggests neglect and disorder, which aligns with the overall negative tone of the image."
+        }
+      }
+    },
+    {
+      "name": "Trash_34",
+      "label": "Trash 34",
+      "image_path": "segments/Trash_34.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        455,
+        548,
+        500,
+        590
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 6.2,
+          "reason": "The trash in this region is part of a chaotic scene with people in the background, which contributes to a sense of disorder and emotional intensity. The presence of debris and the overall context suggest a moment of unrest or conflict, which enhances the emotional salience of the image."
+        },
+        "criterion_2": {
+          "value": 4.2,
+          "reason": "The region \"Trash_34\" contributes to the overall affective tone by adding to the sense of disorder and chaos, which is already present in the image. The scattered trash and debris enhance the feeling of unrest and disarray."
+        },
+        "criterion_3": {
+          "value": 2.3,
+          "reason": "Trash_34 is a cluster of discarded items, contributing to a sense of disorder and decay. The presence of trash in a protest scene can evoke feelings of frustration and negativity, as it symbolizes the aftermath of unrest and the lack of order."
+        }
+      }
+    },
+    {
+      "name": "Trash_39",
+      "label": "Trash 39",
+      "image_path": "segments/Trash_39.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        136,
+        505,
+        205,
+        541
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2.5,
+          "reason": "The trash in the region \"Trash_39\" is scattered and appears to be part of a larger scene of chaos and protest, but it does not directly convey strong emotional cues. The emotional impact is primarily derived from the people and their expressions in the foreground."
+        },
+        "criterion_2": {
+          "value": 6.2,
+          "reason": "The trash in the image contributes to a sense of disarray and disorder, which aligns with the overall chaotic and tense atmosphere of the scene. The presence of litter adds to the feeling of unease and disruption."
+        },
+        "criterion_3": {
+          "value": 2.5,
+          "reason": "Trash_39 is a small, cluttered area with various items scattered around, contributing to a sense of disarray and disorder. This adds to the overall chaotic and negative atmosphere of the scene."
+        }
+      }
+    },
+    {
+      "name": "Trash_40",
+      "label": "Trash 40",
+      "image_path": "segments/Trash_40.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        169,
+        577,
+        231,
+        637
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 3.8,
+          "reason": "The trash in this region is inanimate and does not carry strong emotional cues, but its presence in the foreground, amidst a chaotic scene, contributes to the overall emotional intensity of the image. The contrast between the clean, iconic Eiffel Tower and the scattered trash adds to the sense of disorder and urgency."
+        },
+        "criterion_2": {
+          "value": 6.2,
+          "reason": "The trash in the region \"Trash_40\" contributes to a sense of disarray and disorder, which aligns with the overall chaotic and tense atmosphere of the image. The presence of litter adds to the feeling of unease and disruption."
+        },
+        "criterion_3": {
+          "value": 3.5,
+          "reason": "Trash_40 is a small, static region with no significant visual cues that contribute to the overall composition's affective tone. It appears as a neutral element in the foreground, surrounded by more dynamic and emotionally charged elements in the background. The trash does not affect the overall mood of the image, which is dominated by the intense and chaotic scene behind it."
+        }
+      }
+    },
+    {
+      "name": "Trash_41",
+      "label": "Trash 41",
+      "image_path": "segments/Trash_41.webp",
+      "source": "item",
+      "group": "Trash",
+      "bbox": [
+        163,
+        540,
+        250,
+        597
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2.5,
+          "reason": "The trash in the region \"Trash_41\" is in the foreground and contrasts with the chaotic scene in the background, drawing attention but not conveying strong emotion on its own."
+        },
+        "criterion_2": {
+          "value": 5.5,
+          "reason": "The trash in the region \"Trash_41\" contributes to a sense of disarray and chaos, which aligns with the overall tone of the image. The scattered debris and the presence of flags suggest a protest or demonstration, adding to the image's tension and unease."
+        },
+        "criterion_3": {
+          "value": 2.5,
+          "reason": "Trash_41 is a cluster of debris, which contributes to a sense of disorder and disarray in the image. The presence of trash suggests a lack of order and cleanliness, which can be associated with negative emotions."
+        }
+      }
+    },
+    {
+      "name": "Trees_0",
+      "label": "Trees 0",
+      "image_path": "segments/Trees_0.webp",
+      "source": "item",
+      "group": "Trees",
+      "bbox": [
+        0,
+        197,
+        115,
+        284
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 8.5,
+          "reason": "The region contains a crowd of people with tense facial expressions and dynamic gestures, which draws immediate attention and conveys a sense of urgency and intensity. The presence of flags and debris further amplifies the emotional impact."
+        },
+        "criterion_2": {
+          "value": 3.5,
+          "reason": "The trees in the background provide a natural and serene backdrop, contrasting with the chaotic and tense foreground. Their presence adds a layer of calmness to the overall image, which is otherwise dominated by the aggressive and chaotic scene in the foreground."
+        },
+        "criterion_3": {
+          "value": 2.5,
+          "reason": "The region contains trees with a neutral appearance, but the overall context of the image is chaotic and violent, which contrasts with the trees' calm nature. The trees do not contribute to the aversive valence of the image."
+        }
+      }
+    },
+    {
+      "name": "Trees_1",
+      "label": "Trees 1",
+      "image_path": "segments/Trees_1.webp",
+      "source": "item",
+      "group": "Trees",
+      "bbox": [
+        380,
+        5,
+        632,
+        282
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 7.5,
+          "reason": "The region contains the Eiffel Tower, which is a neutral landmark, but the presence of people with flags and intense expressions in the foreground creates a strong emotional contrast. The crowd's dynamic poses and the flags suggest a significant event, drawing the viewer's attention to the emotional intensity of the scene."
+        },
+        "criterion_2": {
+          "value": 7.5,
+          "reason": "The presence of flags and the Eiffel Tower in the background creates a sense of national pride and historical significance, which contrasts with the chaotic and tense atmosphere in the foreground. The flags and the tower are static and symbolic, while the crowd in the foreground conveys a sense of unrest and conflict. This juxtaposition contributes to a complex affective tone of both pride and tension."
+        },
+        "criterion_3": {
+          "value": 2.5,
+          "reason": "The flags and the crowd in the image suggest a protest or demonstration, which can be associated with political tension and unrest. The presence of the Eiffel Tower in the background adds a sense of normalcy and contrast to the chaotic scene in the foreground."
+        }
+      }
+    },
+    {
+      "name": "Ei_0",
+      "label": "Ei 0",
+      "image_path": "segments/Ei_0.webp",
+      "source": "item",
+      "group": "texts",
+      "bbox": [
+        0,
+        593,
+        52,
+        638
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 8.5,
+          "reason": "The region contains a person in the foreground with a distressed expression, covering their face, which draws immediate attention and conveys strong emotional intensity. The presence of flags and the Eiffel Tower in the background adds to the scene's emotional weight."
+        },
+        "criterion_2": {
+          "value": 2.5,
+          "reason": "The region \"Ei_0\" contains a logo with a dark and somewhat ominous appearance, which contrasts with the chaotic and aggressive scene in the background. This contrast may subtly contribute to a sense of unease or tension, but it is not the primary driver of the image's affective tone."
+        },
+        "criterion_3": {
+          "value": 5,
+          "reason": "The text \"Ei_0\" is a small, dark logo in the bottom left corner, which does not contribute significantly to the overall composition or the emotional tone of the image. It is not visually impactful and does not affect the pleasantness or aversiveness of the scene."
+        }
+      }
+    }
+  ]
+}

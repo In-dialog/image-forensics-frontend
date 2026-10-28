@@ -1,0 +1,192 @@
+/* Semantical view layout: main + sidebar. Set proportions here. */
+.semantic-view {
+  --semantic-main: 1;
+  --semantic-right: 2;
+  /* First row: fixed height for grid */
+  --semantic-first-row-height: 210px;
+  /* Second row: item description (left) vs compositional elements (right) */
+  --semantic-second-row-desc: 1;
+  --semantic-second-row-compositional: 2;
+  --semantic-grid-line: rgba(255, 255, 255, 0.06);
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  margin-block: var(--layout-box-margin);
+  border: 1px solid rgb(71, 71, 71);
+  background-color: rgb(17, 17, 17);
+  font-family: "consolas", monospace;
+}
+
+.semantic-view__main {
+  container-type: size;
+  flex: var(--semantic-main) var(--semantic-main) 0;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.semantic-view__sidebar {
+  flex: var(--semantic-right) var(--semantic-right) 0;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.semantic-view__main-image {
+  /* Grid: square cells from smaller dimension, no cut squares along that axis */
+  --grid-cells: 82;
+  --cell-size: calc(min(100cqw, 100cqh) / var(--grid-cells));
+  --grid-color: var(--semantic-grid-line);
+  background-color: rgba(0, 0, 0, 0.15);
+  background-image:
+    repeating-linear-gradient(
+      to right,
+      transparent 0 calc(var(--cell-size) - 1px),
+      var(--grid-color) calc(var(--cell-size) - 1px) var(--cell-size)
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0 calc(var(--cell-size) - 1px),
+      var(--grid-color) calc(var(--cell-size) - 1px) var(--cell-size)
+    );
+  border: 1px solid rgb(38, 38, 38);
+}
+
+.semantic-view__sidebar-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  min-width: 0;
+}
+
+/* First row: grid full width, fixed height */
+.semantic-view__sidebar-row--first {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 auto;
+  height: var(--semantic-first-row-height);
+  min-width: 0;
+  border-bottom: 1px solid rgb(38, 38, 38);
+}
+
+.semantic-view__sidebar-grid {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  border-right: none;
+}
+
+.semantic-view__sidebar-grid-content {
+  width: 100%;
+  height: 100%;
+}
+
+/* Second row: item description (left) + compositional elements (right) */
+.semantic-view__sidebar-row--second {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  min-height: 0;
+  min-width: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.semantic-view__sidebar-description {
+  flex: var(--semantic-second-row-desc) var(--semantic-second-row-desc) 0;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.semantic-view__sidebar-compositional {
+  flex: var(--semantic-second-row-compositional)
+    var(--semantic-second-row-compositional) 0;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.semantic-view__sidebar-row {
+  min-width: 0;
+}
+
+.semantic-panel {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  height: 100%;
+  background: #111;
+}
+
+.semantic-panel__header {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 8px 10px 7px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  color: #c9c9c9;
+  font-size: 0.68rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.semantic-panel__body {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+}
+
+.semantic-panel__body--main,
+.semantic-panel__body--gallery,
+.semantic-panel__body--description,
+.semantic-panel__body--compositional {
+  display: flex;
+  min-width: 0;
+  min-height: 0;
+}
+
+.semantic-panel--main {
+  flex: 1;
+}
+
+.semantic-panel__body--main {
+  flex: 1;
+  overflow: hidden;
+}
+
+.semantic-panel__body--main > .semantic-view__main-image {
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+
+.semantic-panel__body--gallery,
+.semantic-panel__body--compositional {
+  overflow: hidden;
+}
+
+.semantic-panel__body--description {
+  overflow: hidden;
+}
+
+.semantic-panel__body--compositional {
+  flex: 1;
+  overflow: auto;
+}

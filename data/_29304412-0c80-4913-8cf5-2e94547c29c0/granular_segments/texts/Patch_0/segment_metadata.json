@@ -1,0 +1,78 @@
+{
+  "extracts": [
+    {
+      "name": "Planet_0",
+      "bbox": [
+        39,
+        31,
+        80,
+        63
+      ],
+      "bbox_position": [
+        59.5,
+        47.0
+      ],
+      "bbox_size": [
+        41,
+        32
+      ],
+      "group": "texts"
+    },
+    {
+      "name": "Spaceship_0",
+      "bbox": [
+        14,
+        26,
+        70,
+        58
+      ],
+      "bbox_position": [
+        42.0,
+        42.0
+      ],
+      "bbox_size": [
+        56,
+        32
+      ],
+      "group": "texts"
+    },
+    {
+      "name": "Stars_0",
+      "bbox": [
+        14,
+        10,
+        55,
+        32
+      ],
+      "bbox_position": [
+        34.5,
+        21.0
+      ],
+      "bbox_size": [
+        41,
+        22
+      ],
+      "group": "texts"
+    },
+    {
+      "name": "Starship 19_0",
+      "bbox": [
+        2,
+        4,
+        78,
+        22
+      ],
+      "bbox_position": [
+        40.0,
+        13.0
+      ],
+      "bbox_size": [
+        76,
+        18
+      ],
+      "group": "texts"
+    }
+  ],
+  "parent_name": "Patch_0",
+  "parent_group": "texts"
+}

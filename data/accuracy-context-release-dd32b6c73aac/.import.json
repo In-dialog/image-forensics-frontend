@@ -1,0 +1,27 @@
+{
+    "job_id":  "accuracy-context-release-dd32b6c73aac",
+    "fingerprint":  "84ad12a7ccb33fc8de29a3059ba5650e33ad015e483410fda574e1fd13803f60",
+    "imported_at":  "2026-10-28T19:20:44.558Z",
+    "files":  [
+                  "descriptions.v2.json",
+                  "full_image_rankings.v2.json",
+                  "metadata.json",
+                  "original/original.webp",
+                  "per_item_rankings.v2.json",
+                  "segments/Eiffel Tower structure_0.webp",
+                  "segments/FRANCE_0.webp",
+                  "segments/black-and-white graphic on white shirt_0.webp",
+                  "segments/flag_0.webp",
+                  "segments/flag_1.webp",
+                  "segments/green bottle_0.webp",
+                  "segments/green plastic bottle_0.webp",
+                  "segments/person_0.webp",
+                  "segments/person_1.webp",
+                  "segments/person_2.webp",
+                  "segments/person_3.webp",
+                  "segments/t-shirt with flag design_0.webp",
+                  "segments/tower structure_0.webp",
+                  "segments/white t-shirt with French flag and text_0.webp",
+                  "segments/white t-shirt with red and green stripe_0.webp"
+              ]
+}

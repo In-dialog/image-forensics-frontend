@@ -1,0 +1,78 @@
+{
+  "extracts": [
+    {
+      "name": "Blue Cylindrical Object_0",
+      "bbox": [
+        24,
+        3,
+        44,
+        23
+      ],
+      "bbox_position": [
+        34.0,
+        13.0
+      ],
+      "bbox_size": [
+        20,
+        20
+      ],
+      "group": "Blue Cylindrical Object"
+    },
+    {
+      "name": "Green Cylindrical Object_0",
+      "bbox": [
+        1,
+        8,
+        30,
+        33
+      ],
+      "bbox_position": [
+        15.5,
+        20.5
+      ],
+      "bbox_size": [
+        29,
+        25
+      ],
+      "group": "Green Cylindrical Object"
+    },
+    {
+      "name": "Green Cylindrical Object_1",
+      "bbox": [
+        40,
+        2,
+        56,
+        17
+      ],
+      "bbox_position": [
+        48.0,
+        9.5
+      ],
+      "bbox_size": [
+        16,
+        15
+      ],
+      "group": "Green Cylindrical Object"
+    },
+    {
+      "name": "Green Cylindrical Object_2",
+      "bbox": [
+        56,
+        0,
+        60,
+        7
+      ],
+      "bbox_position": [
+        58.0,
+        3.5
+      ],
+      "bbox_size": [
+        4,
+        7
+      ],
+      "group": "Green Cylindrical Object"
+    }
+  ],
+  "parent_name": "Trash_0",
+  "parent_group": "trash"
+}

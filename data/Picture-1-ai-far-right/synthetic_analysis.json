@@ -1,0 +1,10 @@
+{
+  "label": "AI / Synthetic Detection",
+  "description": "Detects whether the image is AI-generated or synthetic (vs real/camera-captured).",
+  "score": 10.0,
+  "raw": "AI Generated: true",
+  "range": "0 to 10",
+  "meaning_0": "real / not AI-generated",
+  "meaning_5": "ambiguous",
+  "meaning_10": "synthetic / AI-generated"
+}

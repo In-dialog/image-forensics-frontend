@@ -1,0 +1,257 @@
+{
+  "schema_version": 2,
+  "scope": "per_item",
+  "criteria": [
+    {
+      "id": "criterion_1",
+      "label": "Emotional Rating",
+      "type": "score",
+      "positive": "",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "",
+      "high_label": ""
+    },
+    {
+      "id": "criterion_2",
+      "label": "Affective Analyst",
+      "type": "score",
+      "positive": "",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "",
+      "high_label": ""
+    },
+    {
+      "id": "criterion_3",
+      "label": "Valence",
+      "type": "score",
+      "positive": "",
+      "negative": "",
+      "min": 0,
+      "max": 10,
+      "low_label": "",
+      "high_label": ""
+    }
+  ],
+  "items": [
+    {
+      "name": "Man Wearing Black Sweater_0",
+      "label": "Man Wearing Black Sweater 0",
+      "image_path": "segments/Man Wearing Black Sweater_0.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        131,
+        18,
+        341,
+        337
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The man’s open mouth and raised hands indicate active communication, creating strong visual engagement with the viewer through expressive body language."
+        },
+        "criterion_2": {
+          "value": 8.5,
+          "reason": "The man's open hand gestures and direct gaze convey approachability while the warm wood shelves and framed art create a cozy backdrop that enhances overall serenity."
+        },
+        "criterion_3": {
+          "value": 8.5,
+          "reason": "The man's open-mouthed expression and active hand gestures convey approachability, set against a warmly lit room with organized decor that feels harmonious and welcoming."
+        }
+      }
+    },
+    {
+      "name": "Book_0",
+      "label": "Book 0",
+      "image_path": "segments/Book_0.webp",
+      "source": "item",
+      "group": "Book",
+      "bbox": [
+        62,
+        285,
+        126,
+        334
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 1.5,
+          "reason": "The stack of neatly arranged books shows no damage or expressive features; they're passive objects with minimal visual impact."
+        },
+        "criterion_2": {
+          "value": 4.5,
+          "reason": "The orderly stack of beige/white books with soft texture contributes subtle warmth and calmness through their muted tones and stable placement within the bookshelf environment, aligning with the room's serene aesthetic without visual disruption."
+        },
+        "criterion_3": {
+          "value": 8.5,
+          "reason": "The region shows an orderly stack of beige-covered books with uniform texture, blending warmly into the wooden shelf's calm arrangement."
+        }
+      }
+    },
+    {
+      "name": "Candle Holder_0",
+      "label": "Candle Holder 0",
+      "image_path": "segments/Candle Holder_0.webp",
+      "source": "item",
+      "group": "Candle Holder",
+      "bbox": [
+        514,
+        41,
+        552,
+        126
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 1.5,
+          "reason": "The region shows a simple black metal candle holder mounted on the wall; as an inanimate decorative item with no facial expression or dynamic gesture, it lacks strong visual cues for emotional engagement."
+        },
+        "criterion_2": {
+          "value": 3,
+          "reason": "A small black candle holder mounted on the right wall adds neutral visual interest without emotional weight, contrasting subtly but not driving mood."
+        },
+        "criterion_3": {
+          "value": 5,
+          "reason": "The black metal candle holder with small candles inside appears clean and functional, contributing minimally to a calm aesthetic without overt positive or negative signals."
+        }
+      }
+    },
+    {
+      "name": "Frame_0",
+      "label": "Frame 0",
+      "image_path": "segments/Frame_0.webp",
+      "source": "item",
+      "group": "Frame",
+      "bbox": [
+        286,
+        78,
+        342,
+        131
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2,
+          "reason": "The frame contains a static animal portrait with neutral tones and soft focus, lacking expressive cues or dynamic elements that draw strong emotion."
+        },
+        "criterion_2": {
+          "value": 6.5,
+          "reason": "The small wooden frame holds a soft-focused dog photograph, adding warmth through natural wood tones and gentle subject matter that complements the room’s calm aesthetic."
+        },
+        "criterion_3": {
+          "value": 8.5,
+          "reason": "Frame_0 shows a clean, square photo within the curated shelf display, contributing to warm home decor harmony without harsh elements."
+        }
+      }
+    },
+    {
+      "name": "Frame_1",
+      "label": "Frame 1",
+      "image_path": "segments/Frame_1.webp",
+      "source": "item",
+      "group": "Frame",
+      "bbox": [
+        325,
+        125,
+        400,
+        217
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2,
+          "reason": "The frame contains an abstract painting with green/yellow tones but as an inert picture frame it lacks emotional salience compared to human elements."
+        },
+        "criterion_2": {
+          "value": 6.5,
+          "reason": "The framed artwork’s green/yellow subject against dark background creates gentle warmth, while its centered shelf position adds balanced serenity without overwhelming the scene's overall calm tone."
+        },
+        "criterion_3": {
+          "value": 8.5,
+          "reason": "The framed artwork features soft green and yellow tones that harmonize with warm wood shelves and neutral walls, contributing to a cozy visual flow."
+        }
+      }
+    },
+    {
+      "name": "Frame_2",
+      "label": "Frame 2",
+      "image_path": "segments/Frame_2.webp",
+      "source": "item",
+      "group": "Frame",
+      "bbox": [
+        38,
+        151,
+        106,
+        211
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2,
+          "reason": "The region is a picture frame containing abstract artwork without expressive human features or emotionally charged cues, making its emotional salience weak."
+        },
+        "criterion_2": {
+          "value": 3,
+          "reason": "The frame has a muted color palette matching surrounding wood tones, contributing subtle warmth through its neutral integration into the cozy decor."
+        },
+        "criterion_3": {
+          "value": 9,
+          "reason": "Small framed artwork within the region shows subtle warmth and integration into a curated, cozy setting."
+        }
+      }
+    },
+    {
+      "name": "Frame_3",
+      "label": "Frame 3",
+      "image_path": "segments/Frame_3.webp",
+      "source": "item",
+      "group": "Frame",
+      "bbox": [
+        42,
+        24,
+        94,
+        85
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 1.5,
+          "reason": "The small black-and-white photographic print in \"Frame_3\" shows no discernible emotion or strong visual cue, contributing minimally to overall emotional salience as an inert object with neutral imagery."
+        },
+        "criterion_2": {
+          "value": 4,
+          "reason": "Light wood frame of \"Frame_3\" contains a softly toned photograph, contributing gentle warmth through its subtle textures and homey context without dominating the scene's mood."
+        },
+        "criterion_3": {
+          "value": 8,
+          "reason": "The frame contains a muted black-and-white photograph with soft lighting that blends into the warm room ambiance, contributing to calm harmony."
+        }
+      }
+    },
+    {
+      "name": "Wooden Shelf_0",
+      "label": "Wooden Shelf 0",
+      "image_path": "segments/Wooden Shelf_0.webp",
+      "source": "item",
+      "group": "Wooden Shelf",
+      "bbox": [
+        3,
+        0,
+        593,
+        337
+      ],
+      "ratings": {
+        "criterion_1": {
+          "value": 2,
+          "reason": "The wooden shelf contains only neutral decorative items like books and framed pictures with no expressive or emotionally charged elements; it serves as a passive background component."
+        },
+        "criterion_2": {
+          "value": 7.5,
+          "reason": "Warm wood grain textures and neatly arranged books/decor create gentle visual rhythm, supporting the scene's tranquil ambiance."
+        },
+        "criterion_3": {
+          "value": 8.5,
+          "reason": "Warm wooden texture contrasts gently with neutral walls, supporting organized book/art displays that create a calm home-like atmosphere."
+        }
+      }
+    }
+  ]
+}

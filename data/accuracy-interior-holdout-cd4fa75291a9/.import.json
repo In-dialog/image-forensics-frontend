@@ -1,0 +1,19 @@
+{
+    "job_id":  "accuracy-interior-holdout-cd4fa75291a9",
+    "fingerprint":  "a0918999772dbb3ffb632e2a89b08b7464dd339a8adcf57e4ddee1e1bdd6d9d1",
+    "imported_at":  "2026-10-28T18:18:56.490Z",
+    "files":  [
+                  "metadata.json",
+                  "original/original.webp",
+                  "segments/book stack_0.webp",
+                  "segments/book stack_1.webp",
+                  "segments/book_0.webp",
+                  "segments/person_0.webp",
+                  "segments/picture frame_0.webp",
+                  "segments/picture frame_1.webp",
+                  "segments/picture frame_2.webp",
+                  "segments/vase_0.webp",
+                  "segments/vase_1.webp",
+                  "segments/wooden shelf_0.webp"
+              ]
+}

@@ -1,0 +1,17 @@
+.analytical-view {
+  display: flex;
+  position: absolute;
+  inset: 0;
+}
+
+.analytical-view__main {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.analytical-view__canvas-wrap {
+  position: absolute;
+  inset: 0;
+}

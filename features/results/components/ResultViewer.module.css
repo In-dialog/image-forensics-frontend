@@ -1,0 +1,26 @@
+.viewer {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background: #111;
+  color: #f3f3f3;
+}
+.header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 6px 12px;
+  background: #111;
+  color: #9db0a9;
+  font: 12px/1.5 "consolas", monospace;
+}
+.datasetName { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.state { margin: auto; padding: 32px; }
+@media (max-width: 640px) {
+  .header { flex-wrap: wrap; gap: 8px; padding: 10px 12px; }
+  .datasetName { width: 100%; }
+}

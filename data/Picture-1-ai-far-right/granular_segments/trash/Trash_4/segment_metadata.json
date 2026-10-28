@@ -1,0 +1,24 @@
+{
+  "extracts": [
+    {
+      "name": "Folded Material_0",
+      "bbox": [
+        1,
+        0,
+        75,
+        40
+      ],
+      "bbox_position": [
+        38.0,
+        20.0
+      ],
+      "bbox_size": [
+        74,
+        40
+      ],
+      "group": "Folded Material"
+    }
+  ],
+  "parent_name": "Trash_4",
+  "parent_group": "trash"
+}

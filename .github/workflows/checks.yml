@@ -1,0 +1,50 @@
+name: Frontend checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Node 24 / ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    env:
+      NEXT_TELEMETRY_DISABLED: '1'
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Install locked website dependencies
+        run: npm ci --include=dev --include=optional --no-audit --no-fund
+      - name: Unit tests and offline installer checks
+        run: npm test
+      - name: TypeScript
+        run: npm run typecheck
+      - name: Lint
+        if: runner.os == 'Linux'
+        run: npm run lint
+      # Both builds use ordinary installed modules, including the runner's
+      # platform-specific binaries. No backend, model or deployment is needed.
+      - name: Build local application
+        if: runner.os == 'Linux'
+        run: npm run build:local
+      - name: Build and validate Cloudflare database viewer
+        if: runner.os == 'Linux'
+        run: npm run build:cloudflare

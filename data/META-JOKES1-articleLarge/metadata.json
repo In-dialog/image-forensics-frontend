@@ -1,0 +1,1049 @@
+{
+  "extracts": [
+    {
+      "name": "Man Wearing Black Sweater_0",
+      "bbox": [
+        131,
+        18,
+        341,
+        337
+      ],
+      "bbox_position": [
+        236.0,
+        177.5,
+        1.0
+      ],
+      "bbox_size": [
+        210,
+        319
+      ],
+      "group": "people",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            131.0,
+            177.5
+          ],
+          "end": [
+            0,
+            177.5
+          ],
+          "distance_px": 131.0
+        },
+        "right": {
+          "start": [
+            341.0,
+            177.5
+          ],
+          "end": [
+            600,
+            177.5
+          ],
+          "distance_px": 259.0
+        },
+        "top": {
+          "start": [
+            236.0,
+            18.0
+          ],
+          "end": [
+            236.0,
+            0
+          ],
+          "distance_px": 18.0
+        },
+        "bottom": {
+          "start": [
+            236.0,
+            337.0
+          ],
+          "end": [
+            236.0,
+            338
+          ],
+          "distance_px": 1.0
+        }
+      }
+    },
+    {
+      "name": "Book_0",
+      "bbox": [
+        62,
+        285,
+        126,
+        334
+      ],
+      "bbox_position": [
+        94.0,
+        309.5,
+        0.517647
+      ],
+      "bbox_size": [
+        64,
+        49
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            62.0,
+            309.5
+          ],
+          "end": [
+            0,
+            309.5
+          ],
+          "distance_px": 62.0
+        },
+        "right": {
+          "start": [
+            126.0,
+            309.5
+          ],
+          "end": [
+            600,
+            309.5
+          ],
+          "distance_px": 474.0
+        },
+        "top": {
+          "start": [
+            94.0,
+            285.0
+          ],
+          "end": [
+            94.0,
+            0
+          ],
+          "distance_px": 285.0
+        },
+        "bottom": {
+          "start": [
+            94.0,
+            334.0
+          ],
+          "end": [
+            94.0,
+            338
+          ],
+          "distance_px": 4.0
+        }
+      }
+    },
+    {
+      "name": "Book_1",
+      "bbox": [
+        37,
+        285,
+        63,
+        334
+      ],
+      "bbox_position": [
+        50.0,
+        309.5,
+        0.533333
+      ],
+      "bbox_size": [
+        26,
+        49
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            37.0,
+            309.5
+          ],
+          "end": [
+            0,
+            309.5
+          ],
+          "distance_px": 37.0
+        },
+        "right": {
+          "start": [
+            63.0,
+            309.5
+          ],
+          "end": [
+            600,
+            309.5
+          ],
+          "distance_px": 537.0
+        },
+        "top": {
+          "start": [
+            50.0,
+            285.0
+          ],
+          "end": [
+            50.0,
+            0
+          ],
+          "distance_px": 285.0
+        },
+        "bottom": {
+          "start": [
+            50.0,
+            334.0
+          ],
+          "end": [
+            50.0,
+            338
+          ],
+          "distance_px": 4.0
+        }
+      }
+    },
+    {
+      "name": "Book_2",
+      "bbox": [
+        406,
+        259,
+        426,
+        327
+      ],
+      "bbox_position": [
+        416.0,
+        293.0,
+        0.266667
+      ],
+      "bbox_size": [
+        20,
+        68
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            406.0,
+            293.0
+          ],
+          "end": [
+            0,
+            293.0
+          ],
+          "distance_px": 406.0
+        },
+        "right": {
+          "start": [
+            426.0,
+            293.0
+          ],
+          "end": [
+            600,
+            293.0
+          ],
+          "distance_px": 174.0
+        },
+        "top": {
+          "start": [
+            416.0,
+            259.0
+          ],
+          "end": [
+            416.0,
+            0
+          ],
+          "distance_px": 259.0
+        },
+        "bottom": {
+          "start": [
+            416.0,
+            327.0
+          ],
+          "end": [
+            416.0,
+            338
+          ],
+          "distance_px": 11.0
+        }
+      }
+    },
+    {
+      "name": "Book_3",
+      "bbox": [
+        426,
+        259,
+        446,
+        327
+      ],
+      "bbox_position": [
+        436.0,
+        293.0,
+        0.266667
+      ],
+      "bbox_size": [
+        20,
+        68
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            426.0,
+            293.0
+          ],
+          "end": [
+            0,
+            293.0
+          ],
+          "distance_px": 426.0
+        },
+        "right": {
+          "start": [
+            446.0,
+            293.0
+          ],
+          "end": [
+            600,
+            293.0
+          ],
+          "distance_px": 154.0
+        },
+        "top": {
+          "start": [
+            436.0,
+            259.0
+          ],
+          "end": [
+            436.0,
+            0
+          ],
+          "distance_px": 259.0
+        },
+        "bottom": {
+          "start": [
+            436.0,
+            327.0
+          ],
+          "end": [
+            436.0,
+            338
+          ],
+          "distance_px": 11.0
+        }
+      }
+    },
+    {
+      "name": "Book_4",
+      "bbox": [
+        445,
+        259,
+        466,
+        327
+      ],
+      "bbox_position": [
+        455.5,
+        293.0,
+        0.25098
+      ],
+      "bbox_size": [
+        21,
+        68
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            445.0,
+            293.0
+          ],
+          "end": [
+            0,
+            293.0
+          ],
+          "distance_px": 445.0
+        },
+        "right": {
+          "start": [
+            466.0,
+            293.0
+          ],
+          "end": [
+            600,
+            293.0
+          ],
+          "distance_px": 134.0
+        },
+        "top": {
+          "start": [
+            455.5,
+            259.0
+          ],
+          "end": [
+            455.5,
+            0
+          ],
+          "distance_px": 259.0
+        },
+        "bottom": {
+          "start": [
+            455.5,
+            327.0
+          ],
+          "end": [
+            455.5,
+            338
+          ],
+          "distance_px": 11.0
+        }
+      }
+    },
+    {
+      "name": "Book_5",
+      "bbox": [
+        465,
+        259,
+        486,
+        327
+      ],
+      "bbox_position": [
+        475.5,
+        293.0,
+        0.266667
+      ],
+      "bbox_size": [
+        21,
+        68
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            465.0,
+            293.0
+          ],
+          "end": [
+            0,
+            293.0
+          ],
+          "distance_px": 465.0
+        },
+        "right": {
+          "start": [
+            486.0,
+            293.0
+          ],
+          "end": [
+            600,
+            293.0
+          ],
+          "distance_px": 114.0
+        },
+        "top": {
+          "start": [
+            475.5,
+            259.0
+          ],
+          "end": [
+            475.5,
+            0
+          ],
+          "distance_px": 259.0
+        },
+        "bottom": {
+          "start": [
+            475.5,
+            327.0
+          ],
+          "end": [
+            475.5,
+            338
+          ],
+          "distance_px": 11.0
+        }
+      }
+    },
+    {
+      "name": "Book_6",
+      "bbox": [
+        485,
+        259,
+        506,
+        327
+      ],
+      "bbox_position": [
+        495.5,
+        293.0,
+        0.360784
+      ],
+      "bbox_size": [
+        21,
+        68
+      ],
+      "group": "Book",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            485.0,
+            293.0
+          ],
+          "end": [
+            0,
+            293.0
+          ],
+          "distance_px": 485.0
+        },
+        "right": {
+          "start": [
+            506.0,
+            293.0
+          ],
+          "end": [
+            600,
+            293.0
+          ],
+          "distance_px": 94.0
+        },
+        "top": {
+          "start": [
+            495.5,
+            259.0
+          ],
+          "end": [
+            495.5,
+            0
+          ],
+          "distance_px": 259.0
+        },
+        "bottom": {
+          "start": [
+            495.5,
+            327.0
+          ],
+          "end": [
+            495.5,
+            338
+          ],
+          "distance_px": 11.0
+        }
+      }
+    },
+    {
+      "name": "Bottle_0",
+      "bbox": [
+        360,
+        4,
+        378,
+        68
+      ],
+      "bbox_position": [
+        369.0,
+        36.0,
+        0.388235
+      ],
+      "bbox_size": [
+        18,
+        64
+      ],
+      "group": "Bottle",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            360.0,
+            36.0
+          ],
+          "end": [
+            0,
+            36.0
+          ],
+          "distance_px": 360.0
+        },
+        "right": {
+          "start": [
+            378.0,
+            36.0
+          ],
+          "end": [
+            600,
+            36.0
+          ],
+          "distance_px": 222.0
+        },
+        "top": {
+          "start": [
+            369.0,
+            4.0
+          ],
+          "end": [
+            369.0,
+            0
+          ],
+          "distance_px": 4.0
+        },
+        "bottom": {
+          "start": [
+            369.0,
+            68.0
+          ],
+          "end": [
+            369.0,
+            338
+          ],
+          "distance_px": 270.0
+        }
+      }
+    },
+    {
+      "name": "Candle Holder_0",
+      "bbox": [
+        514,
+        41,
+        552,
+        126
+      ],
+      "bbox_position": [
+        533.0,
+        83.5,
+        0.113725
+      ],
+      "bbox_size": [
+        38,
+        85
+      ],
+      "group": "Candle Holder",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            514.0,
+            83.5
+          ],
+          "end": [
+            0,
+            83.5
+          ],
+          "distance_px": 514.0
+        },
+        "right": {
+          "start": [
+            552.0,
+            83.5
+          ],
+          "end": [
+            600,
+            83.5
+          ],
+          "distance_px": 48.0
+        },
+        "top": {
+          "start": [
+            533.0,
+            41.0
+          ],
+          "end": [
+            533.0,
+            0
+          ],
+          "distance_px": 41.0
+        },
+        "bottom": {
+          "start": [
+            533.0,
+            126.0
+          ],
+          "end": [
+            533.0,
+            338
+          ],
+          "distance_px": 212.0
+        }
+      }
+    },
+    {
+      "name": "Frame_0",
+      "bbox": [
+        286,
+        78,
+        342,
+        131
+      ],
+      "bbox_position": [
+        314.0,
+        104.5,
+        0.678431
+      ],
+      "bbox_size": [
+        56,
+        53
+      ],
+      "group": "Frame",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            286.0,
+            104.5
+          ],
+          "end": [
+            0,
+            104.5
+          ],
+          "distance_px": 286.0
+        },
+        "right": {
+          "start": [
+            342.0,
+            104.5
+          ],
+          "end": [
+            600,
+            104.5
+          ],
+          "distance_px": 258.0
+        },
+        "top": {
+          "start": [
+            314.0,
+            78.0
+          ],
+          "end": [
+            314.0,
+            0
+          ],
+          "distance_px": 78.0
+        },
+        "bottom": {
+          "start": [
+            314.0,
+            131.0
+          ],
+          "end": [
+            314.0,
+            338
+          ],
+          "distance_px": 207.0
+        }
+      }
+    },
+    {
+      "name": "Frame_1",
+      "bbox": [
+        325,
+        125,
+        400,
+        217
+      ],
+      "bbox_position": [
+        362.5,
+        171.0,
+        0.333333
+      ],
+      "bbox_size": [
+        75,
+        92
+      ],
+      "group": "Frame",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            325.0,
+            171.0
+          ],
+          "end": [
+            0,
+            171.0
+          ],
+          "distance_px": 325.0
+        },
+        "right": {
+          "start": [
+            400.0,
+            171.0
+          ],
+          "end": [
+            600,
+            171.0
+          ],
+          "distance_px": 200.0
+        },
+        "top": {
+          "start": [
+            362.5,
+            125.0
+          ],
+          "end": [
+            362.5,
+            0
+          ],
+          "distance_px": 125.0
+        },
+        "bottom": {
+          "start": [
+            362.5,
+            217.0
+          ],
+          "end": [
+            362.5,
+            338
+          ],
+          "distance_px": 121.0
+        }
+      }
+    },
+    {
+      "name": "Frame_2",
+      "bbox": [
+        38,
+        151,
+        106,
+        211
+      ],
+      "bbox_position": [
+        72.0,
+        181.0,
+        0.545098
+      ],
+      "bbox_size": [
+        68,
+        60
+      ],
+      "group": "Frame",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            38.0,
+            181.0
+          ],
+          "end": [
+            0,
+            181.0
+          ],
+          "distance_px": 38.0
+        },
+        "right": {
+          "start": [
+            106.0,
+            181.0
+          ],
+          "end": [
+            600,
+            181.0
+          ],
+          "distance_px": 494.0
+        },
+        "top": {
+          "start": [
+            72.0,
+            151.0
+          ],
+          "end": [
+            72.0,
+            0
+          ],
+          "distance_px": 151.0
+        },
+        "bottom": {
+          "start": [
+            72.0,
+            211.0
+          ],
+          "end": [
+            72.0,
+            338
+          ],
+          "distance_px": 127.0
+        }
+      }
+    },
+    {
+      "name": "Frame_3",
+      "bbox": [
+        42,
+        24,
+        94,
+        85
+      ],
+      "bbox_position": [
+        68.0,
+        54.5,
+        0.498039
+      ],
+      "bbox_size": [
+        52,
+        61
+      ],
+      "group": "Frame",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            42.0,
+            54.5
+          ],
+          "end": [
+            0,
+            54.5
+          ],
+          "distance_px": 42.0
+        },
+        "right": {
+          "start": [
+            94.0,
+            54.5
+          ],
+          "end": [
+            600,
+            54.5
+          ],
+          "distance_px": 506.0
+        },
+        "top": {
+          "start": [
+            68.0,
+            24.0
+          ],
+          "end": [
+            68.0,
+            0
+          ],
+          "distance_px": 24.0
+        },
+        "bottom": {
+          "start": [
+            68.0,
+            85.0
+          ],
+          "end": [
+            68.0,
+            338
+          ],
+          "distance_px": 253.0
+        }
+      }
+    },
+    {
+      "name": "Vase_0",
+      "bbox": [
+        87,
+        245,
+        118,
+        334
+      ],
+      "bbox_position": [
+        102.5,
+        289.5,
+        0.411765
+      ],
+      "bbox_size": [
+        31,
+        89
+      ],
+      "group": "Vase",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            87.0,
+            289.5
+          ],
+          "end": [
+            0,
+            289.5
+          ],
+          "distance_px": 87.0
+        },
+        "right": {
+          "start": [
+            118.0,
+            289.5
+          ],
+          "end": [
+            600,
+            289.5
+          ],
+          "distance_px": 482.0
+        },
+        "top": {
+          "start": [
+            102.5,
+            245.0
+          ],
+          "end": [
+            102.5,
+            0
+          ],
+          "distance_px": 245.0
+        },
+        "bottom": {
+          "start": [
+            102.5,
+            334.0
+          ],
+          "end": [
+            102.5,
+            338
+          ],
+          "distance_px": 4.0
+        }
+      }
+    },
+    {
+      "name": "Wooden Shelf_0",
+      "bbox": [
+        3,
+        0,
+        593,
+        337
+      ],
+      "bbox_position": [
+        298.0,
+        168.5,
+        0.721569
+      ],
+      "bbox_size": [
+        590,
+        337
+      ],
+      "group": "Wooden Shelf",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            3.0,
+            168.5
+          ],
+          "end": [
+            0,
+            168.5
+          ],
+          "distance_px": 3.0
+        },
+        "right": {
+          "start": [
+            593.0,
+            168.5
+          ],
+          "end": [
+            600,
+            168.5
+          ],
+          "distance_px": 7.0
+        },
+        "top": {
+          "start": [
+            298.0,
+            0.0
+          ],
+          "end": [
+            298.0,
+            0
+          ],
+          "distance_px": 0.0
+        },
+        "bottom": {
+          "start": [
+            298.0,
+            337.0
+          ],
+          "end": [
+            298.0,
+            338
+          ],
+          "distance_px": 1.0
+        }
+      }
+    }
+  ],
+  "source_image": "META-JOKES1-articleLarge",
+  "source_image_path": "META-JOKES1-articleLarge.webp",
+  "image_width": 600,
+  "image_height": 338,
+  "output_folder": "META-JOKES1-articleLarge"
+}

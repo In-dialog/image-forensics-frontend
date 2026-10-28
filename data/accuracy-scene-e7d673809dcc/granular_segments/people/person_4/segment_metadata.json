@@ -1,0 +1,114 @@
+{
+  "extracts": [
+    {
+      "name": "face_0",
+      "bbox": [
+        34,
+        0,
+        79,
+        98
+      ],
+      "bbox_position": [
+        56.5,
+        49.0
+      ],
+      "bbox_size": [
+        45,
+        98
+      ],
+      "group": "people"
+    },
+    {
+      "name": "hair_0",
+      "bbox": [
+        38,
+        0,
+        70,
+        35
+      ],
+      "bbox_position": [
+        54.0,
+        17.5
+      ],
+      "bbox_size": [
+        32,
+        35
+      ],
+      "group": "people"
+    },
+    {
+      "name": "hoodie_0",
+      "bbox": [
+        0,
+        0,
+        98,
+        181
+      ],
+      "bbox_position": [
+        49.0,
+        90.5
+      ],
+      "bbox_size": [
+        98,
+        181
+      ],
+      "group": "people"
+    },
+    {
+      "name": "pants_0",
+      "bbox": [
+        38,
+        97,
+        98,
+        237
+      ],
+      "bbox_position": [
+        68.0,
+        167.0
+      ],
+      "bbox_size": [
+        60,
+        140
+      ],
+      "group": "people"
+    },
+    {
+      "name": "shoes_0",
+      "bbox": [
+        1,
+        236,
+        26,
+        278
+      ],
+      "bbox_position": [
+        13.5,
+        257.0
+      ],
+      "bbox_size": [
+        25,
+        42
+      ],
+      "group": "people"
+    },
+    {
+      "name": "shoes_1",
+      "bbox": [
+        82,
+        243,
+        98,
+        278
+      ],
+      "bbox_position": [
+        90.0,
+        260.5
+      ],
+      "bbox_size": [
+        16,
+        35
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "person_4",
+  "parent_group": "people"
+}

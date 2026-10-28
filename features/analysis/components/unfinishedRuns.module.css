@@ -1,0 +1,30 @@
+.root { position: static; min-width: 0; }
+.toggle, .actions button, .resumeAll, .close { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 40px; padding: 8px 12px; border: 1px solid #355447; border-radius: 0; color: #dfebe4; background: #101916; font: inherit; font-size: 13px; cursor: pointer; }
+.toggle { min-height: 44px; white-space: nowrap; }
+.toggle:disabled { opacity: .5; cursor: default; }
+.badge { min-width: 20px; font-variant-numeric: tabular-nums; color: #fff; font-weight: 700; }
+.toggle[aria-expanded="true"], .toggle:hover:not(:disabled), .actions button:hover:not(:disabled), .resumeAll:hover:not(:disabled) { border-color: var(--color-accent); color: var(--color-accent); }
+.panel { position: absolute; top: calc(100% + 10px); right: 0; z-index: 30; width: min(560px, calc(100vw - 40px)); max-height: min(680px, 65dvh); overflow: auto; background: #0b100e; border: 1px solid #456252; padding: 18px; box-shadow: 0 12px 30px #0008; scrollbar-color: #456252 transparent; }
+.panel header { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 15px; }
+.panel h2 { margin: 0; color: #eef5f1; font-size: 16px; font-weight: 650; }
+.close { border: 0; background: none; padding: 0; width: 36px; min-height: 36px; font-size: 23px; }
+.resumeAll { width: 100%; justify-content: flex-start; margin-bottom: 10px; color: var(--color-accent); }
+.resumeAll > span { margin-left: auto; font-variant-numeric: tabular-nums; }
+.list { list-style: none; margin: 0; padding: 0; }
+.list li { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 8px 12px; padding: 16px 0; border-bottom: 1px solid #294238; }
+.list li:last-child { border-bottom: 0; padding-bottom: 0; }
+.order { color: #8ca89a; font-size: 12px; padding-top: 5px; }
+.identity { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.identity button { border: 0; background: none; color: #edf2ef; text-align: left; padding: 0; font: inherit; font-size: 14px; line-height: 1.5; overflow-wrap: anywhere; cursor: pointer; }
+.identity span, .identity small { color: #a8bcb0; font-size: 12px; line-height: 1.5; }
+.actions { grid-column: 2; display: flex; flex-wrap: wrap; gap: 8px; }
+.actions button:disabled, .resumeAll:disabled { opacity: .5; cursor: wait; }
+.confirmLabel { width: 100%; color: #edf2ef; font-size: 13px; padding: 4px 0; }
+.root button:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+.error, .empty { font-size: 13px; line-height: 1.5; overflow-wrap: anywhere; color: #a8bcb0; }
+.error { color: #efa197; }
+@media (max-width: 620px) {
+  .root { position: static; }
+  .panel { position: fixed; top: 50%; transform: translateY(-50%); right: 16px; left: 16px; width: auto; padding: 14px; max-height: calc(100dvh - 32px); }
+  .toggle { padding: 8px 10px; font-size: 12px; }
+}

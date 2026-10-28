@@ -1,0 +1,78 @@
+{
+  "extracts": [
+    {
+      "name": "Bookshelf Frame_0",
+      "bbox": [
+        0,
+        0,
+        1199,
+        625
+      ],
+      "bbox_position": [
+        599.5,
+        312.5
+      ],
+      "bbox_size": [
+        1199,
+        625
+      ],
+      "group": "Bookshelf Frame"
+    },
+    {
+      "name": "Shelf Divider_0",
+      "bbox": [
+        344,
+        21,
+        834,
+        250
+      ],
+      "bbox_position": [
+        589.0,
+        135.5
+      ],
+      "bbox_size": [
+        490,
+        229
+      ],
+      "group": "Shelf Divider"
+    },
+    {
+      "name": "Shelf Divider_1",
+      "bbox": [
+        344,
+        244,
+        834,
+        313
+      ],
+      "bbox_position": [
+        589.0,
+        278.5
+      ],
+      "bbox_size": [
+        490,
+        69
+      ],
+      "group": "Shelf Divider"
+    },
+    {
+      "name": "Shelf Divider_2",
+      "bbox": [
+        344,
+        312,
+        834,
+        375
+      ],
+      "bbox_position": [
+        589.0,
+        343.5
+      ],
+      "bbox_size": [
+        490,
+        63
+      ],
+      "group": "Shelf Divider"
+    }
+  ],
+  "parent_name": "Wooden Paneling_0",
+  "parent_group": "wooden paneling"
+}

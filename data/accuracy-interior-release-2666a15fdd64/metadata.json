@@ -1,0 +1,597 @@
+{
+  "extracts": [
+    {
+      "name": "person_0",
+      "label": "person",
+      "category": "people",
+      "sam_score": 0.987088680267334,
+      "bbox": [
+        130,
+        18,
+        342,
+        336
+      ],
+      "bbox_position": [
+        236.0,
+        177.0
+      ],
+      "bbox_size": [
+        212,
+        318
+      ],
+      "group": "people"
+    },
+    {
+      "name": "wooden shelf_0",
+      "label": "wooden shelf",
+      "category": "objects",
+      "sam_score": 0.10113326460123062,
+      "bbox": [
+        7,
+        11,
+        485,
+        327
+      ],
+      "bbox_position": [
+        246.0,
+        169.0
+      ],
+      "bbox_size": [
+        478,
+        316
+      ],
+      "group": "wooden shelf"
+    },
+    {
+      "name": "picture frame_0",
+      "label": "picture frame",
+      "category": "objects",
+      "sam_score": 0.9744256138801575,
+      "bbox": [
+        40,
+        24,
+        96,
+        85
+      ],
+      "bbox_position": [
+        68.0,
+        54.5
+      ],
+      "bbox_size": [
+        56,
+        61
+      ],
+      "group": "picture frame"
+    },
+    {
+      "name": "book_0",
+      "label": "book",
+      "category": "objects",
+      "sam_score": 0.9445146322250366,
+      "bbox": [
+        360,
+        5,
+        378,
+        68
+      ],
+      "bbox_position": [
+        369.0,
+        36.5
+      ],
+      "bbox_size": [
+        18,
+        63
+      ],
+      "group": "book"
+    },
+    {
+      "name": "vase_0",
+      "label": "vase",
+      "category": "objects",
+      "sam_score": 0.14249658584594727,
+      "bbox": [
+        444,
+        3,
+        478,
+        64
+      ],
+      "bbox_position": [
+        461.0,
+        33.5
+      ],
+      "bbox_size": [
+        34,
+        61
+      ],
+      "group": "vase"
+    },
+    {
+      "name": "picture frame_1",
+      "label": "picture frame",
+      "category": "objects",
+      "sam_score": 0.9171724319458008,
+      "bbox": [
+        288,
+        77,
+        337,
+        127
+      ],
+      "bbox_position": [
+        312.5,
+        102.0
+      ],
+      "bbox_size": [
+        49,
+        50
+      ],
+      "group": "picture frame"
+    },
+    {
+      "name": "book stack_0",
+      "label": "book stack",
+      "category": "objects",
+      "sam_score": 0.9681873321533203,
+      "bbox": [
+        405,
+        253,
+        478,
+        322
+      ],
+      "bbox_position": [
+        441.5,
+        287.5
+      ],
+      "bbox_size": [
+        73,
+        69
+      ],
+      "group": "book stack"
+    },
+    {
+      "name": "vase_1",
+      "label": "vase",
+      "category": "objects",
+      "sam_score": 0.1162014976143837,
+      "bbox": [
+        82,
+        243,
+        118,
+        318
+      ],
+      "bbox_position": [
+        100.0,
+        280.5
+      ],
+      "bbox_size": [
+        36,
+        75
+      ],
+      "group": "vase"
+    },
+    {
+      "name": "picture frame_2",
+      "label": "picture frame",
+      "category": "objects",
+      "sam_score": 0.9456502199172974,
+      "bbox": [
+        288,
+        123,
+        402,
+        220
+      ],
+      "bbox_position": [
+        345.0,
+        171.5
+      ],
+      "bbox_size": [
+        114,
+        97
+      ],
+      "group": "picture frame"
+    },
+    {
+      "name": "book stack_1",
+      "label": "book stack",
+      "category": "objects",
+      "sam_score": 0.11116382479667664,
+      "bbox": [
+        31,
+        278,
+        130,
+        328
+      ],
+      "bbox_position": [
+        80.5,
+        303.0
+      ],
+      "bbox_size": [
+        99,
+        50
+      ],
+      "group": "book stack"
+    },
+    {
+      "name": "wooden shelf_1",
+      "label": "wooden shelf",
+      "category": "objects",
+      "sam_score": 0.29273152351379395,
+      "bbox": [
+        14,
+        32,
+        128,
+        96
+      ],
+      "bbox_position": [
+        71.0,
+        64.0
+      ],
+      "bbox_size": [
+        114,
+        64
+      ],
+      "group": "wooden shelf"
+    },
+    {
+      "name": "picture frame_3",
+      "label": "picture frame",
+      "category": "objects",
+      "sam_score": 0.10718356817960739,
+      "bbox": [
+        32,
+        23,
+        82,
+        74
+      ],
+      "bbox_position": [
+        57.0,
+        48.5
+      ],
+      "bbox_size": [
+        50,
+        51
+      ],
+      "group": "picture frame"
+    },
+    {
+      "name": "picture frame_4",
+      "label": "picture frame",
+      "category": "objects",
+      "sam_score": 0.8353480696678162,
+      "bbox": [
+        32,
+        138,
+        82,
+        183
+      ],
+      "bbox_position": [
+        57.0,
+        160.5
+      ],
+      "bbox_size": [
+        50,
+        45
+      ],
+      "group": "picture frame"
+    },
+    {
+      "name": "wooden shelf_2",
+      "label": "wooden shelf",
+      "category": "objects",
+      "sam_score": 0.2624017894268036,
+      "bbox": [
+        331,
+        41,
+        487,
+        90
+      ],
+      "bbox_position": [
+        409.0,
+        65.5
+      ],
+      "bbox_size": [
+        156,
+        49
+      ],
+      "group": "wooden shelf"
+    },
+    {
+      "name": "bottle with dark liquid and white cap_0",
+      "label": "bottle with dark liquid and white cap",
+      "category": "objects",
+      "sam_score": 0.1046033725142479,
+      "bbox": [
+        349,
+        5,
+        373,
+        59
+      ],
+      "bbox_position": [
+        361.0,
+        32.0
+      ],
+      "bbox_size": [
+        24,
+        54
+      ],
+      "group": "bottle with dark liquid and white cap"
+    },
+    {
+      "name": "stack of beige ceramic bowls_0",
+      "label": "stack of beige ceramic bowls",
+      "category": "objects",
+      "sam_score": 0.17113415896892548,
+      "bbox": [
+        417,
+        5,
+        461,
+        59
+      ],
+      "bbox_position": [
+        439.0,
+        32.0
+      ],
+      "bbox_size": [
+        44,
+        54
+      ],
+      "group": "stack of beige ceramic bowls"
+    },
+    {
+      "name": "wooden bookshelf structure_0",
+      "label": "wooden bookshelf structure",
+      "category": "objects",
+      "sam_score": 0.1947721689939499,
+      "bbox": [
+        498,
+        31,
+        560,
+        110
+      ],
+      "bbox_position": [
+        529.0,
+        70.5
+      ],
+      "bbox_size": [
+        62,
+        79
+      ],
+      "group": "wooden bookshelf structure"
+    },
+    {
+      "name": "black wall-mounted candle holder with white wax candle_0",
+      "label": "black wall-mounted candle holder with white wax candle",
+      "category": "objects",
+      "sam_score": 0.23713546991348267,
+      "bbox": [
+        511,
+        41,
+        549,
+        105
+      ],
+      "bbox_position": [
+        530.0,
+        73.0
+      ],
+      "bbox_size": [
+        38,
+        64
+      ],
+      "group": "black wall-mounted candle holder with white wax candle"
+    },
+    {
+      "name": "wooden shelf_3",
+      "label": "wooden shelf",
+      "category": "objects",
+      "sam_score": 0.1009521484375,
+      "bbox": [
+        19,
+        188,
+        100,
+        245
+      ],
+      "bbox_position": [
+        59.5,
+        216.5
+      ],
+      "bbox_size": [
+        81,
+        57
+      ],
+      "group": "wooden shelf"
+    },
+    {
+      "name": "picture frame_5",
+      "label": "picture frame",
+      "category": "objects",
+      "sam_score": 0.925981342792511,
+      "bbox": [
+        37,
+        161,
+        90,
+        197
+      ],
+      "bbox_position": [
+        63.5,
+        179.0
+      ],
+      "bbox_size": [
+        53,
+        36
+      ],
+      "group": "picture frame"
+    },
+    {
+      "name": "statue on pedestal_0",
+      "label": "statue on pedestal",
+      "category": "objects",
+      "sam_score": 0.9233821630477905,
+      "bbox": [
+        42,
+        188,
+        74,
+        227
+      ],
+      "bbox_position": [
+        58.0,
+        207.5
+      ],
+      "bbox_size": [
+        32,
+        39
+      ],
+      "group": "statue on pedestal"
+    },
+    {
+      "name": "wooden shelf_4",
+      "label": "wooden shelf",
+      "category": "objects",
+      "sam_score": 0.2825944423675537,
+      "bbox": [
+        325,
+        214,
+        437,
+        230
+      ],
+      "bbox_position": [
+        381.0,
+        222.0
+      ],
+      "bbox_size": [
+        112,
+        16
+      ],
+      "group": "wooden shelf"
+    },
+    {
+      "name": "wooden shelf_5",
+      "label": "wooden shelf",
+      "category": "objects",
+      "sam_score": 0.28627777099609375,
+      "bbox": [
+        355,
+        306,
+        462,
+        322
+      ],
+      "bbox_position": [
+        408.5,
+        314.0
+      ],
+      "bbox_size": [
+        107,
+        16
+      ],
+      "group": "wooden shelf"
+    },
+    {
+      "name": "picture frame_6",
+      "label": "picture frame",
+      "category": "objects",
+      "sam_score": 0.8238600492477417,
+      "bbox": [
+        325,
+        154,
+        398,
+        216
+      ],
+      "bbox_position": [
+        361.5,
+        185.0
+      ],
+      "bbox_size": [
+        73,
+        62
+      ],
+      "group": "picture frame"
+    },
+    {
+      "name": "book_1",
+      "label": "book",
+      "category": "objects",
+      "sam_score": 0.11491751670837402,
+      "bbox": [
+        396,
+        254,
+        410,
+        318
+      ],
+      "bbox_position": [
+        403.0,
+        286.0
+      ],
+      "bbox_size": [
+        14,
+        64
+      ],
+      "group": "book"
+    },
+    {
+      "name": "book_2",
+      "label": "book",
+      "category": "objects",
+      "sam_score": 0.11751527339220047,
+      "bbox": [
+        403,
+        254,
+        418,
+        318
+      ],
+      "bbox_position": [
+        410.5,
+        286.0
+      ],
+      "bbox_size": [
+        15,
+        64
+      ],
+      "group": "book"
+    },
+    {
+      "name": "book_3",
+      "label": "book",
+      "category": "objects",
+      "sam_score": 0.12231862545013428,
+      "bbox": [
+        406,
+        254,
+        421,
+        318
+      ],
+      "bbox_position": [
+        413.5,
+        286.0
+      ],
+      "bbox_size": [
+        15,
+        64
+      ],
+      "group": "book"
+    },
+    {
+      "name": "book_4",
+      "label": "book",
+      "category": "objects",
+      "sam_score": 0.1080801784992218,
+      "bbox": [
+        411,
+        254,
+        426,
+        318
+      ],
+      "bbox_position": [
+        418.5,
+        286.0
+      ],
+      "bbox_size": [
+        15,
+        64
+      ],
+      "group": "book"
+    }
+  ],
+  "source_image": "accuracy-interior-release-2666a15fdd64",
+  "source_image_path": "accuracy-interior-release-2666a15fdd64.webp",
+  "image_width": 600,
+  "image_height": 338,
+  "output_folder": "accuracy-interior-release-2666a15fdd64"
+}

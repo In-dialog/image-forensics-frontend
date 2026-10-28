@@ -1,0 +1,42 @@
+{
+  "extracts": [
+    {
+      "name": "Base_0",
+      "bbox": [
+        22,
+        25,
+        37,
+        33
+      ],
+      "bbox_position": [
+        29.5,
+        29.0
+      ],
+      "bbox_size": [
+        15,
+        8
+      ],
+      "group": "Base"
+    },
+    {
+      "name": "Person_0",
+      "bbox": [
+        22,
+        5,
+        37,
+        26
+      ],
+      "bbox_position": [
+        29.5,
+        15.5
+      ],
+      "bbox_size": [
+        15,
+        21
+      ],
+      "group": "Person"
+    }
+  ],
+  "parent_name": "Book_0",
+  "parent_group": "book"
+}

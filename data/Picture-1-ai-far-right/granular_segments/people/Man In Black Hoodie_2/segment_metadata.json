@@ -1,0 +1,78 @@
+{
+  "extracts": [
+    {
+      "name": "Arm_0",
+      "bbox": [
+        67,
+        39,
+        90,
+        82
+      ],
+      "bbox_position": [
+        78.5,
+        60.5
+      ],
+      "bbox_size": [
+        23,
+        43
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Arm_1",
+      "bbox": [
+        0,
+        43,
+        15,
+        79
+      ],
+      "bbox_position": [
+        7.5,
+        61.0
+      ],
+      "bbox_size": [
+        15,
+        36
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Hood_0",
+      "bbox": [
+        25,
+        0,
+        57,
+        60
+      ],
+      "bbox_position": [
+        41.0,
+        30.0
+      ],
+      "bbox_size": [
+        32,
+        60
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Vest_0",
+      "bbox": [
+        14,
+        33,
+        70,
+        81
+      ],
+      "bbox_position": [
+        42.0,
+        57.0
+      ],
+      "bbox_size": [
+        56,
+        48
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "Man In Black Hoodie_2",
+  "parent_group": "people"
+}

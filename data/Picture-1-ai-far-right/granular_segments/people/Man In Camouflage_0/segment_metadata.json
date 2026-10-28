@@ -1,0 +1,240 @@
+{
+  "extracts": [
+    {
+      "name": "Arms_0",
+      "bbox": [
+        31,
+        73,
+        89,
+        96
+      ],
+      "bbox_position": [
+        60.0,
+        84.5
+      ],
+      "bbox_size": [
+        58,
+        23
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Arms_1",
+      "bbox": [
+        3,
+        72,
+        89,
+        98
+      ],
+      "bbox_position": [
+        46.0,
+        85.0
+      ],
+      "bbox_size": [
+        86,
+        26
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Arms_2",
+      "bbox": [
+        209,
+        66,
+        271,
+        88
+      ],
+      "bbox_position": [
+        240.0,
+        77.0
+      ],
+      "bbox_size": [
+        62,
+        22
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Clothing_0",
+      "bbox": [
+        74,
+        137,
+        224,
+        267
+      ],
+      "bbox_position": [
+        149.0,
+        202.0
+      ],
+      "bbox_size": [
+        150,
+        130
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Clothing_1",
+      "bbox": [
+        76,
+        43,
+        222,
+        268
+      ],
+      "bbox_position": [
+        149.0,
+        155.5
+      ],
+      "bbox_size": [
+        146,
+        225
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Clothing_2",
+      "bbox": [
+        134,
+        0,
+        173,
+        67
+      ],
+      "bbox_position": [
+        153.5,
+        33.5
+      ],
+      "bbox_size": [
+        39,
+        67
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Face_0",
+      "bbox": [
+        153,
+        17,
+        172,
+        28
+      ],
+      "bbox_position": [
+        162.5,
+        22.5
+      ],
+      "bbox_size": [
+        19,
+        11
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Feet_0",
+      "bbox": [
+        58,
+        264,
+        92,
+        298
+      ],
+      "bbox_position": [
+        75.0,
+        281.0
+      ],
+      "bbox_size": [
+        34,
+        34
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Feet_1",
+      "bbox": [
+        206,
+        244,
+        224,
+        272
+      ],
+      "bbox_position": [
+        215.0,
+        258.0
+      ],
+      "bbox_size": [
+        18,
+        28
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Legs_0",
+      "bbox": [
+        156,
+        138,
+        224,
+        265
+      ],
+      "bbox_position": [
+        190.0,
+        201.5
+      ],
+      "bbox_size": [
+        68,
+        127
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Legs_1",
+      "bbox": [
+        74,
+        142,
+        153,
+        267
+      ],
+      "bbox_position": [
+        113.5,
+        204.5
+      ],
+      "bbox_size": [
+        79,
+        125
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Legs_2",
+      "bbox": [
+        58,
+        142,
+        152,
+        297
+      ],
+      "bbox_position": [
+        105.0,
+        219.5
+      ],
+      "bbox_size": [
+        94,
+        155
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Vest_0",
+      "bbox": [
+        112,
+        43,
+        191,
+        137
+      ],
+      "bbox_position": [
+        151.5,
+        90.0
+      ],
+      "bbox_size": [
+        79,
+        94
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "Man In Camouflage_0",
+  "parent_group": "people"
+}

@@ -1,0 +1,24 @@
+{
+  "extracts": [
+    {
+      "name": "Item_0",
+      "bbox": [
+        0,
+        0,
+        1199,
+        30
+      ],
+      "bbox_position": [
+        599.5,
+        15.0
+      ],
+      "bbox_size": [
+        1199,
+        30
+      ],
+      "group": "Item"
+    }
+  ],
+  "parent_name": "Desk_0",
+  "parent_group": "desk"
+}

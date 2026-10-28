@@ -1,0 +1,78 @@
+{
+  "extracts": [
+    {
+      "name": "Holes_0",
+      "bbox": [
+        12,
+        13,
+        15,
+        15
+      ],
+      "bbox_position": [
+        13.5,
+        14.0
+      ],
+      "bbox_size": [
+        3,
+        2
+      ],
+      "group": "Holes"
+    },
+    {
+      "name": "Holes_1",
+      "bbox": [
+        0,
+        14,
+        1,
+        17
+      ],
+      "bbox_position": [
+        0.5,
+        15.5
+      ],
+      "bbox_size": [
+        1,
+        3
+      ],
+      "group": "Holes"
+    },
+    {
+      "name": "Holes_2",
+      "bbox": [
+        15,
+        15,
+        22,
+        22
+      ],
+      "bbox_position": [
+        18.5,
+        18.5
+      ],
+      "bbox_size": [
+        7,
+        7
+      ],
+      "group": "Holes"
+    },
+    {
+      "name": "Holes_3",
+      "bbox": [
+        17,
+        11,
+        20,
+        14
+      ],
+      "bbox_position": [
+        18.5,
+        12.5
+      ],
+      "bbox_size": [
+        3,
+        3
+      ],
+      "group": "Holes"
+    }
+  ],
+  "parent_name": "Trash_34",
+  "parent_group": "trash"
+}

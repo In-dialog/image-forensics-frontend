@@ -1,0 +1,60 @@
+{
+  "extracts": [
+    {
+      "name": "Architectural Details_0",
+      "bbox": [
+        2,
+        0,
+        196,
+        275
+      ],
+      "bbox_position": [
+        99.0,
+        137.5
+      ],
+      "bbox_size": [
+        194,
+        275
+      ],
+      "group": "Architectural Details"
+    },
+    {
+      "name": "Base Structure_0",
+      "bbox": [
+        2,
+        178,
+        196,
+        276
+      ],
+      "bbox_position": [
+        99.0,
+        227.0
+      ],
+      "bbox_size": [
+        194,
+        98
+      ],
+      "group": "Base Structure"
+    },
+    {
+      "name": "Crossbeams_0",
+      "bbox": [
+        66,
+        0,
+        135,
+        58
+      ],
+      "bbox_position": [
+        100.5,
+        29.0
+      ],
+      "bbox_size": [
+        69,
+        58
+      ],
+      "group": "Crossbeams"
+    }
+  ],
+  "parent_name": "Eiffel Tower_0",
+  "parent_group": "eiffel tower"
+}

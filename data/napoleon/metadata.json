@@ -1,0 +1,789 @@
+{
+  "extracts": [
+    {
+      "name": "Person_0",
+      "bbox": [
+        74,
+        186,
+        993,
+        1594
+      ],
+      "bbox_position": [
+        533.5,
+        890.0,
+        1.0
+      ],
+      "bbox_size": [
+        919,
+        1408
+      ],
+      "group": "people",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            74.0,
+            890.0
+          ],
+          "end": [
+            0,
+            890.0
+          ],
+          "distance_px": 74.0
+        },
+        "right": {
+          "start": [
+            993.0,
+            890.0
+          ],
+          "end": [
+            1168,
+            890.0
+          ],
+          "distance_px": 175.0
+        },
+        "top": {
+          "start": [
+            533.5,
+            186.0
+          ],
+          "end": [
+            533.5,
+            0
+          ],
+          "distance_px": 186.0
+        },
+        "bottom": {
+          "start": [
+            533.5,
+            1594.0
+          ],
+          "end": [
+            533.5,
+            1920
+          ],
+          "distance_px": 326.0
+        }
+      }
+    },
+    {
+      "name": "Carpet_0",
+      "bbox": [
+        0,
+        1409,
+        1167,
+        1919
+      ],
+      "bbox_position": [
+        583.5,
+        1664.0,
+        0.992157
+      ],
+      "bbox_size": [
+        1167,
+        510
+      ],
+      "group": "Carpet",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            0.0,
+            1664.0
+          ],
+          "end": [
+            0,
+            1664.0
+          ],
+          "distance_px": 0.0
+        },
+        "right": {
+          "start": [
+            1167.0,
+            1664.0
+          ],
+          "end": [
+            1168,
+            1664.0
+          ],
+          "distance_px": 1.0
+        },
+        "top": {
+          "start": [
+            583.5,
+            1409.0
+          ],
+          "end": [
+            583.5,
+            0
+          ],
+          "distance_px": 1409.0
+        },
+        "bottom": {
+          "start": [
+            583.5,
+            1919.0
+          ],
+          "end": [
+            583.5,
+            1920
+          ],
+          "distance_px": 1.0
+        }
+      }
+    },
+    {
+      "name": "Crown_0",
+      "bbox": [
+        490,
+        274,
+        678,
+        398
+      ],
+      "bbox_position": [
+        584.0,
+        336.0,
+        0.658824
+      ],
+      "bbox_size": [
+        188,
+        124
+      ],
+      "group": "Crown",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            490.0,
+            336.0
+          ],
+          "end": [
+            0,
+            336.0
+          ],
+          "distance_px": 490.0
+        },
+        "right": {
+          "start": [
+            678.0,
+            336.0
+          ],
+          "end": [
+            1168,
+            336.0
+          ],
+          "distance_px": 490.0
+        },
+        "top": {
+          "start": [
+            584.0,
+            274.0
+          ],
+          "end": [
+            584.0,
+            0
+          ],
+          "distance_px": 274.0
+        },
+        "bottom": {
+          "start": [
+            584.0,
+            398.0
+          ],
+          "end": [
+            584.0,
+            1920
+          ],
+          "distance_px": 1522.0
+        }
+      }
+    },
+    {
+      "name": "Globe_0",
+      "bbox": [
+        94,
+        727,
+        198,
+        834
+      ],
+      "bbox_position": [
+        146.0,
+        780.5,
+        0.690196
+      ],
+      "bbox_size": [
+        104,
+        107
+      ],
+      "group": "Globe",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            94.0,
+            780.5
+          ],
+          "end": [
+            0,
+            780.5
+          ],
+          "distance_px": 94.0
+        },
+        "right": {
+          "start": [
+            198.0,
+            780.5
+          ],
+          "end": [
+            1168,
+            780.5
+          ],
+          "distance_px": 970.0
+        },
+        "top": {
+          "start": [
+            146.0,
+            727.0
+          ],
+          "end": [
+            146.0,
+            0
+          ],
+          "distance_px": 727.0
+        },
+        "bottom": {
+          "start": [
+            146.0,
+            834.0
+          ],
+          "end": [
+            146.0,
+            1920
+          ],
+          "distance_px": 1086.0
+        }
+      }
+    },
+    {
+      "name": "Globe_1",
+      "bbox": [
+        947,
+        720,
+        1054,
+        830
+      ],
+      "bbox_position": [
+        1000.5,
+        775.0,
+        0.545098
+      ],
+      "bbox_size": [
+        107,
+        110
+      ],
+      "group": "Globe",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            947.0,
+            775.0
+          ],
+          "end": [
+            0,
+            775.0
+          ],
+          "distance_px": 947.0
+        },
+        "right": {
+          "start": [
+            1054.0,
+            775.0
+          ],
+          "end": [
+            1168,
+            775.0
+          ],
+          "distance_px": 114.0
+        },
+        "top": {
+          "start": [
+            1000.5,
+            720.0
+          ],
+          "end": [
+            1000.5,
+            0
+          ],
+          "distance_px": 720.0
+        },
+        "bottom": {
+          "start": [
+            1000.5,
+            830.0
+          ],
+          "end": [
+            1000.5,
+            1920
+          ],
+          "distance_px": 1090.0
+        }
+      }
+    },
+    {
+      "name": "Scepter_0",
+      "bbox": [
+        665,
+        257,
+        987,
+        1498
+      ],
+      "bbox_position": [
+        826.0,
+        877.5,
+        1.0
+      ],
+      "bbox_size": [
+        322,
+        1241
+      ],
+      "group": "Scepter",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            665.0,
+            877.5
+          ],
+          "end": [
+            0,
+            877.5
+          ],
+          "distance_px": 665.0
+        },
+        "right": {
+          "start": [
+            987.0,
+            877.5
+          ],
+          "end": [
+            1168,
+            877.5
+          ],
+          "distance_px": 181.0
+        },
+        "top": {
+          "start": [
+            826.0,
+            257.0
+          ],
+          "end": [
+            826.0,
+            0
+          ],
+          "distance_px": 257.0
+        },
+        "bottom": {
+          "start": [
+            826.0,
+            1498.0
+          ],
+          "end": [
+            826.0,
+            1920
+          ],
+          "distance_px": 422.0
+        }
+      }
+    },
+    {
+      "name": "Shield_0",
+      "bbox": [
+        1060,
+        113,
+        1168,
+        408
+      ],
+      "bbox_position": [
+        1114.0,
+        260.5,
+        0.035294
+      ],
+      "bbox_size": [
+        108,
+        295
+      ],
+      "group": "Shield",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            1060.0,
+            260.5
+          ],
+          "end": [
+            0,
+            260.5
+          ],
+          "distance_px": 1060.0
+        },
+        "right": {
+          "start": [
+            1168.0,
+            260.5
+          ],
+          "end": [
+            1168,
+            260.5
+          ],
+          "distance_px": 0.0
+        },
+        "top": {
+          "start": [
+            1114.0,
+            113.0
+          ],
+          "end": [
+            1114.0,
+            0
+          ],
+          "distance_px": 113.0
+        },
+        "bottom": {
+          "start": [
+            1114.0,
+            408.0
+          ],
+          "end": [
+            1114.0,
+            1920
+          ],
+          "distance_px": 1512.0
+        }
+      }
+    },
+    {
+      "name": "Staff_0",
+      "bbox": [
+        43,
+        0,
+        365,
+        1690
+      ],
+      "bbox_position": [
+        204.0,
+        845.0,
+        1.0
+      ],
+      "bbox_size": [
+        322,
+        1690
+      ],
+      "group": "Staff",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            43.0,
+            845.0
+          ],
+          "end": [
+            0,
+            845.0
+          ],
+          "distance_px": 43.0
+        },
+        "right": {
+          "start": [
+            365.0,
+            845.0
+          ],
+          "end": [
+            1168,
+            845.0
+          ],
+          "distance_px": 803.0
+        },
+        "top": {
+          "start": [
+            204.0,
+            0.0
+          ],
+          "end": [
+            204.0,
+            0
+          ],
+          "distance_px": 0.0
+        },
+        "bottom": {
+          "start": [
+            204.0,
+            1690.0
+          ],
+          "end": [
+            204.0,
+            1920
+          ],
+          "distance_px": 230.0
+        }
+      }
+    },
+    {
+      "name": "Tassel_0",
+      "bbox": [
+        26,
+        864,
+        78,
+        999
+      ],
+      "bbox_position": [
+        52.0,
+        931.5,
+        0.592157
+      ],
+      "bbox_size": [
+        52,
+        135
+      ],
+      "group": "Tassel",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            26.0,
+            931.5
+          ],
+          "end": [
+            0,
+            931.5
+          ],
+          "distance_px": 26.0
+        },
+        "right": {
+          "start": [
+            78.0,
+            931.5
+          ],
+          "end": [
+            1168,
+            931.5
+          ],
+          "distance_px": 1090.0
+        },
+        "top": {
+          "start": [
+            52.0,
+            864.0
+          ],
+          "end": [
+            52.0,
+            0
+          ],
+          "distance_px": 864.0
+        },
+        "bottom": {
+          "start": [
+            52.0,
+            999.0
+          ],
+          "end": [
+            52.0,
+            1920
+          ],
+          "distance_px": 921.0
+        }
+      }
+    },
+    {
+      "name": "Throne Backrest_0",
+      "bbox": [
+        228,
+        165,
+        1001,
+        628
+      ],
+      "bbox_position": [
+        614.5,
+        396.5,
+        0.996078
+      ],
+      "bbox_size": [
+        773,
+        463
+      ],
+      "group": "Throne Backrest",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            228.0,
+            396.5
+          ],
+          "end": [
+            0,
+            396.5
+          ],
+          "distance_px": 228.0
+        },
+        "right": {
+          "start": [
+            1001.0,
+            396.5
+          ],
+          "end": [
+            1168,
+            396.5
+          ],
+          "distance_px": 167.0
+        },
+        "top": {
+          "start": [
+            614.5,
+            165.0
+          ],
+          "end": [
+            614.5,
+            0
+          ],
+          "distance_px": 165.0
+        },
+        "bottom": {
+          "start": [
+            614.5,
+            628.0
+          ],
+          "end": [
+            614.5,
+            1920
+          ],
+          "distance_px": 1292.0
+        }
+      }
+    },
+    {
+      "name": "Anno. 1806_0",
+      "bbox": [
+        1031,
+        1772,
+        1167,
+        1815
+      ],
+      "bbox_position": [
+        1099.0,
+        1793.5,
+        0.952941
+      ],
+      "bbox_size": [
+        136,
+        43
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            1031.0,
+            1793.5
+          ],
+          "end": [
+            0,
+            1793.5
+          ],
+          "distance_px": 1031.0
+        },
+        "right": {
+          "start": [
+            1167.0,
+            1793.5
+          ],
+          "end": [
+            1168,
+            1793.5
+          ],
+          "distance_px": 1.0
+        },
+        "top": {
+          "start": [
+            1099.0,
+            1772.0
+          ],
+          "end": [
+            1099.0,
+            0
+          ],
+          "distance_px": 1772.0
+        },
+        "bottom": {
+          "start": [
+            1099.0,
+            1815.0
+          ],
+          "end": [
+            1099.0,
+            1920
+          ],
+          "distance_px": 105.0
+        }
+      }
+    },
+    {
+      "name": "Ingres P_0",
+      "bbox": [
+        8,
+        1772,
+        122,
+        1815
+      ],
+      "bbox_position": [
+        65.0,
+        1793.5,
+        0.94902
+      ],
+      "bbox_size": [
+        114,
+        43
+      ],
+      "group": "texts",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            8.0,
+            1793.5
+          ],
+          "end": [
+            0,
+            1793.5
+          ],
+          "distance_px": 8.0
+        },
+        "right": {
+          "start": [
+            122.0,
+            1793.5
+          ],
+          "end": [
+            1168,
+            1793.5
+          ],
+          "distance_px": 1046.0
+        },
+        "top": {
+          "start": [
+            65.0,
+            1772.0
+          ],
+          "end": [
+            65.0,
+            0
+          ],
+          "distance_px": 1772.0
+        },
+        "bottom": {
+          "start": [
+            65.0,
+            1815.0
+          ],
+          "end": [
+            65.0,
+            1920
+          ],
+          "distance_px": 105.0
+        }
+      }
+    }
+  ],
+  "source_image": "napoleon",
+  "source_image_path": "napoleon.jpg",
+  "image_width": 1168,
+  "image_height": 1920,
+  "output_folder": "napoleon"
+}

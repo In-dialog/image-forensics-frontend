@@ -1,0 +1,43 @@
+{
+  "extracts": [
+    {
+      "name": "RANCE_0",
+      "label": "RANCE",
+      "category": "texts",
+      "sam_score": 0.9623610973358154,
+      "bbox": [
+        0,
+        4,
+        97,
+        34
+      ],
+      "bbox_position": [
+        48.5,
+        19.0
+      ],
+      "bbox_size": [
+        97,
+        30
+      ],
+      "group": "texts",
+      "bbox_global": [
+        276,
+        493,
+        373,
+        523
+      ]
+    }
+  ],
+  "parent_name": "FRANCE_0",
+  "parent_group": "texts",
+  "coordinate_space": "parent_crop",
+  "source_image": "granular_segments/texts/FRANCE_0/source.png",
+  "image_width": 98,
+  "image_height": 35,
+  "parent_bbox": [
+    276,
+    489,
+    374,
+    524
+  ]
+}

@@ -1,0 +1,75 @@
+.linear-gauge {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  font-family: inherit;
+}
+
+.linear-gauge__title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #a0a0a0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: left;
+  /* padding: 2rem 0rem; */
+}
+
+.linear-gauge__track {
+  position: relative;
+  height: 12px;
+  background: transparent;
+  border: 1px solid #6a6a6a;
+  overflow: hidden;
+}
+
+.linear-gauge__fill {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  min-width: 0;
+  background: var(--color-accent);
+  transition:
+    width 0.3s ease,
+    left 0.3s ease;
+}
+
+.linear-gauge__center-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: #6a6a6a;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.linear-gauge__labels {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #707070;
+}
+
+.linear-gauge__label {
+  min-width: 0;
+}
+
+.linear-gauge__label--start {
+  text-align: left;
+}
+
+.linear-gauge__label--mid {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  pointer-events: none;
+}
+
+.linear-gauge__label--end {
+  text-align: right;
+}

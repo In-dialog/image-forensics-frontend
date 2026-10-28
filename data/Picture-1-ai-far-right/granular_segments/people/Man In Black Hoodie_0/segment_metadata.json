@@ -1,0 +1,132 @@
+{
+  "extracts": [
+    {
+      "name": "Arm_0",
+      "bbox": [
+        0,
+        40,
+        35,
+        77
+      ],
+      "bbox_position": [
+        17.5,
+        58.5
+      ],
+      "bbox_size": [
+        35,
+        37
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Arm_1",
+      "bbox": [
+        84,
+        0,
+        190,
+        71
+      ],
+      "bbox_position": [
+        137.0,
+        35.5
+      ],
+      "bbox_size": [
+        106,
+        71
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Head_0",
+      "bbox": [
+        45,
+        1,
+        82,
+        53
+      ],
+      "bbox_position": [
+        63.5,
+        27.0
+      ],
+      "bbox_size": [
+        37,
+        52
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Leg_0",
+      "bbox": [
+        2,
+        138,
+        53,
+        258
+      ],
+      "bbox_position": [
+        27.5,
+        198.0
+      ],
+      "bbox_size": [
+        51,
+        120
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Leg_1",
+      "bbox": [
+        55,
+        139,
+        106,
+        249
+      ],
+      "bbox_position": [
+        80.5,
+        194.0
+      ],
+      "bbox_size": [
+        51,
+        110
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Vest_0",
+      "bbox": [
+        16,
+        39,
+        92,
+        115
+      ],
+      "bbox_position": [
+        54.0,
+        77.0
+      ],
+      "bbox_size": [
+        76,
+        76
+      ],
+      "group": "people"
+    },
+    {
+      "name": "Vest_1",
+      "bbox": [
+        90,
+        281,
+        139,
+        285
+      ],
+      "bbox_position": [
+        114.5,
+        283.0
+      ],
+      "bbox_size": [
+        49,
+        4
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "Man In Black Hoodie_0",
+  "parent_group": "people"
+}

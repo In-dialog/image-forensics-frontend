@@ -1,0 +1,124 @@
+{
+  "extracts": [
+    {
+      "name": "red triangle_0",
+      "label": "red triangle",
+      "category": "objects",
+      "sam_score": 0.9530991911888123,
+      "bbox": [
+        87,
+        3,
+        171,
+        145
+      ],
+      "bbox_position": [
+        129.0,
+        74.0
+      ],
+      "bbox_size": [
+        84,
+        142
+      ],
+      "group": "red triangle",
+      "bbox_global": [
+        87,
+        38,
+        171,
+        180
+      ]
+    },
+    {
+      "name": "black stripe_0",
+      "label": "black stripe",
+      "category": "objects",
+      "sam_score": 0.819847583770752,
+      "bbox": [
+        0,
+        3,
+        113,
+        109
+      ],
+      "bbox_position": [
+        56.5,
+        56.0
+      ],
+      "bbox_size": [
+        113,
+        106
+      ],
+      "group": "black stripe",
+      "bbox_global": [
+        0,
+        38,
+        113,
+        144
+      ]
+    },
+    {
+      "name": "white stripe_0",
+      "label": "white stripe",
+      "category": "objects",
+      "sam_score": 0.8455699682235718,
+      "bbox": [
+        0,
+        50,
+        113,
+        119
+      ],
+      "bbox_position": [
+        56.5,
+        84.5
+      ],
+      "bbox_size": [
+        113,
+        69
+      ],
+      "group": "white stripe",
+      "bbox_global": [
+        0,
+        85,
+        113,
+        154
+      ]
+    },
+    {
+      "name": "green stripe_0",
+      "label": "green stripe",
+      "category": "objects",
+      "sam_score": 0.9358634948730469,
+      "bbox": [
+        0,
+        110,
+        171,
+        203
+      ],
+      "bbox_position": [
+        85.5,
+        156.5
+      ],
+      "bbox_size": [
+        171,
+        93
+      ],
+      "group": "green stripe",
+      "bbox_global": [
+        0,
+        145,
+        171,
+        238
+      ]
+    }
+  ],
+  "parent_name": "flag_0",
+  "parent_group": "flag",
+  "coordinate_space": "parent_crop",
+  "source_image": "granular_segments/flag/flag_0/source.png",
+  "image_width": 180,
+  "image_height": 232,
+  "parent_bbox": [
+    0,
+    35,
+    180,
+    267
+  ]
+}

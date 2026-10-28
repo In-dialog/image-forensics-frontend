@@ -1,0 +1,114 @@
+{
+  "extracts": [
+    {
+      "name": "Arched Golden Decorative Fragment_0",
+      "bbox": [
+        0,
+        0,
+        772,
+        462
+      ],
+      "bbox_position": [
+        386.0,
+        231.0
+      ],
+      "bbox_size": [
+        772,
+        462
+      ],
+      "group": "Arched Golden Decorative Fragment"
+    },
+    {
+      "name": "Central Floral Motif_0",
+      "bbox": [
+        281,
+        0,
+        413,
+        60
+      ],
+      "bbox_position": [
+        347.0,
+        30.0
+      ],
+      "bbox_size": [
+        132,
+        60
+      ],
+      "group": "Central Floral Motif"
+    },
+    {
+      "name": "Circular Medallion With Rays_0",
+      "bbox": [
+        502,
+        162,
+        596,
+        260
+      ],
+      "bbox_position": [
+        549.0,
+        211.0
+      ],
+      "bbox_size": [
+        94,
+        98
+      ],
+      "group": "Circular Medallion With Rays"
+    },
+    {
+      "name": "Fan-Like Geometric Design_0",
+      "bbox": [
+        214,
+        222,
+        287,
+        343
+      ],
+      "bbox_position": [
+        250.5,
+        282.5
+      ],
+      "bbox_size": [
+        73,
+        121
+      ],
+      "group": "Fan-Like Geometric Design"
+    },
+    {
+      "name": "Ornate Border Strip_0",
+      "bbox": [
+        77,
+        92,
+        681,
+        278
+      ],
+      "bbox_position": [
+        379.0,
+        185.0
+      ],
+      "bbox_size": [
+        604,
+        186
+      ],
+      "group": "Ornate Border Strip"
+    },
+    {
+      "name": "Starburst Pattern Section_0",
+      "bbox": [
+        129,
+        129,
+        287,
+        288
+      ],
+      "bbox_position": [
+        208.0,
+        208.5
+      ],
+      "bbox_size": [
+        158,
+        159
+      ],
+      "group": "Starburst Pattern Section"
+    }
+  ],
+  "parent_name": "Throne Backrest_0",
+  "parent_group": "throne backrest"
+}

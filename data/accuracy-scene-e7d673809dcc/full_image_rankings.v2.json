@@ -1,0 +1,103 @@
+{
+  "schema_version": 2,
+  "scope": "full_image",
+  "criteria": [
+    {
+      "label": "Political Intent Signal",
+      "type": "score",
+      "positive": "Rate how strongly the image communicates **political or ideological intent**.\nThis is an independent gauge: the image can be both political and commercial. Score only how much political/advocacy/ideological intent is visually apparent.\n0 = no clear evidence of political intent\n5 = mixed or ambiguous political signaling\n10 = strong political or ideological intent is visually apparent",
+      "negative": "",
+      "min": 0.0,
+      "max": 10.0,
+      "low_label": "no clear evidence of political intent",
+      "high_label": "strong political or ideological intent is visually apparent",
+      "id": "criterion_1"
+    },
+    {
+      "label": "Commercial Intent Signal",
+      "type": "score",
+      "positive": "Rate how strongly the image functions as **branding, selling, promotion, or market-oriented messaging**.\nThis is an independent gauge: the image can be both commercial and political. Score only how much commercial/promotional intent is visually apparent.\n0 = no clear commercial or promotional intent\n5 = mixed or ambiguous commercial signaling\n10 = strong commercial/branding/promotional intent is visually apparent",
+      "negative": "",
+      "min": 0.0,
+      "max": 10.0,
+      "low_label": "no clear commercial or promotional intent",
+      "high_label": "strong commercial/branding/promotional intent is visually apparent",
+      "id": "criterion_2"
+    },
+    {
+      "label": "Persuasive Pressure",
+      "type": "score",
+      "positive": "Rate how strongly the image **tries to influence belief, emotion, or behavior**.\nThis is an independent gauge. Score only how much the image is designed to persuade rather than merely inform or describe.\n0 = mostly descriptive or informational; no clear influence-seeking\n5 = mixed informational and persuasive elements\n10 = strongly persuasive; clearly designed to change views or behavior",
+      "negative": "",
+      "min": 0.0,
+      "max": 10.0,
+      "low_label": "mostly descriptive or informational; no clear influence-seeking",
+      "high_label": "strongly persuasive; clearly designed to change views or behavior",
+      "id": "criterion_3"
+    },
+    {
+      "label": "Polarization Cue",
+      "type": "score",
+      "positive": "Rate the **divisive framing** of the image.\nThis is a directional scale: from inclusive/non-divisive to us-versus-them or conflict framing.\n0 = inclusive / non-divisive / common ground\n5 = neutral or mixed\n10 = strongly us-versus-them / conflict framing / polarizing",
+      "negative": "",
+      "min": 0.0,
+      "max": 10.0,
+      "low_label": "inclusive / non-divisive / common ground",
+      "high_label": "strongly us-versus-them / conflict framing / polarizing",
+      "id": "criterion_4"
+    },
+    {
+      "label": "Outrage Activation",
+      "type": "score",
+      "positive": "Rate how much the image **activates outrage**â€”anger, indignation, or moral shock.\nThis is a directional scale: from low to high outrage activation.\n0 = low outrage activation; measured, peaceful, or calming\n5 = neutral or mixed\n10 = high outrage activation; incendiary or outrage-provoking",
+      "negative": "",
+      "min": 0.0,
+      "max": 10.0,
+      "low_label": "low outrage activation; measured",
+      "high_label": "high outrage activation; incendiary or outrage-provoking",
+      "id": "criterion_5"
+    },
+    {
+      "label": "Visual Impact Strength",
+      "type": "score",
+      "positive": "Rate how **strong the image is as a visual artifact**.\nConsider composition, contrast, salience, memorability, and the ability of the image to command attention and leave an impression.\n0 = weak / forgettable visual impact\n5 = moderate impact\n10 = striking / memorable / high impact",
+      "negative": "",
+      "min": 0.0,
+      "max": 10.0,
+      "low_label": "weak / forgettable visual impact",
+      "high_label": "striking / memorable / high impact",
+      "id": "criterion_6"
+    }
+  ],
+  "items": [
+    {
+      "name": "full_image",
+      "ratings": {
+        "criterion_1": {
+          "value": 9.5,
+          "reason": "Visible evidence: Flags of Palestine and Sudan (with Palestinian flag prominently displayed), armed individuals in tactical gear, a woman with 'FRANCE' shirt crying, chaotic scene at Eiffel Tower—clearly signals political/ideological conflict."
+        },
+        "criterion_2": {
+          "value": 0.0,
+          "reason": "Visible evidence: No branding, logos, or commercial elements; focus is on protest/conflict imagery without promotional context."
+        },
+        "criterion_3": {
+          "value": 9.5,
+          "reason": "Visible evidence: Depiction of violence (armed individuals), emotional distress (woman crying), and aggressive gestures—designed to evoke fear/anger and influence belief about France/Palestine conflict."
+        },
+        "criterion_4": {
+          "value": 10.0,
+          "reason": "Visible evidence: Clear 'us vs them' framing with French flag on shirt, armed groups against Eiffel Tower (symbol of France), chaotic scene—strongly polarizing."
+        },
+        "criterion_5": {
+          "value": 9.5,
+          "reason": "Visible evidence: Woman crying, aggressive postures, destruction in foreground—high outrage activation through emotional distress and conflict imagery."
+        },
+        "criterion_6": {
+          "value": 8.0,
+          "reason": "Visible evidence: Strong composition with central figure (woman), contrasting colors of flags, dramatic Eiffel Tower backdrop—memorable but not maximally striking due to chaotic elements."
+        }
+      }
+    }
+  ]
+}

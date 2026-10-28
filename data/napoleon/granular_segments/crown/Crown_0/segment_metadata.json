@@ -1,0 +1,24 @@
+{
+  "extracts": [
+    {
+      "name": "Wreath Leaf_0",
+      "bbox": [
+        0,
+        0,
+        188,
+        124
+      ],
+      "bbox_position": [
+        94.0,
+        62.0
+      ],
+      "bbox_size": [
+        188,
+        124
+      ],
+      "group": "Wreath Leaf"
+    }
+  ],
+  "parent_name": "Crown_0",
+  "parent_group": "crown"
+}

@@ -1,0 +1,23 @@
+.synthetic-analysis-view {
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  justify-content: center;
+  align-items: center;
+}
+
+.synthetic-analysis-view__displays {
+  flex: 1;
+  min-height: 0;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.synthetic-analysis-view__error {
+  color: var(--color-error);
+}

@@ -1,0 +1,97 @@
+{
+  "extracts": [
+    {
+      "name": "text_0",
+      "label": "text",
+      "category": "objects",
+      "sam_score": 0.893879234790802,
+      "bbox": [
+        39,
+        65,
+        149,
+        89
+      ],
+      "bbox_position": [
+        94.0,
+        77.0
+      ],
+      "bbox_size": [
+        110,
+        24
+      ],
+      "group": "text",
+      "bbox_global": [
+        279,
+        496,
+        389,
+        520
+      ]
+    },
+    {
+      "name": "blue rectangle_0",
+      "label": "blue rectangle",
+      "category": "objects",
+      "sam_score": 0.912050724029541,
+      "bbox": [
+        32,
+        90,
+        69,
+        144
+      ],
+      "bbox_position": [
+        50.5,
+        117.0
+      ],
+      "bbox_size": [
+        37,
+        54
+      ],
+      "group": "blue rectangle",
+      "bbox_global": [
+        272,
+        521,
+        309,
+        575
+      ]
+    },
+    {
+      "name": "red rectangle_0",
+      "label": "red rectangle",
+      "category": "objects",
+      "sam_score": 0.8917577266693115,
+      "bbox": [
+        91,
+        88,
+        138,
+        144
+      ],
+      "bbox_position": [
+        114.5,
+        116.0
+      ],
+      "bbox_size": [
+        47,
+        56
+      ],
+      "group": "red rectangle",
+      "bbox_global": [
+        331,
+        519,
+        378,
+        575
+      ]
+    }
+  ],
+  "parent_name": "t-shirt with flag design_0",
+  "parent_group": "t-shirt with flag design",
+  "coordinate_space": "parent_crop",
+  "source_image": "granular_segments/t-shirt with flag design/t-shirt with flag design_0/source.png",
+  "image_width": 183,
+  "image_height": 180,
+  "parent_bbox": [
+    240,
+    431,
+    423,
+    611
+  ]
+}

@@ -1,0 +1,60 @@
+.forgery-detection-view {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  min-height: 0;
+  min-width: 0;
+}
+
+.forgery-detection-view__content {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  min-height: 0;
+  min-width: 0;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.forgery-detection-view__content > .synthetic-analysis-view {
+  border-right: 1px solid rgba(103, 103, 103, 0.15);
+  padding-right: 20px;
+}
+
+.forgery-detection-view__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  grid-auto-rows: minmax(0, 1fr);
+  flex: 1;
+  min-height: 0;
+  min-width: 0;
+}
+
+.forgery-detection-view__content > .synthetic-analysis-view {
+  flex: 1;
+}
+
+.forgery-detection-view__content > .forgery-detection-view__grid {
+  flex: 1;
+}
+
+.forgery-detection-view__item {
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.forgery-detection-view__displays {
+  flex: 1;
+  min-height: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.forgery-detection-view__error {
+  color: var(--color-error);
+}

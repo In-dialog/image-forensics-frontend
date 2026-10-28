@@ -1,0 +1,60 @@
+{
+  "extracts": [
+    {
+      "name": "hooded head_0",
+      "bbox": [
+        25,
+        0,
+        64,
+        33
+      ],
+      "bbox_position": [
+        44.5,
+        16.5
+      ],
+      "bbox_size": [
+        39,
+        33
+      ],
+      "group": "people"
+    },
+    {
+      "name": "vest_0",
+      "bbox": [
+        16,
+        32,
+        73,
+        70
+      ],
+      "bbox_position": [
+        44.5,
+        51.0
+      ],
+      "bbox_size": [
+        57,
+        38
+      ],
+      "group": "people"
+    },
+    {
+      "name": "open mouth_0",
+      "bbox": [
+        30,
+        14,
+        47,
+        33
+      ],
+      "bbox_position": [
+        38.5,
+        23.5
+      ],
+      "bbox_size": [
+        17,
+        19
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "person_6",
+  "parent_group": "people"
+}

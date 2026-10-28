@@ -1,0 +1,132 @@
+{
+  "extracts": [
+    {
+      "name": "blond hair_0",
+      "bbox": [
+        32,
+        0,
+        162,
+        175
+      ],
+      "bbox_position": [
+        97.0,
+        87.5
+      ],
+      "bbox_size": [
+        130,
+        175
+      ],
+      "group": "people"
+    },
+    {
+      "name": "hand covering face_0",
+      "bbox": [
+        38,
+        42,
+        97,
+        131
+      ],
+      "bbox_position": [
+        67.5,
+        86.5
+      ],
+      "bbox_size": [
+        59,
+        89
+      ],
+      "group": "people"
+    },
+    {
+      "name": "t-shirt with text_0",
+      "bbox": [
+        32,
+        90,
+        162,
+        233
+      ],
+      "bbox_position": [
+        97.0,
+        161.5
+      ],
+      "bbox_size": [
+        130,
+        143
+      ],
+      "group": "people"
+    },
+    {
+      "name": "text on shirt_0",
+      "bbox": [
+        48,
+        130,
+        130,
+        175
+      ],
+      "bbox_position": [
+        89.0,
+        152.5
+      ],
+      "bbox_size": [
+        82,
+        45
+      ],
+      "group": "people"
+    },
+    {
+      "name": "blue stripe_0",
+      "bbox": [
+        32,
+        157,
+        65,
+        233
+      ],
+      "bbox_position": [
+        48.5,
+        195.0
+      ],
+      "bbox_size": [
+        33,
+        76
+      ],
+      "group": "people"
+    },
+    {
+      "name": "red stripe_0",
+      "bbox": [
+        97,
+        157,
+        130,
+        233
+      ],
+      "bbox_position": [
+        113.5,
+        195.0
+      ],
+      "bbox_size": [
+        33,
+        76
+      ],
+      "group": "people"
+    },
+    {
+      "name": "blue jeans_0",
+      "bbox": [
+        32,
+        232,
+        162,
+        293
+      ],
+      "bbox_position": [
+        97.0,
+        262.5
+      ],
+      "bbox_size": [
+        130,
+        61
+      ],
+      "group": "people"
+    }
+  ],
+  "parent_name": "person_0",
+  "parent_group": "people"
+}

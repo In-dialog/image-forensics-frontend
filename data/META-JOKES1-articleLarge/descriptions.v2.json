@@ -1,0 +1,167 @@
+{
+  "schema_version": 2,
+  "style": "detailed",
+  "questions": [
+    {
+      "id": "question_1",
+      "label": "Description",
+      "instruction": ""
+    },
+    {
+      "id": "question_2",
+      "label": "Semantics",
+      "instruction": ""
+    },
+    {
+      "id": "question_3",
+      "label": "Valence",
+      "instruction": ""
+    }
+  ],
+  "items": [
+    {
+      "name": "Man Wearing Black Sweater_0",
+      "label": "Man Wearing Black Sweater 0",
+      "image_path": "segments/Man Wearing Black Sweater_0.webp",
+      "source": "item",
+      "group": "people",
+      "bbox": [
+        131,
+        18,
+        341,
+        337
+      ],
+      "answers": {
+        "question_1": "- Subject: person\n- General Description: male wearing black long sleeve top; both arms extended outward with open palms facing front",
+        "question_2": "Taxonomy: Human in dark long-sleeve garment making hand gestures  \nCultural Anchor: Speaker",
+        "question_3": "Neutral"
+      }
+    },
+    {
+      "name": "Book_0",
+      "label": "Book 0",
+      "image_path": "segments/Book_0.webp",
+      "source": "item",
+      "group": "Book",
+      "bbox": [
+        62,
+        285,
+        126,
+        334
+      ],
+      "answers": {
+        "question_1": "- Subject: book\n- General Description: fragmented dark pixels forming indistinct vertical and horizontal segments",
+        "question_2": "Taxonomy: Book  \nCultural Anchor: book",
+        "question_3": "Neutral"
+      }
+    },
+    {
+      "name": "Candle Holder_0",
+      "label": "Candle Holder 0",
+      "image_path": "segments/Candle Holder_0.webp",
+      "source": "item",
+      "group": "Candle Holder",
+      "bbox": [
+        514,
+        41,
+        552,
+        126
+      ],
+      "answers": {
+        "question_1": "- Subject: Candle Holder\n- General Description: Vertical cylindrical form with attached horizontal support arm",
+        "question_2": "Taxonomy: Functional item designed to support and hold candles  \nCultural Anchor: Candle holder",
+        "question_3": "NEUTRAL"
+      }
+    },
+    {
+      "name": "Frame_0",
+      "label": "Frame 0",
+      "image_path": "segments/Frame_0.webp",
+      "source": "item",
+      "group": "Frame",
+      "bbox": [
+        286,
+        78,
+        342,
+        131
+      ],
+      "answers": {
+        "question_1": "- Subject: Dog\n- General Description: White fluffy dog with black nose and mouth area within wooden frame",
+        "question_2": "Taxonomy: Photo holder  \nCultural Anchor: photo display",
+        "question_3": "Category: Frame  \nVALANCE: POSITIVE"
+      }
+    },
+    {
+      "name": "Frame_1",
+      "label": "Frame 1",
+      "image_path": "segments/Frame_1.webp",
+      "source": "item",
+      "group": "Frame",
+      "bbox": [
+        325,
+        125,
+        400,
+        217
+      ],
+      "answers": {
+        "question_1": "- Subject: Plant\n- General Description: Framed artwork with yellow and green vertical elements",
+        "question_2": "Taxonomy: Decorative display object  \nCultural Anchor: Framed picture",
+        "question_3": "POSITIVE"
+      }
+    },
+    {
+      "name": "Frame_2",
+      "label": "Frame 2",
+      "image_path": "segments/Frame_2.webp",
+      "source": "item",
+      "group": "Frame",
+      "bbox": [
+        38,
+        151,
+        106,
+        211
+      ],
+      "answers": {
+        "question_1": "Subject: Silhouette\nGeneral Description: White figure in front of framed circular artwork",
+        "question_2": "Taxonomy: Wall-mountable framed art holder  \nCultural Anchor: Picture frame",
+        "question_3": "Neutral"
+      }
+    },
+    {
+      "name": "Frame_3",
+      "label": "Frame 3",
+      "image_path": "segments/Frame_3.webp",
+      "source": "item",
+      "group": "Frame",
+      "bbox": [
+        42,
+        24,
+        94,
+        85
+      ],
+      "answers": {
+        "question_1": "- Subject: Photograph\n- General Description: Black-and-white framed photograph depicting a person in uniform",
+        "question_2": "Taxonomy: Photo display container  \nCultural Anchor: photograph frame",
+        "question_3": "NEUTRAL"
+      }
+    },
+    {
+      "name": "Wooden Shelf_0",
+      "label": "Wooden Shelf 0",
+      "image_path": "segments/Wooden Shelf_0.webp",
+      "source": "item",
+      "group": "Wooden Shelf",
+      "bbox": [
+        3,
+        0,
+        593,
+        337
+      ],
+      "answers": {
+        "question_1": "DESCRIPTION:\n- Subject: Wooden shelf parts\n- General Description: Multiple wooden planks with cut ends and horizontal supports attached to vertical posts",
+        "question_2": "Taxonomy: Multi-level wall shelf  \nCultural Anchor: Wall-mounted shelving",
+        "question_3": "VALENCE\nPolarity: Neutral\nFocus on: Neutral"
+      }
+    }
+  ]
+}

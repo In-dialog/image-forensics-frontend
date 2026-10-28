@@ -1,0 +1,4 @@
+.label { pointer-events: none; }
+.label rect { fill: #0b1410; fill-opacity: .96; stroke: #80998b; stroke-width: 1; }
+.label line { stroke: #9db6a8; stroke-width: 1; }
+.label text { fill: #f2f7f4; stroke: none; font-family: Consolas, monospace; font-size: 14px; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: 0; }

@@ -1,0 +1,4 @@
+/* Apply the grayscale lookup table to the image only, not its container. */
+img.grayscale-lookup-image {
+  filter: url(#lookup-table);
+}

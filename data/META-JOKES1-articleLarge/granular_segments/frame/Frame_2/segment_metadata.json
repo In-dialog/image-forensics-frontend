@@ -1,0 +1,42 @@
+{
+  "extracts": [
+    {
+      "name": "Circular Design_0",
+      "bbox": [
+        16,
+        14,
+        51,
+        42
+      ],
+      "bbox_position": [
+        33.5,
+        28.0
+      ],
+      "bbox_size": [
+        35,
+        28
+      ],
+      "group": "Circular Design"
+    },
+    {
+      "name": "Frame_0",
+      "bbox": [
+        9,
+        8,
+        58,
+        42
+      ],
+      "bbox_position": [
+        33.5,
+        25.0
+      ],
+      "bbox_size": [
+        49,
+        34
+      ],
+      "group": "Frame"
+    }
+  ],
+  "parent_name": "Frame_2",
+  "parent_group": "frame"
+}

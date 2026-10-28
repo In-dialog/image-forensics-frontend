@@ -1,0 +1,70 @@
+{
+  "extracts": [
+    {
+      "name": "graphic_0",
+      "label": "graphic",
+      "category": "people",
+      "sam_score": 0.9513387680053711,
+      "bbox": [
+        15,
+        216,
+        137,
+        352
+      ],
+      "bbox_position": [
+        76.0,
+        284.0
+      ],
+      "bbox_size": [
+        122,
+        136
+      ],
+      "group": "people",
+      "bbox_global": [
+        252,
+        478,
+        374,
+        614
+      ]
+    },
+    {
+      "name": "text_0",
+      "label": "text",
+      "category": "people",
+      "sam_score": 0.8290365934371948,
+      "bbox": [
+        35,
+        225,
+        119,
+        272
+      ],
+      "bbox_position": [
+        77.0,
+        248.5
+      ],
+      "bbox_size": [
+        84,
+        47
+      ],
+      "group": "people",
+      "bbox_global": [
+        272,
+        487,
+        356,
+        534
+      ]
+    }
+  ],
+  "parent_name": "person_0",
+  "parent_group": "people",
+  "coordinate_space": "parent_crop",
+  "source_image": "granular_segments/people/person_0/source.png",
+  "image_width": 148,
+  "image_height": 375,
+  "parent_bbox": [
+    237,
+    262,
+    385,
+    637
+  ]
+}

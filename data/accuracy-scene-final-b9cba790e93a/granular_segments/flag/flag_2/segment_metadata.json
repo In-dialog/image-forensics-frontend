@@ -1,0 +1,124 @@
+{
+  "extracts": [
+    {
+      "name": "black stripe_0",
+      "label": "black stripe",
+      "category": "objects",
+      "sam_score": 0.8959367275238037,
+      "bbox": [
+        0,
+        21,
+        181,
+        74
+      ],
+      "bbox_position": [
+        90.5,
+        47.5
+      ],
+      "bbox_size": [
+        181,
+        53
+      ],
+      "group": "black stripe",
+      "bbox_global": [
+        408,
+        30,
+        589,
+        83
+      ]
+    },
+    {
+      "name": "white stripe_0",
+      "label": "white stripe",
+      "category": "objects",
+      "sam_score": 0.9024212956428528,
+      "bbox": [
+        0,
+        73,
+        181,
+        126
+      ],
+      "bbox_position": [
+        90.5,
+        99.5
+      ],
+      "bbox_size": [
+        181,
+        53
+      ],
+      "group": "white stripe",
+      "bbox_global": [
+        408,
+        82,
+        589,
+        135
+      ]
+    },
+    {
+      "name": "green stripe_0",
+      "label": "green stripe",
+      "category": "objects",
+      "sam_score": 0.9205217957496643,
+      "bbox": [
+        0,
+        125,
+        181,
+        168
+      ],
+      "bbox_position": [
+        90.5,
+        146.5
+      ],
+      "bbox_size": [
+        181,
+        43
+      ],
+      "group": "green stripe",
+      "bbox_global": [
+        408,
+        134,
+        589,
+        177
+      ]
+    },
+    {
+      "name": "black crescent moon and star emblem_0",
+      "label": "black crescent moon and star emblem",
+      "category": "objects",
+      "sam_score": 0.8823826909065247,
+      "bbox": [
+        52,
+        73,
+        115,
+        126
+      ],
+      "bbox_position": [
+        83.5,
+        99.5
+      ],
+      "bbox_size": [
+        63,
+        53
+      ],
+      "group": "black crescent moon and star emblem",
+      "bbox_global": [
+        460,
+        82,
+        523,
+        135
+      ]
+    }
+  ],
+  "parent_name": "flag_2",
+  "parent_group": "flag",
+  "coordinate_space": "parent_crop",
+  "source_image": "granular_segments/flag/flag_2/source.png",
+  "image_width": 183,
+  "image_height": 168,
+  "parent_bbox": [
+    408,
+    9,
+    591,
+    177
+  ]
+}

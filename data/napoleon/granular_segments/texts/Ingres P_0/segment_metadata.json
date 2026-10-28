@@ -1,0 +1,24 @@
+{
+  "extracts": [
+    {
+      "name": "Ingres_0",
+      "bbox": [
+        0,
+        0,
+        114,
+        43
+      ],
+      "bbox_position": [
+        57.0,
+        21.5
+      ],
+      "bbox_size": [
+        114,
+        43
+      ],
+      "group": "texts"
+    }
+  ],
+  "parent_name": "Ingres P_0",
+  "parent_group": "texts"
+}

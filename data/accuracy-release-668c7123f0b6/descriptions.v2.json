@@ -1,0 +1,933 @@
+{
+  "schema_version": 2,
+  "style": "bullets",
+  "questions": [
+    {
+      "label": "Literal inventory",
+      "instruction": "List the visible object, its material or graphic carrier and distinguishable parts. Include small details that are actually resolved; do not turn depicted subjects into additional physical entities.",
+      "id": "question_1"
+    },
+    {
+      "label": "Signs and readable text",
+      "instruction": "Describe separate pictures, emblems, garment graphics, marks and legible writing. State the visual form and carrier of each. Transcribe only readable characters and describe unreadable motifs without inventing their text or identity.",
+      "id": "question_2"
+    },
+    {
+      "label": "Supported associations",
+      "instruction": "Which functional, cultural or political associations are directly supported by the observed signs? Tie each interpretation to a visible feature and distinguish depicting a message from endorsing it. Leave unsupported associations undetermined.",
+      "id": "question_3"
+    },
+    {
+      "label": "Ambiguities",
+      "instruction": "Which visible details are too small, obscured or context-dependent to identify or interpret reliably? Name the uncertainty and avoid resolving it by guessing.",
+      "id": "question_4"
+    }
+  ],
+  "items": [
+    {
+      "name": "person_0",
+      "label": "person",
+      "image_path": "segments/person_0.webp",
+      "group": "people",
+      "bbox": [
+        237,
+        262,
+        385,
+        637
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "A person with long blonde hair wearing a white t-shirt with black trim on sleeves and collar. The shirt has printed graphics, blue jeans are visible at waist level. A hand is covering the face near eye area.",
+        "question_2": "The garment (t-shirt) displays text: 'FRANCE' in bold uppercase letters above three vertical stripes colored blue, white, red from left to right. No other legible writing or emblems appear on this visible carrier; background figures are indistinct and unidentifiable as printed motifs.",
+        "question_3": "'France' is directly supported by the text print on the t-shirt's front graphic. The tricolor (blue-white-red) pattern matches France’s national flag design, which supports its association with French identity or symbolism in visual form only; no endorsement of any political stance can be inferred from this observation alone.",
+        "question_4": "The background figures are too obscured and context-dependent to identify reliably as physical entities. The facial expression is partially covered by the hand but appears emotional — however, without clearer resolution it cannot confirm specific emotion or intent beyond visible posture."
+      }
+    },
+    {
+      "name": "person_1",
+      "label": "person",
+      "image_path": "segments/person_1.webp",
+      "group": "people",
+      "bbox": [
+        70,
+        276,
+        290,
+        582
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "A person wearing a camouflage-patterned uniform with tactical vest.\n- Head covered in a white-and-black checkered headscarf (keffiyeh).\n- Arms extended outward, hands visible but not gripping anything specific.\n- Tactical vest has multiple pouches and straps; appears to be made of durable fabric.\n- Lower body: camouflage pants tucked into boots with dark soles.\n- Ground surface is littered with debris including plastic bottles, trash bags, and scattered papers or cloth fragments.",
+        "question_2": "No legible text visible in the image. All markings are graphical patterns (e.g., checkered headscarf pattern) without readable characters.",
+        "question_3": null,
+        "question_4": "Uncertain details:\n- The exact nature of any emblem or insignia on clothing is not resolvable due to resolution and angle.\n- Context for the scene’s purpose (e.g., protest, military action) cannot be determined from visible evidence alone without external information."
+      }
+    },
+    {
+      "name": "person_2",
+      "label": "person",
+      "image_path": "segments/person_2.webp",
+      "group": "people",
+      "bbox": [
+        0,
+        236,
+        198,
+        532
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "Two people in tactical gear standing on uneven ground with debris.\n- Person one: Wearing a black balaclava, dark clothing, tan-colored body armor vest. Arms raised and bent at the elbows; right hand appears to be holding an object (possibly a weapon or tool).\n- Person two: Wearing camouflage pants, greenish-brown shirt under tactical gear with visible straps on chest/shoulders.\n  - Head covered by white-and-black checkered headscarf. Right arm extended forward and slightly outward; left hand appears to be holding an object (possibly a weapon or tool).\n- Background includes trees/foliage at top edge, scattered trash/debris including plastic bags near feet of both individuals.",
+        "question_2": null,
+        "question_3": null,
+        "question_4": "Unclear whether the objects held by each person are weapons (e.g., knives or guns) due to low resolution and obscured angles. The specific type, brand name, model number, or other identifying text on any gear is not legible."
+      }
+    },
+    {
+      "name": "person_3",
+      "label": "person",
+      "image_path": "segments/person_3.webp",
+      "group": "people",
+      "bbox": [
+        358,
+        236,
+        586,
+        591
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "A person wearing a white short-sleeved t-shirt with three horizontal stripes (red on top, green at bottom) across the chest. The shirt is made of fabric.\nVisible parts: torso, arms extended outward and upward in motion; blue denim jeans;\ntwo hands open-palmed facing forward or slightly sideways;\na person's head visible from front view showing dark hair and beard with mouth wide-open as if shouting or yelling.\nThe background includes other people partially obscured by the central figure. The ground is littered with trash including plastic bags, bottles (one green bottle), wrappers; some debris appears to be food-related waste.",
+        "question_2": "The t-shirt has a graphic print: three horizontal stripes — red on top, white in middle, and green at bottom.\nNo legible text or readable writing is visible anywhere else. Other objects like bottles have no discernable labels due to angle/blurry resolution; trash items lack identifiable markings.",
+        "question_3": "The t-shirt's graphic (three horizontal stripes) may be associated with national flags, but without additional context such as other symbols on the shirt or surrounding environment that explicitly link it to a specific country’s flag — this association cannot be confirmed.\nNo visible signs indicate political affiliation beyond potential symbolic representation of colors. No religious emblems are present.",
+        "question_4": "The exact nature and meaning behind facial expressions (e.g., shouting) is ambiguous without context or audio cues; they could represent excitement, protest, celebration — none can be determined from visual evidence alone.\nDetails such as the brand name on clothing items cannot be resolved due to resolution limits. The specific type of trash visible may not allow identification beyond general categories like plastic bags and bottles."
+      }
+    },
+    {
+      "name": "flag_0",
+      "label": "flag",
+      "image_path": "segments/flag_0.webp",
+      "group": "flag",
+      "bbox": [
+        0,
+        35,
+        180,
+        267
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "A flag with a black, white, green horizontal tricolor band on its left side; a red triangle at its hoist end. The carrier is fabric attached to a pole held aloft.\n\nVisible parts: the upper edge of the flagpole (metallic), waving folds in the textile material, and background foliage.",
+        "question_2": "No legible text or readable writing visible on any part of the image.\nThe red triangle contains no discernable markings inside it. The horizontal bands are solid colors with no printed characters.",
+        "question_3": "The flag’s design (horizontal tricolor + red triangle) is directly associated with a national symbol, specifically that used by Palestine as its official state emblem in visual representation and international contexts.\n\nThis association arises from the visible pattern matching known depictions of this specific flag. No other functional or cultural associations are supported beyond what can be inferred visually.",
+        "question_4": "The person holding the pole is partially obscured, with only a black head covering (balaclava) and raised arms visible — insufficient to identify individual features.\n\nDetails such as exact fabric texture of flag material, precise stitching or manufacturing marks are too small/obscured for reliable identification. The background foliage lacks sufficient resolution to determine species."
+      }
+    },
+    {
+      "name": "flag_1",
+      "label": "flag",
+      "image_path": "segments/flag_1.webp",
+      "group": "flag",
+      "bbox": [
+        410,
+        14,
+        616,
+        203
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "A flag is displayed on a pole.\nIt has three horizontal stripes: black (top), white (middle), green (bottom).\nThe center of the middle stripe contains an emblem consisting of a crescent moon and star, both in dark color.",
+        "question_2": "The central emblem consists of:\na) A crescent moon\nb) A five-pointed star inside or near it.\nNo readable text is visible on any part of the flag's graphic carrier.",
+        "question_3": null,
+        "question_4": "Details such as exact fabric texture, stitching quality and pole attachment are not resolvable at this scale. The emblem’s precise proportions cannot be verified due to image resolution."
+      }
+    },
+    {
+      "name": "t-shirt with flag design_0",
+      "label": "t-shirt with flag design",
+      "image_path": "segments/t-shirt with flag design_0.webp",
+      "group": "t-shirt with flag design",
+      "bbox": [
+        240,
+        431,
+        423,
+        611
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "A person wearing a short-sleeved t-shirt.\n- The shirt is white with black trim on sleeves and neckline.\n- It has printed graphics: text, blue rectangle, red vertical stripe.",
+        "question_2": "- Text 'RANCE' in bold uppercase letters (part of the word likely being \"FRANCE\").\n- Blue rectangular graphic to left of text.\n- Red vertical stripe on right side of shirt's front design. \nThe full flag motif is not fully visible due to cropping.",
+        "question_3": "- The printed elements resemble a national emblem or symbol (specifically, the French tricolor).\n- 'RANCE' suggests association with \"France\" as part of an incomplete word.\nThese are visual associations based on recognizable patterns and partial text; no endorsement is implied by observation alone.",
+        "question_4": "- The top portion of the shirt's graphic may be obscured or cropped, making it impossible to confirm if 'FRANCE' was fully printed. \nThe person’s face is partially visible but not clearly identifiable as a specific individual."
+      }
+    },
+    {
+      "name": "green bottle_0",
+      "label": "green bottle",
+      "image_path": "segments/green bottle_0.webp",
+      "group": "green bottle",
+      "bbox": [
+        435,
+        544,
+        468,
+        637
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "A green glass bottle with a white label.\nVisible parts: neck of bottle, body (with embossed ridges), cap area (partially visible).\nThe carrier is the physical object itself — not an illustration or print.",
+        "question_2": "White rectangular label on front surface. Text illegible due to image resolution and blurriness.\nNo other readable text, emblems, logos, or graphics are clearly discernable in this view.",
+        "question_3": null,
+        "question_4": "The bottle’s brand name/logo is not legible because of low-resolution imaging; the label's specific design elements (e.g., font style) cannot be determined.\nColor and shape details on the cap or neck are too indistinct to interpret reliably."
+      }
+    },
+    {
+      "name": "tower structure_0",
+      "label": "tower structure",
+      "image_path": "segments/tower structure_0.webp",
+      "group": "tower structure",
+      "bbox": [
+        187,
+        0,
+        344,
+        345
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "A photograph of a metal lattice structure (the Eiffel Tower), with people in foreground. Visible parts include: base arches, vertical support beams, horizontal cross-bracing, platform levels, and sky background.",
+        "question_2": "No legible text or readable writing is visible on the tower or any garment/printed graphic within this image frame.",
+        "question_3": null,
+        "question_4": "The faces of people in foreground are obscured by head coverings; their specific identities, expressions and affiliations cannot be determined from visual evidence. The exact purpose or context for being at that location is not visible."
+      }
+    },
+    {
+      "name": "Eiffel Tower structure_0",
+      "label": "Eiffel Tower structure",
+      "image_path": "segments/Eiffel Tower structure_0.webp",
+      "group": "Eiffel Tower structure",
+      "bbox": [
+        289,
+        0,
+        377,
+        277
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "A tall metal structure with a lattice framework.\nVisible parts include:\n- Upper section of an iron tower\n- Diagonal cross-bracing patterns\n- Horizontal beams forming platforms or walkways\n- A curved archway at the lower visible portion",
+        "question_2": "No legible text is present in this image.",
+        "question_3": null,
+        "question_4": "The specific context of location, scale and purpose cannot be determined from this cropped view. The exact material composition or construction date are not visually resolvable."
+      }
+    },
+    {
+      "name": "green plastic bottle_0",
+      "label": "green plastic bottle",
+      "image_path": "segments/green plastic bottle_0.webp",
+      "group": "green plastic bottle",
+      "bbox": [
+        112,
+        605,
+        164,
+        638
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "A green plastic bottle with a blue label wrapped around its midsection. The top of the bottle is not fully visible, but appears rounded; there's also an indistinct red object near the bottom.",
+        "question_2": "The carrier: A green plastic beverage container (bottle) featuring a rectangular blue paper or foil-like label with no legible text due to blurriness. No other readable writing is present on visible surfaces.",
+        "question_3": null,
+        "question_4": "Blurred image quality prevents clear identification of the bottle's brand, logo details, and any printed text; context for its use or origin cannot be determined from visual evidence alone."
+      }
+    },
+    {
+      "name": "white t-shirt with French flag and text_0",
+      "label": "white t-shirt with French flag and text",
+      "image_path": "segments/white t-shirt with French flag and text_0.webp",
+      "group": "white t-shirt with French flag and text",
+      "bbox": [
+        231,
+        426,
+        344,
+        600
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "A person wearing a short-sleeved t-shirt.\nVisible parts: torso, right arm (elbow bent), neck area with hair visible at top edge of frame. \nThe shirt has black trim on the collar and sleeve cuffs.",
+        "question_2": "Garment graphic printed directly onto fabric:\n- Text fragment 'RANC' in bold uppercase letters.\n- A vertical tricolor design: blue rectangle (left), white space, red rectangle (right).",
+        "question_3": "[No direct functional or cultural associations supported by visible evidence. The text and colors are visually present but cannot be confirmed as a specific flag, brand, political symbol, etc., without additional context.]",
+        "question_4": "The upper portion of the person's face is obscured (mouth partially covered), making any facial expression indeterminable.\nText 'RANC' appears incomplete; no visible text to confirm if it reads fully as a word like \"FRANCE\" or another term. \nThe tricolor design may be interpreted generically but lacks sufficient context for definitive cultural association."
+      }
+    },
+    {
+      "name": "white t-shirt with red and green stripe_0",
+      "label": "white t-shirt with red and green stripe",
+      "image_path": "segments/white t-shirt with red and green stripe_0.webp",
+      "group": "white t-shirt with red and green stripe",
+      "bbox": [
+        375,
+        292,
+        548,
+        466
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "A person wearing a white short-sleeved t-shirt with a horizontal tricolor graphic on the chest. The shirt has visible seams, collar edge, and sleeves.\nLight blue denim jeans are worn over dark-colored pants or leggings beneath them in some areas.\nThe individual’s arms appear muscular; one arm is bent at shoulder level while holding an object that appears to be part of another garment (possibly a jacket) draped across their torso. The other hand rests near the hip area.",
+        "question_2": "A horizontal tricolor graphic printed on the front center of the white t-shirt.\nIt consists of three distinct bands: top band is red, middle band is green, and bottom band appears to be black or dark gray (though color resolution may vary due to image quality). There are no visible words or readable text.",
+        "question_3": null,
+        "question_4": "The exact nature of the object held in one hand cannot be determined because it's partially obscured by clothing and lighting.\nColor accuracy for each band on the tricolor graphic may vary due to image resolution, compression artifacts, ambient light conditions or camera sensor limitations. Without higher-resolution imagery or metadata about color calibration used during capture/processing steps, precise identification of specific hues is uncertain."
+      }
+    },
+    {
+      "name": "black-and-white graphic on white shirt_0",
+      "label": "black-and-white graphic on white shirt",
+      "image_path": "segments/black-and-white graphic on white shirt_0.webp",
+      "group": "black-and-white graphic on white shirt",
+      "bbox": [
+        289,
+        475,
+        406,
+        591
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "A white short-sleeved T-shirt worn on a person.\nVisible parts: front torso area with graphic print, right sleeve (with black trim), shoulder strap of garment visible.",
+        "question_2": "Graphic printed on the shirt's chest:\nThe text 'FRANCE' in bold uppercase letters using black ink.\nA vertical tricolor design to left and center-right side under/next to lettering: blue stripe at far-left, white middle section (with partial red), then a large solid-red rectangle occupying right portion of graphic.",
+        "question_3": "The text 'FRANCE' directly supports association with the country France.\nThe French national flag colors — blue, white and red — are visually present in tricolor design on shirt. This is consistent with official representation used for patriotic or sporting events involving France (e.g., FIFA World Cup).",
+        "question_4": "The person's face/identity cannot be determined from visible image.\nExact size of text 'FRANCE' and flag graphic resolution are too small to confirm precise font style, exact color saturation levels beyond basic RGB tones observed or specific emblem details like stitching on sleeve trim (though black band is clearly present)."
+      }
+    },
+    {
+      "name": "FRANCE_0",
+      "label": "FRANCE",
+      "image_path": "segments/FRANCE_0.webp",
+      "group": "texts",
+      "bbox": [
+        276,
+        489,
+        374,
+        524
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "A cropped section of a graphic on a white background.\nVisible parts include black uppercase letters forming part of a word, with partial visibility due to blurriness.",
+        "question_2": "\"RANCE\" is visible as legible text in bold, sans-serif font. \nThe carrier appears to be printed or digitally rendered onto the surface shown (likely fabric or paper).",
+        "question_3": "[No directly supported associations]",
+        "question_4": "The image lacks sufficient context and resolution for reliable interpretation of any broader association.\nBlurriness obscures potential surrounding elements, making it impossible to confirm if this is part of a flag, logo, garment print or other graphic."
+      }
+    },
+    {
+      "name": "black-and-white graphic on white shirt_0::text_0",
+      "label": "text",
+      "parent_name": "black-and-white graphic on white shirt_0",
+      "image_path": "granular_segments/black-and-white graphic on white shirt/black-and-white graphic on white shirt_0/text_0.webp",
+      "group": "text",
+      "bbox": [
+        289,
+        490,
+        370,
+        537
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A close-up of a graphic print on fabric.\nVisible parts: partial text 'RANCE', blue square patch, red rectangular shape.",
+        "question_2": "'RANCE' in bold black uppercase letters printed over white background. \nThe French national flag's tricolor pattern (blue, white, and red) is visible as graphical elements beneath the lettering.\nUnreadable motifs: The top portion of 'FRA...' above 'RANCE', possibly part of a larger word or logo.",
+        "question_3": "The text 'FRANCE' directly supports an association with France. \nThe tricolor pattern (blue, white, red) is the national flag of France and reinforces this identification.\nNo other cultural/political associations are visible in the image to support them beyond these features.",
+        "question_4": "Uncertainty: The top portion above 'RANCE' cannot be fully resolved due to blurring or cropping. \nThe exact context (e.g., garment, banner) is not determinable from this cropped view."
+      }
+    },
+    {
+      "name": "black-and-white graphic on white shirt_0::graphic_0",
+      "label": "graphic",
+      "parent_name": "black-and-white graphic on white shirt_0",
+      "image_path": "granular_segments/black-and-white graphic on white shirt/black-and-white graphic on white shirt_0/graphic_0.webp",
+      "group": "graphic",
+      "bbox": [
+        289,
+        511,
+        374,
+        591
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A close-up of a fabric garment (likely clothing).\nVisible parts: blue vertical stripe on left,\nwhite central panel with partial text above, \nred vertical stripe on right.\nThe carrier is textile material.",
+        "question_2": "Text visible as 'ANCE' in black uppercase letters across the white section. The font appears bold and sans-serif; it's partially cut off at top-left corner of image frame.\nGraphic elements: blue (left), white (center with text), red vertical stripes — arranged vertically, resembling a flag motif.",
+        "question_3": "The visible graphic pattern is consistent with the national tricolor design used by France. \nThe partial word 'ANCE' strongly suggests association with French identity or representation.\nThis combination may be part of official merchandise (e.g., sports team apparel) representing France — but this interpretation relies on cultural context not directly observable in image.",
+        "question_4": "The top portion of the text is cut off, making it impossible to determine if 'ANCE' completes a full word like 'FRANCE'.\nExact material composition or garment type (e.g., jersey vs. t-shirt) cannot be determined from visible texture alone.\nThe context in which this item appears — e.g., sports event, national celebration — is not visually supported."
+      }
+    },
+    {
+      "name": "flag_0::red triangle_0",
+      "label": "red triangle",
+      "parent_name": "flag_0",
+      "image_path": "granular_segments/flag/flag_0/red triangle_0.webp",
+      "group": "red triangle",
+      "bbox": [
+        87,
+        38,
+        171,
+        180
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A flag with a triangular design.\n- Carrier: Fabric material (visible texture).\n- Distinguishable parts:\n   - A red triangle on the right side, pointing toward the hoist edge.\n   - Above it is a black horizontal stripe or band of fabric.\n   - Below the red section and beneath the black strip is a white horizontal stripe.\n   - At the bottom left corner (inferred from visible edges) appears to be green material.",
+        "question_2": "No legible text, writing, emblems, marks, logos, or printed motifs are clearly readable. The visual form consists of colored fabric sections arranged in stripes and a triangle shape without any discernable lettering or symbols beyond the color pattern itself.",
+        "question_3": null,
+        "question_4": "The image is cropped at an angle; therefore:\n- It cannot confirm whether there are additional colors, patterns, borders, or elements outside of what’s visible.\n- The exact proportions and alignment (e.g., if the triangle's apex meets a specific point) can’t be determined due to perspective distortion from cropping. \nThe flag may have been photographed at an angle that obscures its full design."
+      }
+    },
+    {
+      "name": "flag_0::black stripe_0",
+      "label": "black stripe",
+      "parent_name": "flag_0",
+      "image_path": "granular_segments/flag/flag_0/black stripe_0.webp",
+      "group": "black stripe",
+      "bbox": [
+        0,
+        38,
+        113,
+        144
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A flag with three horizontal stripes: black (top), white (middle), green (bottom). A red triangle is on the hoist side. The fabric appears to be waving in wind against a pale blue sky background.",
+        "question_2": "No legible text or readable writing visible. Emblems include:\n- Three equal-width horizontal stripes: black, white, and green.\n- Red equilateral triangle at top-left corner (hoist side).",
+        "question_3": null,
+        "question_4": "The image is cropped; the full flag design cannot be confirmed as complete. The resolution does not allow verification of fine details like stitching or exact stripe thickness."
+      }
+    },
+    {
+      "name": "flag_0::white stripe_0",
+      "label": "white stripe",
+      "parent_name": "flag_0",
+      "image_path": "granular_segments/flag/flag_0/white stripe_0.webp",
+      "group": "white stripe",
+      "bbox": [
+        0,
+        85,
+        113,
+        154
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A flag with three horizontal stripes: black (top), white (middle), green (bottom). A red triangle is on the hoist side. The fabric appears to be waving, showing folds and creases.",
+        "question_2": "No legible text or readable writing visible in this image fragment. Emblems are present but not transcribed due to lack of clear textual content; only visual forms described above.",
+        "question_3": null,
+        "question_4": "The resolution is low, and the edges may be slightly blurred by motion or focus issues — making precise identification difficult without clearer context."
+      }
+    },
+    {
+      "name": "flag_0::green stripe_0",
+      "label": "green stripe",
+      "parent_name": "flag_0",
+      "image_path": "granular_segments/flag/flag_0/green stripe_0.webp",
+      "group": "green stripe",
+      "bbox": [
+        0,
+        145,
+        171,
+        238
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A flag with three horizontal stripes: white (top), green (middle), red (bottom). The visible portion shows a textured, possibly fabric-like surface. A small part of the top corner appears to be folded or creased.",
+        "question_2": null,
+        "question_3": null,
+        "question_4": "The resolution is too low and parts are obscured by folds/creases; no clear emblem, text, symbol, or cultural marker can be definitively identified. The flag's design may represent a specific entity but cannot be confirmed from visible evidence alone."
+      }
+    },
+    {
+      "name": "flag_1::black stripe_0",
+      "label": "black stripe",
+      "parent_name": "flag_1",
+      "image_path": "granular_segments/flag/flag_1/black stripe_0.webp",
+      "group": "black stripe",
+      "bbox": [
+        410,
+        39,
+        613,
+        65
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A diagonal dark structure against a light blue sky. A portion of green foliage is on the right edge.",
+        "question_2": null,
+        "question_3": null,
+        "question_4": "The image resolution and angle prevent clear identification of material, scale or specific context."
+      }
+    },
+    {
+      "name": "flag_1::white stripe_0",
+      "label": "white stripe",
+      "parent_name": "flag_1",
+      "image_path": "granular_segments/flag/flag_1/white stripe_0.webp",
+      "group": "white stripe",
+      "bbox": [
+        410,
+        64,
+        613,
+        103
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A flag with a black upper section and white lower section.\nVisible folds in fabric due to wind or movement.\nThe carrier is attached at an unseen point, possibly on a pole (not visible).\nBackground includes sky (blue) and foliage (green).",
+        "question_2": "No legible text present.",
+        "question_3": null,
+        "question_4": "The flag's specific design or emblem cannot be resolved due to low resolution.\nThe carrier’s attachment point is not visible, so its exact mounting method remains ambiguous."
+      }
+    },
+    {
+      "name": "flag_1::green stripe_0",
+      "label": "green stripe",
+      "parent_name": "flag_1",
+      "image_path": "granular_segments/flag/flag_1/green stripe_0.webp",
+      "group": "green stripe",
+      "bbox": [
+        410,
+        102,
+        613,
+        139
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A flag with a white field on its left side. A green stripe runs along the bottom right corner of the visible portion.\n\nThe central emblem consists of:\n- A black crescent moon, oriented upward and to the left (concave curve facing downward).\n- Inside this crescent is a five-pointed star in solid black.",
+        "question_2": "No legible text or readable writing appears on any part of the visible flag.\nThe emblem consists solely of graphical elements: a crescent moon with an enclosed, centered five-pointed star. No other symbols are present.",
+        "question_3": null,
+        "question_4": "The image is cropped and lacks sufficient resolution to determine:\n- The full dimensions or proportions of the flag.\n- Whether additional colors (e.g., red) appear outside this visible section, as only white and green portions can be confirmed here."
+      }
+    },
+    {
+      "name": "flag_1::crescent moon symbol_0",
+      "label": "crescent moon symbol",
+      "parent_name": "flag_1",
+      "image_path": "granular_segments/flag/flag_1/crescent moon symbol_0.webp",
+      "group": "crescent moon symbol",
+      "bbox": [
+        487,
+        77,
+        526,
+        103
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A close-up of a physical object with two distinct regions:\n- A dark-colored upper section.\n- A lighter, possibly white or off-white lower section that curves upward at the bottom edge.",
+        "question_2": "No readable text, emblems, marks, or graphics are visible in this cropped image. The visual content consists only of color and shape without legible characters or identifiable symbols.",
+        "question_3": null,
+        "question_4": "The resolution is too low to identify specific materials (e.g., fabric vs. plastic), exact colors beyond general dark/light, or any fine details that might support functional, cultural, or political associations."
+      }
+    },
+    {
+      "name": "flag_1::star symbol_0",
+      "label": "star symbol",
+      "parent_name": "flag_1",
+      "image_path": "granular_segments/flag/flag_1/star symbol_0.webp",
+      "group": "star symbol",
+      "bbox": [
+        506,
+        84,
+        526,
+        103
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "The image is a blurry close-up of an indistinct surface.\n- It appears as light-colored with gradient shading, possibly white or off-white.\n- A darker shadowed area occupies the top-left corner.\n- No distinguishable parts such as edges, textures, objects, patterns, logos, text, people, animals, symbols, emblems, garments, prints, graphics, marks, signs, writing, letters, numbers, icons, shapes or designs are resolved.",
+        "question_2": null,
+        "question_3": null,
+        "question_4": "The image is too blurry and lacks sufficient resolution to identify any specific details reliably.\n- No visible features can be confirmed as text, signs, emblems, graphics, marks, writing or symbols due to the lack of clarity."
+      }
+    },
+    {
+      "name": "person_0::graphic_0",
+      "label": "graphic",
+      "parent_name": "person_0",
+      "image_path": "granular_segments/people/person_0/graphic_0.webp",
+      "group": "people",
+      "bbox": [
+        252,
+        478,
+        374,
+        614
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A person wearing a white cropped top.\nVisible parts include: upper torso of wearer; right arm partially visible;\ncropped hemline at waist level.",
+        "question_2": "Garment graphic on front:\nThe word 'FRANCE' printed in bold black uppercase letters across the chest area, above two vertical rectangular stripes — one blue and one red.\nNo other readable text or marks are present.",
+        "question_3": "The garment's design directly supports an association with France: \nit features a stylized version of the French national flag (tricolore) in its color scheme\n(blue, white, red vertical stripes), along with explicit textual reference to 'FRANCE'.",
+        "question_4": null
+      }
+    },
+    {
+      "name": "person_0::text_0",
+      "label": "text",
+      "parent_name": "person_0",
+      "image_path": "granular_segments/people/person_0/text_0.webp",
+      "group": "people",
+      "bbox": [
+        272,
+        487,
+        356,
+        534
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A close-up of a fabric carrier (likely clothing).\nVisible parts: partial text in bold black letters on white background.\nObscured edges suggest cropped view.",
+        "question_2": "Text visible:\n- Partial word 'FRANCE' written in uppercase, sans-serif font. \nThe lettering is cut off at the left and right ends of frame.\nGraphic elements: blue rectangle to lower-left; red rectangle partially seen below-right (likely part of French flag motif).",
+        "question_3": "Supported association:\n- The text 'FRANCE' combined with color blocks resembling France's national tricolor suggests a connection to the country or its symbols. \nThe design is consistent with official merchandise, sports apparel, or patriotic items.",
+        "question_4": "Ambiguities: \n- Exact context of use (e.g., garment type) cannot be determined from cropped view.\n- Full text and emblem are truncated; no visible stitching or fabric texture to confirm material. \nThe carrier’s purpose is inferred but not visually confirmed."
+      }
+    },
+    {
+      "name": "person_1::camouflage pants_0",
+      "label": "camouflage pants",
+      "parent_name": "person_1",
+      "image_path": "granular_segments/people/person_1/camouflage pants_0.webp",
+      "group": "people",
+      "bbox": [
+        70,
+        371,
+        213,
+        575
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A person wearing camouflage-patterned pants.\nVisible parts: lower legs, boots (dark-colored), tactical vest with tan straps/panels on upper torso. \nThe ground is littered with debris including plastic wrappers and a green rectangular object.",
+        "question_2": "No legible text or readable writing visible in the image.",
+        "question_3": null,
+        "question_4": "The camouflage pattern's specific design (e.g., country of origin) cannot be determined from this view. \nThe exact nature and purpose of items on ground are ambiguous without context."
+      }
+    },
+    {
+      "name": "person_1::tactical vest_0",
+      "label": "tactical vest",
+      "parent_name": "person_1",
+      "image_path": "granular_segments/people/person_1/tactical vest_0.webp",
+      "group": "people",
+      "bbox": [
+        106,
+        348,
+        213,
+        426
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A tan-colored tactical vest with multiple vertical pouches.\nVisible straps securing the front panels.\nThe carrier appears to be a physical object, possibly worn or displayed on an unseen person or stand.",
+        "question_2": "No readable text is visible in any part of the image. \nEmblems are not present; only generic tactical gear design elements can be seen (e.g., pouches and straps).",
+        "question_3": "The vest's form suggests a functional association with military, law enforcement or outdoor survival equipment.\nThe multiple vertical pockets support utility-based use for carrying tools or supplies.",
+        "question_4": "Ambiguities include: \n- The exact material composition of the carrier is unclear due to image resolution. \n- Whether this item is worn by a person cannot be confirmed as no human form is visible around it.\n- No specific brand, insignia or context (e.g., unit affiliation) can be determined from visual evidence."
+      }
+    },
+    {
+      "name": "person_1::bandana_0",
+      "label": "bandana",
+      "parent_name": "person_1",
+      "image_path": "granular_segments/people/person_1/bandana_0.webp",
+      "group": "people",
+      "bbox": [
+        122,
+        279,
+        178,
+        349
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A person wearing a white knitted head covering that covers their face.\nVisible parts include:\nThe textured knit pattern of the fabric,\na portion of what appears to be light-colored clothing (possibly beige or tan) on the torso and shoulder area,\nan indistinct dark shape in the upper left background.",
+        "question_2": null,
+        "question_3": null,
+        "question_4": "The image is too low-resolution, blurry, and cropped. Details such as exact fabric type (e.g., wool or cotton), specific cultural symbols on any garment graphic, facial features beneath the covering, or context of use cannot be reliably determined from visible evidence."
+      }
+    },
+    {
+      "name": "person_1::blue plastic bottle_0",
+      "label": "blue plastic bottle",
+      "parent_name": "person_1",
+      "image_path": "granular_segments/people/person_1/blue plastic bottle_0.webp",
+      "group": "people",
+      "bbox": [
+        106,
+        552,
+        139,
+        575
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "The image is extremely blurry.\nVisible parts include a large brownish area at top left that may be fabric or surface texture, with an indistinct blue shape below. No distinguishable physical object form can be resolved due to low resolution.",
+        "question_2": "No readable text or legible emblems are visible in the image because of its extreme blurriness.\nAny markings present cannot be transcribed as they lack clarity and definition.",
+        "question_3": null,
+        "question_4": "The entire scene is too blurry to reliably identify any details, materials, shapes or associations. The resolution prevents distinguishing specific features such as object boundaries, textures beyond color blocks, or graphic elements."
+      }
+    },
+    {
+      "name": "person_2::black balaclava_0",
+      "label": "black balaclava",
+      "parent_name": "person_2",
+      "image_path": "granular_segments/people/person_2/black balaclava_0.webp",
+      "group": "people",
+      "bbox": [
+        34,
+        246,
+        84,
+        316
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A person wearing a black balaclava covering their head and face.\nVisible carrier: The garment is worn over what appears to be tactical gear or clothing with tan-colored straps/panels visible on the shoulders/back. \nThe eye opening of the mask has an oval-shaped, light pinkish-red reflective patch.",
+        "question_2": "No legible text present in any form (e.g., printed words, symbols). The only discernable graphic is a small circular or elliptical red/pink reflector within the balaclava’s eye opening. This feature appears to be functional rather than symbolic and does not represent an emblem.",
+        "question_3": null,
+        "question_4": "The image resolution prevents clear identification of any specific brand, insignia, cultural symbol or political affiliation associated with this gear.\nUncertainty: The exact purpose (e.g., tactical use vs. fashion) cannot be determined from the visual evidence alone; it may also not represent a particular group’s identity."
+      }
+    },
+    {
+      "name": "person_2::camouflage pants_0",
+      "label": "camouflage pants",
+      "parent_name": "person_2",
+      "image_path": "granular_segments/people/person_2/camouflage pants_0.webp",
+      "group": "people",
+      "bbox": [
+        97,
+        421,
+        174,
+        532
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A close-up of a person's lower leg wearing camouflage-patterned pants.\nVisible parts include:\nThe fabric with green, brown, black, and tan splotches (camouflage pattern).\nAn area near the knee showing part of an insignia or patch that is too blurry to identify clearly.\nBackground elements: scattered debris including what appears to be a blue plastic bag fragment and possibly some red material.",
+        "question_2": "No legible text, emblems with clear readable characters, or distinct printed logos are visible. The only discernable graphic element is an indistinct patch near the knee that cannot be transcribed due to blurriness.",
+        "question_3": null,
+        "question_4": "The insignia on the pants (near the knee) and any potential markings in the background debris are too blurry or obscured for reliable identification. The context of use is not visible, so no functional association can be determined from this image alone."
+      }
+    },
+    {
+      "name": "person_2::tan tactical vest with straps and pockets_0",
+      "label": "tan tactical vest with straps and pockets",
+      "parent_name": "person_2",
+      "image_path": "granular_segments/people/person_2/tan tactical vest with straps and pockets_0.webp",
+      "group": "people",
+      "bbox": [
+        19,
+        285,
+        99,
+        392
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A person wearing a tan tactical vest over a black shirt.\nVisible parts: front panel with horizontal straps/loops, shoulder straps (partially visible), arm extending from right side of frame showing hand and forearm.",
+        "question_2": "No readable text or legible emblems are present in the image. The graphic carrier is fabric-based for both vest and shirt; no printed motifs can be transcribed due to resolution limits.",
+        "question_3": null,
+        "question_4": "The exact material composition of the vest (e.g., nylon, cotton blend) cannot be determined from visual evidence alone.\nDetails like stitching patterns or manufacturer logos are too small/obscured for reliable identification without higher-resolution imaging."
+      }
+    },
+    {
+      "name": "person_2::white patterned headscarf_0",
+      "label": "white patterned headscarf",
+      "parent_name": "person_2",
+      "image_path": "granular_segments/people/person_2/white patterned headscarf_0.webp",
+      "group": "people",
+      "bbox": [
+        124,
+        285,
+        187,
+        351
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A person wearing a knitted balaclava covering their head and face.\n- The carrier is human skin visible around eye area, neck, and chin (partially obscured).\nThe garment appears to be made of grayish-white yarn with black speckles or patterns woven into it. \nIt has an open mesh-like structure over the eyes; a white fabric strip runs down from under the balaclava’s edge near the jawline.\n- The person is wearing what looks like tan-colored clothing on their shoulders and upper chest.",
+        "question_2": null,
+        "question_3": null,
+        "question_4": "- Resolution of fine details (e.g., exact pattern, texture) may be limited due to image blurriness.\n- The context or purpose for wearing the garment cannot be determined from visible evidence alone."
+      }
+    },
+    {
+      "name": "person_3::white t-shirt_0",
+      "label": "white t-shirt",
+      "parent_name": "person_3",
+      "image_path": "granular_segments/people/person_3/white t-shirt_0.webp",
+      "group": "people",
+      "bbox": [
+        382,
+        319,
+        554,
+        447
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A person wearing a white short-sleeved t-shirt with horizontal stripes.\nVisible parts: torso (shirt), arms, blue jeans. Background includes dark clothing or figures.",
+        "question_2": "Graphic on the shirt:\n- Three horizontal bands of color from top to bottom: red, white, green.\nThe carrier is a printed graphic on fabric; no legible text visible elsewhere in image.",
+        "question_3": null,
+        "question_4": "The exact context or setting cannot be determined due to obscured background and low resolution. The colors may resemble national flags but are not confirmed as such without additional evidence."
+      }
+    },
+    {
+      "name": "person_3::horizontal stripe graphic on shirt_0",
+      "label": "horizontal stripe graphic on shirt",
+      "parent_name": "person_3",
+      "image_path": "granular_segments/people/person_3/horizontal stripe graphic on shirt_0.webp",
+      "group": "people",
+      "bbox": [
+        418,
+        346,
+        518,
+        388
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A close-up of a light-colored fabric garment.\nVisible parts include:\na green horizontal stripe near the top edge\nthe textured surface of the material",
+        "question_2": "No readable text or legible writing is visible in this image.",
+        "question_3": null,
+        "question_4": "The resolution and context are insufficient to determine if the garment has a specific function, cultural meaning, political affiliation, or brand identity. The green stripe could be part of any design without clear association."
+      }
+    },
+    {
+      "name": "t-shirt with flag design_0::text_0",
+      "label": "text",
+      "parent_name": "t-shirt with flag design_0",
+      "image_path": "granular_segments/t-shirt with flag design/t-shirt with flag design_0/text_0.webp",
+      "group": "text",
+      "bbox": [
+        279,
+        496,
+        389,
+        520
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A close-up of a physical object with printed text.\nVisible carrier: likely fabric (e.g., shirt) based on texture edge, but not confirmed as such.\nDistinguishable parts:\n- Printed letters in bold uppercase font\n- White background area behind the lettering\n- Partially visible blue stripe or border at bottom of frame",
+        "question_2": "Visible text: \"RANCE\" printed in black capital letters on a white surface. \nThe carrier appears to be fabric with slight texture, possibly part of clothing.\nUnreadable motifs:\n- No other emblems are clearly legible\n- The full word is cut off at the beginning (first letter not visible)\n- Background color and border details may indicate design but lack clear symbolic meaning",
+        "question_3": null,
+        "question_4": "Uncertainties include: \nThe exact material of carrier cannot be confirmed beyond fabric-like texture.\nFull context is missing — no indication whether this represents a flag, logo or garment print. The partial text \"RANCE\" does not allow identification without additional visible letters."
+      }
+    },
+    {
+      "name": "t-shirt with flag design_0::blue rectangle_0",
+      "label": "blue rectangle",
+      "parent_name": "t-shirt with flag design_0",
+      "image_path": "granular_segments/t-shirt with flag design/t-shirt with flag design_0/blue rectangle_0.webp",
+      "group": "blue rectangle",
+      "bbox": [
+        272,
+        521,
+        309,
+        575
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A close-up view of a blue rectangular object with rounded corners.\nVisible parts include:\na. A dominant solid dark-blue area occupying most of the frame.\nb. An adjacent lighter-colored vertical edge on the right side, possibly white or off-white.\nc. The top-left corner shows partial overlap from an out-of-frame element (e.g., a finger or shadow).",
+        "question_2": "No readable text is visible in this image fragment.",
+        "question_3": null,
+        "question_4": "The context of the object and its purpose cannot be determined due to lack of surrounding visual information. The blue color alone does not support any specific cultural, political or functional association without additional evidence."
+      }
+    },
+    {
+      "name": "t-shirt with flag design_0::red rectangle_0",
+      "label": "red rectangle",
+      "parent_name": "t-shirt with flag design_0",
+      "image_path": "granular_segments/t-shirt with flag design/t-shirt with flag design_0/red rectangle_0.webp",
+      "group": "red rectangle",
+      "bbox": [
+        331,
+        519,
+        378,
+        575
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A close-up of a garment's graphic print.\nVisible parts: A red vertical stripe on white fabric; partial black text above the stripe.",
+        "question_2": "Garment graphics:\n- Red rectangular shape (vertical orientation) printed directly onto white fabric carrier.\n- Partially visible uppercase letters in bold, sans-serif font at top of image. Only 'GE' is legible due to blurriness and cropping; other characters are obscured.",
+        "question_3": null,
+        "question_4": "The text above the red stripe cannot be fully read or confirmed as a specific word/phrase.\nVisible details (e.g., letter spacing, font style) lack sufficient resolution for definitive identification of any logo, brand name or cultural symbol."
+      }
+    },
+    {
+      "name": "FRANCE_0::RANCE_0",
+      "label": "RANCE",
+      "parent_name": "FRANCE_0",
+      "image_path": "granular_segments/texts/FRANCE_0/RANCE_0.webp",
+      "group": "texts",
+      "bbox": [
+        276,
+        493,
+        373,
+        523
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A cropped section of a graphic on what appears to be fabric (e.g., clothing). The visible part shows bold, black uppercase letters against a white background. A small blue rectangular shape is partially visible beneath the text.",
+        "question_2": "The readable text: 'RANCE'. It's printed in large, blocky, sans-serif font on what appears to be fabric (e.g., shirt or jersey). The lettering has no discernible drop shadow or outline. A small blue rectangle lies directly under the letters but is not part of any legible emblem.",
+        "question_3": null,
+        "question_4": "The full word and its context are obscured by cropping, making it impossible to determine if this fragment belongs to a larger logo (e.g., 'FRANCE' or another brand). The blue shape's purpose is unclear without additional visual information. No cultural, political, or functional associations can be confirmed from the visible evidence alone."
+      }
+    },
+    {
+      "name": "white t-shirt with French flag and text_0::text_0",
+      "label": "text",
+      "parent_name": "white t-shirt with French flag and text_0",
+      "image_path": "granular_segments/white t-shirt with french flag and text/white t-shirt with French flag and text_0/text_0.webp",
+      "group": "text",
+      "bbox": [
+        285,
+        495,
+        339,
+        517
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A cropped image showing a portion of text.\nVisible carrier: digital graphic/image with blurred edges due to low resolution or magnification.\nDistinguishable parts: bold, black uppercase letters on a light background.",
+        "question_2": "Readable characters:\n- 'R' (first letter)\n- 'A' (second letter)\n- 'N' (third letter)\nThe fourth character is obscured and unreadable. No other emblems or graphics are visible in the cropped area.",
+        "question_3": null,
+        "question_4": "The image resolution prevents clear identification of any additional text beyond \"RAN\".\nThe carrier's full context, material properties (e.g., fabric vs paper), and surrounding environment cannot be determined from this crop."
+      }
+    },
+    {
+      "name": "white t-shirt with French flag and text_0::graphic_0",
+      "label": "graphic",
+      "parent_name": "white t-shirt with French flag and text_0",
+      "image_path": "granular_segments/white t-shirt with french flag and text/white t-shirt with French flag and text_0/graphic_0.webp",
+      "group": "graphic",
+      "bbox": [
+        274,
+        516,
+        303,
+        583
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A close-up view of a rectangular object with a solid blue surface.\nVisible edges suggest flat sides; one corner is slightly rounded in perspective.",
+        "question_2": null,
+        "question_3": null,
+        "question_4": "The image resolution and angle prevent identification of the material or specific context. The carrier's purpose (e.g., fabric, paper, digital display) cannot be determined from visible evidence."
+      }
+    },
+    {
+      "name": "white t-shirt with French flag and text_0::graphic_1",
+      "label": "graphic",
+      "parent_name": "white t-shirt with French flag and text_0",
+      "image_path": "granular_segments/white t-shirt with french flag and text/white t-shirt with French flag and text_0/graphic_1.webp",
+      "group": "graphic",
+      "bbox": [
+        319,
+        516,
+        344,
+        600
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A cropped section of a graphic.\nVisible carrier: likely printed material (e.g., paper, fabric).\nDistinguishable parts:\n- A large red rectangular shape on the right side.\n- Partially visible black text or symbol at top left.",
+        "question_2": "Readable characters are not present in this crop. The only legible elements appear to be fragments of a larger graphic (e.g., partial letters like 'N' and possibly other shapes).",
+        "question_3": null,
+        "question_4": "The image is too cropped for reliable identification.\n- Unclear if the black shape at top left represents text, an icon or part of another design. \n- The red rectangle’s purpose (e.g., background color vs. symbolic element) cannot be determined without context."
+      }
+    },
+    {
+      "name": "white t-shirt with red and green stripe_0::graphic_0",
+      "label": "graphic",
+      "parent_name": "white t-shirt with red and green stripe_0",
+      "image_path": "granular_segments/white t-shirt with red and green stripe/white t-shirt with red and green stripe_0/graphic_0.webp",
+      "group": "graphic",
+      "bbox": [
+        422,
+        325,
+        493,
+        361
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "A blurry image of a graphic on a light-colored fabric carrier.\nVisible parts: three horizontal stripes — top red, middle white, bottom green.",
+        "question_2": "Three distinct colored bands:\n- Top band is reddish-brown and horizontally oriented.\n- Middle band is off-white or pale gray with slight discoloration/blurry texture.\n- Bottom band is dark green. \nThe text on the image cannot be read due to blurriness.",
+        "question_3": null,
+        "question_4": "The resolution of this cropped view does not allow for reliable identification beyond color and orientation; no contextual or symbolic associations can be determined from visible features alone."
+      }
+    }
+  ]
+}
