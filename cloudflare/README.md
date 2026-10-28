@@ -23,7 +23,14 @@ In Cloudflare Pages, connect this frontend repository and use:
 
 Cloudflare installs frontend dependencies during its build. No Ollama, Hugging Face token, NVIDIA hardware, Python, R2 bucket, or paid Worker runtime is needed for this static viewer. Optional `NEXT_PUBLIC_FRONTEND_REPOSITORY_URL` and `NEXT_PUBLIC_BACKEND_REPOSITORY_URL` environment variables add repository links to the setup guide. They must be public HTTPS URLs, never credentials.
 
-Alternatively, build locally and use Cloudflare Pages **Direct Upload** to upload the contents of `cloudflare/out`. This repository does not publish automatically. Keep the output's `_next` and `data` folders together with the generated HTML.
+Git integration above is the recommended route. Alternatively, build locally and use Wrangler for **Direct Upload** when you are ready to publish:
+
+```sh
+npx wrangler login
+npx wrangler pages deploy cloudflare/out
+```
+
+Wrangler is downloaded on the machine running that command if needed. This repository does not publish automatically. Keep the output's `_next` and `data` folders together with the generated HTML. The prepared snapshot has about 1,100 files, so use Git integration or Wrangler: the dashboard's drag-and-drop uploader has a lower 1,000-file limit. See [Cloudflare's upload limits](https://developers.cloudflare.com/pages/get-started/direct-upload/#limits).
 
 Only inventory-listed assets used by the viewer are published. Import markers, raw model diagnostics, prompt files, and evidence-board previews are excluded. All exported images and analysis data are public to visitors of this website. To update the database, add completed results to `data` in this repository and rebuild. Runtime imports are available in the separately started local frontend.
 
