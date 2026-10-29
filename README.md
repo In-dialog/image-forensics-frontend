@@ -1,5 +1,7 @@
 # Image Forensics Analysis — web interface
 
+**[Demo](https://forensic-image-analysis-demo.pages.dev/results/)**
+
 **Backend:** [image-forensics-backend](https://github.com/In-dialog/image-forensics-backend)
 
 Explore saved image analyses: detected objects, descriptions, rankings, clusters, and forensic outputs. This repository includes the web interface and a database of example results.
@@ -8,7 +10,6 @@ Explore saved image analyses: detected objects, descriptions, rankings, clusters
 | --- | --- |
 | View the included database or previously saved results | This frontend only. |
 | Analyze new images | This frontend **and** the separate `image-forensics-backend` project. Follow the backend's hardware and model setup guide as well. |
-| Publish a website that displays saved results | Use the [Cloudflare deployment guide](cloudflare/README.md). |
 
 ## Before downloading
 
@@ -134,12 +135,6 @@ The installer creates `.env.local` from `.env.example` only when no local settin
 | Ollama, GPU, or Hugging Face access error | Follow the backend's setup guide and read its terminal output. These requirements apply to running analyses, not viewing saved results. |
 | A copied result does not appear | Copy the complete dataset folder, including `.import.json`, into the configured results directory. Do not copy just an image or individual JSON file. |
 
-## Put the saved database on Cloudflare
-
-Follow the [Cloudflare deployment guide](cloudflare/README.md) for the build settings and upload steps. The hosted site displays saved results without the backend. Its **New analysis** page explains how to install the local app; it cannot automatically connect to a visitor's local backend.
-
-Choose the datasets you intend to publish: exported images and analysis results are available to website visitors. Publishing new results requires rebuilding the static site.
-
 <details>
 <summary>Developer commands</summary>
 
@@ -165,13 +160,6 @@ npm run lint
 npm run typecheck
 npm run build:local
 npm start
-```
-
-Static database checks and Cloudflare build:
-
-```bash
-npm run check:cloudflare
-npm run build:cloudflare
 ```
 
 Keep `package-lock.json` and `.npmrc` when distributing or updating the source. For a Git checkout, back up results and settings first, update with `git pull --ff-only`, then rerun Install. If Git reports local changes or conflicts, resolve them before proceeding; do not discard your saved data to force an update.
