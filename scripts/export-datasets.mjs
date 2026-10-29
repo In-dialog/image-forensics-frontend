@@ -160,6 +160,7 @@ export async function writeExport(plan, root = repositoryRoot) {
     await fs.copyFile(asset.source, destination);
   }
   await fs.writeFile(path.join(generated, 'catalog.json'), JSON.stringify(plan.datasets));
+  await fs.writeFile(path.join(publicData, 'catalog.json'), JSON.stringify(plan.datasets));
 }
 
 async function main() {

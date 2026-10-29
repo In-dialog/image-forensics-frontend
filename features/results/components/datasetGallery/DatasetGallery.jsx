@@ -11,7 +11,7 @@ function formatDatasetName(name) {
 
 /**
  * @param {{
- *   datasets?: Array<{ id: string, name: string, basePath: string, previewUrl?: string }>,
+ *   datasets?: Array<{ id: string, name: string, basePath: string, previewUrl?: string, href?: string }>,
  *   loading?: boolean,
  *   error?: boolean,
  * }} props
@@ -37,7 +37,7 @@ export default function DatasetGallery({
           </p>
           <div className="dataset-gallery__status-row">
             <span className="dataset-gallery__status-pill">
-              DATASETS: {datasetCount}
+              DATASETS: {loading || error ? '—' : datasetCount}
             </span>
           </div>
         </header>
@@ -46,7 +46,7 @@ export default function DatasetGallery({
           <div className="dataset-gallery__state">Scanning data directory...</div>
         )}
 
-        {!loading && datasets.length === 0 && (
+        {!loading && !error && datasets.length === 0 && (
           <div className="dataset-gallery__state">No datasets found.</div>
         )}
 
@@ -56,7 +56,7 @@ export default function DatasetGallery({
               <Link
                 key={dataset.id}
                 className="dataset-gallery__card"
-                href={`/results/${encodeURIComponent(dataset.id)}`}
+                href={dataset.href || `/results/${encodeURIComponent(dataset.id)}`}
               >
                 <div className="dataset-gallery__card-head">
                   <span className="dataset-gallery__card-id">
