@@ -87,7 +87,7 @@ Your browser should open [http://127.0.0.1:3100](http://127.0.0.1:3100). Open th
 
 Select **View database**, open an image, and explore its saved results. The included examples are ready to view. To create a new analysis, follow the combined setup at the bottom.
 
-To stop the frontend, press **Ctrl+C** in its terminal. Closing the browser tab does not stop the app. To use it again, open **Start**; you do not need to reinstall.
+To stop the frontend, press **Ctrl+C** in its terminal. On Windows, closing the **Start.cmd** terminal also stops the website and its child processes. The separately started backend has its own terminal. Closing the browser tab does not stop the app. To use it again, open **Start**; you do not need to reinstall.
 
 ## Saved results and updates
 

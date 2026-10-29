@@ -44,6 +44,10 @@ function Remove-InstallerTemporary([string]$Directory) {
 }
 
 try {
+    if ($Action -eq 'start' -and -not $DryRun -and -not $Preflight) {
+        . (Join-Path $PSScriptRoot '..\scripts\windows_process_job.ps1')
+        Enable-LauncherProcessCleanup
+    }
     Assert-PrivateRuntime
     Write-Host ''
     Write-Host 'IMAGE FORENSICS ANALYSIS - WEBSITE' -ForegroundColor Cyan
