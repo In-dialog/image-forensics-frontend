@@ -1,4 +1,11 @@
-@import "tailwindcss";
+@import "tailwindcss" source(none);
+
+/* Both Next targets use these components. Explicit paths keep the Cloudflare
+   build from scanning only cloudflare/ and dropping shared layout utilities. */
+@source ".";
+@source "../features";
+@source "../shared";
+@source "../cloudflare/app";
 
 /* ─── Global color palette (non-grey/black/white) ───────────────────────────────────────── */
 :root {

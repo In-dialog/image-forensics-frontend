@@ -1,6 +1,6 @@
 # Cloudflare database viewer
 
-This build contains the same image viewer and visual analysis components as the local app. The hosted website serves a snapshot of the saved database. Its New analysis page provides setup instructions; it does not send requests to a visitor's computer or require a Python backend.
+This build contains the same image viewer and visual analysis components as the local app. The hosted website reads the published dataset catalog and metadata when the gallery opens, with caching disabled. Deleted metadata removes a dataset from the gallery even if an older index still mentions it. Its New analysis page provides setup instructions; it does not send requests to a visitor's computer or require a Python backend.
 
 After installing frontend dependencies, run from the repository root:
 
@@ -39,7 +39,9 @@ The exporter enforces the free Pages limits of 20,000 total files and 25 MiB per
 Architecture:
 
 - `app/` contains the small static route adapters.
-- `lib/catalog.ts` reads the generated catalog at build time.
+- `lib/catalog.ts` reads the generated catalog only to preserve direct dataset URLs at build time.
+- `lib/loadDatasets.mjs` reads `/data/catalog.json` and verifies current metadata on every gallery load. The client also refreshes when the tab becomes active; unavailable data shows an error, without falling back to a stale list.
+- `/results/view/?dataset=...` opens a published dataset without requiring a generated page for its ID.
 - `../features/` and `../shared/` contain the shared interface and viewer.
 - `../scripts/export-datasets.mjs` publishes validated viewer files and catalog data.
 - `../scripts/check-static-export.mjs` checks the final output and required routes.
