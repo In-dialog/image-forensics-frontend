@@ -4,7 +4,7 @@ import net from 'node:net';
 import { createRequire } from 'node:module';
 import { spawn, spawnSync, execFileSync } from 'node:child_process';
 import { dataset, sections, viewport } from './guide.mjs';
-import { installFixtures } from './fixtures.mjs';
+import { documentationDataRoot, installFixtures } from './fixtures.mjs';
 import { renderGuide, root } from './render.mjs';
 
 const args = process.argv.slice(2);
@@ -55,7 +55,7 @@ async function startFrontend() {
     cwd: root, windowsHide: true, detached: process.platform !== 'win32',
     stdio: ['ignore', logHandle.fd, logHandle.fd],
     // A frontend accidentally reaching a backend must fail, not submit a real job.
-    env: { ...process.env, ANALYSIS_DATA_DIR: path.join(root, 'data'), ANALYSIS_API_URL: 'http://127.0.0.1:1', NEXT_TELEMETRY_DISABLED: '1' },
+    env: { ...process.env, ANALYSIS_DATA_DIR: documentationDataRoot, ANALYSIS_API_URL: 'http://127.0.0.1:1', NEXT_TELEMETRY_DISABLED: '1' },
   });
   let spawnError;
   owned.once('error', error => { spawnError = error; });
@@ -80,7 +80,7 @@ async function prepare(page, section, state, origin) {
     if (section.screen === 'progress') return page.getByRole('region', { name: 'Current stage progress', exact: true }).waitFor();
     await page.getByRole('tab', { name: 'Executor', exact: true }).waitFor();
     if (section.screen === 'executor') {
-      await page.getByLabel('Choose image', { exact: true }).setInputFiles(path.join(root, 'data', dataset, 'original/original.webp'));
+      await page.getByLabel('Choose image', { exact: true }).setInputFiles(path.join(documentationDataRoot, dataset, 'original/original.webp'));
       await page.getByRole('button', { name: 'Start analysis', exact: false }).waitFor();
     } else if (section.screen === 'resume') {
       await page.getByRole('button', { name: /^Unfinished/ }).click();
@@ -88,6 +88,9 @@ async function prepare(page, section, state, origin) {
     } else {
       const tab = { detection: 'Extract Objects', questions: 'Image Description', rankings: 'Full Image Rankings' }[section.screen];
       await page.getByRole('tab', { name: tab, exact: true }).click();
+      if (section.screen === 'questions') {
+        await page.locator('label:has-text("What do you want to know?") textarea').scrollIntoViewIfNeeded();
+      }
       if (section.screen === 'rankings') {
         await page.getByLabel('Highest score', { exact: true }).scrollIntoViewIfNeeded();
         await page.getByRole('tabpanel').evaluate(panel => {
@@ -171,7 +174,7 @@ try {
     await prepare(page, section, state, origin);
     await page.evaluate(() => document.fonts.ready);
     await page.waitForTimeout(600); // Allow view transitions and image layout to settle.
-    await page.waitForFunction(() => [...document.images].filter(img => { const r = img.getBoundingClientRect(); return r.width && r.height && r.top < innerHeight && r.bottom > 0; }).every(img => img.complete));
+    await page.waitForFunction(() => [...document.images].filter(img => { const r = img.getBoundingClientRect(); return r.width && r.height && r.top < innerHeight && r.bottom > 0; }).every(img => img.complete && img.naturalWidth > 0));
     await page.addStyleTag({ content: 'nextjs-portal{display:none!important}' });
     await annotate(page, section);
     await page.mouse.move(0, 0);

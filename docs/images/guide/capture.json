@@ -1,0 +1,26 @@
+{
+  "sourceRevision": "50c2eed",
+  "capturedAt": "2026-10-30T10:18:04.163Z",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "dataset": "accuracy-scene-final-b9cba790e93a",
+  "screens": [
+    "01-home",
+    "02-executor",
+    "03-detection",
+    "04-questions",
+    "05-rankings",
+    "06-progress",
+    "07-resume",
+    "08-database",
+    "09-image-views",
+    "10-semantics",
+    "11-groups",
+    "12-item"
+  ],
+  "analysisNetwork": "fully intercepted; GET-only fixtures",
+  "pageErrors": [],
+  "blockedRequests": []
+}

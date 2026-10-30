@@ -1,10 +1,23 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
+import fs from 'node:fs/promises';
+import os from 'node:os';
+import path from 'node:path';
 import { installFixtures } from '../scripts/docs/fixtures.mjs';
+import { dataset } from '../scripts/docs/guide.mjs';
 
-test('documentation intercepts analysis mutations and unknown routes instead of forwarding them', async () => {
+test('documentation intercepts analysis mutations and unknown routes instead of forwarding them', async t => {
+  const dataRoot = await fs.mkdtemp(path.join(os.tmpdir(), 'image-forensics-docs-test-'));
+  t.after(async () => {
+    // Remove only the files and directories created by this test.
+    await fs.unlink(path.join(dataRoot, dataset, 'metadata.json'));
+    await fs.rmdir(path.join(dataRoot, dataset));
+    await fs.rmdir(dataRoot);
+  });
+  await fs.mkdir(path.join(dataRoot, dataset));
+  await fs.writeFile(path.join(dataRoot, dataset, 'metadata.json'), JSON.stringify({ extracts: [] }));
   const handlers = new Map();
-  const state = await installFixtures({ route: async (pattern, handler) => handlers.set(pattern, handler) });
+  const state = await installFixtures({ route: async (pattern, handler) => handlers.set(pattern, handler) }, { dataRoot });
   const handler = handlers.get('**/api/analysis/**');
   async function request(method, pathname) {
     let response;

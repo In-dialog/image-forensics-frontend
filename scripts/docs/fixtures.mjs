@@ -3,7 +3,9 @@ import path from 'node:path';
 import { root } from './render.mjs';
 import { dataset } from './guide.mjs';
 
-export async function installFixtures(context) {
+export const documentationDataRoot = path.resolve(process.env.DOCS_DATA_DIR || path.join(root, 'data'));
+
+export async function installFixtures(context, { dataRoot = documentationDataRoot } = {}) {
   const config = JSON.parse(await fs.readFile(path.join(root, 'scripts/docs/fixtures/config.json'), 'utf8'));
   const selected = config.stages.filter(stage => config.settings.selected_stages.includes(stage.key));
   const activeIndex = selected.findIndex(stage => stage.key === 'analyze_segments');
@@ -22,7 +24,7 @@ export async function installFixtures(context) {
     { ...structuredClone(job), id: 'documentation-failed', original_filename: 'example-detail.webp', status: 'failed', created_at: '2026-01-01T13:00:00Z', error: 'The model service was unavailable.' },
   ];
   const state = { mode: 'setup', requests: [], blocked: [] };
-  const folder = path.join(root, 'data', dataset);
+  const folder = path.join(dataRoot, dataset);
   const metadata = JSON.parse(await fs.readFile(path.join(folder, 'metadata.json'), 'utf8'));
   const previews = [{ path: 'original/original.webp', label: 'Original scene', version: 'guide' }];
   for (const name of ['sam_results_overlay.png', 'vision_boxes_overlay.png']) {

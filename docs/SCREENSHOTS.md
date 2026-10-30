@@ -67,6 +67,8 @@ npm run docs:capture -- --base-url http://127.0.0.1:3100
 
 Use a release checkout for release screenshots. The selected example dataset must exist in the frontend serving that URL. The browser still intercepts analysis API requests, and an existing server is left running afterward. The dataset gallery is restricted to the documented example, so personal imports do not appear in that screenshot.
 
+Development checkouts can reuse the release examples without copying the database. Set `DOCS_DATA_DIR` to the release frontend's `data` directory before running the capture. The temporary frontend and screenshot fixtures both use that directory for reads. With `--base-url`, the existing frontend must already serve the same example dataset.
+
 To recapture one screen while keeping the other PNGs:
 
 ```sh

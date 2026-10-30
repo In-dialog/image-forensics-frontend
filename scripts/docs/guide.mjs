@@ -100,10 +100,10 @@ export const sections = [
     id: '09-image-views', title: 'Inspect the scene and its elements', screen: 'viewer',
     action: 'Use the image-view pictograms to move between the saved scene views. Select an element when you need its local evidence.',
     marks: [
-      mark('[role="group"][aria-label="Image views"]', 'Image-view navigation', 'The pictograms switch between Composition, Per item, Semantics and Forgery views. These are different ways to inspect the same saved dataset; they do not start a new analysis.', 'bottom'),
-      mark('button[aria-label="Semantics"]', 'Semantics', 'Opens the whole-image score profile, rating gauges, item balance, distributions and clusters. Use this when comparing the meanings and relationships recorded in an analysis.', 'bottom'),
+      mark('[role="group"][aria-label="Image views"]', 'Image-view navigation', 'The pictograms switch between Composition, Elements, Semantics and Validation views. These are different ways to inspect the same saved dataset; they do not start a new analysis.', 'left'),
+      mark('[role="group"][aria-label="Image views"] button:has-text("Semantics")', 'Semantics', 'Opens the whole-image score profile, rating gauges, item balance, distributions and clusters. Use this when comparing the meanings and relationships recorded in an analysis.', 'bottom'),
     ],
-    notes: ['Composition brings together the original and available spatial outputs such as bounding boxes, depth, composition lines and visual attention. Per item exposes detected objects and their parts, with their saved descriptions and measurements. Forgery presents available forensic outputs; a missing stage cannot be recovered by switching views.'],
+    notes: ['Composition brings together the original and available spatial outputs such as bounding boxes, depth, composition lines and visual attention. Elements exposes detected objects and their parts, with their saved descriptions and measurements. Validation presents available forensic outputs; a missing stage cannot be recovered by switching views.'],
   },
   {
     id: '10-semantics', title: 'Read whole-image ratings', screen: 'semantics',

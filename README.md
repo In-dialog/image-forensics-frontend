@@ -16,6 +16,16 @@ The frontend runs on Windows or macOS. Viewing saved results works on its own. C
 
 Available views depend on which outputs an analysis contains.
 
+## Learn the interface
+
+**[Open the illustrated user guide](docs/USER_GUIDE.md)** for 12 annotated screens, with numbered controls and explanations beneath each image. Follow the main workflow: choose an image and stages, edit detection instructions and questions, define ranking criteria, follow progress, resume unfinished work, and explore the saved results.
+
+[![Semantics view with numbered controls for the score profile and rating gauges](docs/images/guide/10-semantics.png)](docs/USER_GUIDE.md#10-semantics)
+
+The score profile compares the configured criteria; each rating gauge opens its saved explanation. Continue down the page to explore item distributions, the balance pyramid and clickable clusters. The guide explains how to interpret each graphic and its unknown values.
+
+After downloading the repository, open `docs/user-guide.html` for a browser version of the same guide. Maintainers can [refresh the screenshots and both documents with one command](docs/SCREENSHOTS.md).
+
 ## Frontend requirements
 
 | Your computer | Supported frontend installer |
