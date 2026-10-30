@@ -1,0 +1,975 @@
+{
+  "stages": [
+    {
+      "key": "extract_objects",
+      "label": "Extract Objects",
+      "group": "global"
+    },
+    {
+      "key": "bbox_composition",
+      "label": "Bounding Box Composition",
+      "group": "global"
+    },
+    {
+      "key": "depth_map",
+      "label": "Depth Map",
+      "group": "global"
+    },
+    {
+      "key": "negative_space",
+      "label": "Negative Space",
+      "group": "global"
+    },
+    {
+      "key": "composition_lines",
+      "label": "Composition Lines",
+      "group": "global"
+    },
+    {
+      "key": "deepgaze_msdb",
+      "label": "Visual Attention (DeepGaze)",
+      "group": "global"
+    },
+    {
+      "key": "original_export",
+      "label": "Original Image Export",
+      "group": "global"
+    },
+    {
+      "key": "analyze_segments",
+      "label": "Analyze Segments",
+      "group": "per_item"
+    },
+    {
+      "key": "pose_extraction",
+      "label": "Pose Extraction",
+      "group": "per_item"
+    },
+    {
+      "key": "image_description",
+      "label": "Image Description",
+      "group": "per_item"
+    },
+    {
+      "key": "forgery_detection",
+      "label": "Forgery Detection",
+      "group": "ranking"
+    },
+    {
+      "key": "full_image_rankings",
+      "label": "Full Image Rankings",
+      "group": "ranking"
+    },
+    {
+      "key": "per_item_rankings",
+      "label": "Per-Item Rankings",
+      "group": "ranking"
+    },
+    {
+      "key": "synthetic_analysis",
+      "label": "Synthetic Analysis",
+      "group": "ranking"
+    }
+  ],
+  "settings": {
+    "device": "auto",
+    "min_item_size_px": 12,
+    "selected_stages": [
+      "extract_objects",
+      "bbox_composition",
+      "depth_map",
+      "negative_space",
+      "composition_lines",
+      "deepgaze_msdb",
+      "original_export",
+      "analyze_segments",
+      "pose_extraction",
+      "image_description",
+      "full_image_rankings",
+      "per_item_rankings"
+    ],
+    "stage_options": {
+      "object_detect": {
+        "model": "qwen3-vl:8b-instruct",
+        "num_ctx": 8192,
+        "num_predict": 2048,
+        "temperature": 0,
+        "top_k": 30,
+        "top_p": 0.75,
+        "repeat_penalty": 1.25,
+        "presence_penalty": 0,
+        "repeat_last_n": 256,
+        "seed": 42,
+        "think": false,
+        "bbox_dedupe_tolerance": 20,
+        "mask_choice_mode": "fill",
+        "mask_choice_threshold": 0.4,
+        "min_sam_score": 0.1,
+        "sam_mask_threshold": 0.2,
+        "max_items_people": 25,
+        "max_items_objects": 50,
+        "max_items_texts": 15,
+        "save_vision_overlay": true,
+        "debug_logs": false
+      },
+      "analyze_segments": {
+        "model": "qwen3-vl:8b-instruct",
+        "num_ctx": 8192,
+        "num_predict": 2048,
+        "temperature": 0,
+        "top_k": 30,
+        "top_p": 0.75,
+        "repeat_penalty": 1.25,
+        "presence_penalty": 0,
+        "repeat_last_n": 256,
+        "seed": 42,
+        "think": false,
+        "bbox_dedupe_tolerance": 5,
+        "mask_choice_mode": "score",
+        "mask_choice_threshold": 0.5,
+        "min_sam_score": 0.1,
+        "sam_mask_threshold": 0.5,
+        "max_items_people": 15,
+        "max_items_objects": 15,
+        "max_items_texts": 15
+      },
+      "image_description": {
+        "model": "qwen3-vl:8b-instruct",
+        "num_ctx": 8192,
+        "num_predict": 2048,
+        "temperature": 0.7,
+        "top_k": 20,
+        "top_p": 0.8,
+        "repeat_penalty": 1.0,
+        "presence_penalty": 1.5,
+        "repeat_last_n": 256,
+        "seed": 42,
+        "think": false
+      },
+      "full_image_rankings": {
+        "model": "qwen3-vl:8b-thinking",
+        "num_ctx": 12288,
+        "num_predict": 6144,
+        "temperature": 0.6,
+        "top_k": 20,
+        "top_p": 0.95,
+        "repeat_penalty": 1.0,
+        "presence_penalty": 0,
+        "repeat_last_n": 256,
+        "seed": 42,
+        "think": true
+      },
+      "per_item_rankings": {
+        "model": "qwen3-vl:8b-instruct",
+        "num_ctx": 8192,
+        "num_predict": 2048,
+        "temperature": 0.7,
+        "top_k": 20,
+        "top_p": 0.8,
+        "repeat_penalty": 1.0,
+        "presence_penalty": 1.5,
+        "repeat_last_n": 256,
+        "seed": 42,
+        "think": false,
+        "ignore_items_smaller_than": 12
+      }
+    },
+    "synthetic_api": {
+      "url": "http://127.0.0.1:8765",
+      "auto_start": true,
+      "start_timeout_seconds": 20
+    }
+  },
+  "prompts": {
+    "object_detect": {
+      "kind": "detection",
+      "positive": "Find clear targets across the image, including smaller details and image edges.",
+      "negative": "Skip ambiguous clutter and guesses. Never fill a quota.",
+      "groups": {
+        "people": {
+          "positive": "Locate each person in the main scene, including clear partial bodies. Use a neutral person label with useful visible clothing or position attributes.",
+          "negative": "Exclude figures on pictures, prints and statues inside the scene. Do not identify people."
+        },
+        "objects": {
+          "positive": "Find physical objects, furniture, structures, garments, small containers and loose items. Include distinct pictures, statues, emblems and printed graphics. Use generic object names with visible distinguishing attributes.",
+          "negative": "Exclude whole people and diffuse backgrounds. Avoid symbolic identities and inferred condition."
+        },
+        "texts": {
+          "positive": "Locate readable writing on signs, packaging, books, screens, clothing and other visible surfaces. Transcribe the characters exactly, once per distinct text region.",
+          "negative": "Skip unreadable writing. Do not guess words, slogans or names."
+        }
+      }
+    },
+    "analyze_segments": {
+      "kind": "detection",
+      "positive": "Locate clear parts, attachments and visual details inside this item crop, including bounded graphics or writing on its surface. Use generic labels with useful visible distinguishing attributes.",
+      "negative": "Exclude the whole parent item and unrelated background. Skip ambiguous details; do not fill the count limit or guess identities.",
+      "groups": {
+        "people": {
+          "positive": "Find visible garments, accessories, hair, facial or body details, and distinct graphics or patches on clothing. Label a print as a print with visible shape or color.",
+          "negative": "Exclude the complete person. Do not assign identity, affiliation or beliefs."
+        },
+        "objects": {
+          "positive": "Find distinct components, attachments, contained items, decorations, pictures, emblems and printed marks. Use visible type and attributes to distinguish each target.",
+          "negative": "Exclude the whole parent object, broad surfaces and texture alone. Keep symbolic identities and inferred condition out of labels."
+        },
+        "texts": {
+          "positive": "Locate readable writing on signs, packaging, books, screens, clothing and other visible surfaces. Transcribe the characters exactly, once per distinct text region.",
+          "negative": "Skip unreadable writing. Do not guess words, slogans or names."
+        }
+      }
+    },
+    "image_description": {
+      "kind": "description",
+      "style": "bullets",
+      "positive": "Describe the target's literal features and visible relations before supported function, action or contextual meaning. Distinguish observations from interpretations and the target from nearby content.",
+      "negative": "Avoid invented context, unseen text, personal identity, beliefs and creator intent. Do not convert a vague resemblance into a definite logo, nationality, religion or political affiliation.",
+      "questions": [
+        {
+          "label": "Observations",
+          "instruction": "Describe the target's literal form, orientation, material or graphic carrier, colors and resolved parts. Describe what is visible without introducing a cause, intended use or symbolic identity."
+        },
+        {
+          "label": "Signs and readable text",
+          "instruction": "Describe separate pictures, emblems, garment graphics, marks and legible writing. State the visual form and carrier of each. Transcribe only readable characters and describe unreadable motifs without inventing their text or identity."
+        },
+        {
+          "label": "Role and relationships",
+          "instruction": "Describe visible contact, attachment, pose, placement and effects involving the target, including connections beyond its box. Then state any supported use or action as an interpretation; leave unsupported action or intent undetermined."
+        },
+        {
+          "label": "Supported associations",
+          "instruction": "What plausible functional or semiotic interpretations are supported by the observed features and relationships? Tie each reading to evidence and distinguish it from literal observation. When use or meaning is ambiguous, mention relevant alternatives without choosing an unsupported purpose."
+        },
+        {
+          "label": "Ambiguities",
+          "instruction": "Which visible details are too small, obscured or context-dependent to identify or interpret reliably? Name the uncertainty and avoid resolving it by guessing."
+        }
+      ]
+    },
+    "full_image_rankings": {
+      "kind": "ranking",
+      "positive": "Assess the whole image using observable features and their locations. Tie interpretations of framing to those observations.",
+      "negative": "Do not infer private beliefs, creator intent or audience reactions.",
+      "criteria": [
+        {
+          "label": "Political visual framing",
+          "type": "score",
+          "positive": "Rate visible political or advocacy framing from readable words or the arrangement of symbols. Describe literal features without assigning unprinted names.",
+          "negative": "",
+          "min": 0,
+          "max": 10,
+          "low_label": "No visible political or advocacy cue",
+          "high_label": "Explicit, central political or advocacy framing"
+        },
+        {
+          "label": "Commercial promotion",
+          "type": "score",
+          "positive": "Rate explicit promotion through readable offers, prices, branding or directed product presentation. Ordinary objects alone provide no promotional cue.",
+          "negative": "",
+          "min": 0,
+          "max": 10,
+          "low_label": "No visible promotion",
+          "high_label": "Explicit, central selling or promotional appeal"
+        },
+        {
+          "label": "Explicit call to action",
+          "type": "boolean",
+          "positive": "Is an explicit request to act visibly present? Use true for a readable request or unambiguous depicted invitation, false for assessable absence, and null for a potentially present request that is unreadable or ambiguous.",
+          "negative": "Expressive poses alone do not establish a request."
+        },
+        {
+          "label": "Us-versus-them framing",
+          "type": "score",
+          "positive": "Rate explicit division through readable us-versus-them wording or a clearly oppositional arrangement. Different symbols alone do not demonstrate hostility.",
+          "negative": "",
+          "min": 0,
+          "max": 10,
+          "low_label": "No visible divisive framing",
+          "high_label": "Explicit, strong us-versus-them framing"
+        },
+        {
+          "label": "Depicted emotional intensity",
+          "type": "score",
+          "positive": "Rate the intensity depicted through visible expressions, gestures, posture or contrast. Describe those cues rather than claiming people's actual feelings or predicting audience reactions.",
+          "negative": "",
+          "min": 0,
+          "max": 10,
+          "low_label": "Little depicted emotional intensity",
+          "high_label": "Strong depicted emotional intensity"
+        },
+        {
+          "label": "Visual emphasis",
+          "type": "score",
+          "positive": "Rate visual emphasis from contrast, scale, placement and focal structure. Report those features without predicting audience effects.",
+          "negative": "",
+          "min": 0,
+          "max": 10,
+          "low_label": "Low visual emphasis",
+          "high_label": "Strong, concentrated visual emphasis"
+        }
+      ]
+    },
+    "per_item_rankings": {
+      "kind": "ranking",
+      "positive": "Assess the target's visible role through its features, use, contacts, attachments, effects and placement. Include relationships outside the target box. Distinguish a literal observation from a supported interpretation of function, action or contextual meaning.",
+      "negative": "Do not transfer the scene's overall meaning to every item or invent intended use. Do not attribute private beliefs, identity or affiliation to depicted people.",
+      "criteria": [
+        {
+          "label": "Contextual importance",
+          "type": "score",
+          "positive": "Rate how much the target helps explain the depicted activity, interaction, composition or tone through its visible use, contact, placement or effects. Consider connected evidence outside the box. A target can be important without political meaning or readable marks.",
+          "negative": "Do not equate mere proximity or physical size with an active role.",
+          "min": 0,
+          "max": 10,
+          "low_label": "Incidental, with little visible contribution",
+          "high_label": "Central to the depicted activity or meaning"
+        },
+        {
+          "label": "Political role in the scene",
+          "type": "score",
+          "positive": "Rate political or advocacy relevance supported by the target's visible role, use, interactions, placement or marks in this scene. An unmarked target can have political relevance; when political context is unclear, leave that interpretation undetermined.",
+          "negative": "Leave uncertain use or intent undetermined rather than treating it as a visible fact.",
+          "min": 0,
+          "max": 10,
+          "low_label": "No supported political role",
+          "high_label": "Clear, central role in political framing"
+        },
+        {
+          "label": "Cultural or symbolic role",
+          "type": "score",
+          "positive": "Rate cultural, religious or symbolic meaning supported by the target's visible form or its role in this scene. Name the literal cue or relationship and distinguish a contextual reading from a definite identification.",
+          "negative": "Do not attribute identity or beliefs to a wearer, holder or nearby person.",
+          "min": 0,
+          "max": 10,
+          "low_label": "No supported cultural or symbolic role",
+          "high_label": "Clear, central cultural or symbolic role"
+        },
+        {
+          "label": "Depicted role",
+          "type": "choice",
+          "positive": "Choose the most specific observed role: sign display or worn/attached design when clear, otherwise active use/handling or background/incidental presence. Use null when the role cannot be determined.",
+          "negative": "Do not substitute a person's beliefs or an imagined intended use for a visible role.",
+          "choices": [
+            "Used/handled",
+            "Displayed as sign",
+            "Worn/attached design",
+            "Background/incidental"
+          ]
+        },
+        {
+          "label": "Explicit call to action",
+          "type": "boolean",
+          "positive": "Does the target convey an explicit request to act through readable wording or a directly depicted invitation involving it? Use false for assessable absence and null for ambiguous or unreadable evidence.",
+          "negative": "Expressive poses or dramatic composition alone do not establish a request."
+        }
+      ]
+    }
+  },
+  "prompt_presets": {
+    "object_detect": [
+      {
+        "name": "Default analysis",
+        "profile": {
+          "kind": "detection",
+          "positive": "Find clear targets across the image, including smaller details and image edges.",
+          "negative": "Skip ambiguous clutter and guesses. Never fill a quota.",
+          "groups": {
+            "people": {
+              "positive": "Locate each person in the main scene, including clear partial bodies. Use a neutral person label with useful visible clothing or position attributes.",
+              "negative": "Exclude figures on pictures, prints and statues inside the scene. Do not identify people."
+            },
+            "objects": {
+              "positive": "Find physical objects, furniture, structures, garments, small containers and loose items. Include distinct pictures, statues, emblems and printed graphics. Use generic object names with visible distinguishing attributes.",
+              "negative": "Exclude whole people and diffuse backgrounds. Avoid symbolic identities and inferred condition."
+            },
+            "texts": {
+              "positive": "Locate readable writing on signs, packaging, books, screens, clothing and other visible surfaces. Transcribe the characters exactly, once per distinct text region.",
+              "negative": "Skip unreadable writing. Do not guess words, slogans or names."
+            }
+          }
+        }
+      },
+      {
+        "name": "Objects and visual signifiers",
+        "profile": {
+          "kind": "detection",
+          "positive": "Find clear targets across the image, including smaller details and image edges. Give particular attention to small discarded items, pictures, statues, emblems and graphics carried by garments or other objects, wherever they are visibly present.",
+          "negative": "Skip ambiguous clutter and guesses. Never fill a quota.",
+          "groups": {
+            "people": {
+              "positive": "Locate each person in the main scene, including clear partial bodies. Use a neutral person label with useful visible clothing or position attributes.",
+              "negative": "Exclude figures on pictures, prints and statues inside the scene. Do not identify people."
+            },
+            "objects": {
+              "positive": "Find physical objects, furniture, structures, garments, small containers and loose items. Include distinct pictures, statues, emblems and printed graphics. Use generic object names with visible distinguishing attributes.",
+              "negative": "Exclude whole people and diffuse backgrounds. Avoid symbolic identities and inferred condition."
+            },
+            "texts": {
+              "positive": "Locate readable writing on signs, packaging, books, screens, clothing and other visible surfaces. Transcribe the characters exactly, once per distinct text region.",
+              "negative": "Skip unreadable writing. Do not guess words, slogans or names."
+            }
+          }
+        }
+      }
+    ],
+    "analyze_segments": [
+      {
+        "name": "Default analysis",
+        "profile": {
+          "kind": "detection",
+          "positive": "Locate clear parts, attachments and visual details inside this item crop, including bounded graphics or writing on its surface. Use generic labels with useful visible distinguishing attributes.",
+          "negative": "Exclude the whole parent item and unrelated background. Skip ambiguous details; do not fill the count limit or guess identities.",
+          "groups": {
+            "people": {
+              "positive": "Find visible garments, accessories, hair, facial or body details, and distinct graphics or patches on clothing. Label a print as a print with visible shape or color.",
+              "negative": "Exclude the complete person. Do not assign identity, affiliation or beliefs."
+            },
+            "objects": {
+              "positive": "Find distinct components, attachments, contained items, decorations, pictures, emblems and printed marks. Use visible type and attributes to distinguish each target.",
+              "negative": "Exclude the whole parent object, broad surfaces and texture alone. Keep symbolic identities and inferred condition out of labels."
+            },
+            "texts": {
+              "positive": "Locate readable writing on signs, packaging, books, screens, clothing and other visible surfaces. Transcribe the characters exactly, once per distinct text region.",
+              "negative": "Skip unreadable writing. Do not guess words, slogans or names."
+            }
+          }
+        }
+      },
+      {
+        "name": "Objects and visual signifiers",
+        "profile": {
+          "kind": "detection",
+          "positive": "Locate clear parts, attachments and visual details inside this item crop, including bounded graphics or writing on its surface. Use generic labels with useful visible distinguishing attributes. Give particular attention to small discarded items, pictures, statues, emblems and graphics carried by garments or other objects, wherever they are visibly present.",
+          "negative": "Exclude the whole parent item and unrelated background. Skip ambiguous details; do not fill the count limit or guess identities.",
+          "groups": {
+            "people": {
+              "positive": "Find visible garments, accessories, hair, facial or body details, and distinct graphics or patches on clothing. Label a print as a print with visible shape or color.",
+              "negative": "Exclude the complete person. Do not assign identity, affiliation or beliefs."
+            },
+            "objects": {
+              "positive": "Find distinct components, attachments, contained items, decorations, pictures, emblems and printed marks. Use visible type and attributes to distinguish each target.",
+              "negative": "Exclude the whole parent object, broad surfaces and texture alone. Keep symbolic identities and inferred condition out of labels."
+            },
+            "texts": {
+              "positive": "Locate readable writing on signs, packaging, books, screens, clothing and other visible surfaces. Transcribe the characters exactly, once per distinct text region.",
+              "negative": "Skip unreadable writing. Do not guess words, slogans or names."
+            }
+          }
+        }
+      }
+    ],
+    "image_description": [
+      {
+        "name": "Default analysis",
+        "profile": {
+          "kind": "description",
+          "style": "bullets",
+          "positive": "Describe the target's literal features and visible relations before supported function, action or contextual meaning. Distinguish observations from interpretations and the target from nearby content.",
+          "negative": "Avoid invented context, unseen text, personal identity, beliefs and creator intent. Do not convert a vague resemblance into a definite logo, nationality, religion or political affiliation.",
+          "questions": [
+            {
+              "label": "Observations",
+              "instruction": "Describe the target's literal form, orientation, material or graphic carrier, colors and resolved parts. Describe what is visible without introducing a cause, intended use or symbolic identity."
+            },
+            {
+              "label": "Signs and readable text",
+              "instruction": "Describe separate pictures, emblems, garment graphics, marks and legible writing. State the visual form and carrier of each. Transcribe only readable characters and describe unreadable motifs without inventing their text or identity."
+            },
+            {
+              "label": "Role and relationships",
+              "instruction": "Describe visible contact, attachment, pose, placement and effects involving the target, including connections beyond its box. Then state any supported use or action as an interpretation; leave unsupported action or intent undetermined."
+            },
+            {
+              "label": "Supported associations",
+              "instruction": "What plausible functional or semiotic interpretations are supported by the observed features and relationships? Tie each reading to evidence and distinguish it from literal observation. When use or meaning is ambiguous, mention relevant alternatives without choosing an unsupported purpose."
+            },
+            {
+              "label": "Ambiguities",
+              "instruction": "Which visible details are too small, obscured or context-dependent to identify or interpret reliably? Name the uncertainty and avoid resolving it by guessing."
+            }
+          ]
+        }
+      },
+      {
+        "name": "Detailed inventory",
+        "profile": {
+          "kind": "description",
+          "style": "detailed",
+          "positive": "Describe the target's literal features and visible relations before supported function, action or contextual meaning. Distinguish observations from interpretations and the target from nearby content.",
+          "negative": "Avoid invented context, unseen text, personal identity, beliefs and creator intent. Do not convert a vague resemblance into a definite logo, nationality, religion or political affiliation.",
+          "questions": [
+            {
+              "label": "Visible details",
+              "instruction": "Describe the subject's distinct visible features, components, materials, color and condition."
+            }
+          ]
+        }
+      },
+      {
+        "name": "Visible details checklist",
+        "profile": {
+          "kind": "description",
+          "style": "bullets",
+          "positive": "Describe the target's literal features and visible relations before supported function, action or contextual meaning. Distinguish observations from interpretations and the target from nearby content.",
+          "negative": "Avoid invented context, unseen text, personal identity, beliefs and creator intent. Do not convert a vague resemblance into a definite logo, nationality, religion or political affiliation.",
+          "questions": [
+            {
+              "label": "Visible details",
+              "instruction": "Describe the subject's distinct visible features, components, materials, color and condition."
+            }
+          ]
+        }
+      },
+      {
+        "name": "Semiotic inventory",
+        "profile": {
+          "kind": "description",
+          "style": "bullets",
+          "positive": "Describe the target's literal features and visible relations before supported function, action or contextual meaning. Distinguish observations from interpretations and the target from nearby content.",
+          "negative": "Avoid invented context, unseen text, personal identity, beliefs and creator intent. Do not convert a vague resemblance into a definite logo, nationality, religion or political affiliation.",
+          "questions": [
+            {
+              "label": "Observations",
+              "instruction": "Describe the target's literal form, orientation, material or graphic carrier, colors and resolved parts. Describe what is visible without introducing a cause, intended use or symbolic identity."
+            },
+            {
+              "label": "Signs and readable text",
+              "instruction": "Describe separate pictures, emblems, garment graphics, marks and legible writing. State the visual form and carrier of each. Transcribe only readable characters and describe unreadable motifs without inventing their text or identity."
+            },
+            {
+              "label": "Role and relationships",
+              "instruction": "Describe visible contact, attachment, pose, placement and effects involving the target, including connections beyond its box. Then state any supported use or action as an interpretation; leave unsupported action or intent undetermined."
+            },
+            {
+              "label": "Supported associations",
+              "instruction": "What plausible functional or semiotic interpretations are supported by the observed features and relationships? Tie each reading to evidence and distinguish it from literal observation. When use or meaning is ambiguous, mention relevant alternatives without choosing an unsupported purpose."
+            },
+            {
+              "label": "Ambiguities",
+              "instruction": "Which visible details are too small, obscured or context-dependent to identify or interpret reliably? Name the uncertainty and avoid resolving it by guessing."
+            }
+          ]
+        }
+      }
+    ],
+    "full_image_rankings": [
+      {
+        "name": "Default analysis",
+        "profile": {
+          "kind": "ranking",
+          "positive": "Assess the whole image using observable features and their locations. Tie interpretations of framing to those observations.",
+          "negative": "Do not infer private beliefs, creator intent or audience reactions.",
+          "criteria": [
+            {
+              "label": "Political visual framing",
+              "type": "score",
+              "positive": "Rate visible political or advocacy framing from readable words or the arrangement of symbols. Describe literal features without assigning unprinted names.",
+              "negative": "",
+              "min": 0,
+              "max": 10,
+              "low_label": "No visible political or advocacy cue",
+              "high_label": "Explicit, central political or advocacy framing"
+            },
+            {
+              "label": "Commercial promotion",
+              "type": "score",
+              "positive": "Rate explicit promotion through readable offers, prices, branding or directed product presentation. Ordinary objects alone provide no promotional cue.",
+              "negative": "",
+              "min": 0,
+              "max": 10,
+              "low_label": "No visible promotion",
+              "high_label": "Explicit, central selling or promotional appeal"
+            },
+            {
+              "label": "Explicit call to action",
+              "type": "boolean",
+              "positive": "Is an explicit request to act visibly present? Use true for a readable request or unambiguous depicted invitation, false for assessable absence, and null for a potentially present request that is unreadable or ambiguous.",
+              "negative": "Expressive poses alone do not establish a request."
+            },
+            {
+              "label": "Us-versus-them framing",
+              "type": "score",
+              "positive": "Rate explicit division through readable us-versus-them wording or a clearly oppositional arrangement. Different symbols alone do not demonstrate hostility.",
+              "negative": "",
+              "min": 0,
+              "max": 10,
+              "low_label": "No visible divisive framing",
+              "high_label": "Explicit, strong us-versus-them framing"
+            },
+            {
+              "label": "Depicted emotional intensity",
+              "type": "score",
+              "positive": "Rate the intensity depicted through visible expressions, gestures, posture or contrast. Describe those cues rather than claiming people's actual feelings or predicting audience reactions.",
+              "negative": "",
+              "min": 0,
+              "max": 10,
+              "low_label": "Little depicted emotional intensity",
+              "high_label": "Strong depicted emotional intensity"
+            },
+            {
+              "label": "Visual emphasis",
+              "type": "score",
+              "positive": "Rate visual emphasis from contrast, scale, placement and focal structure. Report those features without predicting audience effects.",
+              "negative": "",
+              "min": 0,
+              "max": 10,
+              "low_label": "Low visual emphasis",
+              "high_label": "Strong, concentrated visual emphasis"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Emotional tone",
+        "profile": {
+          "kind": "ranking",
+          "positive": "Assess the whole image using observable features and their locations. Tie interpretations of framing to those observations.",
+          "negative": "Do not infer private beliefs, creator intent or audience reactions.",
+          "criteria": [
+            {
+              "label": "Valence",
+              "type": "score",
+              "positive": "Assess pleasant versus aversive visual tone.",
+              "negative": "",
+              "min": -5,
+              "max": 5,
+              "low_label": "Aversive",
+              "high_label": "Pleasant"
+            },
+            {
+              "label": "Intensity",
+              "type": "score",
+              "positive": "Assess visible emotional intensity separately from positive or negative tone.",
+              "negative": "",
+              "min": 0,
+              "max": 10,
+              "low_label": "Quiet",
+              "high_label": "Intense"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Scene classification",
+        "profile": {
+          "kind": "ranking",
+          "positive": "Assess the whole image using observable features and their locations. Tie interpretations of framing to those observations.",
+          "negative": "Do not infer private beliefs, creator intent or audience reactions.",
+          "criteria": [
+            {
+              "label": "Scene setting",
+              "type": "choice",
+              "positive": "Choose the setting supported by visible evidence.",
+              "negative": "Do not guess when the scene is unclear.",
+              "choices": [
+                "Indoor",
+                "Outdoor",
+                "Mixed"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Visible evidence",
+        "profile": {
+          "kind": "ranking",
+          "positive": "Assess the whole image using observable features and their locations. Tie interpretations of framing to those observations.",
+          "negative": "Do not infer private beliefs, creator intent or audience reactions.",
+          "criteria": [
+            {
+              "label": "Readable text present",
+              "type": "boolean",
+              "positive": "Determine whether readable text is visibly present.",
+              "negative": "Do not count marks that cannot be read."
+            }
+          ]
+        }
+      },
+      {
+        "name": "Depicted stance",
+        "profile": {
+          "kind": "ranking",
+          "positive": "Assess the whole image using observable features and their locations. Tie interpretations of framing to those observations.",
+          "negative": "Do not infer private beliefs, creator intent or audience reactions.",
+          "criteria": [
+            {
+              "label": "Depicted stance",
+              "type": "choice",
+              "positive": "Classify the depicted stance only when wording or a clear visual relation supports it. Use null when unsupported; a symbol's presence alone is insufficient.",
+              "negative": "Do not assign the depicted stance to a person's private beliefs.",
+              "choices": [
+                "Support",
+                "Critique",
+                "Neutral depiction",
+                "Mixed"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Political and symbolic evidence",
+        "profile": {
+          "kind": "ranking",
+          "positive": "Assess the whole image using observable features and their locations. Tie interpretations of framing to those observations.",
+          "negative": "Do not infer private beliefs, creator intent or audience reactions.",
+          "criteria": [
+            {
+              "label": "Political visual cues",
+              "type": "score",
+              "positive": "Rate political or advocacy cues in the image or marked item. Identify visible wording, forms and their carrier; showing a sign does not establish endorsement.",
+              "negative": "",
+              "min": 0,
+              "max": 10,
+              "low_label": "No visible political cue",
+              "high_label": "Clear, central political cues"
+            },
+            {
+              "label": "Cultural or religious motifs",
+              "type": "score",
+              "positive": "Rate visible cultural or religious motifs and their prominence. Describe the motif's form and carrier, leaving an uncertain association undetermined.",
+              "negative": "Do not attribute identity or beliefs to the wearer or nearby people.",
+              "min": 0,
+              "max": 10,
+              "low_label": "No visible motif",
+              "high_label": "Clear, central motifs"
+            },
+            {
+              "label": "Depicted stance",
+              "type": "choice",
+              "positive": "Classify the depicted stance only when wording or a clear visual relation supports it. Use null when unsupported; a symbol's presence alone is insufficient.",
+              "negative": "Do not assign the depicted stance to a person's private beliefs.",
+              "choices": [
+                "Support",
+                "Critique",
+                "Neutral depiction",
+                "Mixed"
+              ]
+            },
+            {
+              "label": "Explicit call to action",
+              "type": "boolean",
+              "positive": "Is an explicit request to act visible in readable wording or a directly depicted invitation? Use false for clear absence and null for ambiguous or unreadable evidence.",
+              "negative": "Expressive poses or dramatic composition alone do not establish a request."
+            }
+          ]
+        }
+      }
+    ],
+    "per_item_rankings": [
+      {
+        "name": "Default analysis",
+        "profile": {
+          "kind": "ranking",
+          "positive": "Assess the target's visible role through its features, use, contacts, attachments, effects and placement. Include relationships outside the target box. Distinguish a literal observation from a supported interpretation of function, action or contextual meaning.",
+          "negative": "Do not transfer the scene's overall meaning to every item or invent intended use. Do not attribute private beliefs, identity or affiliation to depicted people.",
+          "criteria": [
+            {
+              "label": "Contextual importance",
+              "type": "score",
+              "positive": "Rate how much the target helps explain the depicted activity, interaction, composition or tone through its visible use, contact, placement or effects. Consider connected evidence outside the box. A target can be important without political meaning or readable marks.",
+              "negative": "Do not equate mere proximity or physical size with an active role.",
+              "min": 0,
+              "max": 10,
+              "low_label": "Incidental, with little visible contribution",
+              "high_label": "Central to the depicted activity or meaning"
+            },
+            {
+              "label": "Political role in the scene",
+              "type": "score",
+              "positive": "Rate political or advocacy relevance supported by the target's visible role, use, interactions, placement or marks in this scene. An unmarked target can have political relevance; when political context is unclear, leave that interpretation undetermined.",
+              "negative": "Leave uncertain use or intent undetermined rather than treating it as a visible fact.",
+              "min": 0,
+              "max": 10,
+              "low_label": "No supported political role",
+              "high_label": "Clear, central role in political framing"
+            },
+            {
+              "label": "Cultural or symbolic role",
+              "type": "score",
+              "positive": "Rate cultural, religious or symbolic meaning supported by the target's visible form or its role in this scene. Name the literal cue or relationship and distinguish a contextual reading from a definite identification.",
+              "negative": "Do not attribute identity or beliefs to a wearer, holder or nearby person.",
+              "min": 0,
+              "max": 10,
+              "low_label": "No supported cultural or symbolic role",
+              "high_label": "Clear, central cultural or symbolic role"
+            },
+            {
+              "label": "Depicted role",
+              "type": "choice",
+              "positive": "Choose the most specific observed role: sign display or worn/attached design when clear, otherwise active use/handling or background/incidental presence. Use null when the role cannot be determined.",
+              "negative": "Do not substitute a person's beliefs or an imagined intended use for a visible role.",
+              "choices": [
+                "Used/handled",
+                "Displayed as sign",
+                "Worn/attached design",
+                "Background/incidental"
+              ]
+            },
+            {
+              "label": "Explicit call to action",
+              "type": "boolean",
+              "positive": "Does the target convey an explicit request to act through readable wording or a directly depicted invitation involving it? Use false for assessable absence and null for ambiguous or unreadable evidence.",
+              "negative": "Expressive poses or dramatic composition alone do not establish a request."
+            }
+          ]
+        }
+      },
+      {
+        "name": "Emotional tone",
+        "profile": {
+          "kind": "ranking",
+          "positive": "Assess the target's visible role through its features, use, contacts, attachments, effects and placement. Include relationships outside the target box. Distinguish a literal observation from a supported interpretation of function, action or contextual meaning.",
+          "negative": "Do not transfer the scene's overall meaning to every item or invent intended use. Do not attribute private beliefs, identity or affiliation to depicted people.",
+          "criteria": [
+            {
+              "label": "Valence",
+              "type": "score",
+              "positive": "Assess pleasant versus aversive visual tone.",
+              "negative": "",
+              "min": -5,
+              "max": 5,
+              "low_label": "Aversive",
+              "high_label": "Pleasant"
+            },
+            {
+              "label": "Intensity",
+              "type": "score",
+              "positive": "Assess visible emotional intensity separately from positive or negative tone.",
+              "negative": "",
+              "min": 0,
+              "max": 10,
+              "low_label": "Quiet",
+              "high_label": "Intense"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Scene classification",
+        "profile": {
+          "kind": "ranking",
+          "positive": "Assess the target's visible role through its features, use, contacts, attachments, effects and placement. Include relationships outside the target box. Distinguish a literal observation from a supported interpretation of function, action or contextual meaning.",
+          "negative": "Do not transfer the scene's overall meaning to every item or invent intended use. Do not attribute private beliefs, identity or affiliation to depicted people.",
+          "criteria": [
+            {
+              "label": "Scene setting",
+              "type": "choice",
+              "positive": "Choose the setting supported by visible evidence.",
+              "negative": "Do not guess when the scene is unclear.",
+              "choices": [
+                "Indoor",
+                "Outdoor",
+                "Mixed"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Visible evidence",
+        "profile": {
+          "kind": "ranking",
+          "positive": "Assess the target's visible role through its features, use, contacts, attachments, effects and placement. Include relationships outside the target box. Distinguish a literal observation from a supported interpretation of function, action or contextual meaning.",
+          "negative": "Do not transfer the scene's overall meaning to every item or invent intended use. Do not attribute private beliefs, identity or affiliation to depicted people.",
+          "criteria": [
+            {
+              "label": "Readable text present",
+              "type": "boolean",
+              "positive": "Determine whether readable text is visibly present.",
+              "negative": "Do not count marks that cannot be read."
+            }
+          ]
+        }
+      },
+      {
+        "name": "Depicted stance",
+        "profile": {
+          "kind": "ranking",
+          "positive": "Assess the target's visible role through its features, use, contacts, attachments, effects and placement. Include relationships outside the target box. Distinguish a literal observation from a supported interpretation of function, action or contextual meaning.",
+          "negative": "Do not transfer the scene's overall meaning to every item or invent intended use. Do not attribute private beliefs, identity or affiliation to depicted people.",
+          "criteria": [
+            {
+              "label": "Depicted stance",
+              "type": "choice",
+              "positive": "Classify the depicted stance only when wording or a clear visual relation supports it. Use null when unsupported; a symbol's presence alone is insufficient.",
+              "negative": "Do not assign the depicted stance to a person's private beliefs.",
+              "choices": [
+                "Support",
+                "Critique",
+                "Neutral depiction",
+                "Mixed"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Political and symbolic evidence",
+        "profile": {
+          "kind": "ranking",
+          "positive": "Assess the target's visible role through its features, use, contacts, attachments, effects and placement. Include relationships outside the target box. Distinguish a literal observation from a supported interpretation of function, action or contextual meaning.",
+          "negative": "Do not transfer the scene's overall meaning to every item or invent intended use. Do not attribute private beliefs, identity or affiliation to depicted people.",
+          "criteria": [
+            {
+              "label": "Contextual importance",
+              "type": "score",
+              "positive": "Rate how much the target helps explain the depicted activity, interaction, composition or tone through its visible use, contact, placement or effects. Consider connected evidence outside the box. A target can be important without political meaning or readable marks.",
+              "negative": "Do not equate mere proximity or physical size with an active role.",
+              "min": 0,
+              "max": 10,
+              "low_label": "Incidental, with little visible contribution",
+              "high_label": "Central to the depicted activity or meaning"
+            },
+            {
+              "label": "Political role in the scene",
+              "type": "score",
+              "positive": "Rate political or advocacy relevance supported by the target's visible role, use, interactions, placement or marks in this scene. An unmarked target can have political relevance; when political context is unclear, leave that interpretation undetermined.",
+              "negative": "Leave uncertain use or intent undetermined rather than treating it as a visible fact.",
+              "min": 0,
+              "max": 10,
+              "low_label": "No supported political role",
+              "high_label": "Clear, central role in political framing"
+            },
+            {
+              "label": "Cultural or symbolic role",
+              "type": "score",
+              "positive": "Rate cultural, religious or symbolic meaning supported by the target's visible form or its role in this scene. Name the literal cue or relationship and distinguish a contextual reading from a definite identification.",
+              "negative": "Do not attribute identity or beliefs to a wearer, holder or nearby person.",
+              "min": 0,
+              "max": 10,
+              "low_label": "No supported cultural or symbolic role",
+              "high_label": "Clear, central cultural or symbolic role"
+            },
+            {
+              "label": "Depicted role",
+              "type": "choice",
+              "positive": "Choose the most specific observed role: sign display or worn/attached design when clear, otherwise active use/handling or background/incidental presence. Use null when the role cannot be determined.",
+              "negative": "Do not substitute a person's beliefs or an imagined intended use for a visible role.",
+              "choices": [
+                "Used/handled",
+                "Displayed as sign",
+                "Worn/attached design",
+                "Background/incidental"
+              ]
+            },
+            {
+              "label": "Explicit call to action",
+              "type": "boolean",
+              "positive": "Does the target convey an explicit request to act through readable wording or a directly depicted invitation involving it? Use false for assessable absence and null for ambiguous or unreadable evidence.",
+              "negative": "Expressive poses or dramatic composition alone do not establish a request."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "models": [
+    "qwen3-vl:8b-instruct",
+    "qwen3-vl:8b-thinking"
+  ],
+  "ollama_available": true,
+  "active_job_id": null
+}

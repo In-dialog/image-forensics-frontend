@@ -1,6 +1,6 @@
 # Image Forensics Analysis — Frontend
 
-**[Demo](https://forensic-image-analysis-demo.pages.dev/results/)** · **[Backend repository](https://github.com/In-dialog/image-forensics-backend)**
+**[Demo](https://forensic-image-analysis-demo.pages.dev/results/)** · **[Illustrated user guide](docs/USER_GUIDE.md)** · **[Backend repository](https://github.com/In-dialog/image-forensics-backend)**
 
 This repository contains the **web interface and results viewer** for Image Forensics Analysis. It includes a database of example analyses that you can explore immediately after installing.
 
