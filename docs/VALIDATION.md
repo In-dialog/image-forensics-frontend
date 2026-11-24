@@ -1,5 +1,15 @@
 # Release preparation checks
 
+## Backend HTTP transport regression checks (2026-11-24)
+
+The frontend uses native Node HTTP streams for backend JSON requests, uploads, previews and result downloads. This avoids the bundled Undici `Parser.finish` assertion when an HTTP/1.0 connection closes while a consumer is paused ([upstream issue](https://github.com/nodejs/undici/issues/5360)). Response streams remain bounded, cancellable and subject to the existing request timeouts; imported files still require their declared byte counts and SHA-256 hashes.
+
+All 79 frontend tests passed on the installed Node 24.22.3 runtime. Seven new real-socket tests cover paused downloads, truncated responses, binary/JSON uploads, aborts and cancellation, loopback addresses and redirects, interrupted import cleanup/retry, and preview responses. TypeScript and ESLint for the changed code also passed. These checks use local fixtures without running AI models or changing saved analyses.
+
+The default Turbopack production build also passed. After restarting the local frontend, live checks returned HTTP 200 for the home page, backend health/configuration, the completed job and its result page. All 24 saved previews streamed successfully to a deliberately slow reader, the completed-result import retry succeeded, and the frontend error log remained empty. No model analysis was rerun.
+
+## Original release preparation
+
 The release was checked without downloading/installing Node, npm packages, browsers or AI models. Existing development dependencies were temporarily reused, then detached from this source folder.
 
 - 65 frontend tests passed, including dataset access/export and offline Windows/macOS installer planning and path-safety tests.

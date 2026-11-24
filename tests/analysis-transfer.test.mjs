@@ -31,8 +31,11 @@ async function loadServerModule(relativePath, filename, replacements = []) {
 before(async () => {
   temporaryRoot = await fs.mkdtemp(path.join(os.tmpdir(), "analysis-transfer-tests-"));
   process.chdir(temporaryRoot);
-  client = await loadServerModule("server/analysis/client.ts", "client.mjs");
-  importer = await loadServerModule("server/analysis/import-result.ts", "importer.mjs", [["'./client'", "'./client.mjs'"]]);
+  // Keep unit fixtures isolated; backend-http.test.mjs exercises real sockets.
+  await fs.writeFile(path.join(temporaryRoot, 'backend-http.mjs'), 'export const requestBackend = (...args) => globalThis.fetch(...args);');
+  const transportImport = ["'./backend-http'", "'./backend-http.mjs'"];
+  client = await loadServerModule("server/analysis/client.ts", "client.mjs", [transportImport]);
+  importer = await loadServerModule("server/analysis/import-result.ts", "importer.mjs", [["'./client'", "'./client.mjs'"], transportImport]);
   repository = await loadServerModule("features/results/server/dataset-repository.ts", "repository.mjs");
 });
 

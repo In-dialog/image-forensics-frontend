@@ -1,0 +1,43 @@
+{
+  "source_image": "C:\\Users\\PC\\Documents\\Projects\\Poweer\\Release\\image-forensics-backend\\data\\pe_cal_2-b49ff80769c0\\granular_segments\\horse\\horse_1\\source.png",
+  "image_size": {
+    "width": 249,
+    "height": 472
+  },
+  "calls": [
+    {
+      "index": 1,
+      "group": "objects",
+      "label": "horse head",
+      "raw_box_norm_0_1000": [
+        6,
+        2,
+        345,
+        187
+      ],
+      "pixel_box_xyxy": [
+        1,
+        0,
+        86,
+        89
+      ]
+    },
+    {
+      "index": 2,
+      "group": "objects",
+      "label": "noseband strap",
+      "raw_box_norm_0_1000": [
+        9,
+        0,
+        345,
+        187
+      ],
+      "pixel_box_xyxy": [
+        2,
+        0,
+        86,
+        89
+      ]
+    }
+  ]
+}

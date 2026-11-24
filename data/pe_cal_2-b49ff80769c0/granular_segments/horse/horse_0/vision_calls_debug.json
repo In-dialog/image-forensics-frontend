@@ -1,0 +1,43 @@
+{
+  "source_image": "C:\\Users\\PC\\Documents\\Projects\\Poweer\\Release\\image-forensics-backend\\data\\pe_cal_2-b49ff80769c0\\granular_segments\\horse\\horse_0\\source.png",
+  "image_size": {
+    "width": 249,
+    "height": 224
+  },
+  "calls": [
+    {
+      "index": 1,
+      "group": "objects",
+      "label": "gold chain bridle",
+      "raw_box_norm_0_1000": [
+        26,
+        437,
+        589,
+        856
+      ],
+      "pixel_box_xyxy": [
+        6,
+        97,
+        147,
+        192
+      ]
+    },
+    {
+      "index": 2,
+      "group": "objects",
+      "label": "watch",
+      "raw_box_norm_0_1000": [
+        612,
+        0,
+        726,
+        62
+      ],
+      "pixel_box_xyxy": [
+        152,
+        0,
+        181,
+        14
+      ]
+    }
+  ]
+}

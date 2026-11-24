@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { RequestError, serviceUrl } from './client';
+import { requestBackend } from './backend-http';
 
 type ArtifactFile = {path: string; size: number; sha256: string};
 type Artifact = {result_id: string; files: ArtifactFile[]; total_size: number};
@@ -42,7 +43,7 @@ function validateManifest(payload: unknown): Artifact {
 
 async function getArtifactResponse(url: URL) {
   let response: Response;
-  try { response = await fetch(url, {cache: 'no-store', signal: AbortSignal.timeout(60000)}); }
+  try { response = await requestBackend(url, {signal: AbortSignal.timeout(60000)}); }
   catch { throw new RequestError('Could not download results. Check the analysis service and retry.', 503); }
   if (!response.ok) {
     const body = await response.json().catch(() => ({}));
@@ -53,28 +54,31 @@ async function getArtifactResponse(url: URL) {
 
 async function downloadFile(jobId: string, entry: ArtifactFile, destination: string) {
   const encodedPath = entry.path.split('/').map(encodeURIComponent).join('/');
-  const response = await getArtifactResponse(serviceUrl(`/jobs/${encodeURIComponent(jobId)}/files/${encodedPath}`));
-  if (!response.body) throw new RequestError('An output file was empty.', 502);
   const target = path.join(destination, ...entry.path.split('/'));
   await fs.mkdir(path.dirname(target), {recursive: true});
   const output = await fs.open(target, 'wx');
-  const reader = response.body.getReader();
   const hash = createHash('sha256');
   let size = 0;
   try {
-    while (true) {
-      const {value, done} = await reader.read().catch(() => {
-        throw new RequestError('The result download was interrupted. Retry the download.', 503);
-      });
-      if (done) break;
-      size += value.byteLength;
-      if (size > entry.size) throw new RequestError('An output file did not match its manifest.', 502);
-      hash.update(value);
-      await output.writeFile(value);
+    const response = await getArtifactResponse(serviceUrl(`/jobs/${encodeURIComponent(jobId)}/files/${encodedPath}`));
+    if (!response.body) throw new RequestError('An output file was empty.', 502);
+    const reader = response.body.getReader();
+    try {
+      while (true) {
+        const {value, done} = await reader.read().catch(() => {
+          throw new RequestError('The result download was interrupted. Retry the download.', 503);
+        });
+        if (done) break;
+        size += value.byteLength;
+        if (size > entry.size) throw new RequestError('An output file did not match its manifest.', 502);
+        hash.update(value);
+        await output.writeFile(value);
+      }
+    } finally {
+      await reader.cancel().catch(() => undefined);
+      reader.releaseLock();
     }
   } finally {
-    await reader.cancel().catch(() => undefined);
-    reader.releaseLock();
     await output.close();
   }
   if (size !== entry.size || hash.digest('hex') !== entry.sha256.toLowerCase()) {

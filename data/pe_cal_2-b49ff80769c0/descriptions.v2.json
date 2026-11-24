@@ -1,0 +1,340 @@
+{
+  "schema_version": 2,
+  "style": "bullets",
+  "questions": [
+    {
+      "label": "Observations",
+      "instruction": "Describe the target's literal form, orientation, material or graphic carrier, colors and resolved parts. Describe what is visible without introducing a cause, intended use or symbolic identity.",
+      "id": "question_1"
+    },
+    {
+      "label": "Signs and readable text",
+      "instruction": "Describe separate pictures, emblems, garment graphics, marks and legible writing. State the visual form and carrier of each. Transcribe only readable characters and describe unreadable motifs without inventing their text or identity.",
+      "id": "question_2"
+    },
+    {
+      "label": "Role and relationships",
+      "instruction": "Describe visible contact, attachment, pose, placement and effects involving the target, including connections beyond its box. Then state any supported use or action as an interpretation; leave unsupported action or intent undetermined.",
+      "id": "question_3"
+    },
+    {
+      "label": "Supported associations",
+      "instruction": "What plausible functional or semiotic interpretations are supported by the observed features and relationships? Tie each reading to evidence and distinguish it from literal observation. When use or meaning is ambiguous, mention relevant alternatives without choosing an unsupported purpose.",
+      "id": "question_4"
+    },
+    {
+      "label": "Ambiguities",
+      "instruction": "Which visible details are too small, obscured or context-dependent to identify or interpret reliably? Name the uncertainty and avoid resolving it by guessing.",
+      "id": "question_5"
+    }
+  ],
+  "items": [
+    {
+      "name": "shirtless man riding horse_0",
+      "label": "shirtless man riding horse",
+      "image_path": "segments/shirtless man riding horse_0.webp",
+      "group": "people",
+      "bbox": [
+        245,
+        64,
+        453,
+        654
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a cropped image of a shirtless man riding a brown horse. The man has short hair, a necklace with a pendant, and wears dark pants and a watch on his left wrist. He holds the reins with both hands. The horse has a dark mane and tail, a gold-colored bridle, and is walking on grass with rocks in the background. The cyan outline frames the man’s torso and head, extending slightly below his waist and above his shoulders.",
+        "question_2": "No readable text or legible writing is visible in the target. The only discernible graphic is the man’s necklace with a small pendant. The horse’s bridle appears to have some decorative elements, but no legible text or emblem is present.",
+        "question_3": "The man is seated atop the horse, holding its reins. His body orientation is facing forward, slightly turned toward the right side of the frame. The horse is walking, with its front legs lifted and its hooves near the ground. The man’s left hand grips the reins while his right hand rests near the saddle. There are no visible attachments beyond the reins connecting to the horse’s bridle. The surrounding environment includes rocky terrain and sparse vegetation.",
+        "question_4": "Plausible interpretations: The man is riding the horse for recreation or as part of an outdoor activity. The setting suggests a natural, possibly remote location. The man’s attire (shirtless, casual pants) may imply a warm climate or informal context. The horse’s bridle and the man’s posture suggest controlled movement, not wild riding. No specific symbolic meaning is supported by the visible features alone.",
+        "question_5": "Uncertainties: The exact identity of the man cannot be confirmed from the image alone. The specific design or inscription on the necklace pendant is too small or obscured to identify. The purpose of the bridle’s decorative elements is unclear without further detail. The relationship between the man and the horse beyond riding is not interpretable beyond physical contact."
+      }
+    },
+    {
+      "name": "watch_0",
+      "label": "watch",
+      "image_path": "segments/watch_0.webp",
+      "group": "watch",
+      "bbox": [
+        263,
+        304,
+        299,
+        328
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a close-up of a wristwatch on a person's left wrist.\n- The watch has a dark, possibly black, strap.\n- The watch face is round with a light-colored, possibly silver or white, bezel.\n- The watch case appears metallic and reflective.\n- The watch is worn on the left wrist, positioned near the person's hand holding reins.\n- The image is slightly blurry, obscuring fine details.",
+        "question_2": "No legible text or readable emblems are visible in the target region.",
+        "question_3": "Visible relations:\n- The watch is attached to the person’s wrist via its strap.\n- The person is holding reins with their right hand; the watch is on the left wrist.\n- The watch is positioned such that it is partially obscured by the person’s hand and arm.\n- There is no visible interaction between the watch and any other object or environment beyond being worn.\nSupported action: The watch is being worn for timekeeping or as personal adornment. This is inferred from the typical use of wristwatches, but no direct evidence confirms this function.",
+        "question_4": "Plausible interpretations supported by observation:\n- Functional interpretation: The watch serves as a timepiece, which is standard for wristwatches. Its presence suggests the wearer may be aware of time, though context does not confirm this.\n- Decorative interpretation: The watch could be a fashion accessory, especially given its visible design (metallic case, dark strap). However, this is speculative without cultural or personal context.\n- No other specific associations are supported due to lack of visual cues beyond the watch itself.",
+        "question_5": "Ambiguities:\n- The exact color and finish of the watch face and bezel are unclear due to image resolution and lighting.\n- The material of the strap cannot be precisely identified (e.g., leather vs. synthetic).\n- The watch brand, logo, or model number is indiscernible due to blurriness and angle.\n- Whether the watch is actively being used or merely worn is ambiguous; no contextual clue supports either state."
+      }
+    },
+    {
+      "name": "necklace_0",
+      "label": "necklace",
+      "image_path": "segments/necklace_0.webp",
+      "group": "necklace",
+      "bbox": [
+        329,
+        158,
+        368,
+        235
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a close-up of a necklace worn around the neck.\n- It consists of a light-colored cord or chain.\n- A pendant hangs from the center of the chain.\n- The pendant appears to be a cross shape.\n- The skin beneath the necklace is visible, showing texture and coloration.",
+        "question_2": "No legible text or readable writing is visible in the target image.",
+        "question_3": "Visible relations:\n- The necklace is attached to the person's neck via the cord/chain.\n- The pendant rests against the chest area.\n- The necklace’s position remains consistent with the person’s posture.\n- No other objects or effects directly interact with the necklace beyond its physical attachment to the wearer.\n\nSupported action or use: None directly inferred from visual evidence; the item appears as personal adornment.",
+        "question_4": "Plausible interpretations:\n- Functional: Personal jewelry for aesthetic or cultural expression.\n- Semiotic: Cross-shaped pendants are commonly associated with religious or spiritual symbolism (e.g., Christianity), but this does not confirm intent without additional context.\n- Ambiguous alternatives: Could also represent secular fashion or personal preference without symbolic meaning.",
+        "question_5": "Ambiguities:\n- The exact material of the necklace’s cord or chain is indistinct due to resolution.\n- The precise design or details of the cross pendant are unclear because of blurriness and lighting.\n- The carrier’s identity or beliefs cannot be determined from the image alone."
+      }
+    },
+    {
+      "name": "horse_0",
+      "label": "horse",
+      "image_path": "segments/horse_0.webp",
+      "group": "horse",
+      "bbox": [
+        108,
+        309,
+        357,
+        533
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a close-up of a brown horse’s head and neck. The horse has a dark mane and tail, and wears a bridle with a gold-colored chain-like decoration across its muzzle. Its ears are upright, and its eyes are visible. The horse’s head is angled slightly forward, and its snout is pointed. The horse’s coat is glossy and smooth. The background is blurred but appears to be rocky terrain and grass.",
+        "question_2": "No readable text or legible writing is visible in the target image. The bridle has a decorative element that resembles a chain or beaded pattern, but no specific markings or inscriptions can be read.",
+        "question_3": "The horse’s head is attached to its body, which is partially visible beneath the cyan box. The horse is being ridden, as indicated by the presence of a rider (visible only partially in the full scene) holding reins connected to the bridle. The horse’s posture suggests movement, possibly walking or trotting. The bridle is attached to the horse’s head via straps around the muzzle and poll. There are no visible attachments beyond this.",
+        "question_4": "The horse is likely being ridden for transportation or recreation, given the rider’s posture and the horse’s gait. The bridle’s ornate design suggests it may be for ceremonial or display purposes, but this cannot be confirmed without additional context. The horse’s calm demeanor supports a non-aggressive use.",
+        "question_5": "The exact texture of the horse’s coat and the details of the bridle’s metalwork are not resolvable due to resolution limits. The rider’s identity or intent is not discernible from this cropped view. The background’s rock formations and vegetation are too blurred to identify specific species or geological features."
+      }
+    },
+    {
+      "name": "horse_1",
+      "label": "horse",
+      "image_path": "segments/horse_1.webp",
+      "group": "horse",
+      "bbox": [
+        109,
+        454,
+        358,
+        926
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a cropped close-up of a brown horse's front half, including its head, neck, chest, and forelegs. The horse has a dark mane and tail, black lower legs, and wears a bridle with gold-colored hardware. It stands on grassy terrain with rocks in the background. The horse’s head is angled slightly downward, and its right front leg is lifted mid-stride.",
+        "question_2": "No readable text or legible emblems are visible within the target area.",
+        "question_3": "The horse is attached to a rider (visible in the Scene and Nearby images) who is shirtless and wearing dark pants. The horse’s bridle is connected to reins held by the rider. The horse’s posture suggests movement, with one front hoof lifted. The target crop isolates the horse, but visible edges show partial contact with the rider’s legs and saddle (in the nearby image).",
+        "question_4": "Plausible interpretations: The horse is being ridden, as supported by the rider’s grip on reins and the horse’s gait. The bridle suggests domestication for riding or control. The horse’s stance may indicate walking or trotting. No other functional or semiotic meaning is directly supported by visible features.",
+        "question_5": "The horse’s specific breed or markings are not resolvable due to the crop’s focus and lighting. The rider’s identity or intent cannot be determined from this view alone. The exact nature of the rider’s connection to the horse beyond physical attachment is not further detailed visually."
+      }
+    },
+    {
+      "name": "bushes_0",
+      "label": "bushes",
+      "image_path": "segments/bushes_0.webp",
+      "group": "bushes",
+      "bbox": [
+        0,
+        467,
+        246,
+        901
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a cropped section of the main image showing the head and neck of a brown horse with a black mane. The horse wears a gold-colored bridle. It stands in green grass with low shrubs nearby. The horse's head is angled slightly downward, and its eyes are visible. The horse’s coat appears glossy under sunlight.",
+        "question_2": "No readable text or legible writing is present in the target. The only visual form is the horse’s bridle, which has ornamental gold-colored details.",
+        "question_3": "The horse is attached to a rider (not fully visible) via reins. The horse’s head is near low-lying green shrubbery, which touches the left side of the frame. The horse’s body extends beyond the cyan box into the larger scene, showing its legs and tail. Its posture suggests it is standing still or walking slowly.",
+        "question_4": "The horse’s bridle implies it is being ridden or controlled by a person. The horse’s calm stance may indicate it is accustomed to human interaction. No specific cultural, political, or symbolic meaning can be supported from the visible features alone.",
+        "question_5": "The exact texture and material of the bridle are not resolvable due to resolution limits. The horse’s eye color and the depth of its coat gloss are ambiguous without closer inspection. The identity of the rider is not determinable from this cropped view."
+      }
+    },
+    {
+      "name": "horse_2",
+      "label": "horse",
+      "image_path": "segments/horse_2.webp",
+      "group": "horse",
+      "bbox": [
+        302,
+        454,
+        643,
+        904
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a cropped image of a brown horse with a black mane and tail. The horse has a gold-colored bridle and is wearing a dark saddle. Its legs are visible, showing dark hooves and some white markings near the lower legs. The horse is standing on grassy terrain with rocks in the background. The rider’s legs and boots are partially visible under the saddle.",
+        "question_2": "No readable text or legible writing is visible within the target area. The horse’s bridle has decorative elements, but no discernible text or symbols are present.",
+        "question_3": "The horse is being ridden by a person whose upper body is not fully visible in the target. The rider’s legs and boots are attached to the saddle, indicating a riding posture. The horse’s head is turned slightly toward the left side of the frame. The horse’s legs show contact with the ground, suggesting it is standing or walking. There are no visible attachments beyond the saddle and bridle.",
+        "question_4": "The horse appears to be in a state of rest or slow movement, based on its stance and the position of its legs. The presence of a rider suggests it is being used for transportation or recreational riding. The saddle and bridle indicate it is equipped for riding, supporting its functional use as a mount. No specific cultural, political, or symbolic associations can be determined from the visual evidence alone.",
+        "question_5": "The details of the rider’s clothing and equipment are too small or obscured to identify reliably. The exact nature of the horse’s markings or any subtle textures are indistinct due to resolution limits. The relationship between the rider and horse is partially cut off by the crop, making full interpretation of posture or action uncertain."
+      }
+    },
+    {
+      "name": "boot_0",
+      "label": "boot",
+      "image_path": "segments/boot_0.webp",
+      "group": "boot",
+      "bbox": [
+        395,
+        552,
+        451,
+        652
+      ],
+      "source": "item",
+      "answers": {
+        "question_1": "The target is a close-up of a boot.\n- It appears to be made of dark brown leather with visible stitching.\n- The boot has a thick sole and a rounded toe.\n- A metal buckle or strap attachment is visible near the top edge.\n- The boot is attached to a stirrup or saddle strap, which connects to the horse’s harness.",
+        "question_2": "No readable text or legible emblems are visible in the target image.",
+        "question_3": "Visible relations:\n- The boot is part of a person’s footwear, worn while riding a horse.\n- The boot is connected via straps to the horse’s saddle or harness system.\n- The boot is positioned on the horse’s side, consistent with a rider seated on the animal.\nSupported action: The boot is being used for riding, as part of equestrian gear.",
+        "question_4": "Plausible interpretations:\n- Functional use: The boot serves as riding footwear, providing support and stability during horseback riding.\n- Contextual meaning: As part of a riding outfit, it may signify a formal or ceremonial context (e.g., military or traditional event), though this is not explicitly supported by visual evidence.\n- Alternative interpretation: The boot could be part of casual attire, but the presence of a saddle and harness suggests an equestrian setting.",
+        "question_5": "Ambiguities:\n- The exact material and brand of the boot cannot be determined due to resolution limits.\n- The specific function of the metal buckle/strap attachment is unclear without more context.\n- The wearer’s identity or purpose is not discernible from the target alone."
+      }
+    },
+    {
+      "name": "horse_0::gold chain bridle_0",
+      "label": "gold chain bridle",
+      "parent_name": "horse_0",
+      "image_path": "granular_segments/horse/horse_0/gold chain bridle_0.webp",
+      "group": "gold chain bridle",
+      "bbox": [
+        114,
+        406,
+        255,
+        501
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "The target is a close-up of a horse's head. The horse has a dark brown coat and a black mane. It wears a golden-colored bridle with decorative chain links and metallic fittings. The horse’s muzzle is dark, and its eyes are visible. The background shows part of a rocky terrain and the rider’s arm and hand holding reins.",
+        "question_2": "No readable text is visible in the target image. The bridle contains decorative elements but no legible writing or emblems.",
+        "question_3": "The horse’s head is directly connected to its body, which extends beyond the frame. The rider’s hand is visible holding the reins attached to the bridle. The horse’s position suggests it is being ridden, though this is not explicitly confirmed by visible motion or posture. The bridle is attached to the horse’s head via straps and buckles.",
+        "question_4": "The bridle indicates the horse is equipped for riding, supporting the interpretation that it is being controlled by the rider. The ornate design may suggest ceremonial or decorative use, though this cannot be confirmed from visual evidence alone. No symbolic or political meaning can be inferred without additional context.",
+        "question_5": "The fine details of the bridle’s metalwork and the horse’s facial features are too small to resolve with certainty. The exact material composition of the bridle is ambiguous. The rider’s identity or intent cannot be determined from the target alone."
+      }
+    },
+    {
+      "name": "horse_0::watch_0",
+      "label": "watch",
+      "parent_name": "horse_0",
+      "image_path": "granular_segments/horse/horse_0/watch_0.webp",
+      "group": "watch",
+      "bbox": [
+        260,
+        309,
+        289,
+        323
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "The target is a close-up of a wristwatch on a person's left wrist.\n- The watch has a round face with a light-colored dial.\n- It is encased in a dark, possibly metallic, bezel.\n- A dark strap, likely leather or fabric, is attached to the case.\n- The watch is worn on the inner side of the wrist, near the forearm.\n- The person’s skin tone is visible around the watch.\n- The image is slightly blurry, reducing detail resolution.",
+        "question_2": "No readable text or legible marks are visible on the target. Any markings are indistinct due to blurriness and lack of clear contrast.",
+        "question_3": "The watch is visibly attached to the wearer’s wrist via its strap.\n- The strap is fastened, appearing to secure the watch in place.\n- The orientation is horizontal relative to the image frame, consistent with a wrist-worn device.\n- No other objects are directly contacting or interacting with the watch beyond the strap and skin.\n- No supported action is observable from the watch itself; it appears static and passive.",
+        "question_4": "Plausible interpretations based on observed features:\n- Functional: The object is a timekeeping device, as indicated by its form (watch face, strap, wrist placement). This is supported by its design and typical use cases for such items.\n- Contextual: As part of the scene, it may signify personal adornment or practical utility during an outdoor activity (e.g., riding). However, this is inferred rather than directly observed.\n- Ambiguous: The specific brand, model, or functional purpose (e.g., chronograph, fitness tracker) cannot be determined due to resolution limits.",
+        "question_5": "Uncertainties include:\n- The exact material of the watch case and strap due to blurriness and lighting.\n- The precise time displayed or any markings on the dial, as they are unreadable.\n- Whether the watch has additional features (e.g., buttons, digital display) that are not visible in the cropped view.\n- The intended function beyond timekeeping (e.g., communication, GPS) is not supported by visual evidence."
+      }
+    },
+    {
+      "name": "horse_1::horse head_0",
+      "label": "horse head",
+      "parent_name": "horse_1",
+      "image_path": "granular_segments/horse/horse_1/horse head_0.webp",
+      "group": "horse head",
+      "bbox": [
+        110,
+        454,
+        195,
+        543
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "The target is a close-up crop of a horse’s head.\n- The horse has a brown coat with a darker muzzle.\n- It wears a golden-colored chain-link bridle around its head.\n- Its eyes are visible, and its nostrils are open.\n- A portion of its dark mane is visible above the bridle.\n- The background consists of out-of-focus green grass and rocks.",
+        "question_2": "No readable text is visible in the target image.",
+        "question_3": "The target is visually connected to the 'Nearby' image, which shows the same horse’s head at a slightly wider angle.\n- The horse’s head is attached to its body, which is partially visible behind it.\n- There is no visible contact between the horse and any human or object beyond the bridle, which is fastened to the horse’s head.\n- The target is also spatially related to the 'Scene' image, where the horse is shown fully mounted on a rider and walking forward. The horse’s head is oriented forward, consistent with the horse's movement in the scene.\n- No supported action or use is explicitly evident from the visual evidence alone.",
+        "question_4": "Plausible interpretations:\n- Functional: The horse is being ridden, as indicated by the presence of a bridle and the context of the larger scene showing a rider.\n- Semiotic: The golden bridle may suggest ceremonial or decorative use, though this cannot be confirmed without additional context.\n- Ambiguous: The exact purpose of the close-up (e.g., emphasis on the horse’s expression) is not inferable from visual features alone.",
+        "question_5": "Ambiguities:\n- The resolution is too low to discern finer details of the bridle’s construction or any markings on the horse’s coat.\n- The exact material of the bridle (e.g., metal vs. synthetic) cannot be determined from the visible gloss.\n- The emotional state or intent behind the horse’s posture is not observable without behavioral context."
+      }
+    },
+    {
+      "name": "horse_1::noseband strap_0",
+      "label": "noseband strap",
+      "parent_name": "horse_1",
+      "image_path": "granular_segments/horse/horse_1/noseband strap_0.webp",
+      "group": "noseband strap",
+      "bbox": [
+        111,
+        454,
+        195,
+        543
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "The target is a close-up crop of a horse’s head.\n- It shows the horse’s muzzle, nostrils, and part of its snout.\n- The horse has dark brown fur with lighter tan shading around the muzzle.\n- A decorative bridle with metallic chain-like elements is visible across its nose and jaw.\n- The horse’s eyes are partially visible above the bridle.\n- Its mane appears dark and flows over the top of its head.\n- The background is out of focus but suggests rocky terrain and vegetation.",
+        "question_2": "No readable text or legible writing is visible in the target image.\n- The bridle contains metallic components that resemble chain links or decorative straps, but no inscriptions or emblems can be read.",
+        "question_3": "Visible relations:\n- The horse's head is attached to its neck and body (implied by the surrounding anatomy, not fully visible).\n- The bridle is physically connected to the horse’s head via straps or fittings.\n- The horse appears to be standing or moving in an outdoor setting (context from the scene, not directly visible in the target).\n- No direct human contact or interaction is visible within the target frame.\n\nSupported action: The horse is being ridden or led, as inferred from its posture and the presence of a bridle. This is contextually supported by the full-scene image showing a rider on the horse.",
+        "question_4": "Plausible interpretations:\n- Functional: The horse is equipped for riding, indicated by the bridle which is used to control or guide animals.\n- Contextual: As part of a larger scene with a rider, the horse serves as a mount or companion animal.\n- Ambiguous alternatives: It could also be part of a ceremonial, photographic, or sporting event, but no visual evidence supports this beyond the riding context.\n\nThe bridle’s ornate design may suggest formal use or symbolic status, but this cannot be confirmed without further visual cues or cultural context.",
+        "question_5": "Ambiguities:\n- The exact material composition of the bridle is unclear (e.g., metal vs. synthetic fibers).\n- The precise nature of the decorative elements on the bridle is ambiguous — it may be chain links, woven straps, or other designs, but resolution is limited by image quality.\n- The horse’s exact emotional state (calm, alert, etc.) cannot be determined from facial expression alone due to lack of detail in the close-up.\n- The background context (rocky terrain, vegetation) is not fully resolved within the target frame and must rely on the full-scene image."
+      }
+    },
+    {
+      "name": "horse_2::saddle blanket_0",
+      "label": "saddle blanket",
+      "parent_name": "horse_2",
+      "image_path": "granular_segments/horse/horse_2/saddle blanket_0.webp",
+      "group": "saddle blanket",
+      "bbox": [
+        335,
+        454,
+        503,
+        562
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "The target is a cropped image showing a portion of a horse’s saddle and rider’s legs. The horse has a brown coat with a black mane and tail. The saddle appears dark with metallic straps. The rider’s pants are dark, and their boots are visible. The cyan box outlines the saddle area and rider’s lower legs.",
+        "question_2": "No legible text or readable marks are visible in the target region.",
+        "question_3": "The target shows the saddle attached to the horse’s back, with straps connecting to the rider’s legs. The rider’s boots are in contact with the stirrups. The horse’s body is positioned upright, suggesting a standing or walking posture. No direct interactions beyond physical attachment are visible.",
+        "question_4": "Plausible interpretations: The saddle and rider’s position indicate equestrian riding activity. The saddle’s design suggests functional use for horseback riding. The rider’s stance implies control and stability during movement. No other specific functional or symbolic meaning is supported by observable features.",
+        "question_5": "Ambiguities: The exact material composition of the saddle is unclear due to resolution. The rider’s clothing details (e.g., fabric texture) are not resolvable. The horse’s exact breed or age cannot be determined from visible features. The context of riding (e.g., purpose, location) is ambiguous without additional scene information."
+      }
+    },
+    {
+      "name": "shirtless man riding horse_0::watch_0",
+      "label": "watch",
+      "parent_name": "shirtless man riding horse_0",
+      "image_path": "granular_segments/people/shirtless man riding horse_0/watch_0.webp",
+      "group": "people",
+      "bbox": [
+        262,
+        307,
+        295,
+        334
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "The target is a close-up of a wristwatch on a person's left wrist.\n- The watch has a dark, possibly black, strap.\n- The watch face is round and light-colored, appearing white or silver.\n- The watch case is metallic and circular.\n- The person's skin tone is visible around the watch.\n- The watch is attached to the wrist via a strap that wraps around the arm.\n- The watch is positioned slightly below the elbow, near the hand.",
+        "question_2": "No readable text or legible writing is visible in the target image. The watch face appears blurred and indistinct, making any markings or numbers unreadable.",
+        "question_3": "Visible relations:\n- The watch is worn on the person’s left wrist.\n- The person’s hand is holding reins (visible in the nearby image), suggesting the watch is worn while riding.\n- The watch is directly attached to the wrist via its strap.\n- No other objects are visibly connected to the watch.\nSupported use: The watch is being used as a timepiece for the rider during equestrian activity. This is inferred from the context of riding and the presence of the watch on the wrist, but no explicit action is depicted beyond holding reins.",
+        "question_4": "Plausible interpretations:\n- Functional use: As a timekeeping device for tracking time during outdoor activities like horseback riding.\n- Symbolic/semiotic meaning: It may represent status or personal style, though this is not supported by direct evidence; it could also be a practical accessory for an active lifestyle.\n- Alternative interpretation: It might serve as a fashion accessory without a specific functional purpose, given the lack of contextual clues about its necessity.",
+        "question_5": "Ambiguities:\n- The exact brand or model of the watch cannot be determined due to blurriness.\n- The resolution is insufficient to identify any markings or numbers on the face.\n- The material composition of the watch (e.g., metal type) is unclear.\n- The person’s identity or intent behind wearing the watch is unknown without additional context."
+      }
+    },
+    {
+      "name": "shirtless man riding horse_0::necklace_0",
+      "label": "necklace",
+      "parent_name": "shirtless man riding horse_0",
+      "image_path": "granular_segments/people/shirtless man riding horse_0/necklace_0.webp",
+      "group": "people",
+      "bbox": [
+        332,
+        148,
+        365,
+        234
+      ],
+      "source": "part",
+      "answers": {
+        "question_1": "The target is a close-up image of a necklace.\nIt consists of a silver-colored chain with a cross pendant.\nThe cross is attached to the chain and hangs against the person’s bare chest.\nThe background is the person’s skin, slightly out of focus.",
+        "question_2": "No readable text is visible in the target image.\nThere are no garment graphics or marks on the necklace itself that can be transcribed.\nThe cross pendant has no legible inscriptions.",
+        "question_3": "The necklace is worn around the person’s neck, resting on their chest.\nIt is visibly attached to the person’s body via the chain.\nIn the full scene, the necklace remains stationary as the person is seated on a horse.\nThere is no visible contact with other objects beyond the person’s skin.\n\nThe supported action: The necklace is being worn for personal adornment.",
+        "question_4": "Plausible interpretations:\n- Functional: It serves as a piece of jewelry, specifically a pendant necklace.\n- Semiotic: The cross is commonly associated with Christian symbolism.\nAmbiguous alternatives: It could be worn for cultural, aesthetic or ceremonial reasons without implying religious affiliation.",
+        "question_5": "The resolution of the cross’s details is low due to blurriness, making precise identification of its design or any potential inscriptions impossible.\nColoration appears silver but could be influenced by lighting and image quality.\nContext-dependent ambiguity: Without knowing the wearer’s intent or cultural background, the symbolic meaning cannot be determined."
+      }
+    }
+  ]
+}

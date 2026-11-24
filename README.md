@@ -113,6 +113,7 @@ Before updating, stop the app and back up your complete `data/` folder and `.env
 | Start says the build is incomplete | Run Install and wait for READY before starting. |
 | The browser does not open | Visit `http://127.0.0.1:3100` while the Start terminal is open. |
 | Port 3100 is already in use | Use the existing frontend instance, or close its terminal before starting another. |
+| The terminal repeats `assert(!this.paused)` in `undici` | Update the frontend, close Start, run Install to rebuild, then open Start again. Backend requests now avoid the affected Node HTTP client. Retry downloading the completed result; a completed analysis does not need to run again. |
 | A copied result is missing | Copy the whole dataset folder, including hidden files, into the configured results directory. |
 
 <details>

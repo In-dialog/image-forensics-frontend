@@ -1,0 +1,43 @@
+{
+  "source_image": "C:\\Users\\PC\\Documents\\Projects\\Poweer\\Release\\image-forensics-backend\\data\\pe_cal_2-b49ff80769c0\\granular_segments\\horse\\horse_2\\source.png",
+  "image_size": {
+    "width": 341,
+    "height": 450
+  },
+  "calls": [
+    {
+      "index": 1,
+      "group": "objects",
+      "label": "boot",
+      "raw_box_norm_0_1000": [
+        263,
+        224,
+        435,
+        437
+      ],
+      "pixel_box_xyxy": [
+        89,
+        100,
+        149,
+        197
+      ]
+    },
+    {
+      "index": 2,
+      "group": "objects",
+      "label": "saddle blanket",
+      "raw_box_norm_0_1000": [
+        98,
+        0,
+        588,
+        238
+      ],
+      "pixel_box_xyxy": [
+        33,
+        0,
+        201,
+        108
+      ]
+    }
+  ]
+}

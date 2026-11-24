@@ -1,0 +1,72 @@
+{
+  "extracts": [
+    {
+      "name": "horse head_0",
+      "label": "horse head",
+      "category": "objects",
+      "sam_score": 0.935406506061554,
+      "bbox": [
+        1,
+        0,
+        86,
+        89
+      ],
+      "bbox_position": [
+        43.5,
+        44.5
+      ],
+      "bbox_size": [
+        85,
+        89
+      ],
+      "group": "horse head",
+      "bbox_global": [
+        110,
+        454,
+        195,
+        543
+      ],
+      "image_path": "granular_segments/horse/horse_1/horse head_0.webp"
+    },
+    {
+      "name": "noseband strap_0",
+      "label": "noseband strap",
+      "category": "objects",
+      "sam_score": 0.9391906261444092,
+      "bbox": [
+        2,
+        0,
+        86,
+        89
+      ],
+      "bbox_position": [
+        44.0,
+        44.5
+      ],
+      "bbox_size": [
+        84,
+        89
+      ],
+      "group": "noseband strap",
+      "bbox_global": [
+        111,
+        454,
+        195,
+        543
+      ],
+      "image_path": "granular_segments/horse/horse_1/noseband strap_0.webp"
+    }
+  ],
+  "parent_name": "horse_1",
+  "parent_group": "horse",
+  "coordinate_space": "parent_crop",
+  "source_image": "granular_segments/horse/horse_1/source.png",
+  "image_width": 249,
+  "image_height": 472,
+  "parent_bbox": [
+    109,
+    454,
+    358,
+    926
+  ]
+}

@@ -1,0 +1,639 @@
+{
+  "extracts": [
+    {
+      "name": "shirtless man riding horse_0",
+      "label": "shirtless man riding horse",
+      "category": "people",
+      "sam_score": 0.9751096963882446,
+      "bbox": [
+        245,
+        64,
+        453,
+        654
+      ],
+      "bbox_position": [
+        349.0,
+        359.0,
+        0.964706
+      ],
+      "bbox_size": [
+        208,
+        590
+      ],
+      "group": "people",
+      "image_path": "segments/shirtless man riding horse_0.webp",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            245.0,
+            359.0
+          ],
+          "end": [
+            0,
+            359.0
+          ],
+          "distance_px": 245.0
+        },
+        "right": {
+          "start": [
+            453.0,
+            359.0
+          ],
+          "end": [
+            661,
+            359.0
+          ],
+          "distance_px": 208.0
+        },
+        "top": {
+          "start": [
+            349.0,
+            64.0
+          ],
+          "end": [
+            349.0,
+            0
+          ],
+          "distance_px": 64.0
+        },
+        "bottom": {
+          "start": [
+            349.0,
+            654.0
+          ],
+          "end": [
+            349.0,
+            992
+          ],
+          "distance_px": 338.0
+        }
+      },
+      "parts_metadata_path": "granular_segments/people/shirtless man riding horse_0/segment_metadata.json"
+    },
+    {
+      "name": "watch_0",
+      "label": "watch",
+      "category": "objects",
+      "sam_score": 0.9340240359306335,
+      "bbox": [
+        263,
+        304,
+        299,
+        328
+      ],
+      "bbox_position": [
+        281.0,
+        316.0,
+        0.909804
+      ],
+      "bbox_size": [
+        36,
+        24
+      ],
+      "group": "watch",
+      "image_path": "segments/watch_0.webp",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            263.0,
+            316.0
+          ],
+          "end": [
+            0,
+            316.0
+          ],
+          "distance_px": 263.0
+        },
+        "right": {
+          "start": [
+            299.0,
+            316.0
+          ],
+          "end": [
+            661,
+            316.0
+          ],
+          "distance_px": 362.0
+        },
+        "top": {
+          "start": [
+            281.0,
+            304.0
+          ],
+          "end": [
+            281.0,
+            0
+          ],
+          "distance_px": 304.0
+        },
+        "bottom": {
+          "start": [
+            281.0,
+            328.0
+          ],
+          "end": [
+            281.0,
+            992
+          ],
+          "distance_px": 664.0
+        }
+      },
+      "parts_metadata_path": "granular_segments/watch/watch_0/segment_metadata.json"
+    },
+    {
+      "name": "necklace_0",
+      "label": "necklace",
+      "category": "objects",
+      "sam_score": 0.963485598564148,
+      "bbox": [
+        329,
+        158,
+        368,
+        235
+      ],
+      "bbox_position": [
+        348.5,
+        196.5,
+        0.85098
+      ],
+      "bbox_size": [
+        39,
+        77
+      ],
+      "group": "necklace",
+      "image_path": "segments/necklace_0.webp",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            329.0,
+            196.5
+          ],
+          "end": [
+            0,
+            196.5
+          ],
+          "distance_px": 329.0
+        },
+        "right": {
+          "start": [
+            368.0,
+            196.5
+          ],
+          "end": [
+            661,
+            196.5
+          ],
+          "distance_px": 293.0
+        },
+        "top": {
+          "start": [
+            348.5,
+            158.0
+          ],
+          "end": [
+            348.5,
+            0
+          ],
+          "distance_px": 158.0
+        },
+        "bottom": {
+          "start": [
+            348.5,
+            235.0
+          ],
+          "end": [
+            348.5,
+            992
+          ],
+          "distance_px": 757.0
+        }
+      },
+      "parts_metadata_path": "granular_segments/necklace/necklace_0/segment_metadata.json"
+    },
+    {
+      "name": "horse_0",
+      "label": "horse",
+      "category": "objects",
+      "sam_score": 0.9123095870018005,
+      "bbox": [
+        108,
+        309,
+        357,
+        533
+      ],
+      "bbox_position": [
+        232.5,
+        421.0,
+        1.0
+      ],
+      "bbox_size": [
+        249,
+        224
+      ],
+      "group": "horse",
+      "image_path": "segments/horse_0.webp",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            108.0,
+            421.0
+          ],
+          "end": [
+            0,
+            421.0
+          ],
+          "distance_px": 108.0
+        },
+        "right": {
+          "start": [
+            357.0,
+            421.0
+          ],
+          "end": [
+            661,
+            421.0
+          ],
+          "distance_px": 304.0
+        },
+        "top": {
+          "start": [
+            232.5,
+            309.0
+          ],
+          "end": [
+            232.5,
+            0
+          ],
+          "distance_px": 309.0
+        },
+        "bottom": {
+          "start": [
+            232.5,
+            533.0
+          ],
+          "end": [
+            232.5,
+            992
+          ],
+          "distance_px": 459.0
+        }
+      },
+      "parts_metadata_path": "granular_segments/horse/horse_0/segment_metadata.json"
+    },
+    {
+      "name": "cross pendant_0",
+      "label": "cross pendant",
+      "category": "objects",
+      "sam_score": 0.8857624530792236,
+      "bbox": [
+        337,
+        218,
+        346,
+        235
+      ],
+      "bbox_position": [
+        341.5,
+        226.5,
+        0.85098
+      ],
+      "bbox_size": [
+        9,
+        17
+      ],
+      "group": "cross pendant",
+      "image_path": "segments/cross pendant_0.webp",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            337.0,
+            226.5
+          ],
+          "end": [
+            0,
+            226.5
+          ],
+          "distance_px": 337.0
+        },
+        "right": {
+          "start": [
+            346.0,
+            226.5
+          ],
+          "end": [
+            661,
+            226.5
+          ],
+          "distance_px": 315.0
+        },
+        "top": {
+          "start": [
+            341.5,
+            218.0
+          ],
+          "end": [
+            341.5,
+            0
+          ],
+          "distance_px": 218.0
+        },
+        "bottom": {
+          "start": [
+            341.5,
+            235.0
+          ],
+          "end": [
+            341.5,
+            992
+          ],
+          "distance_px": 757.0
+        }
+      },
+      "parts_metadata_path": "granular_segments/cross pendant/cross pendant_0/segment_metadata.json"
+    },
+    {
+      "name": "horse_1",
+      "label": "horse",
+      "category": "objects",
+      "sam_score": 0.8897354006767273,
+      "bbox": [
+        109,
+        454,
+        358,
+        926
+      ],
+      "bbox_position": [
+        233.5,
+        690.0,
+        1.0
+      ],
+      "bbox_size": [
+        249,
+        472
+      ],
+      "group": "horse",
+      "image_path": "segments/horse_1.webp",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            109.0,
+            690.0
+          ],
+          "end": [
+            0,
+            690.0
+          ],
+          "distance_px": 109.0
+        },
+        "right": {
+          "start": [
+            358.0,
+            690.0
+          ],
+          "end": [
+            661,
+            690.0
+          ],
+          "distance_px": 303.0
+        },
+        "top": {
+          "start": [
+            233.5,
+            454.0
+          ],
+          "end": [
+            233.5,
+            0
+          ],
+          "distance_px": 454.0
+        },
+        "bottom": {
+          "start": [
+            233.5,
+            926.0
+          ],
+          "end": [
+            233.5,
+            992
+          ],
+          "distance_px": 66.0
+        }
+      },
+      "parts_metadata_path": "granular_segments/horse/horse_1/segment_metadata.json"
+    },
+    {
+      "name": "bushes_0",
+      "label": "bushes",
+      "category": "objects",
+      "sam_score": 0.10589781403541565,
+      "bbox": [
+        0,
+        467,
+        246,
+        901
+      ],
+      "bbox_position": [
+        123.0,
+        684.0,
+        1.0
+      ],
+      "bbox_size": [
+        246,
+        434
+      ],
+      "group": "bushes",
+      "image_path": "segments/bushes_0.webp",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            0.0,
+            684.0
+          ],
+          "end": [
+            0,
+            684.0
+          ],
+          "distance_px": 0.0
+        },
+        "right": {
+          "start": [
+            246.0,
+            684.0
+          ],
+          "end": [
+            661,
+            684.0
+          ],
+          "distance_px": 415.0
+        },
+        "top": {
+          "start": [
+            123.0,
+            467.0
+          ],
+          "end": [
+            123.0,
+            0
+          ],
+          "distance_px": 467.0
+        },
+        "bottom": {
+          "start": [
+            123.0,
+            901.0
+          ],
+          "end": [
+            123.0,
+            992
+          ],
+          "distance_px": 91.0
+        }
+      },
+      "parts_metadata_path": "granular_segments/bushes/bushes_0/segment_metadata.json"
+    },
+    {
+      "name": "horse_2",
+      "label": "horse",
+      "category": "objects",
+      "sam_score": 0.9198322296142578,
+      "bbox": [
+        302,
+        454,
+        643,
+        904
+      ],
+      "bbox_position": [
+        472.5,
+        679.0,
+        0.976471
+      ],
+      "bbox_size": [
+        341,
+        450
+      ],
+      "group": "horse",
+      "image_path": "segments/horse_2.webp",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            302.0,
+            679.0
+          ],
+          "end": [
+            0,
+            679.0
+          ],
+          "distance_px": 302.0
+        },
+        "right": {
+          "start": [
+            643.0,
+            679.0
+          ],
+          "end": [
+            661,
+            679.0
+          ],
+          "distance_px": 18.0
+        },
+        "top": {
+          "start": [
+            472.5,
+            454.0
+          ],
+          "end": [
+            472.5,
+            0
+          ],
+          "distance_px": 454.0
+        },
+        "bottom": {
+          "start": [
+            472.5,
+            904.0
+          ],
+          "end": [
+            472.5,
+            992
+          ],
+          "distance_px": 88.0
+        }
+      },
+      "parts_metadata_path": "granular_segments/horse/horse_2/segment_metadata.json"
+    },
+    {
+      "name": "boot_0",
+      "label": "boot",
+      "category": "objects",
+      "sam_score": 0.968533456325531,
+      "bbox": [
+        395,
+        552,
+        451,
+        652
+      ],
+      "bbox_position": [
+        423.0,
+        602.0,
+        0.964706
+      ],
+      "bbox_size": [
+        56,
+        100
+      ],
+      "group": "boot",
+      "image_path": "segments/boot_0.webp",
+      "bbox_composition": {
+        "left": {
+          "start": [
+            395.0,
+            602.0
+          ],
+          "end": [
+            0,
+            602.0
+          ],
+          "distance_px": 395.0
+        },
+        "right": {
+          "start": [
+            451.0,
+            602.0
+          ],
+          "end": [
+            661,
+            602.0
+          ],
+          "distance_px": 210.0
+        },
+        "top": {
+          "start": [
+            423.0,
+            552.0
+          ],
+          "end": [
+            423.0,
+            0
+          ],
+          "distance_px": 552.0
+        },
+        "bottom": {
+          "start": [
+            423.0,
+            652.0
+          ],
+          "end": [
+            423.0,
+            992
+          ],
+          "distance_px": 340.0
+        }
+      },
+      "parts_metadata_path": "granular_segments/boot/boot_0/segment_metadata.json"
+    }
+  ],
+  "source_image": "pe_cal_2-b49ff80769c0",
+  "source_image_path": "C:\\Users\\PC\\Documents\\Projects\\Poweer\\Release\\image-forensics-backend\\data\\.inputs\\pe_cal_2-b49ff80769c0.jpg",
+  "image_width": 661,
+  "image_height": 992,
+  "output_folder": "C:\\Users\\PC\\Documents\\Projects\\Poweer\\Release\\image-forensics-backend\\data\\pe_cal_2-b49ff80769c0"
+}

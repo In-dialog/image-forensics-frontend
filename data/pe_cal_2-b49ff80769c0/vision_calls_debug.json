@@ -1,0 +1,162 @@
+{
+  "source_image": "C:\\Users\\PC\\Documents\\Projects\\Poweer\\Release\\image-forensics-backend\\data\\.inputs\\pe_cal_2-b49ff80769c0.jpg",
+  "image_size": {
+    "width": 661,
+    "height": 992
+  },
+  "calls": [
+    {
+      "index": 1,
+      "group": "people",
+      "label": "shirtless man riding horse",
+      "raw_box_norm_0_1000": [
+        372,
+        65,
+        684,
+        659
+      ],
+      "pixel_box_xyxy": [
+        245,
+        64,
+        453,
+        654
+      ]
+    },
+    {
+      "index": 2,
+      "group": "objects",
+      "label": "watch",
+      "raw_box_norm_0_1000": [
+        398,
+        307,
+        452,
+        330
+      ],
+      "pixel_box_xyxy": [
+        263,
+        304,
+        299,
+        328
+      ]
+    },
+    {
+      "index": 3,
+      "group": "objects",
+      "label": "necklace",
+      "raw_box_norm_0_1000": [
+        498,
+        160,
+        556,
+        236
+      ],
+      "pixel_box_xyxy": [
+        329,
+        158,
+        368,
+        235
+      ]
+    },
+    {
+      "index": 4,
+      "group": "objects",
+      "label": "horse",
+      "raw_box_norm_0_1000": [
+        164,
+        312,
+        540,
+        537
+      ],
+      "pixel_box_xyxy": [
+        108,
+        309,
+        357,
+        533
+      ]
+    },
+    {
+      "index": 5,
+      "group": "objects",
+      "label": "cross pendant",
+      "raw_box_norm_0_1000": [
+        510,
+        220,
+        523,
+        236
+      ],
+      "pixel_box_xyxy": [
+        337,
+        218,
+        346,
+        235
+      ]
+    },
+    {
+      "index": 6,
+      "group": "objects",
+      "label": "horse",
+      "raw_box_norm_0_1000": [
+        165,
+        458,
+        541,
+        933
+      ],
+      "pixel_box_xyxy": [
+        109,
+        454,
+        358,
+        926
+      ]
+    },
+    {
+      "index": 7,
+      "group": "objects",
+      "label": "bushes",
+      "raw_box_norm_0_1000": [
+        0,
+        471,
+        371,
+        908
+      ],
+      "pixel_box_xyxy": [
+        0,
+        467,
+        246,
+        901
+      ]
+    },
+    {
+      "index": 8,
+      "group": "objects",
+      "label": "horse",
+      "raw_box_norm_0_1000": [
+        458,
+        458,
+        972,
+        911
+      ],
+      "pixel_box_xyxy": [
+        302,
+        454,
+        643,
+        904
+      ]
+    },
+    {
+      "index": 9,
+      "group": "objects",
+      "label": "boot",
+      "raw_box_norm_0_1000": [
+        599,
+        557,
+        682,
+        657
+      ],
+      "pixel_box_xyxy": [
+        395,
+        552,
+        451,
+        652
+      ]
+    }
+  ]
+}

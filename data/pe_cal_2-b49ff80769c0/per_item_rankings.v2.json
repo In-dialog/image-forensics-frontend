@@ -1,0 +1,593 @@
+{
+  "schema_version": 2,
+  "scope": "per_item",
+  "criteria": [
+    {
+      "label": "Contextual importance",
+      "type": "score",
+      "positive": "Rate how much the target helps explain the depicted activity, interaction, composition or tone through its visible use, contact, placement or effects. Consider connected evidence outside the box. A target can be important without political meaning or readable marks.",
+      "negative": "Do not equate mere proximity or physical size with an active role.",
+      "min": 0,
+      "max": 10,
+      "low_label": "Incidental, with little visible contribution",
+      "high_label": "Central to the depicted activity or meaning",
+      "id": "criterion_1"
+    },
+    {
+      "label": "Political role in the scene",
+      "type": "score",
+      "positive": "Rate political or advocacy relevance supported by the target's visible role, use, interactions, placement or marks in this scene. An unmarked target can have political relevance; when political context is unclear, leave that interpretation undetermined.",
+      "negative": "Leave uncertain use or intent undetermined rather than treating it as a visible fact.",
+      "min": 0,
+      "max": 10,
+      "low_label": "No supported political role",
+      "high_label": "Clear, central role in political framing",
+      "id": "criterion_2"
+    },
+    {
+      "label": "Cultural or symbolic role",
+      "type": "score",
+      "positive": "Rate cultural, religious or symbolic meaning supported by the target's visible form or its role in this scene. Name the literal cue or relationship and distinguish a contextual reading from a definite identification.",
+      "negative": "Do not attribute identity or beliefs to a wearer, holder or nearby person.",
+      "min": 0,
+      "max": 10,
+      "low_label": "No supported cultural or symbolic role",
+      "high_label": "Clear, central cultural or symbolic role",
+      "id": "criterion_3"
+    },
+    {
+      "label": "Depicted role",
+      "type": "choice",
+      "positive": "Choose the most specific observed role: sign display or worn/attached design when clear, otherwise active use/handling or background/incidental presence. Use null when the role cannot be determined.",
+      "negative": "Do not substitute a person's beliefs or an imagined intended use for a visible role.",
+      "choices": [
+        "Used/handled",
+        "Displayed as sign",
+        "Worn/attached design",
+        "Background/incidental"
+      ],
+      "id": "criterion_4"
+    },
+    {
+      "label": "Explicit call to action",
+      "type": "boolean",
+      "positive": "Does the target convey an explicit request to act through readable wording or a directly depicted invitation involving it? Use false for assessable absence and null for ambiguous or unreadable evidence.",
+      "negative": "Expressive poses or dramatic composition alone do not establish a request.",
+      "id": "criterion_5"
+    }
+  ],
+  "items": [
+    {
+      "name": "shirtless man riding horse_0",
+      "label": "shirtless man riding horse",
+      "image_path": "segments/shirtless man riding horse_0.webp",
+      "group": "people",
+      "bbox": [
+        245,
+        64,
+        453,
+        654
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The target is the central human subject on horseback, visually anchoring the scene's activity and composition."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No political messaging, symbols, or contextual cues are visible in the target's appearance or placement."
+        },
+        "criterion_3": {
+          "value": 0,
+          "reason": "No culturally specific attire, symbols, or contextual associations are evident in the target's depiction."
+        },
+        "criterion_4": {
+          "value": "Used/handled",
+          "reason": "The target is actively riding a horse and holding reins, indicating direct physical interaction."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or depicted invitation that constitutes an explicit call to action."
+        }
+      }
+    },
+    {
+      "name": "watch_0",
+      "label": "watch",
+      "image_path": "segments/watch_0.webp",
+      "group": "watch",
+      "bbox": [
+        263,
+        304,
+        299,
+        328
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The watch is on the rider’s wrist, a personal item that grounds the scene in a moment of active engagement with the horse."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No political messaging or framing is visually supported by the watch itself or its context."
+        },
+        "criterion_3": {
+          "value": 0,
+          "reason": "The watch lacks any culturally or symbolically identifiable markings or associations in this image."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The watch is visibly worn on the wrist, attached to the wearer’s body."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or depicted invitation suggesting a call to action."
+        }
+      }
+    },
+    {
+      "name": "necklace_0",
+      "label": "necklace",
+      "image_path": "segments/necklace_0.webp",
+      "group": "necklace",
+      "bbox": [
+        329,
+        158,
+        368,
+        235
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 7,
+          "reason": "The necklace is a visible accessory on the subject, helping to define his personal appearance in the scene."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No political messaging or framing is supported by the necklace's visible role."
+        },
+        "criterion_3": {
+          "value": 6,
+          "reason": "The cross pendant suggests religious symbolism, but its cultural meaning is not explicitly confirmed by context."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The necklace is visibly worn around the neck, attached to the body."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or direct depiction of an action request involving the necklace."
+        }
+      }
+    },
+    {
+      "name": "horse_0",
+      "label": "horse",
+      "image_path": "segments/horse_0.webp",
+      "group": "horse",
+      "bbox": [
+        108,
+        309,
+        357,
+        533
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The horse is central to the scene's composition and activity, as it is being ridden and occupies the foreground."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No political messaging or framing is visible in or around the target area."
+        },
+        "criterion_3": {
+          "value": 0,
+          "reason": "No cultural or symbolic markings are visible on the horse or rider that suggest a specific meaning."
+        },
+        "criterion_4": {
+          "value": "Used/handled",
+          "reason": "The horse is actively being ridden, with reins held by the rider, indicating active use."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or direct depiction of an invitation to act."
+        }
+      }
+    },
+    {
+      "name": "horse_1",
+      "label": "horse",
+      "image_path": "segments/horse_1.webp",
+      "group": "horse",
+      "bbox": [
+        109,
+        454,
+        358,
+        926
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The horse is central to the scene's composition and activity, shown in motion with rider, anchoring the visual narrative."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No political messaging or framing is visible on or around the target; its role is literal, not advocacy-based."
+        },
+        "criterion_3": {
+          "value": 2,
+          "reason": "The horse’s form and rider’s posture are culturally common in equestrian imagery but lack specific symbolic cues in this context."
+        },
+        "criterion_4": {
+          "value": "Used/handled",
+          "reason": "The horse is actively being ridden by the man, indicating direct handling and use in the scene."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "No readable text or direct depiction of an action request is present on or near the target."
+        }
+      }
+    },
+    {
+      "name": "bushes_0",
+      "label": "bushes",
+      "image_path": "segments/bushes_0.webp",
+      "group": "bushes",
+      "bbox": [
+        0,
+        467,
+        246,
+        901
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 9,
+          "reason": "The target (horse’s head) is central to framing the rider’s activity and the natural setting; its position anchors the composition."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No political messaging, symbols, or contextual cues are visible on or around the target to imply a political role."
+        },
+        "criterion_3": {
+          "value": 0,
+          "reason": "The horse’s features or context lack culturally specific markings or symbolic associations that are clearly visible."
+        },
+        "criterion_4": {
+          "value": "Used/handled",
+          "reason": "The horse is actively being ridden, with reins held by the rider, indicating direct handling."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "No text, gestures, or visual cues indicate a direct call to action involving the target."
+        }
+      }
+    },
+    {
+      "name": "horse_2",
+      "label": "horse",
+      "image_path": "segments/horse_2.webp",
+      "group": "horse",
+      "bbox": [
+        302,
+        454,
+        643,
+        904
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 9,
+          "reason": "The target captures the main subject and his horse, which is central to the scene's activity and composition."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No political messaging or framing is visible on or around the target."
+        },
+        "criterion_3": {
+          "value": 0,
+          "reason": "No cultural or symbolic markings are visible on the target or its context."
+        },
+        "criterion_4": {
+          "value": "Used/handled",
+          "reason": "The man is actively riding the horse, making direct contact with it."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or depicted invitation to act on the target."
+        }
+      }
+    },
+    {
+      "name": "boot_0",
+      "label": "boot",
+      "image_path": "segments/boot_0.webp",
+      "group": "boot",
+      "bbox": [
+        395,
+        552,
+        451,
+        652
+      ],
+      "source": "item",
+      "ratings": {
+        "criterion_1": {
+          "value": 7,
+          "reason": "The boot is part of the rider’s gear, visually anchoring the human figure to the horse and contributing to the scene’s outdoor, equestrian context."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No political symbols, text, or markings are visible on the boot; its role is purely functional and unmarked."
+        },
+        "criterion_3": {
+          "value": 0,
+          "reason": "The boot has no discernible cultural, religious, or symbolic markings or associations in this visual context."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The boot is worn by the rider as part of his attire, attached to his leg and integrated into the riding posture."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or depicted invitation on or around the boot suggesting an explicit call to action."
+        }
+      }
+    },
+    {
+      "name": "horse_0::gold chain bridle_0",
+      "label": "gold chain bridle",
+      "parent_name": "horse_0",
+      "image_path": "granular_segments/horse/horse_0/gold chain bridle_0.webp",
+      "group": "gold chain bridle",
+      "bbox": [
+        114,
+        406,
+        255,
+        501
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 7,
+          "reason": "The horse's head is highlighted, showing its direct involvement in the scene's composition and interaction with the rider."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No political messaging or framing is visible on or around the target; it is a neutral object."
+        },
+        "criterion_3": {
+          "value": 0,
+          "reason": "No cultural or symbolic markings are visible on the horse or its bridle that suggest a specific meaning."
+        },
+        "criterion_4": {
+          "value": "Used/handled",
+          "reason": "The horse’s bridle is being held by the rider, indicating active use during riding."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or depicted invitation calling for action."
+        }
+      }
+    },
+    {
+      "name": "horse_0::watch_0",
+      "label": "watch",
+      "parent_name": "horse_0",
+      "image_path": "granular_segments/horse/horse_0/watch_0.webp",
+      "group": "watch",
+      "bbox": [
+        260,
+        309,
+        289,
+        323
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The watch is a personal accessory worn by the rider, visually anchoring his presence and suggesting a moment of pause or control during horseback activity."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No political messaging or framing is visible on or around the watch; its presence is incidental to the individual’s attire."
+        },
+        "criterion_3": {
+          "value": 3,
+          "reason": "The watch has no overt cultural or symbolic markings; its function is generic and unremarkable in this context."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The watch is visibly attached to the person’s wrist, functioning as a wearable item rather than a displayed object or active tool."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or depicted action indicating a direct call to act; the watch is passive and contextual."
+        }
+      }
+    },
+    {
+      "name": "horse_1::horse head_0",
+      "label": "horse head",
+      "parent_name": "horse_1",
+      "image_path": "granular_segments/horse/horse_1/horse head_0.webp",
+      "group": "horse head",
+      "bbox": [
+        110,
+        454,
+        195,
+        543
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 7,
+          "reason": "The horse's head is a focal point in the composition, visually anchoring the rider and drawing attention to the interaction between human and animal."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No political symbols, slogans, or contextual cues are visible on or around the target that suggest a political role."
+        },
+        "criterion_3": {
+          "value": 2,
+          "reason": "The horse's bridle is a functional item with no clear cultural or symbolic meaning beyond its practical use."
+        },
+        "criterion_4": {
+          "value": "Used/handled",
+          "reason": "The horse is being ridden, indicating active use of the bridle by the rider."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or depicted invitation that constitutes an explicit call to action."
+        }
+      }
+    },
+    {
+      "name": "horse_1::noseband strap_0",
+      "label": "noseband strap",
+      "parent_name": "horse_1",
+      "image_path": "granular_segments/horse/horse_1/noseband strap_0.webp",
+      "group": "noseband strap",
+      "bbox": [
+        111,
+        454,
+        195,
+        543
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 7,
+          "reason": "The horse's head is a focal point in the composition, framed by the cyan box, and its presence anchors the rider's activity in the natural setting."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No visible political markings, symbols, or contextual cues on the horse or within the frame suggest a political role."
+        },
+        "criterion_3": {
+          "value": 0,
+          "reason": "The horse’s features and adornments are literal and unmarked; no cultural or symbolic meaning is visually supported."
+        },
+        "criterion_4": {
+          "value": "Used/handled",
+          "reason": "The horse is being ridden and controlled by reins held by the rider, indicating active use."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "No readable text or depicted invitation suggests an explicit call to action."
+        }
+      }
+    },
+    {
+      "name": "horse_2::saddle blanket_0",
+      "label": "saddle blanket",
+      "parent_name": "horse_2",
+      "image_path": "granular_segments/horse/horse_2/saddle blanket_0.webp",
+      "group": "saddle blanket",
+      "bbox": [
+        335,
+        454,
+        503,
+        562
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 7,
+          "reason": "The target highlights the saddle area, which is central to the riding activity and visually anchors the rider’s posture and interaction with the horse."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No political symbols, text, or context are visible within or around the target; its role is purely functional in the scene."
+        },
+        "criterion_3": {
+          "value": 2,
+          "reason": "The saddle is a generic equestrian item with no culturally specific markings or symbolic cues visible in the target area."
+        },
+        "criterion_4": {
+          "value": "Used/handled",
+          "reason": "The saddle is actively used by the rider, as evidenced by the straps, stirrups, and the rider’s grip on the reins."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or direct depiction of an action invitation within the target area."
+        }
+      }
+    },
+    {
+      "name": "shirtless man riding horse_0::watch_0",
+      "label": "watch",
+      "parent_name": "shirtless man riding horse_0",
+      "image_path": "granular_segments/people/shirtless man riding horse_0/watch_0.webp",
+      "group": "people",
+      "bbox": [
+        262,
+        307,
+        295,
+        334
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The watch is on the man’s wrist, indicating personal use during the activity, and its presence adds detail to his physical state."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "No political messaging or framing is visually supported by the watch itself or its context."
+        },
+        "criterion_3": {
+          "value": 0,
+          "reason": "The watch has no identifiable cultural, religious or symbolic markings or associations visible in the scene."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The watch is visibly attached to the man’s wrist as wearable gear, not handled or displayed."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or depicted invitation suggesting a call to action from the watch."
+        }
+      }
+    },
+    {
+      "name": "shirtless man riding horse_0::necklace_0",
+      "label": "necklace",
+      "parent_name": "shirtless man riding horse_0",
+      "image_path": "granular_segments/people/shirtless man riding horse_0/necklace_0.webp",
+      "group": "people",
+      "bbox": [
+        332,
+        148,
+        365,
+        234
+      ],
+      "source": "part",
+      "ratings": {
+        "criterion_1": {
+          "value": 8,
+          "reason": "The cross necklace is a central visual element in the scene, drawing attention to the subject’s personal adornment and linking him to potential religious symbolism."
+        },
+        "criterion_2": {
+          "value": 0,
+          "reason": "There is no visible political message or framing associated with the necklace; its presence is neutral in this context."
+        },
+        "criterion_3": {
+          "value": 9,
+          "reason": "The cross is a clear cultural and religious symbol, worn prominently on the chest, indicating its symbolic role regardless of the wearer’s identity."
+        },
+        "criterion_4": {
+          "value": "Worn/attached design",
+          "reason": "The necklace is visibly attached to the subject’s neck and worn as personal jewelry, not handled or displayed as a sign."
+        },
+        "criterion_5": {
+          "value": false,
+          "reason": "There is no readable text or direct depiction of an action invitation related to the necklace."
+        }
+      }
+    }
+  ]
+}

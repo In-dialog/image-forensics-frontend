@@ -1,5 +1,7 @@
 import "server-only";
 
+import { requestBackend, type BackendRequestOptions } from './backend-http';
+
 const DEFAULT_URL = "http://127.0.0.1:8766";
 export const MAX_IMAGE_BYTES = 20 * 1024 * 1024;
 
@@ -66,10 +68,10 @@ export async function forwardJson(request: Request, path: string) {
   });
 }
 
-export async function proxyAnalysis(path: string, options: RequestInit = {}): Promise<Response> {
+export async function proxyAnalysis(path: string, options: BackendRequestOptions = {}): Promise<Response> {
   try {
-    const response = await fetch(serviceUrl(path), {
-      ...options, cache: 'no-store', signal: AbortSignal.timeout(15000),
+    const response = await requestBackend(serviceUrl(path), {
+      ...options, signal: AbortSignal.timeout(15000),
     });
     const payload = await response.json();
     return Response.json(payload, {

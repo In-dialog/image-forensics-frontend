@@ -1,0 +1,75 @@
+{
+  "extracts": [
+    {
+      "name": "saddle blanket_0",
+      "label": "saddle blanket",
+      "category": "objects",
+      "sam_score": 0.9565889239311218,
+      "bbox": [
+        33,
+        0,
+        201,
+        108
+      ],
+      "bbox_position": [
+        117.0,
+        54.0
+      ],
+      "bbox_size": [
+        168,
+        108
+      ],
+      "group": "saddle blanket",
+      "bbox_global": [
+        335,
+        454,
+        503,
+        562
+      ],
+      "image_path": "granular_segments/horse/horse_2/saddle blanket_0.webp"
+    }
+  ],
+  "parent_name": "horse_2",
+  "parent_group": "horse",
+  "coordinate_space": "parent_crop",
+  "source_image": "granular_segments/horse/horse_2/source.png",
+  "image_width": 341,
+  "image_height": 450,
+  "parent_bbox": [
+    302,
+    454,
+    643,
+    904
+  ],
+  "duplicate_detections": [
+    {
+      "name": "boot_0",
+      "label": "boot",
+      "category": "objects",
+      "sam_score": 0.9710095524787903,
+      "bbox": [
+        89,
+        100,
+        149,
+        197
+      ],
+      "bbox_position": [
+        119.0,
+        148.5
+      ],
+      "bbox_size": [
+        60,
+        97
+      ],
+      "group": "boot",
+      "bbox_global": [
+        391,
+        554,
+        451,
+        651
+      ],
+      "duplicate_of": "boot_0",
+      "reason": "same_mask_region"
+    }
+  ]
+}

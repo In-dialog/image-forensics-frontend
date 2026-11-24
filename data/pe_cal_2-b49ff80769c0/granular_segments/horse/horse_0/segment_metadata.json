@@ -1,0 +1,72 @@
+{
+  "extracts": [
+    {
+      "name": "gold chain bridle_0",
+      "label": "gold chain bridle",
+      "category": "objects",
+      "sam_score": 0.9335157871246338,
+      "bbox": [
+        6,
+        97,
+        147,
+        192
+      ],
+      "bbox_position": [
+        76.5,
+        144.5
+      ],
+      "bbox_size": [
+        141,
+        95
+      ],
+      "group": "gold chain bridle",
+      "bbox_global": [
+        114,
+        406,
+        255,
+        501
+      ],
+      "image_path": "granular_segments/horse/horse_0/gold chain bridle_0.webp"
+    },
+    {
+      "name": "watch_0",
+      "label": "watch",
+      "category": "objects",
+      "sam_score": 0.9585059881210327,
+      "bbox": [
+        152,
+        0,
+        181,
+        14
+      ],
+      "bbox_position": [
+        166.5,
+        7.0
+      ],
+      "bbox_size": [
+        29,
+        14
+      ],
+      "group": "watch",
+      "bbox_global": [
+        260,
+        309,
+        289,
+        323
+      ],
+      "image_path": "granular_segments/horse/horse_0/watch_0.webp"
+    }
+  ],
+  "parent_name": "horse_0",
+  "parent_group": "horse",
+  "coordinate_space": "parent_crop",
+  "source_image": "granular_segments/horse/horse_0/source.png",
+  "image_width": 249,
+  "image_height": 224,
+  "parent_bbox": [
+    108,
+    309,
+    357,
+    533
+  ]
+}

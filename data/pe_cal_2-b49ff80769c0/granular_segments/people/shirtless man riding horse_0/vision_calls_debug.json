@@ -1,0 +1,43 @@
+{
+  "source_image": "C:\\Users\\PC\\Documents\\Projects\\Poweer\\Release\\image-forensics-backend\\data\\pe_cal_2-b49ff80769c0\\granular_segments\\people\\shirtless man riding horse_0\\source.png",
+  "image_size": {
+    "width": 208,
+    "height": 590
+  },
+  "calls": [
+    {
+      "index": 1,
+      "group": "people",
+      "label": "watch",
+      "raw_box_norm_0_1000": [
+        84,
+        412,
+        236,
+        457
+      ],
+      "pixel_box_xyxy": [
+        17,
+        243,
+        50,
+        270
+      ]
+    },
+    {
+      "index": 2,
+      "group": "people",
+      "label": "necklace",
+      "raw_box_norm_0_1000": [
+        419,
+        144,
+        575,
+        287
+      ],
+      "pixel_box_xyxy": [
+        87,
+        84,
+        120,
+        170
+      ]
+    }
+  ]
+}

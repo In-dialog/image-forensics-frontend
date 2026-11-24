@@ -1,0 +1,72 @@
+{
+  "extracts": [
+    {
+      "name": "watch_0",
+      "label": "watch",
+      "category": "people",
+      "sam_score": 0.9355236887931824,
+      "bbox": [
+        17,
+        243,
+        50,
+        270
+      ],
+      "bbox_position": [
+        33.5,
+        256.5
+      ],
+      "bbox_size": [
+        33,
+        27
+      ],
+      "group": "people",
+      "bbox_global": [
+        262,
+        307,
+        295,
+        334
+      ],
+      "image_path": "granular_segments/people/shirtless man riding horse_0/watch_0.webp"
+    },
+    {
+      "name": "necklace_0",
+      "label": "necklace",
+      "category": "people",
+      "sam_score": 0.9571850895881653,
+      "bbox": [
+        87,
+        84,
+        120,
+        170
+      ],
+      "bbox_position": [
+        103.5,
+        127.0
+      ],
+      "bbox_size": [
+        33,
+        86
+      ],
+      "group": "people",
+      "bbox_global": [
+        332,
+        148,
+        365,
+        234
+      ],
+      "image_path": "granular_segments/people/shirtless man riding horse_0/necklace_0.webp"
+    }
+  ],
+  "parent_name": "shirtless man riding horse_0",
+  "parent_group": "people",
+  "coordinate_space": "parent_crop",
+  "source_image": "granular_segments/people/shirtless man riding horse_0/source.png",
+  "image_width": 208,
+  "image_height": 590,
+  "parent_bbox": [
+    245,
+    64,
+    453,
+    654
+  ]
+}
